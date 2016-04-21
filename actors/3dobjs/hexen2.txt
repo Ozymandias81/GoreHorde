@@ -1,0 +1,255 @@
+//All models from Hexen II + Portal Of Praevus
+//statues***************************************************
+//caesar
+actor Caesar : 3dObstacle 32400
+{
+//$Category Models - Statues
+Tag "Caesar's Statue (Hexen2)"
+Game Doom
+Radius 24
+Height 56
+}
+
+//lion
+actor Lion : Caesar 32401
+{
+//$Category Models - Statues
+Tag "Lion's Statue (Hexen2)"
+Radius 48
+Height 36
+}
+
+//king
+actor King : Caesar 32402
+{
+//$Category Models - Statues
+Tag "King's Statue (Hexen2)"
+Radius 48
+Height 96
+}
+
+//vegetation************************************************
+//trees
+actor X2Tree1 : 3dFlora 32403
+{
+//$Category Models - Vegetation B
+Tag "Tree 1 (Hexen2)"
+Game Doom
+Radius 16
+Height 128
+}
+
+actor X2Tree2 : X2Tree1 32404
+{
+//$Category Models - Vegetation B
+Tag "Tree 2 (Hexen2)"
+}
+
+//carts*****************************************************
+actor SimpleCart : 3dObstacle 32405
+{
+//$Category Models - Obstacles
+Tag "Simple Cart (Hexen2)"
+Game Doom
+Radius 32
+Height 24
+}
+
+//bells*****************************************************
+actor Bell : 3dObstacle 32407
+{
+//$Category Models - Interactive
+Tag "Bell (Hexen2)"
+Game Doom
+Radius 64
+Height 80
+States
+	{
+	Spawn:
+	3DOB ABCDEFGHIJKLMNOPQRSTUVWXYZ 2
+	3DOB ABCDE 2
+	loop
+	}
+}
+
+ACTOR iuBell : SwitchableDecoration 32408
+{
+//$Category Models - Interactive
+Tag "Interactive Bell (Use - Hexen2)"
+Game Doom
+Radius 64
+Height 80
+Mass 0x7fffffff
+Health -1
++SOLID
++NOBLOOD
++NODAMAGE
++NOGRAVITY
++SHOOTABLE
++NOICEDEATH
++USESPECIAL
++NOTAUTOAIMED
++NOBLOODDECALS
++ACTLIKEBRIDGE
+Activation THINGSPEC_Switch|THINGSPEC_DeActivate
+States
+	{
+	Spawn:
+	3DOB A 0 NoDelay
+	3DOB A 4
+	Loop
+	Active:
+	3DOB ABCDEFGHIJKLMNOPQRSTUVWXYZ 2
+	3DOB ABCDE 2
+	Stop
+	Inactive:
+	3DOB A -1
+	Stop
+	}
+}
+
+ACTOR ibBell : iuBell 32409
+{
+//$Category Models - Interactive
+Tag "Interactive Bell (Bump - Hexen2)"
+Game Doom
++BUMPSPECIAL
+}
+
+//barrels***************************************************
+actor Barrel1a : ExplosiveBarrel 32410 //normal
+{
+//$Category Models - Interactive
+Tag "Barrel Normal - Resting (Hexen2)"
+Game Doom
+Radius 10
+Height 32
++DROPPED
++ACTLIKEBRIDGE
+States
+	{
+	Spawn:
+	3DOB A 0 NoDelay
+	3DOB A 4
+	loop
+	Death:
+	MISL B 6 Bright A_Scream
+	MISL B 0 Bright A_Quake(random(5,9),random(16,24),0,random(32,64))
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,0,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,20,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,40,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,60,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,80,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,100,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,120,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,140,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,160,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,180,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,200,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,220,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,240,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,260,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,280,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,300,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,320,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,340,2,0)
+	MISL C 4 Bright A_Mushroom("Boom", random(8,16))
+	MISL CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC 0 A_SpawnItemEx ("FallSmoke10",random(-64,64),random(-64,64),random(-48,48),momx,0,random(0.5,1),0,160)
+	MISL D 4 Bright A_Explode
+	TNT1 A 10 Bright A_BarrelDestroy
+	Stop
+	}
+}
+
+actor Barrel1b : Barrel1a 32411
+{
+//$Category Models - Interactive
+Tag "Barrel Normal - OnSide (Hexen2)"
+Height 24
+}
+
+//poisonus - uses PoisonSoul sprites; connections with Hexen's PoisonCloud (gzdoom.pk3)
+actor Barrel2a : ExplosiveBarrel 32412
+{
+//$Category Models - Interactive
+Tag "Barrel Poisonus - Resting (Hexen2)"
+Game Doom
+Radius 10
+Height 32
++DROPPED
++ACTLIKEBRIDGE
+States
+	{
+	Spawn:
+	3DOB A 0 NoDelay
+	3DOB A 4
+	loop
+	Death:
+	TRPS AB 4 Bright A_Scream
+	TRPS C 0 Bright Radius_Quake(random(5,15),random(16,24),0,random(32,64),0)
+	TRPS D 0 Bright A_CustomMissile("PoisonCloud",16,0,0,2,0)
+	TRPS AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 0 A_SpawnItemEx ("PoisonFartCloud",random(-64,64),random(-64,64),random(-48,48),0,0,0.1,0,128)
+	TRPS CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC 0 A_SpawnItemEx ("FallSmoke10G",random(-64,64),random(-64,64),random(-48,48),momx,0,random(0.5,1),0,SXF_TRANSFERTRANSLATION,160)
+	TRPS DEF 4 Bright A_Explode
+	TNT1 A 5 Bright A_BarrelDestroy
+	Stop
+	}
+}
+
+actor Barrel2b : Barrel2a 32413
+{
+//$Category Models - Interactive
+Tag "Barrel Poisonus - OnSide (Hexen2)"
+Height 24
+}
+
+actor Barrel3a : ExplosiveBarrel 32414 //pyro
+{
+//$Category Models - Interactive
+Tag "Barrel Pyro - Resting (Hexen2)"
+Game Doom
+Radius 10
+Height 32
++DROPPED
++ACTLIKEBRIDGE
+States
+	{
+	Spawn:
+	3DOB A 0 NoDelay
+	3DOB A 4
+	loop
+	Death:
+	MISL B 6 Bright A_Scream
+	MISL B 0 Bright Radius_Quake(random(5,15),random(16,24),0,random(32,64),0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,0,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,20,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,40,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,60,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,80,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,100,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,120,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,140,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,160,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,180,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,200,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,220,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,240,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,260,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,280,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,300,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,320,2,0)
+	MISL A 0 Bright A_CustomMissile("Boom",16,0,340,2,0)
+	MISL C 4 Bright A_Mushroom("PyroFlare", random(8,16))
+	MISL CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC 0 A_SpawnItemEx ("FallSmoke10R",random(-64,64),random(-64,64),random(-48,48),momx,0,random(0.5,1),0,160)
+	MISL D 4 Bright A_Explode
+	TNT1 A 10 Bright A_BarrelDestroy
+	Stop
+	}
+}
+
+actor Barrel3b : Barrel3a 32415
+{
+//$Category Models - Interactive
+Tag "Barrel Pyro - OnSide (Hexen2)"
+Height 24
+}

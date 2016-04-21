@@ -1,0 +1,132 @@
+#library "goreclas"
+#include "zcommon.acs"
+
+global int 1: TAUNT;
+global int 2: CANSPEAK;
+
+//death script
+script "Fucked" DEATH
+{
+TakeInventory("HudToken",1);
+TakeInventory("SpeakToken",1);
+sethudsize (1600,1200,1);
+setfont ("MOVIEHUD");
+hudmessagebold(s:"A";HUDMSG_FADEINOUT,5,CR_UNTRANSLATED,800.4,600.0,1.0*32767); //it lasts practically forever...
+delay (35*2);
+ambientsound ("uwlaugh",215);
+sethudsize (320,200,0);
+setfont ("DBIGFONT");
+hudmessagebold (s:"HUMANKIND IS DOOMED";HUDMSG_FADEINOUT,0,CR_RED,160.4,100.0,6.0);
+faderange (0,0,0,0.0,0,0,0,1.0,3.0);
+delay (35*8);
+setfont ("SMALLFNT");
+hudmessage (s:"PRESS ANY KEY TO RESTART YOUR JOURNEY";HUDMSG_FADEINOUT,0,CR_GREEN,160.0,100.0,1.0*32767);
+}
+
+//heartbeat scripts
+script "50LowHealth" ENTER
+{
+if (GetActorProperty(0, APROP_HEALTH) <51 && GetActorProperty(0, APROP_HEALTH) >25)
+	{
+	localambientsound("hbeat", 120);
+	delay(const:8);
+	localambientsound("hbeat", 127);
+	}
+delay(const:35);
+restart;
+}
+
+script "25LowHealth" ENTER
+{
+if (GetActorProperty(0, APROP_HEALTH) <26 && GetActorProperty(0, APROP_HEALTH) >0)
+	{
+	localambientsound("hbeat", 137);
+	delay(const:8);
+	localambientsound("hbeat", 130);
+	}
+delay(const:15);
+restart;
+}
+
+//special taunts scripts
+script "Taunty" (VOID)
+{
+TAUNT = CheckInventory ("GoreClass");
+CANSPEAK = CheckInventory ("SpeakToken");
+if (TAUNT==1 && CANSPEAK==1)//Skrylax
+	{
+	localambientsound("taunts1", 127);
+	terminate;
+	}
+if (TAUNT==2 && CANSPEAK==1)//Kragoth
+	{
+	localambientsound("taunts2", 127);
+	terminate;
+	}
+if (TAUNT==3 && CANSPEAK==1)//Visor
+	{
+	localambientsound("taunts3", 127);
+	terminate;
+	}
+}
+
+script "Laughy" (VOID)
+{
+TAUNT = CheckInventory ("GoreClass");
+CANSPEAK = CheckInventory ("SpeakToken");
+if (TAUNT==1 && CANSPEAK==1)//Skrylax
+	{
+	localambientsound("laughs", random(90,127));
+	terminate;
+	}
+if (TAUNT==2 && CANSPEAK==1)//Kragoth
+	{
+	localambientsound("laughs", random(90,127));
+	terminate;
+	}
+if (TAUNT==3 && CANSPEAK==1)//Visor
+	{
+	localambientsound("laughs", random(90,127));
+	terminate;
+	}
+}
+
+//underwater sounds
+script "Underwater" ENTER
+{
+if (GetActorProperty(0, APROP_WATERLEVEL)<3){}
+else
+	{
+	delay(const:3);
+	localambientsound("underwtr", random(90,127));
+	}
+delay(35*8); //only 1 sound is 8sec long, 2 4sec & 1 2,5sec
+restart;
+}
+
+//coldbreath script
+script 907 ENTER
+{
+	While(CheckInventory("BreathToken") == 0 && GetActorProperty(0, APROP_WATERLEVEL) <3)
+	{Delay(const:1);}
+	While(CheckInventory("BreathToken") == 1)
+	{
+		Delay(const:1);
+		if(GetActorProperty(0, APROP_WATERLEVEL) <3)
+		{
+		delay(random(35*1,35*3));
+		SpawnProjectile(0,"BreathToken",random(45,90),random(1,4),random(1,8),random(8,16),0);
+		SpawnProjectile(0,"BreathToken",random(55,85),random(2,6),random(2,6),random(4,8),0);
+		}
+	}
+	Delay(Random(35*2,35*4));
+	restart;
+}
+
+//I'm not sure if that script is really needed, but I left it here for completeness
+script "TaDaan" RESPAWN
+{
+delay(const:1);
+GiveInventory("HudToken",1);
+GiveInventory("SpeakToken",1);
+}

@@ -1,0 +1,188 @@
+//all models from Jedi Knight III: Jedi Academy
+//scenery
+actor JK3Stag1a : 3dObstacle 32442
+{
+//$Category Models - Scenery B
+Tag "Stalagmite A (Icy - JK3)"
+Game Doom
+Radius 16
+Height 40
++NOLIFTDROP
+}
+
+actor JK3Stag2a : JK3Stag1a 32443
+{
+//$Category Models - Scenery B
+Tag "Stalagmite B (Icy - JK3)"
+}
+
+actor JK3Stag3a : JK3Stag1a 32444
+{
+//$Category Models - Scenery B
+Tag "Stalagmite C (Icy - JK3)"
+Radius 40
+Height 162
+}
+
+actor JK3Stal1a : 3dObstacle 32420
+{
+//$Category Models - Scenery B
+Tag "Stalagtite A (Icy - JK3)"
+Game Doom
+Radius 16
+Height 40
++NOGRAVITY
++NOLIFTDROP
++SPAWNCEILING
+}
+
+actor JK3Stal2a : JK3Stal1a 32421
+{
+//$Category Models - Scenery B
+Tag "Stalagtite B (Icy - JK3)"
+}
+
+actor JK3Stal3a : JK3Stal1a 32422
+{
+//$Category Models - Scenery B
+Tag "Stalagtite C (Icy - JK3)"
+Radius 40
+Height 162
+}
+
+actor JK3Stag1b : JK3Stag1a 32445
+{
+//$Category Models - Scenery B
+Tag "Stalagmite A (Rocky - JK3)"
+}
+
+actor JK3Stag2b : JK3Stag1a 32446
+{
+//$Category Models - Scenery B
+Tag "Stalagmite B (Rocky - JK3)"
+}
+
+actor JK3Stag3b : JK3Stag3a 32447
+{
+//$Category Models - Scenery B
+Tag "Stalagmite C (Rocky - JK3)"
+}
+
+actor JK3Stal1b : JK3Stal1a 32448
+{
+//$Category Models - Scenery B
+Tag "Stalagtite A (Rocky - JK3)"
+}
+
+actor JK3Stal2b : JK3Stal1a 32449
+{
+//$Category Models - Scenery B
+Tag "Stalagtite B (Rocky - JK3)"
+}
+
+actor JK3Stal3b : JK3Stal3a 32450
+{
+//$Category Models - Scenery B
+Tag "Stalagtite C (Rocky - JK3)"
+}
+
+actor JK3MineralsG1 : 3dObstacle 32451
+{
+//$Category Models - Scenery B
+Tag "Minerals - Jade (JK3 - Floor)"
+Game Doom
+Radius 16
+Height 16
++NOLIFTDROP
+}
+
+actor JK3MineralsR1 : JK3MineralsG1 32427
+{
+//$Category Models - Scenery B
+Tag "Minerals - Ruby (JK3 - Floor)"
+}
+
+actor JK3MineralsB1 : JK3MineralsG1 32428
+{
+//$Category Models - Scenery B
+Tag "Minerals - Sapphire (JK3 - Floor)"
+}
+
+actor JK3MineralsG2 : 3dObstacle 32452
+{
+//$Category Models - Scenery B
+Tag "Minerals - Jade (JK3 - Ceiling)"
+Game Doom
+Radius 16
+Height 16
++NOGRAVITY
++NOLIFTDROP
++SPAWNCEILING
+}
+
+actor JK3MineralsR2 : JK3MineralsG2 32453
+{
+//$Category Models - Scenery B
+Tag "Minerals - Ruby (JK3 - Ceiling)"
+}
+
+actor JK3MineralsB2 : JK3MineralsG2 32454
+{
+//$Category Models - Scenery B
+Tag "Minerals - Sapphire (JK3 - Ceiling)"
+}
+
+actor JK3MineralsG3: 3dObstacle 32455
+{
+//$Category Models - Scenery B
+Tag "Minerals - Jade (JK3 - Wall)"
+Game Doom
+//Radius 16
+Height 32
++NOGRAVITY
++NOLIFTDROP
+}
+
+actor JK3MineralsR3 : JK3MineralsG3 32456
+{
+//$Category Models - Scenery B
+Tag "Minerals - Ruby (JK3 - Wall)"
+}
+
+actor JK3MineralsB3 : JK3MineralsG3 32457
+{
+//$Category Models - Scenery B
+Tag "Minerals - Sapphire (JK3 - Wall)"
+}
+
+//vegetation*******************************************************
+actor JK3Tree1 : 3dFlora 32423
+{
+//$Category Models - Vegetation B
+Tag "Tree 1 (JK3)"
+Game Doom
+Radius 40
+Height 128
+}
+
+actor JK3Tree2 : JK3Tree1 32424
+{
+//$Category Models - Vegetation B
+Tag "Tree 2 (JK3)"
+}
+
+actor JK3Tree3 : JK3Tree1 32425
+{
+//$Category Models - Vegetation B
+Tag "Tree 3 (JK3)"
+Radius 16
+Height 192
+}
+
+actor JK3Tree4 : JK3Tree1 32426
+{
+//$Category Models - Vegetation B
+Tag "Tree 4 (JK3)"
+Radius 20
+Height 192
+}

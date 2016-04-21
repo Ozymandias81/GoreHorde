@@ -1,0 +1,93 @@
+[fr]
+//quits
+QUITMSG		= "Voulez-vous de ne jamais\nplus saigner?";
+QUITMSG1    = "Allons! Il y aura une soire'e pyjama avec PyroDemons de ce soir!";
+QUITMSG2    = "Impse viendra dans vos reves ce soir";
+QUITMSG3    = "Etes-vous comme Monsiuer Flanders?";
+QUITMSG4    = "Vous sentez-vous comme un Vulgar effrayant?";
+QUITMSG5    = "Profitez de votre Duff et rester loin de Arachnobarons.";
+QUITMSG6    = "Si vous quittez maintenant un Horreur Gargantuesque vous mis en pie'ces!";
+QUITMSG7    = "Savez-vous pas qu'un Cyberbaron peut tuer Robocop?";
+QUITMSG8    = "Ce est la Fin... Mon seul ami, la Fin...";
+QUITMSG9    = "Je ne peux pas vous blamer, vous ne avez pas les boules.";
+QUITMSG10   = "Un Profane One va vomir dans votre petit de'jeuner demain.";
+QUITMSG11   = "Si vous partez maintenant, milliers Poison Souls iront dans votre cul.";
+QUITMSG12   = "Quelque chose est que vous Roach-ing, ne est ce pas?";
+QUITMSG13   = "Eh eh eh, avez-vous peur de la Dark-Cardinal?";
+QUITMSG14   = "Est un de'mon Tornado approche a' cote' de votre maison ou autre chose?";
+//cheats
+STSTR_DQDON 	= "Peeeerdant Mode ON";
+STSTR_DQDOFF 	= "Peeeerdant Mode OFF";
+STSTR_KFAADDED 	= "Perdant Re'el Arsenal Ajoute'";
+STSTR_FAADDED 	= "Perdant Phalse Arsenal Ajoute'";
+STSTR_NCON 		= "Perdant E'the're'e Mode ON";
+STSTR_NCOFF		= "Perdant E'the're'e Mode OFF";
+STSTR_NC2ON 	= "Perdant E'the're'e Mode 2 ON";
+//keys
+GOTGRENCARD	= "Ramasse' un carte-cle' verte.";
+GOTORNGCARD	= "Ramasse' un carte-cle' d'orange.";
+GOTSLVRCARD	= "Ramasse' un carte-cle' d'argent.";
+GOTPRPLCARD	= "Ramasse' un carte-cle' pourpre.";
+GOTGRENSKUL	= "Ramasse' une cle' de crane vert.";
+GOTORNGSKUL	= "Ramasse' une cle' de crane d'orange.";
+GOTSLVRSKUL	= "Ramasse' une cle' de crane d'argent.";
+GOTPRPLSKUL	= "Ramasse' une cle' de crane pourpre.";
+PD_BLUEO 	= "Vous avez besoin d'une cle' bleue pour activer cet objet";
+PD_REDO 	= "Vous avez besoin d'une cle' rouge pour activer cet objet";
+PD_YELLOWO 	= "Vous avez besoin d'une cle' jaine pour activer cet objet";
+PD_BLUEK 	= "Vous avez besoin d'une cle' bleue pour ouvrir cette porte";
+PD_REDK 	= "Vous avez besoin d'une cle' rouge pour ouvrir cette porte";
+PD_YELLOWK 	= "Vous avez besoin d'une cle' jaine pour ouvrir cette porte";
+PD_BLUECO 	= "Vous avez besoin d'une carte-cle' bleue pour activer cet objet";
+PD_REDCO 	= "Vous avez besoin d'une carte-cle' rouge pour activer cet objet";
+PD_YELLOWCO = "Vous avez besoin d'une carte-cle' jaine pour activer cet objet";
+PD_BLUESO 	= "Vous avez besoin d'une cle' de crane bleue pour activer cet objet";
+PD_REDSO 	= "Vous avez besoin d'une cle' de crane rouge pour activer cet objet";
+PD_YELLOWSO = "Vous avez besoin d'une cle' de crane jaine pour activer cet objet";
+PD_GREENO 	= "Vous avez besoin d'une cle' verte pour activer cet objet";
+PD_ORANGEO 	= "Vous avez besoin d'une cle' d'orange pour activer cet objet";
+PD_SILVERO 	= "Vous avez besoin d'une cle' d'argent pour activer cet objet";
+PD_PURPLEO 	= "Vous avez besoin d'une cle' pourpre pour activer cet objet";
+PD_GREENK 	= "Vous avez besoin d'une cle' verte pour ouvrir cette porte";
+PD_ORANGEK 	= "Vous avez besoin d'une cle' d'orange pour ouvrir cette porte";
+PD_SILVERK 	= "Vous avez besoin d'une cle' d'argent pour ouvrir cette porte";
+PD_PURPLEK 	= "Vous avez besoin d'une cle' pourpre pour ouvrir cette porte";
+PD_GREENCO 	= "Vous avez besoin d'une cle' de la carte verte pour activer cet objet";
+PD_ORANGECO = "Vous avez besoin d'une cle' de la carte d'orange pour activer cet objet";
+PD_SILVERCO = "Vous avez besoin d'une cle' de la carte d'argent pour activer cet objet";
+PD_PURPLECO = "Vous avez besoin d'une cle' de la carte pourpre pour activer cet objet";
+PD_GREENSO 	= "Vous avez besoin d'une cle' de crane vert pour activer cet objet";
+PD_ORANGESO = "Vous avez besoin d'une cle' de crane d'orange pour activer cet objet";
+PD_SILVERSO = "Vous avez besoin d'une cle' de crane d'argent pour activer cet objet";
+PD_PURPLESO = "Vous avez besoin d'une cle' de crane pourpre pour activer cet objet";
+PD_GREENC 	= "Vous avez besoin d'une cle' de la carte verte pour ouvrir cette porte";
+PD_ORANGEC 	= "Vous avez besoin d'une cle' de la carte d'orange pour ouvrir cette porte";
+PD_SILVERC 	= "Vous avez besoin d'une cle' de la carte d'argent pour ouvrir cette porte";
+PD_PURPLEC 	= "Vous avez besoin d'une cle' de la carte pourpre pour ouvrir cette porte";
+PD_GREENS 	= "Vous avez besoin d'une cle' de crane vert pour ouvrir cette porte";
+PD_ORANGES 	= "Vous avez besoin d'une cle' de crane d'orange pour ouvrir cette porte";
+PD_SILVERS 	= "Vous avez besoin d'une cle' de crane d'argent pour ouvrir cette porte";
+PD_PURPLES 	= "Vous avez besoin d'une cle' de crane pourpre pour ouvrir cette porte";
+PD_ALL4 	= "Vous devez tous les quatre nouvelle cle's pas ouvrir cette porte";
+PD_ALL4O 	= "Vous devez tous les quatre nouvelle cle's pas activer cet objet";
+PD_ALL8 	= "Vous devez tous les huit nouvelle cle's pas ouvrir cette porte";
+PD_ALL8O 	= "Vous devez tous les huit nouvelle cle's pas activer cet objet";
+PD_ALL14 	= "Vous devez tous les quatorze nouvelle cle's pas ouvrir cette porte";
+PD_ALL14O 	= "Vous devez tous les quatorze nouvelle cle's pas activer cet objet";
+
+ENDGAME		= "Voulez-vous l'humanite' condamne's?\nAppuyez sur Y ou N.";
+
+MNU_CHOOSECLASS = "VOTRE HE'ROS";
+
+STARTUP1 =
+	"\n"
+	"*=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=*\n"
+	"|        GORE pour GZDoom  r080315        |\n"
+	"|        Un projet de Ozymandias81        |\n"
+	"|Merci beaucoup a' Realm667 re'fe'rentiel!|\n"
+	"*=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=*\n"
+	"\n";
+
+ENDACT1		= "Tre's bien, Act I comple'te";
+ENDACT2		= "Tre's bien, Act II comple'te";
+ENDACT3		= "Fe'licitations, Dernier Acte complet";

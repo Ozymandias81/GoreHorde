@@ -1,0 +1,223 @@
+Actor UTNTPyroCannon : Weapon 30114
+{
+//$Category New Weapons
+Tag "UTNT Pyro-Cannon"
+Game Doom
++WEAPON.EXPLOSIVE
++WEAPON.BFG
++WEAPON.DONTBOB
++WEAPON.STAFF2_KICKBACK
+Weapon.AmmoType "Gas"
+Weapon.AmmoType2 "Gas"
+Weapon.AmmoGive 48
+Weapon.AmmoUse 48
+Weapon.AmmoUse2 48
+Weapon.SlotNumber 8
+Inventory.PickUpSound "weapons/pyropk"
+Inventory.PickupMessage "You got the pyro cannon prototype!"
+Obituary "%o was incinerated by %k's pyro cannon."
+States
+	{
+	Spawn:
+	WPYR A -1
+	Loop
+	Ready:
+	PYRG A 1 A_WeaponReady
+	Loop
+	Deselect:
+	PYRG A 1 A_Lower
+	Loop
+	Select:
+	PYRG A 1 A_Raise
+	Loop
+	Fire:
+	PYRG A 5
+	PYRG B 8 Bright A_GunFlash
+	TNT1 AA 0 A_SetBlend("Orange",0.055,5)
+	PYRG C 0 A_Recoil(3.0)
+	PYRG C 10 Bright A_FireCustomMissile("PyroShot", 0, 1, 0, 0)
+	PYRG DEFG 5 Bright
+	PYRG A 5 A_Refire
+	Goto Ready
+	AltFire:	//new
+	PYRG A 6
+	PYRG B 9 Bright A_GunFlash
+	TNT1 AA 0 A_SetBlend("Orange",0.055,5)
+	PYRG C 0 A_Recoil(3.0)
+	PYRG C 11 Bright A_FireCustomMissile("PyroShot", 0, 1, 0, 0)
+	PYRG DEFG 6 Bright
+	PYRG A 6
+	PYRG B 9 Bright A_GunFlash
+	TNT1 AA 0 A_SetBlend("Orange",0.055,5)
+	PYRG C 0 A_Recoil(3.0)
+	PYRG C 11 Bright A_FireCustomMissile("PyroShot", 0, 1, 0, 0)
+	PYRG DEFG 6 Bright
+	PYRG A 7 A_Refire
+	Goto Ready
+	Flash:
+	TNT1 A 8 A_Light1
+	TNT1 A 10 A_Light2
+	TNT1 A 15 A_Light1
+	TNT1 A 1 A_Light0
+	Stop
+	}
+}
+
+Actor PyroShot
+{
+Radius 8
+Height 12
+Speed 30
+Damage (20*Random(12, 16))
+Projectile
+RenderStyle Add
+DamageType Fire
+Alpha 0.95
+Scale 0.75
+SeeSound "weapons/pyroshot" //"PyroCannon/Fire"
+DeathSound "PyroCannon/Hit"
+Decal BigScorch
+States
+	{
+	Spawn:
+	PBAL AAAABBBB 4 Bright A_Explode(10, 128, 0)
+	Loop
+	Death:
+	PYXP AB 2 Bright
+	PYXP C 2 Bright A_Explode(192, 128)
+	PYXP C 0 Bright A_CustomMissile("PyroSpawner", 0, 0, 0, 4)
+	PYXP C 0 Bright A_CustomMissile("PyroSpawner", 0, 0, 45, 4)
+	PYXP C 0 Bright A_CustomMissile("PyroSpawner", 0, 0, 90, 4)
+	PYXP C 0 Bright A_CustomMissile("PyroSpawner", 0, 0, 135, 4)
+	PYXP C 0 Bright A_CustomMissile("PyroSpawner", 0, 0, 180, 4)
+	PYXP C 0 Bright A_CustomMissile("PyroSpawner", 0, 0, 225, 4)
+	PYXP C 0 Bright A_CustomMissile("PyroSpawner", 0, 0, 270, 4)
+	PYXP C 0 Bright A_CustomMissile("PyroSpawner", 0, 0, 315, 4)
+	PYXP C 0 Bright A_Mushroom("PyroFlare", 16)
+	PYXP DEFGHIJKLMNOPQRSTU 2 Bright
+	Stop
+	}
+}
+
+Actor PyroSpawner
+{
+Radius 1
+Height 1
+Damage (0)
+Projectile
+Speed 15
++RIPPER
++BLOODLESSIMPACT
+States
+	{
+	Spawn:
+	TNT1 AAAAA 5 Bright A_CustomMissile("PyroBoom", 0, 0, 0, 4)
+	Stop
+	}
+}
+
+Actor PyroBoom
+{
+Radius 0
+Height 1
+Damage (0)
+Projectile
+RenderStyle Add
+DamageType Fire
+Alpha 0.95
+Scale 0.67
+SeeSound "PyroCannon/Explosion"
+States
+	{
+	Spawn:
+	PYXP AB 2 Bright
+	PYXP C 2 Bright A_Explode(192, 128)
+	PYXP DEFGHIJKLMNOPQRSTU 2 Bright
+	Stop
+	}
+}
+
+Actor PyroFlare
+{
+Radius 8
+Height 11
+Speed 35
+Damage (10*Random(2, 3))
+Projectile
+RenderStyle Add
+DamageType Fire
+Decal DoomImpScorch
+Alpha 0.95
+-NOGRAVITY
+DeathSound "PyroCannon/Flare"
+States
+	{
+	Spawn:
+	TNT1 A 1 Bright A_SpawnItemEx("PyroFX", 0, 0, 0, 0, 0, 0, 0, 128)
+	Loop
+	Death:
+	FRFX HIJ 2 Bright
+	FRFX J 0 A_Explode(64, 64)
+	FRFX J 0 A_CustomMissile("DropFire", 0, 0, 0, 6)
+	FRFX KLMNOP 2 Bright
+	Stop
+	}
+}
+
+Actor PyroFX
+{
+Radius 0
+Height 1
+Speed 0
+Projectile
+RenderStyle Add
+Alpha 0.85
+States
+	{
+	Spawn:
+	TNT1 A 3 Bright
+	PYFX ABCDE 3 Bright
+	Stop
+	}
+}
+
+Actor DropFire //used also by flamethrower
+{
+Radius 8
+Height 40
+Projectile
+RenderStyle Add
+DamageType Fire
+Alpha 0.90
+-NOGRAVITY
++LOWGRAVITY
++NOEXPLODEFLOOR
++NODAMAGETHRUST
++THRUGHOST
++DONTSPLASH
+States
+	{
+	Spawn:
+	FLME A 1 Bright A_Playsound("Flamethrower/Flame")
+	FLME A 1 Bright A_Explode(5, 16, 0)
+	FLME BCDEFGHIJKLMN 2 Bright A_Explode(5, 16, 0)
+	FLME A 1 Bright A_Playsound("Flamethrower/Flame")
+	FLME A 1 Bright A_Explode(5, 32, 0)
+	FLME BCDEFGHIJKLMN 2 Bright A_Explode(5, 16, 0)
+	FLME A 1 Bright A_Playsound("Flamethrower/Flame")
+	FLME A 1 Bright A_Explode(5, 32, 0)
+	FLME BCDEFGHIJKLMN 2 Bright A_Explode(5, 16, 0)
+	FLME A 1 Bright A_Playsound("Flamethrower/Flame")
+	FLME A 1 Bright A_Explode(5, 32, 0)
+	FLME BCDEFGHIJKLMN 2 Bright A_Explode(5, 16, 0)
+	FLME A 1 Bright A_Playsound("Flamethrower/Flame")
+	FLME A 1 Bright A_Explode(5, 32, 0)
+	FLME BCDEFGHIJKLMN 2 Bright A_Explode(5, 16, 0)
+	FLME A 0 A_Jump(192, 1)
+	Loop
+	TNT1 A 0
+	Death:
+	FLME A 1 Bright A_Fadeout(0.06)
+	Loop
+	}
+}

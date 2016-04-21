@@ -1,0 +1,12 @@
+//List of used damagetypes:
+//Hellfire
+//PoisonCloud
+//Poison
+//Fire
+//Ice
+//Soul
+//Curse
+//Normal
+//BFG10K
+
+Damagetype Soul {NoArmor}

@@ -1,0 +1,76 @@
+//health & +shootable for NashGores;
+Actor RadioactiveCorpse1 32237
+{
+//$Category New Decorations
+Tag "Radioactive Corpse 1"
+Game Doom
+Radius 8
+Height 17
+Health -1
++SHOOTABLE
++SOLID
+BloodColor "0 a3 0"
+	States
+	{
+	Spawn:
+	ZOCR A -1 bright
+	Stop
+	}
+}
+
+Actor RadioactiveCorpse2 32238
+{
+//$Category New Decorations
+Tag "Radioactive Corpse 2"
+Game Doom
+Radius 8
+Height 21
+Health -1
++SHOOTABLE
++SOLID
+BloodColor "0 a3 0"
+States
+	{
+	Spawn:
+	ZOCR B -1 bright
+	Stop
+	}
+}
+
+Actor RadioactiveCorpse3 32239
+{
+//$Category New Decorations
+Tag "Radioactive Corpse 3"
+Game Doom
+Radius 8
+Height 17
+Health -1
++SHOOTABLE
++SOLID
+BloodColor "0 a3 0"
+States
+	{
+	Spawn:
+	ZOCR C -1 bright
+	Stop
+	}
+}
+
+Actor RadioactiveCorpse4 32240
+{
+//$Category New Decorations
+Tag "Radioactive Corpse 4"
+Game Doom
+Radius 8
+Height 21
+Health -1
++SHOOTABLE
++SOLID
+BloodColor "0 a3 0"
+States
+	{
+	Spawn:
+	ZOCR D -1 bright
+	Stop
+	}
+}

@@ -1,0 +1,129 @@
+//all base actors for 3d models
+actor 3dBoss
+{
+Mass 0x7fffffff
+MONSTER
++BOSS
++SOLID
++NOFEAR
++DONTGIB
++DROPPED
++SHOOTABLE
++BOSSDEATH
++DONTMORPH
++FLOORCLIP
++FULLVOLDEATH
++NOTIMEFREEZE
++NEVERRESPAWN
++ACTLIKEBRIDGE
++DONTHURTSPECIES
+//these must be always defined when needed
+DamageFactor Fire, 0
+DamageFactor HellFire, 0
+DamageFactor Poison, 0
+DamageFactor PoisonCloud, 0
+DamageFactor Soul, 0
+DamageFactor Curse, 0
+DamageFactor Ice, 0
+RadiusDamageFactor 0
+}
+
+actor 3dDeco
+{
++NOGRAVITY
++NOBLOCKMAP
++NOTAUTOAIMED
++NOINTERACTION
++FIXMAPTHINGPOS
+States
+	{
+	Spawn:
+	3DOB A 0 NoDelay
+	3DOB A 4
+	Loop
+	}
+}
+
+actor 3dObstacle
+{
+Mass 0x7fffffff
+Health -1
++SOLID
++NOBLOOD
++DROPPED
++NODAMAGE
++SHOOTABLE
++NOTAUTOAIMED
++NOBLOODDECALS
++ACTLIKEBRIDGE
+States
+	{
+	Spawn:
+	3DOB A 0 NoDelay
+	3DOB A 4
+	loop
+	}
+}
+
+actor 3dObject
+{
++SOLID
++NOBLOCKMAP
++NOTAUTOAIMED
++ACTLIKEBRIDGE
+States
+	{
+	Spawn:
+	3DOB A 0 NoDelay
+	3DOB A 4
+	loop
+	}
+}
+
+actor 3dFlora
+{
++SOLID
++DROPPED
++FLOORCLIP
++NOTAUTOAIMED
++ACTLIKEBRIDGE
+States
+	{
+	Spawn:
+	3DOB A 0 NoDelay
+	3DOB A 4
+	loop
+	}
+}
+
+//3d misc inheritances
+//Poison Fog effects actors
+actor PoisonFartCloud
+{
+Game Doom
+Radius 2
+Height 2
+RenderStyle Translucent
+Alpha 0.3
++NOINTERACTION
++WINDTHRUST
+PoisonDamage 10
+States
+	{
+	Spawn:
+	FUGS ABCDE 3
+	Fade:
+	FUGS ABCDE 3 A_FadeOut (0.05)
+	FUGS ABCDE 3 A_FadeIn (0.05)
+	FUGS ABCDE 3 A_FadeOut (0.05)
+	FUGS ABCDE 3 A_FadeIn (0.05)
+	FUGS ABCDE 3 A_FadeOut (0.05)
+	FUGS ABCDE 3 A_FadeIn (0.05)
+	FUGS ABCDE 3 A_FadeOut (0.05)
+	FUGS ABCDE 3 A_FadeIn (0.05)
+	FUGS ABCDE 3 A_FadeOut (0.05)
+	FUGS ABCDE 3 A_FadeIn (0.05)
+	FUGS ABCDE 3 A_FadeOut (0.05)
+	loop
+	}
+}

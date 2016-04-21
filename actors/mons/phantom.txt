@@ -1,0 +1,279 @@
+ACTOR Phantom 30862 //Actor GhostHatch added due to prevent errors with Doom II
+{
+//$Category Realm667 Monsters
+Tag "Phantom"
+Game Doom
+spawnid 131
+OBITUARY "%o was scared by a phantom"
+HITOBITUARY "%o was covered in ectoplasm by a phantom"
+Health 850
+Radius 24
+Height 64
+Mass 1000
+Speed 8
+PainChance 50
+RENDERSTYLE Add
+Alpha 0.05
+SEESOUND "baron/sight"
+PAINSOUND "baron/pain"
+DEATHSOUND "phantom/death"
+ACTIVESOUND "baron/active"
+MONSTER
++FLOORCLIP
++FLOAT
++NOGRAVITY
++GHOST
++VISIBILITYPULSE
++NOFEAR
++DONTGIB
+DamageFactor Soul, 0
+DropItem "BlurSphere", 64
+DropItem "ArmorShard", 64
+BloodColor "FF FF FF"
+States
+	{
+	Spawn:
+	PHAN AB 10 A_Look
+	Loop
+	See:
+	PHAN AABBCCDD 3 A_Chase
+	Loop
+	Missile:
+	PHAN E 0 A_Jump(192,8)
+	PHAN E 0 A_Jump(64,4)
+	PHAN EF 8 A_FaceTarget
+	PHAN G 8 A_CustomMissile("PhantomEgg",32,0,0,0)
+	Goto See
+	PHAN EF 8 A_FaceTarget
+	PHAN G 8 A_CustomMissile("GhostEgg2",32,0,0,0)
+	Goto See
+	PHAN EF 8 A_FaceTarget
+	PHAN G 8 A_CustomMissile("SoulBomb",32,0,0,0)
+	Goto See
+	Pain:
+	PHAN H 2
+	PHAN H 2 A_Pain
+	Goto See
+	Death:
+	PHAN I 8
+	PHAN J 8 A_Scream
+	PHAN K 8
+	PHAN L 8 A_NoBlocking
+	PHAN MN 8
+	PHAN O -1 A_BossDeath
+	Stop
+	//can't be raised
+	}
+}
+
+ACTOR MiniPhantom
+{
+RENDERSTYLE ADD
++FLOAT
++LOOKALLAROUND
++NOBLOCKMONST
++NOGRAVITY
++SHOOTABLE
++NOBLOOD
++NOCLIP
+Health 25
+Radius 10
+Height 20
+Speed 15
+MissileType "SoulSmoke"
+States
+	{
+	Spawn:
+	See:
+	SPI1 AA 1 A_Chase
+	SPI1 A 0 A_FaceTarget
+	SPI1 A 0 A_SpawnItemEx("SoulSmoke",0,0,0,15,0,0,0,128)
+	SPI1 BB 1 A_Chase
+	SPI1 A 0 A_FaceTarget
+	SPI1 B 0 A_SpawnItemEx("SoulSmoke",0,0,0,15,0,0,0,128)
+	Loop
+	Melee:
+	SPI1 EFGHIJ 2 A_Die
+	Stop
+	Death:
+	SPIR E 0 A_Explode
+	SPIR E 0 A_PlaySound("phantom/explode")
+	SPIR FGHIJ 2
+	Stop
+	}
+}
+
+ACTOR PhantomEgg : PlasmaBall
+{
+Damage 0
+SEESOUND "phantom/spirit1"
+DEATHSOUND NONE
+RENDERSTYLE NONE
+States
+	{
+	Spawn:
+	PLSS A 5
+	Goto Death
+	Death:
+	PLSS A 1 A_SpawnItem("PhantomHatch", 1, 0, 0)
+	Stop
+	}
+}
+
+ACTOR PhantomHatch
+{
+RENDERSTYLE ADD
++NOGRAVITY
++NOCLIP
+States
+	{
+	Spawn:
+	SPI1 JIHGFE 4
+	SPI1 A 4 A_SpawnItem("MiniPhantom", 1, 0, 0)
+	Stop
+	}
+}
+
+ACTOR GhostEgg2 : PhantomEgg
+{
+States
+	{
+	Spawn:
+	PLSS A 7
+	Goto Death
+	Death:
+	PLSS A 1 A_SpawnItem("GhostHatch2", 1, 0, 0)
+	Stop
+	}
+}
+
+ACTOR GhostHatch2
+{
+RENDERSTYLE ADD
++NOGRAVITY
++NOCLIP
+States
+	{
+	Spawn:
+	SPI2 JIHGFE 4
+	SPI2 A 4 A_SpawnItem("Ghost2", 1, 0, 0)
+	Stop
+	}
+}
+
+ACTOR Ghost2
+{
+Game Doom
+Health 50
+Radius 16
+Height 32
+Mass 500
+Speed 16
+PainChance 50
++LOOKALLAROUND
++FLOAT
++NORADIUSDMG
++SHOOTABLE
++NOGRAVITY
++NOICEDEATH
++NOBLOCKMONST
++NOBLOOD
++NOCLIP
+RENDERSTYLE ADD
+States
+	{
+	Spawn:
+	See:
+	SPI2 AABB 2 A_Chase
+	Loop
+	Melee:
+	SPI2 A 4 A_FaceTarget
+	SPI2 B 2 A_SargAttack
+	SPI2 B 2 A_VileChase
+	Goto See
+	Heal:
+	TNT1 A 4
+	Goto See
+	Pain:
+	SPI2 AB 2
+	Goto See
+	Death:
+	SPI2 EFGHIJ 2 A_SpawnItem("PhantomHatch", 1, 0, 0)
+	Stop
+	}
+}
+
+ACTOR SoulBomb
+{
+Radius 3
+Height 3
+Speed 15
+Damage 6
+PROJECTILE
+RENDERSTYLE ADD
+ALPHA 0.67
+MissileType SoulTrail
+SeeSound "phantom/bomb"
+DeathSound "phantom/explode"
+States
+	{
+	Spawn:
+	SPIR A 1 Bright A_SpawnItemEx("SoulTrail",0,0,0,0,0,0,0,128)
+	SPIR B 1 Bright A_SpawnItemEx("SoulTrail",0,0,0,0,0,0,0,128)
+	SPIR A 1 Bright A_SpawnItemEx("SoulTrail",0,0,0,0,0,0,0,128)
+	SPIR B 1 Bright A_SpawnItemEx("SoulTrail",0,0,0,0,0,0,0,128)
+	SPIR A 1 Bright A_SpawnItemEx("SoulTrail",0,0,0,0,0,0,0,128)
+	SPIR B 1 Bright A_SpawnItemEx("SoulTrail",0,0,0,0,0,0,0,128)
+	Loop
+	Death:
+	SPIR A 0 Bright
+	SPIR B 0 Bright
+	SPIR K 3 Bright
+	SPIR L 3 Bright
+	SPIR M 3 Bright
+	SPIR N 3 Bright
+	SPIR O 3 Bright
+	Stop
+	}
+}
+
+ACTOR SoulTrail
+{
+Radius 3
+Height 3
+Speed 15
+PROJECTILE
+RENDERSTYLE ADD
+Alpha 0.67
++FireDamage
+States
+	{
+	Spawn:
+	SPIR QRS 4
+	Goto Death
+	Death:
+	SPIR C 3 BRIGHT
+	SPIR D 3 BRIGHT
+	Stop
+	}
+}
+
+ACTOR SoulSmoke
+{
+Radius 3
+Height 3
+Speed 15
+PROJECTILE
+RENDERSTYLE ADD
+Alpha 0.67
+States
+	{
+	Spawn:
+	SPIR FGH 4
+	Goto Death
+	Death:
+	SPIR I 3 BRIGHT
+	SPIR J 3 BRIGHT
+	Stop
+	}
+}

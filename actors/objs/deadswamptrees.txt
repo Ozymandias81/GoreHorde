@@ -1,0 +1,118 @@
+Actor NTreeDead1 11900
+{
+//$Category New Obstacles
+Tag "Raven Dead Tree 1"
+Game Doom
+Radius 13
+Height 160
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	NTRE A -1
+	Stop
+	}
+}
+
+Actor NTreeDead2 11901
+{
+//$Category New Obstacles
+Tag "Raven Dead Tree 2"
+Game Doom
+Radius 13
+Height 160
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	NTRE B -1
+	Stop
+	}
+}
+
+Actor NTreeSwamp1 11902
+{
+//$Category New Obstacles
+Tag "Raven Swamp Tree 1"
+Game Doom
+Radius 13
+Height 140
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	NTRE C -1
+	Stop
+	}
+}
+
+Actor NTreeSwamp2 11903
+{
+//$Category New Obstacles
+Tag "Raven Swamp Tree 2"
+Game Doom
+Radius 10
+Height 120
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	NTRE D -1
+	Stop
+	}
+}
+
+Actor NSwampLog 11904
+{
+//$Category New Obstacles
+Tag "Raven Swamp Log"
+Game Doom
+Radius 12
+Height 17
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	NTRE E -1
+	Stop
+	}
+}
+
+Actor NSwampStump 11905
+{
+//$Category New Obstacles
+Tag "Raven Swamp Stump"
+Game Doom
+Radius 12
+Height 20
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	NTRE F -1
+	Stop
+	}
+}
+
+Actor NSwampRoot 11906
+{
+//$Category New Obstacles
+Tag "Raven Swamp Root"
+Game Doom
+Radius 10
+Height 20
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	NTRE G -1
+	Stop
+	}
+}

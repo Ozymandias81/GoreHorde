@@ -1,0 +1,24 @@
+Actor CloakOfTerror : PowerupGiver 32244
+{
+//$Category New Powerups
+Tag "Cloak Of Terror"
+Inventory.Amount 1
+Inventory.MaxAmount 1
+Powerup.Type Frightener
+Powerup.Color Black 0.2
+Powerup.Duration -25
+Inventory.PickupMessage "Cloak Of Terror"
+Inventory.PickupSound "powups/cloakot"
+Inventory.Icon "CLOKA0"
++COUNTITEM
++INVENTORY.INVBAR
++FLOATBOB
++INVENTORY.PICKUPFLASH
+ConversationID 342
+States
+	{
+	Spawn:
+	CLOK BBBBBBBB 4 Bright
+	Loop
+	}
+}

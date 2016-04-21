@@ -1,0 +1,147 @@
+ACTOR Piranha 12512 //new monster from Powerslave
+{
+//$Category My Monsters
+Tag "Piranha"
+Game Doom
+SpawnId 168
+obituary "%o was chewed by a piranha."
+health 100
+gibhealth 35
+mass 300
+speed 16
+Radius 32
+Height 64
+seesound "piranha/sight"
+deathsound "piranha/death"
+activesound "piranha/active"
+MONSTER
++FLOAT
++FLOORCLIP
++NOGRAVITY
++LOOKALLAROUND
++QUICKTORETALIATE
+scale 0.8
+States
+	{
+	Spawn:
+	PINH ABCD 6 A_Look
+	loop
+	See:
+	PINH A 0
+	PINH A 0 A_JumpIf(waterlevel<3,2)
+	PINH A 0 A_SpawnItemEx("Bubble",random(4,8),0,random(52,60),0,0,2,random(0,360),SXF_TRANSFERTRANSLATION,random(4,8))
+	PINH ABCB 4 A_GiveInventory("FishLimit",1)
+	loop
+	Melee:
+	PINH E 0 A_JumpIf(waterlevel<3,2)
+	PINH E 0 A_SpawnItemEx("Bubble",random(4,8),0,random(52,60),0,0,2,random(0,360),SXF_TRANSFERTRANSLATION,random(4,8))
+	PINH E 6 A_FaceTarget
+	PINH F 0 A_JumpIf(waterlevel<3,2)
+	PINH F 0 A_SpawnItemEx("Bubble",random(4,8),0,random(52,60),0,0,2,random(0,360),SXF_TRANSFERTRANSLATION,random(4,8))
+	PINH F 6 A_FaceTarget
+	PINH GGHH 4 A_CustomMeleeAttack(random(3,6)*5,"CHOMP","SWIPE")
+	PINH F 0 A_JumpIf(waterlevel<3,2)
+	PINH F 0 A_SpawnItemEx("Bubble",random(4,8),0,random(52,60),0,0,2,random(0,360),SXF_TRANSFERTRANSLATION,random(4,8))
+	PINH F 6
+	PINH E 0 A_JumpIf(waterlevel<3,2)
+	PINH E 0 A_SpawnItemEx("Bubble",random(4,8),0,random(52,60),0,0,2,random(0,360),SXF_TRANSFERTRANSLATION,random(4,8))
+	PINH E 6
+	goto See
+	Death:
+	PINH I 0
+	PINH I 0 A_Scream
+	PINH IJKLMNO 5 A_SetFloorCLip
+	PINH O -1
+	Stop
+	XDeath:
+	PINH PQRS 3
+	PINH T 0 A_SpawnDebris("NashGore_Gib11",0)
+	PINH T 0 A_SpawnDebris("NashGore_Gib11",0)
+	PINH T 0 A_SpawnItem("NashGore_GibGenerator",0,0,0,0)
+	PINH T 0 A_SpawnItemEx("FishGib1",random(4,8),random(4,8),random(4,8),random(3,8),random(3,8),random(3,6),random(0,-359),SXF_TRANSFERTRANSLATION)
+	PINH T 5 A_Scream
+	PINH U 0 A_SpawnItem("NashGore_GibGenerator",0,0,0,2)
+	PINH U 0 A_SpawnItemEx("FishGib2",random(4,8),random(4,8),random(4,8),random(3,8),random(3,8),random(3,6),random(0,-359),SXF_TRANSFERTRANSLATION)
+	PINH U 5 A_NoBlocking
+	PINH V 0 A_SpawnItem("NashGore_GibGenerator",0,0,0,4)
+	PINH V 0 A_SpawnItemEx("FishGib3",random(4,8),random(4,8),random(4,8),random(3,8),random(3,8),random(3,6),random(0,-359),SXF_TRANSFERTRANSLATION)
+	PINH V 5
+	Stop
+	Crush:
+	TNT1 A 1 A_SpawnItem("NashGore_CrushedSmall",0,0,0,0)
+	stop
+	Raise:
+	PINH O 5 A_UnSetFloorClip
+	PINH NMLKJI 5
+	Goto See
+	}
+}
+
+ACTOR FishGib1
+{
+Radius 8
+Height 8
+Speed 8
+Mass 192
++CORPSE
++DROPOFF
++DOOMBOUNCE
++NOTELEPORT
++MISSILE
+scale 0.8
+States
+	{
+	Spawn:
+	PING A 4 A_Countdown
+	Loop
+	Death:
+	PING A 8 A_FadeOut(0.06)
+	Stop
+	}
+}
+
+ACTOR FishGib2 : FishGib1
+{
+States
+	{
+	Spawn:
+	PING B 4 A_Countdown
+	Loop
+	Death:
+	PING B 8 A_FadeOut(0.07)
+	Stop
+	}
+}
+
+ACTOR FishGib3 : FishGib1
+{
+States
+	{
+	Spawn:
+	PING C 4 A_Countdown
+	Loop
+	Death:
+	PING C 8 A_FadeOut(0.08)
+	Stop
+	}
+}
+
+Actor FishLimit : CustomInventory
+{
+Inventory.MaxAmount 0
++Inventory.AutoActivate
+States
+	{
+	Spawn:
+	TNT1 A 1
+	Fail
+	Use:
+	TNT1 A 0 A_JumpIf(waterlevel<3,"GoDown")
+	TNT1 A 0 A_Chase
+	Stop
+	GoDown:
+	TNT1 A 0 ThrustThingZ(0,4,1,1)
+	TNT1 A 0 A_Chase
+	Stop
+	}
+}

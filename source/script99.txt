@@ -1,0 +1,83 @@
+#1 StrifePlayer
+ACTOR 1
+	NAME "Chnesoth"
+	DIALOG "I am Chnesoth, Master Necromancer of the Deceit Order and Keeper of its dark secrets. I sense that humankind is in peril and you are searching for some help. Ask me whatever you want to know."
+
+	CHOICE
+		TEXT "I heard about a book."
+		COST 0 * -1
+		LINK -2
+	;
+
+	CHOICE
+		TEXT "How can I save humankind?"
+		COST 0 * -1
+		LINK -3
+	;
+
+	CHOICE
+		TEXT "Where is your Eye?"
+		COST 0 * -1
+		LINK -4
+	;
+END
+
+ACTOR 1
+	NAME "Chnesoth"
+	DIALOG "Oh yes, you are surely speaking of the Necronomicon. It's an eerie artifact that I've hidden somewhere centuries ago, but first I need my mystical Eye in order to show you the way. So bring to me it and I will give you some clues."
+
+	CHOICE
+		GIVE 331
+		TEXT "Isn't it your Eye?"
+		YES "So I give you this key. Use it wisely."
+		NO "Stop kidding me, mortal."
+		NODISPLAYCOST 315 * 1
+		LINK 5
+	;
+
+	CHOICE
+		TEXT "What about this dark mana?"
+		YES "_"
+		COST 0 * -1
+		LINK -6
+	;
+END
+
+ACTOR 1
+	NAME "Chnesoth"
+	DIALOG "You are all by yourself on it. I can't help you, I am not from this world anymore and I can't stop this doom. Maybe you will find some answers at the Gates of Hell, but I am not sure. Maybe the Flames could be the key."
+
+	CHOICE
+		TEXT "Ok, it will be done."
+		COST 0 * -1
+		LINK -1
+	;
+END
+
+ACTOR 1
+	NAME "Chnesoth"
+	DIALOG "Oh yes, it was during that damned expedition for the Flight Sphere. But my memory is fading, I can only tell you that there was a plateau, this damned Tornado Demon and some sort of impenetrable mist overwhelming me. I don't remember more than this."
+
+	CHOICE
+		TEXT "That sounds so eerie."
+		COST 0 * -1
+		LINK -1
+	;
+END
+
+ACTOR 1
+	NAME "Chnesoth"
+	DIALOG "For now my task here is finished: I must travel with my resilient spirit through the Outworld to ascend from this plane of existence and become immortal. But, maybe, we will see in other planes, mortal."
+END
+
+ACTOR 1
+	NAME "Chnesoth"
+	DIALOG "Oh yes, this is what you need for using Necronomicon's magic power. It's a cone of dark matter filled with dead souls, where centuries of penance are bound inside its red rune. By the way, save it wisely for the future, because that is a very rare thing."
+
+	CHOICE
+		TEXT "Got it."
+		YES "_"
+		COST 0 * -1
+		LINK -1
+	;
+END

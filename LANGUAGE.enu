@@ -1,0 +1,93 @@
+[enu default]
+//quits
+QUITMSG		= "Do you want to never\nbleed anymore?";
+QUITMSG1    = "Come On! There will be a pyjama party with PyroDemons tonight!";
+QUITMSG2    = "Impse will come into your dreams tonight";
+QUITMSG3    = "Are you like Mr. Flanders?";
+QUITMSG4    = "Do you feel like a whimpy Vulgar?";
+QUITMSG5    = "Enjoy your Duff and stay away from Arachnobarons.";
+QUITMSG6    = "If you exit now a Gargantuan Horror will torn you in pieces!";
+QUITMSG7    = "Don't you know that one Cyberbaron can kill Robocop?";
+QUITMSG8    = "This is The End... My only friend, The End...";
+QUITMSG9    = "I can't blame you, you don't have the balls.";
+QUITMSG10   = "A Profane One will vomit into your breakfast tomorrow.";
+QUITMSG11   = "If you leave now thousands Poison Souls will go inside your ass.";
+QUITMSG12   = "Something is Roach-ing you, isn't it?";
+QUITMSG13   = "Eh eh eh, are you afraid of the Dark-Cardinal?";
+QUITMSG14   = "Is a Tornado Demon approaching next to your house or something else?";
+//cheats
+STSTR_DQDON 	= "Looooser Mode ON";
+STSTR_DQDOFF 	= "Looooser Mode OFF";
+STSTR_KFAADDED 	= "Real Looooser Arsenal Added";
+STSTR_FAADDED 	= "Phalse Looooser Arsenal Added";
+STSTR_NCON 		= "Ethereal Looooser Mode ON";
+STSTR_NCOFF		= "Ethereal Looooser Mode OFF";
+STSTR_NC2ON 	= "Ethereal Looooser Mode 2 ON";
+//keys
+GOTGRENCARD	= "Picked up a green keycard.";
+GOTORNGCARD	= "Picked up an orange keycard.";
+GOTSLVRCARD	= "Picked up a silver keycard.";
+GOTPRPLCARD	= "Picked up a purple keycard.";
+GOTGRENSKUL	= "Picked up a green skull key.";
+GOTORNGSKUL	= "Picked up an orange skull key.";
+GOTSLVRSKUL	= "Picked up a silver skull key.";
+GOTPRPLSKUL	= "Picked up a purple skull key.";
+PD_BLUEO 	= "You need a blue key to activate this object";
+PD_REDO 	= "You need a red key to activate this object";
+PD_YELLOWO 	= "You need a yellow key to activate this object";
+PD_BLUEK 	= "You need a blue key to open this door";
+PD_REDK 	= "You need a red key to open this door";
+PD_YELLOWK 	= "You need a yellow key to open this door";
+PD_BLUECO 	= "You need a blue keycard to activate this object";
+PD_REDCO 	= "You need a red keycard to activate this object";
+PD_YELLOWCO = "You need a yellow keycard to activate this object";
+PD_BLUESO 	= "You need a blue skullkey to activate this object";
+PD_REDSO 	= "You need a red skullkey to activate this object";
+PD_YELLOWSO = "You need a yellow skullkey to activate this object";
+PD_GREENO 	= "You need a green key to activate this object";
+PD_ORANGEO 	= "You need an orange key to activate this object";
+PD_SILVERO 	= "You need a silver key to activate this object";
+PD_PURPLEO 	= "You need a purple key to activate this object";
+PD_GREENK 	= "You need a green key to open this door";
+PD_ORANGEK 	= "You need an orange key to open this door";
+PD_SILVERK 	= "You need a silver key to open this door";
+PD_PURPLEK 	= "You need a purple key to activate this object";
+PD_GREENCO 	= "You need a green keycard to activate this object";
+PD_ORANGECO = "You need an orange keycard to activate this object";
+PD_SILVERCO = "You need a silver keycard to activate this object";
+PD_PURPLECO = "You need a purple keycard to activate this object";
+PD_GREENSO 	= "You need a green skullkey to activate this object";
+PD_ORANGESO = "You need a orange skullkey to activate this object";
+PD_SILVERSO = "You need a silver skullkey to activate this object";
+PD_PURPLESO = "You need a purple skullkey to activate this object";
+PD_GREENC 	= "You need a green keycard to open this door";
+PD_ORANGEC 	= "You need an orange keycard to open this door";
+PD_SILVERC 	= "You need a silver keycard to open this door";
+PD_PURPLEC 	= "You need a purple keycard to open this door";
+PD_GREENS 	= "You need a green skullkey to open this door";
+PD_ORANGES 	= "You need a orange skullkey to open this door";
+PD_SILVERS 	= "You need a silver skullkey to open this door";
+PD_PURPLES 	= "You need a purple skullkey to open this door";
+PD_ALL4 	= "You need all four newly keys to open this door";
+PD_ALL4O 	= "You need all four newly keys to activate this object";
+PD_ALL8 	= "You need all eight newly keys to open this door";
+PD_ALL8O 	= "You need all eight newly keys to activate this object";
+PD_ALL14 	= "You need all fourteen keys to open this door";
+PD_ALL14O 	= "You need all fourteen keys to activate this object";
+
+ENDGAME		= "Do you want humankind doomed?\nPress Y or N.";
+
+MNU_CHOOSECLASS = "YOUR HERO";
+
+STARTUP1 =
+	"\n"
+	"*=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=*\n"
+	"|    GORE for GZDoom v01 r260115    |\n"
+	"|      An Ozymandias81 Project      |\n"
+	"|Many Thankx to Realm667 repository!|\n"
+	"*=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=*\n"
+	"\n";
+
+ENDACT1		= "Very well, Act I Complete";
+ENDACT2		= "Very well, Act II Complete";
+ENDACT3		= "Congratulations, Last Act Complete";

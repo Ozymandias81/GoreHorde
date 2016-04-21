@@ -1,0 +1,1003 @@
+actor TimeImp 30138
+{
+//$Category Realm667 Monsters
+Tag "Time Imp"
+Game Doom
+spawnid 145
+obituary "%o was forced into death by a time imp"
+hitobituary "%o was slashed by a time imp"
+health 500
+gibhealth 35
+missiletype SpImpBall
+meleedamage 5
+speed 20
+DamageFactor Ice, 0
+MONSTER
++FLOORCLIP
++NOTIMEFREEZE
++DONTRIP
++NOFEAR
+radius 20
+height 56
+mass 100
+painchance 50
+seesound "timeimp/see"
+painsound "timeimp/pain"
+deathsound "timeimp/death"
+activesound "timeimp/active"
+meleesound "timeimp/claw"
+DropItem "TimeFreezeSphereST", 64
+MaxDropOffHeight 32
+states
+	{
+	Spawn:
+	SIMP AB 10 A_Look
+	loop
+	See:
+	SIMP A 0 A_JumpIfInventory("Cell",1,"See2")
+	SIMP A 0 A_Jump(16,"SpeedUp")
+	SIMP AABBCCDD 3 A_Chase
+	loop
+	See2:
+	SIMP AABBCCDD 3 A_Chase
+	loop
+	SeeSlow:
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP A 3 A_Chase("","")
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP A 3 A_Chase("SlowMelee","SlowMissile")
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP B 3 A_Chase("","")
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP B 3 A_Chase("SlowMelee","SlowMissile")
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP C 3 A_Chase("","")
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP C 3 A_Chase("SlowMelee","SlowMissile")
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP D 3 A_Chase("","")
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP D 3 A_Chase("SlowMelee","SlowMissile")
+	loop
+	SpeedUp:
+	SIMP A 0 A_JumpIfInventory("RocketAmmo",1,"SpeedUp3")
+	SIMP A 0 A_JumpIfHealthLower(150,"SpeedUp2")
+	SIMP A 0 A_JumpIfHealthLower(300,"SpeedUp1")
+	SIMP A 0 A_PlaySound("imp/active")
+	SIMP ABCD 6
+	SIMP A 0 A_PlaySound("imp/active")
+	SIMP ABCD 6
+	SpeedUp1:
+	SIMP ABCD 5
+	SIMP A 0 A_PlaySound("imp/active")
+	SIMP ABCD 5
+	SIMP A 0 A_PlaySound("imp/active")
+	SpeedUp2:
+	SIMP ABCD 4
+	SIMP A 0 A_PlaySound("imp/active")
+	SIMP ABCD 4
+	SIMP A 0 A_PlaySound("imp/active")
+	SpeedUp3:
+	SIMP A 0 A_SpawnItem("TimeImpA")
+	SIMP AAA 1 A_Chase("","",CHF_FASTCHASE)
+	SIMP A 0 A_SpawnItem("TimeImpA")
+	SIMP AAA 1 A_Chase("","")
+	SIMP A 0 A_SpawnItem("TimeImpB")
+	SIMP BBB 1 A_Chase("","")
+	SIMP A 0 A_SpawnItem("TimeImpB")
+	SIMP BBB 1 A_Chase("","")
+	SIMP A 0 A_SpawnItem("TimeImpC")
+	SIMP BBB 1 A_Chase("","")
+	SIMP A 0 A_SpawnItem("TimeImpC")
+	SIMP BBB 1 A_Chase("","")
+	SIMP A 0 A_SpawnItem("TimeImpD")
+	SIMP DDD 1 A_Chase("","")
+	SIMP A 0 A_SpawnItem("TimeImpD")
+	SIMP DDD 1 A_Chase("Missile","Melee")
+	SIMP A 0 A_SpawnItem("TimeImpA")
+	SIMP AAA 1 A_Chase("","",CHF_FASTCHASE)
+	SIMP A 0 A_SpawnItem("TimeImpA")
+	SIMP AAA 1 A_Chase("","")
+	SIMP A 0 A_SpawnItem("TimeImpB")
+	SIMP BBB 1 A_Chase("","")
+	SIMP A 0 A_SpawnItem("TimeImpB")
+	SIMP BBB 1 A_Chase("","")
+	SIMP A 0 A_SpawnItem("TimeImpC")
+	SIMP BBB 1 A_Chase("","")
+	SIMP A 0 A_SpawnItem("TimeImpC")
+	SIMP BBB 1 A_Chase("","")
+	SIMP A 0 A_SpawnItem("TimeImpD")
+	SIMP DDD 1 A_Chase("","")
+	SIMP A 0 A_SpawnItem("TimeImpD")
+	SIMP DDD 1 A_Chase("Missile","Melee")
+	SIMP A 0 A_SpawnItem("TimeImpA")
+	SIMP AAA 1 A_Chase("","",CHF_FASTCHASE)
+	SIMP A 0 A_SpawnItem("TimeImpA")
+	SIMP AAA 1 A_Chase("","")
+	SIMP A 0 A_SpawnItem("TimeImpB")
+	SIMP BBB 1 A_Chase("","")
+	SIMP A 0 A_SpawnItem("TimeImpB")
+	SIMP BBB 1 A_Chase("","")
+	SIMP A 0 A_SpawnItem("TimeImpC")
+	SIMP BBB 1 A_Chase("","")
+	SIMP A 0 A_SpawnItem("TimeImpC")
+	SIMP BBB 1 A_Chase("","")
+	SIMP A 0 A_SpawnItem("TimeImpD")
+	SIMP DDD 1 A_Chase("","")
+	SIMP A 0 A_SpawnItem("TimeImpD")
+	SIMP DDD 1 A_Chase("Missile","Melee")
+	SIMP A 0 A_SpawnItem("TimeImpA")
+	SIMP AAA 1 A_Chase("","",CHF_FASTCHASE)
+	SIMP A 0 A_SpawnItem("TimeImpA")
+	SIMP AAA 1 A_Chase("","")
+	SIMP A 0 A_SpawnItem("TimeImpB")
+	SIMP BBB 1 A_Chase("","")
+	SIMP A 0 A_SpawnItem("TimeImpB")
+	SIMP BBB 1 A_Chase("","")
+	SIMP A 0 A_SpawnItem("TimeImpC")
+	SIMP BBB 1 A_Chase("","")
+	SIMP A 0 A_SpawnItem("TimeImpC")
+	SIMP BBB 1 A_Chase("","")
+	SIMP A 0 A_SpawnItem("TimeImpD")
+	SIMP DDD 1 A_Chase("","")
+	SIMP A 0 A_SpawnItem("TimeImpD")
+	SIMP DDD 1 A_Chase("Missile","Melee")
+	Goto See
+	Melee:
+	SIMP A 0 A_JumpIfInventory("RocketAmmo",1,"Melee3")
+	SIMP A 0 A_JumpIfHealthLower(150,"Melee2")
+	SIMP A 0 A_JumpIfHealthLower(300,"Melee1")
+	SIMP EF 6 A_FaceTarget
+	SIMP G 4 A_ComboAttack
+	goto See
+	Melee1:
+	SIMP EF 5 A_FaceTarget
+	SIMP G 3 A_ComboAttack
+	SIMP EF 4 A_FaceTarget
+	SIMP G 2 A_ComboAttack
+	SIMP EF 3 A_FaceTarget
+	SIMP G 1 A_ComboAttack
+	SIMP EF 2 A_FaceTarget
+	SIMP G 1 A_ComboAttack
+	SIMP EF 1 A_FaceTarget
+	SIMP G 1 A_ComboAttack
+	goto See
+	Melee2:
+	SIMP A 0 A_Jump(56,"Melee1")
+	SIMP A 0 A_Jump(256,"Melee21","Melee22")
+	Melee21:
+	SIMP EF 3 A_FaceTarget
+	SIMP G 1 A_CustomMissile("SpImpBallFast",32,6)
+	SIMP G 1 A_CustomMissile("SpImpBallFast",32,-6)
+	SIMP EF 3 A_FaceTarget
+	SIMP G 1 A_CustomMissile("SpImpBallFast",32,-6)
+	SIMP G 1 A_CustomMissile("SpImpBallFast",32,6)
+	Goto see
+	Melee22:
+	SIMP E 1 A_FaceTarget
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,-6,10)
+	SIMP E 1 A_CustomMissile("SpImpBallFast2",32,6,-10)
+	SIMP E 1 A_FaceTarget
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,-6,5)
+	SIMP E 1 A_CustomMissile("SpImpBallFast2",32,6,-5)
+	SIMP E 1 A_FaceTarget
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,-6,0)
+	SIMP E 1 A_CustomMissile("SpImpBallFast2",32,6,0)
+	SIMP F 1 A_FaceTarget
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,6,-5)
+	SIMP F 1 A_CustomMissile("SpImpBallFast2",32,-6,5)
+	SIMP F 1 A_FaceTarget
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,-6,-10)
+	SIMP G 1 A_CustomMissile("SpImpBallFast2",32,6,10)
+	Goto See
+	Melee3:
+	SIMP EF 2 A_FaceTarget
+	SIMP GGGGGGGGGG 0 A_CustomMissile("SpImpBallFast2",random(26,36),-6,random(-20,20))
+	SIMP GGGGGGGGGG 0 A_CustomMissile("SpImpBallFast2",random(26,36),6,random(-20,20))
+	SIMP G 2
+	Goto See
+	TimeFreeze:
+	SIMP A 0 A_JumpIfInventory("Cell",1,"MissileGo")
+	SIMP A 0 A_GiveInventory("Cell",1)
+	SIMP A 0 A_Jump(256,"TimeSlowGo")
+	TimeFreezeGo:
+	SIMP A 0 A_FaceTarget
+	SIMP A 0 A_PlaySound("timeimp/clock")
+	SIMP A 4 A_CustomMissile("TimeShock",48,0,0,2,0)
+	SIMP A 0 A_FaceTarget
+	SIMP A 4 A_CustomMissile("TimeShock",48,0,0,2,0)
+	SIMP A 0 A_FaceTarget
+	SIMP A 4 A_CustomMissile("TimeShock",48,0,0,2,0)
+	SIMP A 0 A_FaceTarget
+	SIMP A 0 A_PlaySound("timeimp/clock")
+	SIMP A 4 A_CustomMissile("TimeShock",48,0,0,2,0)
+	SIMP A 0 A_FaceTarget
+	SIMP A 4 A_CustomMissile("TimeShock",48,0,0,2,0)
+	SIMP A 0 A_FaceTarget
+	SIMP A 4 A_CustomMissile("TimeShock",48,0,0,2,0)
+	SIMP A 0 A_PlaySound("timeimp/timefreeze")
+	SIMP A 1 A_GiveInventory("TimeFreezeImp",1)
+	Goto See
+	TimeSlowGo:
+	SIMP A 0 A_FaceTarget
+	SIMP A 0 A_PlaySound("timeimp/clock")
+	SIMP A 1 A_GiveInventory("TimeSlowImp",1)
+	SIMP A 3 A_CustomMissile("TimeShock",48,0,0,2,0)
+	SIMP A 0 A_FaceTarget
+	SIMP A 1 A_GiveInventory("TimeSlowImp",1)
+	SIMP A 3 A_CustomMissile("TimeShock",48,0,0,2,0)
+	SIMP A 0 A_FaceTarget
+	SIMP A 1 A_GiveInventory("TimeSlowImp",1)
+	SIMP A 3 A_CustomMissile("TimeShock",48,0,0,2,0)
+	SIMP A 0 A_FaceTarget
+	SIMP A 0 A_PlaySound("timeimp/clock")
+	SIMP A 1 A_GiveInventory("TimeSlowImp",1)
+	SIMP A 3 A_CustomMissile("TimeShock",48,0,0,2,0)
+	SIMP A 0 A_FaceTarget
+	SIMP A 1 A_GiveInventory("TimeSlowImp",1)
+	SIMP A 3 A_CustomMissile("TimeShock",48,0,0,2,0)
+	SIMP A 0 A_FaceTarget
+	SIMP A 1 A_GiveInventory("TimeSlowImp",1)
+	SIMP A 3 A_CustomMissile("TimeShock",48,0,0,2,0)
+	SIMP A 0 A_PlaySound("timeimp/timefreeze")
+	SIMP A 1 A_GiveInventory("TimeSlowImp",1)
+	Goto SeeSlow
+	Missile:
+	SIMP A 0 A_Jump(256,"TimeFreeze")
+	MissileGo:
+	SIMP A 0 A_JumpIfInventory("RocketAmmo",1,"Missile3")
+	SIMP A 0 A_JumpIfHealthLower(150,"Missile2")
+	SIMP A 0 A_JumpIfHealthLower(300,"Missile1")
+	SIMP EF 8 A_FaceTarget
+	SIMP G 6 A_ComboAttack
+	goto See
+	Missile1:
+	SIMP A 0 A_TakeInventory("Cell",1)
+	SIMP EF 7 A_FaceTarget
+	SIMP G 5 A_ComboAttack
+	SIMP EF 6 A_FaceTarget
+	SIMP G 4 A_ComboAttack
+	SIMP EF 5 A_FaceTarget
+	SIMP G 3 A_ComboAttack
+	SIMP EF 4 A_FaceTarget
+	SIMP G 2 A_ComboAttack
+	SIMP EF 3 A_FaceTarget
+	SIMP G 1 A_ComboAttack
+	goto See
+	Missile2:
+	SIMP A 0 A_Jump(56,"Missile1")
+	SIMP A 0 A_Jump(256,"Missile21","Missile22")
+	Missile21:
+	SIMP A 0 A_TakeInventory("Cell",1)
+	SIMP EF 3 A_FaceTarget
+	SIMP G 2 A_CustomMissile("SpImpBallFast",32,6)
+	SIMP G 2 A_CustomMissile("SpImpBallFast",32,-6)
+	SIMP EF 3 A_FaceTarget
+	SIMP G 2 A_CustomMissile("SpImpBallFast",32,-6)
+	SIMP G 2 A_CustomMissile("SpImpBallFast",32,6)
+	Goto See
+	Missile22:
+	SIMP A 0 A_TakeInventory("Cell",1)
+	SIMP E 1 A_FaceTarget
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,-6,10)
+	SIMP E 1 A_CustomMissile("SpImpBallFast2",32,6,-10)
+	SIMP E 1 A_FaceTarget
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,-6,5)
+	SIMP E 1 A_CustomMissile("SpImpBallFast2",32,6,-5)
+	SIMP E 1 A_FaceTarget
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,-6,0)
+	SIMP E 1 A_CustomMissile("SpImpBallFast2",32,6,0)
+	SIMP F 1 A_FaceTarget
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,6,-5)
+	SIMP F 1 A_CustomMissile("SpImpBallFast2",32,-6,5)
+	SIMP F 1 A_FaceTarget
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,-6,-10)
+	SIMP G 1 A_CustomMissile("SpImpBallFast2",32,6,10)
+	Goto See
+	Missile3:
+	SIMP A 0 A_Jump(128,"MaybeJump")
+	MaybeJump:
+	SIMP A 0 A_JumpIfHealthLower(301,"Missile32")
+	SIMP A 0 A_TakeInventory("Cell",1)
+	SIMP EF 2 A_FaceTarget
+	SIMP GGGGGGGGGG 0 A_CustomMissile("SpImpBallFast2",random(26,36),-6,random(-20,20))
+	SIMP GGGGGGGGGG 0 A_CustomMissile("SpImpBallFast2",random(26,36),6,random(-20,20))
+	SIMP G 2
+	Goto See
+	Missile32:
+	SIMP A 0 A_TakeInventory("Cell",1)
+	SIMP EF 4 A_FaceTarget
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,0)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,5)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,10)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,15)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,20)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,25)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,30)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,35)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,40)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,45)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,50)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,55)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,60)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,65)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,70)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,75)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,80)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,85)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,90)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,95)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,100)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,105)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,110)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,115)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,120)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,125)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,130)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,135)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,140)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,145)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,150)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,155)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,160)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,165)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,170)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,175)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,180)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,185)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,190)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,195)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,200)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,205)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,210)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,215)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,220)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,225)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,230)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,235)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,240)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,245)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,250)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,255)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,260)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,265)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,270)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,275)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,280)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,285)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,290)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,295)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,300)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,305)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,310)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,315)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,320)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,325)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,330)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,335)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,340)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,345)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,350)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,355)
+	SIMP G 4
+	Goto See
+	Pain:
+	SIMP H 2
+	SIMP H 2 A_Pain
+	goto See
+	DeathRaise:
+	SIMP A 0 A_Stop
+	SIMP I 8 A_GiveInventory("Shell",1)
+	SIMP A 0 A_GiveInventory("RocketAmmo",1)
+	SIMP A 0 A_SpawnItem("ImpGhostOutIn")
+	SIMP J 8 A_Scream
+	SIMP K 6
+	SIMP L 6 A_NoBlocking
+	SIMP M 140
+	SIMP M -1 A_SpawnItem ("HealImp")
+	stop
+	Death:
+	SIMP A 0 A_JumpIfInventory("Shell",1,2)
+	Goto DeathRaise
+	SIMP I 8
+	SIMP A 0 A_SpawnItem("ImpGhostOut")
+	SIMP J 8 A_Scream
+	SIMP K 6
+	SIMP L 6 A_NoBlocking
+	SIMP M -1
+	stop
+	XDeath: //new
+	SIMP N 0 A_SpawnDebris("NashGore_Gib9",0)
+	SIMP N 0 A_SpawnDebris("NashGore_Gib10",0)
+	SIMP N 0 A_SpawnDebris("NashGore_Gib11",0)
+	SIMP N 0 A_SpawnDebris("NashGore_Gib11",0)
+	SIMP N 0 A_SpawnItem("NashGore_GibGenerator",0,0,0,0)
+	SIMP N 5
+	SIMP O 0 A_SpawnItem("NashGore_GibGenerator",0,0,0,2)
+	SIMP O 5 A_XScream
+	SIMP P 0 A_SpawnItem("NashGore_GibGenerator",0,0,0,4)
+	SIMP P 5
+	SIMP Q 0 A_SpawnItem("NashGore_GibGenerator",0,0,0,6)
+	SIMP Q 5 A_NoBlocking
+	SIMP RST 5
+	SIMP U -1
+	stop
+	Burn: //new
+	BURN A 3 Bright
+	BURN B 3 Bright A_Scream
+	BURN C 3 Bright A_Wander
+	BURN D 3 Bright A_NoBlocking
+	BURN EFGHIJKLMNOP 5 Bright
+	BURN Q 3 Bright
+	BURN RSTU 7 Bright
+	BURN V 4 A_CustomMissile ("HBeastSmoke",32,0,0)
+	BURN V 4 A_CustomMissile ("HBeastSmoke",36,0,0)
+	BURN V 4 A_CustomMissile ("HBeastSmoke",40,0,0)
+	BURN V 4 A_CustomMissile ("HBeastSmoke",44,0,0)
+	BURN V 4 A_CustomMissile ("HBeastSmoke",48,0,0)
+	BURN V -1
+	Stop
+	Raise:
+	SIMP ML 8
+	SIMP KJI 6
+	goto See
+	SlowMelee:
+	SIMP A 0 A_JumpIfInventory("RocketAmmo",1,"SlowMelee3")
+	SIMP A 0 A_JumpIfHealthLower(100,"SlowMelee2")
+	SIMP A 0 A_JumpIfHealthLower(200,"SlowMelee1")
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP EF 6 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP G 4 A_ComboAttack
+	goto See
+	SlowMelee1:
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP EF 5 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP G 3 A_ComboAttack
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP EF 4 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP G 2 A_ComboAttack
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP EF 3 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP G 1 A_ComboAttack
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP EF 2 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP G 1 A_ComboAttack
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP EF 1 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP G 1 A_ComboAttack
+	goto See
+	SlowMelee2:
+	SIMP A 0 A_Jump(56,"SlowMelee1")
+	SIMP A 0 A_Jump(256,"SlowMelee21","SlowMelee22")
+	SlowMelee21:
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP E 3 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP F 3 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP G 1 A_CustomMissile("SpImpBallFast",32,6)
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP G 1 A_CustomMissile("SpImpBallFast",32,-6)
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP E 3 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP F 3 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP G 1 A_CustomMissile("SpImpBallFast",32,-6)
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP G 1 A_CustomMissile("SpImpBallFast",32,6)
+	Goto see
+	SlowMelee22:
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP E 1 A_FaceTarget
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,-6,10)
+	SIMP E 1 A_CustomMissile("SpImpBallFast2",32,6,-10)
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP E 1 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,-6,5)
+	SIMP E 1 A_CustomMissile("SpImpBallFast2",32,6,-5)
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP E 1 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,-6,0)
+	SIMP E 1 A_CustomMissile("SpImpBallFast2",32,6,0)
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP F 1 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,6,-5)
+	SIMP F 1 A_CustomMissile("SpImpBallFast2",32,-6,5)
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP F 1 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,-6,-10)
+	SIMP G 1 A_CustomMissile("SpImpBallFast2",32,6,10)
+	Goto See
+	SlowMelee3:
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP E 2 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP F 2 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP GGGGGGGGGG 0 A_CustomMissile("SpImpBallFast2",random(26,36),-6,random(-20,20))
+	SIMP GGGGGGGGGG 0 A_CustomMissile("SpImpBallFast2",random(26,36),6,random(-20,20))
+	SIMP G 2
+	Goto See
+	SlowMissile:
+	SIMP A 0 A_JumpIfInventory("RocketAmmo",1,"SlowMissile3")
+	SIMP A 0 A_JumpIfHealthLower(100,"SlowMissile2")
+	SIMP A 0 A_JumpIfHealthLower(200,"SlowMissile1")
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP E 8 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP F 8 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP G 6 A_ComboAttack
+	goto See
+	SlowMissile1:
+	SIMP A 0 A_TakeInventory("Cell",1)
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP E 7 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP F 7 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP G 5 A_ComboAttack
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP E 6 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP F 6 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP G 4 A_ComboAttack
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP E 5 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP F 5 A_FaceTarget
+	SIMP G 3 A_ComboAttack
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP E 4 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP F 4 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP G 2 A_ComboAttack
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP E 3 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP F 3 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP G 1 A_ComboAttack
+	goto See
+	SlowMissile2:
+	SIMP A 0 A_Jump(56,"SlowMissile1")
+	SIMP A 0 A_Jump(256,"SlowMissile21","SlowMissile22")
+	SlowMissile21:
+	SIMP A 0 A_TakeInventory("Cell",1)
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP EF 3 A_FaceTarget
+	SIMP G 2 A_CustomMissile("SpImpBallFast",32,6)
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP G 2 A_CustomMissile("SpImpBallFast",32,-6)
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP EF 3 A_FaceTarget
+	SIMP G 2 A_CustomMissile("SpImpBallFast",32,-6)
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP G 2 A_CustomMissile("SpImpBallFast",32,6)
+	Goto See
+	SlowMissile22:
+	SIMP A 0 A_TakeInventory("Cell",1)
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP E 1 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,-6,10)
+	SIMP E 1 A_CustomMissile("SpImpBallFast2",32,6,-10)
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP E 1 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,-6,5)
+	SIMP E 1 A_CustomMissile("SpImpBallFast2",32,6,-5)
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP E 1 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,-6,0)
+	SIMP E 1 A_CustomMissile("SpImpBallFast2",32,6,0)
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP F 1 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,6,-5)
+	SIMP F 1 A_CustomMissile("SpImpBallFast2",32,-6,5)
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP F 1 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,-6,-10)
+	SIMP G 1 A_CustomMissile("SpImpBallFast2",32,6,10)
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	Goto See
+	SlowMissile3:
+	SIMP A 0 A_Jump(128,"SlowMaybeJump")
+	SlowMaybeJump:
+	SIMP A 0 A_JumpIfHealthLower(151,"SlowMissile32")
+	SIMP A 0 A_TakeInventory("Cell",1)
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP EF 2 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP GGGGGGGGGG 0 A_CustomMissile("SpImpBallFast2",random(26,36),-6,random(-20,20))
+	SIMP GGGGGGGGGG 0 A_CustomMissile("SpImpBallFast2",random(26,36),6,random(-20,20))
+	SIMP G 2
+	Goto See
+	SlowMissile32:
+	SIMP A 0 A_TakeInventory("Cell",1)
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP EF 4 A_FaceTarget
+	SIMP A 0 A_GiveInventory("TimeSlowImp",1)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,0)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,5)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,10)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,15)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,20)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,25)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,30)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,35)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,40)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,45)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,50)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,55)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,60)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,65)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,70)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,75)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,80)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,85)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,90)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,95)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,100)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,105)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,110)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,115)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,120)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,125)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,130)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,135)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,140)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,145)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,150)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,155)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,160)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,165)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,170)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,175)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,180)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,185)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,190)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,195)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,200)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,205)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,210)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,215)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,220)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,225)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,230)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,235)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,240)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,245)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,250)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,255)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,260)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,265)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,270)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,275)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,280)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,285)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,290)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,295)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,300)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,305)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,310)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,315)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,320)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,325)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,330)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,335)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,340)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,345)
+	SIMP G 0 A_CustomMissile("SpImpBallFast2",32,0,350)
+	SIMP G 4 A_CustomMissile("SpImpBallFast2",32,0,355)
+	Goto See
+	}
+}
+ACTOR TimeImpA
+{
+Radius 0
+Height 0
+Speed 0
+PROJECTILE
++NOCLIP
++NOBLOCKMAP
+RENDERSTYLE Translucent
+ALPHA 0.60
+-CANBLAST
++NOTIMEFREEZE
+States
+	{
+	Spawn:
+	SIMP A 1
+	SIMP A 1 A_FadeOut(0.02)
+	goto Spawn+1
+	}
+}
+ACTOR TimeImpB
+{
+Radius 0
+Height 0
+Speed 0
+PROJECTILE
++NOCLIP
++NOBLOCKMAP
+RENDERSTYLE Translucent
+ALPHA 0.60
+-CANBLAST
++NOTIMEFREEZE
+States
+	{
+	Spawn:
+	SIMP B 1
+	SIMP B 1 A_FadeOut(0.02)
+	goto Spawn+1
+	}
+}
+ACTOR TimeImpC
+{
+Radius 0
+Height 0
+Speed 0
+PROJECTILE
++NOCLIP
++NOBLOCKMAP
+RENDERSTYLE Translucent
+ALPHA 0.60
+-CANBLAST
++NOTIMEFREEZE
+States
+	{
+	Spawn:
+	SIMP C 1
+	SIMP C 1 A_FadeOut(0.02)
+	goto Spawn+1
+	}
+}
+ACTOR TimeImpD
+{
+Radius 0
+Height 0
+Speed 0
+PROJECTILE
++NOCLIP
++NOBLOCKMAP
+RENDERSTYLE Translucent
+ALPHA 0.60
+-CANBLAST
++NOTIMEFREEZE
+States
+	{
+	Spawn:
+	SIMP D 1
+	SIMP D 1 A_FadeOut(0.02)
+	goto Spawn+1
+	}
+}
+ACTOR HealImp
+{
+PROJECTILE
++NOCLIP +RIPPER +BLOODLESSIMPACT
+RENDERSTYLE NONE
+Radius 32 Height 5 Speed 0
+States
+	{
+	Spawn:
+	TNT1 AAAAA 6 A_VileChase
+	Stop
+	Death:
+	TNT1 A 1
+	Stop
+	Heal:
+	TNT1 A 1
+	Stop
+	}
+}
+Actor HealImpFriendly : HealImp
+{
++FRIENDLY
+PROJECTILE
++NOCLIP +RIPPER +BLOODLESSIMPACT
+RENDERSTYLE NONE
+Radius 32 Height 5 Speed 0
+States
+	{
+	Spawn:
+	TNT1 AAAAA 6 A_VileChase
+	Stop
+	Death:
+	TNT1 A 1
+	Stop
+	Heal:
+	TNT1 A 1
+	Stop
+	}
+}
+actor SpImpBall
+{
+Radius 6
+Height 8
+Projectile
++RANDOMIZE
+RenderStyle Add
+Alpha 1
+SeeSound "timeball/attack"
+DeathSound "timeball/hit"
+Speed 25
+damage 5
++NOTIMEFREEZE
+states
+	{
+	Spawn:
+	SBLA A 1 A_SpawnItem("SpBallTrailA",-12)
+	SBLA A 2 bright
+	SBLA B 1 A_SpawnItem("SpBallTrailB",-12)
+	SBLA B 2 bright
+	loop
+	Death:
+	SBLA CDE 6 bright
+	stop
+	}
+}
+
+Actor SpImpBallFast : SpImpBall {Speed 35}
+
+Actor SpImpBallFast2 : SpImpBall {Speed 30 Damage 3}
+
+ACTOR SpBallTrailA
+{
+Radius 0
+Height 0
+Speed 0
+PROJECTILE
++NOCLIP
++NOBLOCKMAP
+RENDERSTYLE Translucent
+ALPHA 0.70
+-CANBLAST
++NOTIMEFREEZE
+States
+	{
+	Spawn:
+	SBLA A 1
+	SBLA A 1 A_FadeOut(0.05)
+	goto Spawn+1
+	}
+}
+ACTOR SpBallTrailB
+{
+Radius 0
+Height 0
+Speed 0
+PROJECTILE
++NOCLIP
++NOBLOCKMAP
+RENDERSTYLE Translucent
+ALPHA 0.70
+-CANBLAST
++NOTIMEFREEZE
+States
+	{
+	Spawn:
+	SBLA B 1
+	SBLA B 1 A_FadeOut(0.05)
+	goto Spawn+1
+	}
+}
+Actor ImpGhostOutIn
+{
+Radius 0
+Height 0
+Speed 0
+PROJECTILE
++NOCLIP
++NOBLOCKMAP
+RENDERSTYLE Translucent
+ALPHA 0.60
+-CANBLAST
++NOTIMEFREEZE
+States
+	{
+	Spawn:
+	IMGH A 0
+	IMGH A 0 ThrustThingZ(0,4,0,0)
+	IMGH ABC 5
+	IMGH DEFG 9
+	TNT1 A 66 ThrustThingZ(0,0,0,0)
+	IMGH A 0 ThrustThingZ(0,4,1,0)
+	IMGH GFED 9
+	IMGH CBA 5
+	stop
+	}
+}
+Actor ImpGhostOut : ImpGhostOutIn
+{
+States
+	{
+	Spawn:
+	IMGH A 0
+	IMGH A 0 ThrustThingZ(0,4,0,0)
+	IMGH ABC 5
+	IMGH DEFG 9
+	stop
+	}
+}
+actor TimeFreezeImp : PowerupGiver
+{
+inventory.pickupmessage "Time Freezer!!"
+inventory.maxamount 0
+powerup.type "TimeFreezer"
+powerup.duration -5
++AUTOACTIVATE
++INVENTORY.FANCYPICKUPSOUND
+states
+	{
+	Spawn:
+	TNT1 A 0
+	stop
+	}
+}
+
+Actor TimeSlowImp : TimeFreezeImp {powerup.duration -1}
+
+Actor TimeShock
+{
+Radius 4
+Height 8
+Speed 2
+Damage 1
+PROJECTILE
+RENDERSTYLE Translucent
+ALPHA 0.60
+-CANBLAST
++NOTIMEFREEZE
+States
+	{
+	Spawn:
+	SHOK ABCDEFGHIJKLMNOPQR 2
+	stop
+	}
+}
+Actor TimeImpFriendly : TimeImp
+{
++FRIENDLY
+States
+	{
+	Death:
+	SIMP A 0 A_JumpIfInventory("Shell",1,2)
+	Goto DeathRaiseFriendly
+	SIMP I 8
+	SIMP A 0 A_SpawnItem("ImpGhostOut")
+	SIMP J 8 A_Scream
+	SIMP K 6
+	SIMP L 6 A_NoBlocking
+	SIMP M -1
+	stop
+	DeathRaiseFriendly:
+	SIMP A 0 A_Stop
+	SIMP I 8 A_GiveInventory("Shell",1)
+	SIMP A 0 A_GiveInventory("RocketAmmo",1)
+	SIMP A 0 A_SpawnItem("ImpGhostOutIn")
+	SIMP J 8 A_Scream
+	SIMP K 6
+	SIMP L 6 A_NoBlocking
+	SIMP M 140
+	SIMP M -1 A_SpawnItem ("HealImpFriendly")
+	stop
+	}
+}

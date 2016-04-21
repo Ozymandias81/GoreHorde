@@ -1,0 +1,154 @@
+//amazing rainy effects by ral22 from RAINMAP.wad - thankx a lot to diz man!
+#library "ral22sfx"
+#include "zcommon.acs"
+
+bool rainswitch = TRUE;
+
+//normal
+str rainhit[10] =
+{
+"RAIN1",
+"RAIN2",
+"RAIN3",
+"RAIN4",
+"RAIN5",
+"RAIN6",
+"RAIN7",
+"RAIN8",
+"RAIN9",
+"RAIN10",
+};
+//bloody
+str blodhit[10] =
+{
+"BLOD1",
+"BLOD2",
+"BLOD3",
+"BLOD4",
+"BLOD5",
+"BLOD6",
+"BLOD7",
+"BLOD8",
+"BLOD9",
+"BLOD10",
+};
+//acid
+str acidhit[10] =
+{
+"ACID1",
+"ACID2",
+"ACID3",
+"ACID4",
+"ACID5",
+"ACID6",
+"ACID7",
+"ACID8",
+"ACID9",
+"ACID10",
+};
+//snow
+str snowhit[10] =
+{
+"SNOW1",
+"SNOW2",
+"SNOW3",
+"SNOW4",
+"SNOW5",
+"SNOW6",
+"SNOW7",
+"SNOW8",
+"SNOW9",
+"SNOW10",
+};
+
+Script 220 (int ral22hit)
+{
+int raindrop;
+SetHUDSIZE(1600,900,0); //must tweak it in order to get user ingame res
+switch (ral22hit)
+	{
+	case 1:
+	While(TRUE)
+		{
+		If(rainswitch==True)
+			{
+			If(GetActorPitch(0)<=-0.08)
+				{
+				raindrop = random(0,9);
+				SetFont(rainhit[raindrop]);
+				HUDMessage(s:"A"; HUDMSG_FADEOUT|HUDMSG_ALPHA|HUDMSG_ADDBLEND, random(1,500),0,random(-200.0,1600.0), random(-200.0,900.0), 0.02, 1.0, random(0.2, 0.9));
+				Delay(3);
+				//Ambientsound("Ambient/RainHit",255);
+				}
+			}
+		Delay(1);
+		}
+	break;
+	case 2:
+	While(TRUE)
+		{
+		If(rainswitch==True)
+			{
+			If(GetActorPitch(0)<=-0.08)
+				{
+				raindrop = random(0,9);
+				SetFont(blodhit[raindrop]);
+				HUDMessage(s:"A"; HUDMSG_FADEOUT|HUDMSG_ALPHA|HUDMSG_ADDBLEND, random(1,500),0,random(-200.0,1600.0), random(-200.0,900.0), 0.02, 1.0, random(0.2, 0.9));
+				Delay(3);
+				//Ambientsound("Ambient/RainHit",255);
+				}
+			}
+		Delay(1);
+		}
+	break;
+	case 3:
+	While(TRUE)
+		{
+		If(rainswitch==True)
+			{
+			If(GetActorPitch(0)<=-0.08)
+				{
+				raindrop = random(0,9);
+				SetFont(acidhit[raindrop]);
+				HUDMessage(s:"A"; HUDMSG_FADEOUT|HUDMSG_ALPHA|HUDMSG_ADDBLEND, random(1,500),0,random(-200.0,1600.0), random(-200.0,900.0), 0.02, 1.0, random(0.2, 0.9));
+				Delay(3);
+				//Ambientsound("Ambient/RainHit",255);
+				}
+			}
+		Delay(1);
+		}
+	break;
+	case 4:
+	While(TRUE)
+		{
+		If(rainswitch==True)
+			{
+			If(GetActorPitch(0)<=-0.08)
+				{
+				raindrop = random(0,9);
+				SetFont(snowhit[raindrop]);
+				HUDMessage(s:"A"; HUDMSG_FADEOUT|HUDMSG_ALPHA|HUDMSG_ADDBLEND, random(1,500),0,random(-200.0,1600.0), random(-200.0,900.0), 0.02, 1.0, random(0.2, 0.9));
+				Delay(3);
+				//Ambientsound("Ambient/RainHit",255);
+				}
+			}
+		Delay(1);
+		}
+	break;
+	}
+}
+//this may come in handy for step-climbing effects...
+/*Script "Leap_Over" (int TheAngle, int TheThrust, int TheUp)
+{
+    SetPlayerProperty(0,1,4);
+    SetActorPitch(0, 0);
+    GiveInventory("Leap_Item",1);
+    Thing_Stop(0);
+    Delay(5);
+    SetActorAngle(0, TheAngle * 0.01);
+    ThrustThing(TheThrust, 2,0,0);
+    ThrustThingZ(0,TheUp,0,0);
+    Delay(36);
+    SetPlayerProperty(0,0,4);
+    Terminate;
+}*/

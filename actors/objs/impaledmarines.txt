@@ -1,0 +1,38 @@
+//health & +shootable for NashGores;
+Actor CarcassImpaledMarine 3025
+{
+//$Category New Obstacles
+Tag "Carcass Impaled Marine 1"
+Game Doom
+Height 64
+Radius 20
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
++SOLID
+States
+	{
+	Spawn:
+	MPL2 A -1
+	Stop
+	}
+}
+
+Actor CarcassImpaledMarine2 3026
+{
+//$Category New Obstacles
+Tag "Carcass Impaled Marine 2"
+Game Doom
+Height 64
+Radius 20
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
++SOLID
+States
+	{
+	Spawn:
+	MPLD A -1
+	Stop
+	}
+}

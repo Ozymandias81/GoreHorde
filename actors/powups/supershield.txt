@@ -1,0 +1,18 @@
+Actor SuperShield : BasicArmorPickup 32246
+{
+//$Category New Health And Armor
+Tag "Super Shield"
+Game Doom
+Armor.SavePercent 100.0
+Armor.SaveAmount 300
+Inventory.Icon "ARMXA0"
+Inventory.PickupMessage "Picked up the super shield!"
+Inventory.PickUpSound "powups/supashld"
+ConversationID 332
+states
+	{
+	Spawn:
+	ARMX AB 3 Bright
+	Loop
+	}
+}

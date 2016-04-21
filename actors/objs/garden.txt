@@ -1,0 +1,79 @@
+Actor Gardentree1 32201
+{
+//$Category New Obstacles
+Tag "Garden Tree 1"
+Game Doom
+Radius 20
+Height 90
++SOLID
+States
+	{
+	Spawn:
+	PLAN A -1
+	Stop
+	}
+}
+
+Actor Gardentree2 32202
+{
+//$Category New Obstacles
+Tag "Garden Tree 2"
+Game Doom
+Radius 20
+Height 90
++SOLID
+States
+	{
+	Spawn:
+	PLAN B -1
+	Stop
+	}
+}
+
+Actor Gardenbush1 32203
+{
+//$Category New Obstacles
+Tag "Garden Bush 1"
+Game Doom
+Radius 24
+Height 30
++SOLID
+States
+	{
+	Spawn:
+	PLAN C -1
+	Stop
+	}
+}
+
+Actor Gardenbush2 32204
+{
+//$Category New Obstacles
+Tag "Garden Bush 2"
+Game Doom
+Radius 16
+Height 30
++SOLID
+States
+	{
+	Spawn:
+	PLAN D -1
+	Stop
+	}
+}
+
+Actor Gardenbush3 32205
+{
+//$Category New Obstacles
+Tag "Garden Bush 3"
+Game Doom
+Radius 16
+Height 30
++SOLID
+States
+	{
+	Spawn:
+	PLAN E -1
+	Stop
+	}
+}

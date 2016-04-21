@@ -1,0 +1,60 @@
+//health & +shootable for NashGores; +pushable for Caleb football!
+actor Daisytree 32188
+{
+//$Category New Decorations
+Tag "Daisy Tree"
+Game Doom
++FLOORCLIP
++SOLID
+Height 65
+Radius 16
+Scale 0.60
+States
+	{
+	Spawn:
+	BUNN A -1
+	Loop
+	}
+}
+
+actor Daisystick 32189
+{
+//$Category New Decorations
+Tag "Daisy Stick"
+Game Doom
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
++FLOORCLIP
++SOLID
+Height 48
+Radius 20
+Scale 0.60
+States
+	{
+	Spawn:
+	BUNS A -1
+	Loop
+	}
+}
+
+actor Daisyshead 32190
+{
+//$Category New Decorations
+Tag "Daisy Head"
+Game Doom
+Health -1
++SHOOTABLE
++PUSHABLE
++FLOORCLIP
++SOLID
+Height 43
+Radius 20
+Scale 0.60
+States
+	{
+	Spawn:
+	BUNM A -1
+	Loop
+	}
+}

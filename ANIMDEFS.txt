@@ -1,0 +1,443 @@
+//Monsters Animdefs
+//chnesoth
+warp2 texture CHENA0
+warp2 texture CHENB0
+warp2 texture CHENC0
+warp2 texture CHEND0
+warp2 texture CHENE0
+warp2 texture CHENF0
+warp2 texture CHENG0
+
+//timeimp
+warp2 texture IMGHA0
+warp2 texture IMGHB0
+warp2 texture IMGHC0
+warp2 texture IMGHD0
+warp2 texture IMGHE0
+warp2 texture IMGHF0
+warp2 texture IMGHG0
+
+//spiritimp
+warp2 texture SPIPA1
+warp2 texture SPIPA2A8
+warp2 texture SPIPA3A7
+warp2 texture SPIPA4A6
+warp2 texture SPIPA5
+warp2 texture SPIPB1
+warp2 texture SPIPB2B8
+warp2 texture SPIPB3B7
+warp2 texture SPIPB4B6
+warp2 texture SPIPB5
+warp2 texture SPIPC1
+warp2 texture SPIPC2C8
+warp2 texture SPIPC3C7
+warp2 texture SPIPC4C6
+warp2 texture SPIPC5
+warp2 texture SPIPD1
+warp2 texture SPIPD2D8
+warp2 texture SPIPD3D7
+warp2 texture SPIPD4D6
+warp2 texture SPIPD5
+warp2 texture SPIPE1
+warp2 texture SPIPE2E8
+warp2 texture SPIPE3E7
+warp2 texture SPIPE4E6
+warp2 texture SPIPE5
+warp2 texture SPIPF1
+warp2 texture SPIPF2F8
+warp2 texture SPIPF3F7
+warp2 texture SPIPF4F6
+warp2 texture SPIPF5
+warp2 texture SPIPG1
+warp2 texture SPIPG2G8
+warp2 texture SPIPG3G7
+warp2 texture SPIPG4G6
+warp2 texture SPIPG5
+warp2 texture SPIPH1
+warp2 texture SPIPH2H8
+warp2 texture SPIPH3H7
+warp2 texture SPIPH4H6
+warp2 texture SPIPH5
+warp2 texture SPIPI1
+warp2 texture SPIPI2I8
+warp2 texture SPIPI3I7
+warp2 texture SPIPI4I6
+warp2 texture SPIPI5
+warp2 texture SPIPJ1
+warp2 texture SPIPJ2J8
+warp2 texture SPIPJ3J7
+warp2 texture SPIPJ4J6
+warp2 texture SPIPJ5
+warp2 texture SPIPK1
+warp2 texture SPIPK2K8
+warp2 texture SPIPK3K7
+warp2 texture SPIPK4K6
+warp2 texture SPIPK5
+warp2 texture SPIPL1
+warp2 texture SPIPL2L8
+warp2 texture SPIPL3L7
+warp2 texture SPIPL4L6
+warp2 texture SPIPL5
+warp2 texture SPIPM1
+warp2 texture SPIPM2M8
+warp2 texture SPIPM3M7
+warp2 texture SPIPM4M6
+warp2 texture SPIPM5
+warp2 texture SPIPO0
+warp2 texture SPIPP0
+warp2 texture SPIPQ0
+warp2 texture SPIPR0
+warp2 texture SPIPS0
+warp2 texture SPIPT0
+warp2 texture SPIPV0
+
+//Weapons Animdefs
+//necronomicon
+WARP2 texture NSP1A1
+WARP2 texture NSP1A2A8
+WARP2 texture NSP1A3A7
+WARP2 texture NSP1A4A6
+WARP2 texture NSP1A5
+WARP2 texture NSP1B1
+WARP2 texture NSP1B2B8
+WARP2 texture NSP1B3B7
+WARP2 texture NSP1B4B6
+WARP2 texture NSP1B5
+WARP2 texture NSP1E0
+WARP2 texture NSP1F0
+WARP2 texture NSP1G0
+WARP2 texture NSP1H0
+WARP2 texture NSP1I0
+WARP2 texture NSP1J0
+WARP2 texture NSP2A1
+WARP2 texture NSP2A2A8
+WARP2 texture NSP2A3A7
+WARP2 texture NSP2A4A6
+WARP2 texture NSP2A5
+WARP2 texture NSP2A1
+WARP2 texture NSP2A2A8
+WARP2 texture NSP2A3A7
+WARP2 texture NSP2A4A6
+WARP2 texture NSP2A5
+WARP2 texture NSP2E0
+WARP2 texture NSP2F0
+WARP2 texture NSP2G0
+WARP2 texture NSP2H0
+WARP2 texture NSP2I0
+WARP2 texture NSP2J0
+
+//Scenery Animdefs
+//seaweed
+warp2 texture cripa0
+warp2 texture cripb0
+
+//SpecialFX Animdefs
+//fogspawner - commented out for massive lags
+//warp2 texture AWCFA0B0
+//warp2 texture AWCFC0D0
+
+//soulspawner
+warp2 texture DAMDA0
+
+//bubblesfx - deprecated due to massive lags
+//warp2 texture SBUBA0
+
+//Puzzle & Special Textures
+//Animated Star-Carved
+texture PZL1ON1
+	pic PZL1ON1 tics 5
+	pic PZL1ON2 tics 5
+	pic PZL1ON3 tics 5
+	pic PZL1ON4 tics 5
+
+//These are some SkullTag Animdefs
+switch SW1STNE1 on pic SW2STNE1 tics 0
+switch SW1STNE2 on pic SW2STNE2 tics 0
+switch SW1SKUL2 on pic SW2SKUL2 tics 0
+
+texture BLUELAVA
+	pic bluelava tics 8
+	pic bluelav2 tics 8
+
+texture FIREWAL2
+	pic firewal2 tics 8
+	pic firewalc tics 8
+	pic firewald tics 8
+
+texture LAVFALL1
+	pic lavfall1 tics 8
+	pic lavfall2 tics 8
+	pic lavfall3 tics 8
+	pic lavfall4 tics 8
+
+flat FAN1
+	pic fan1 tics 1
+	pic fan2 tics 1
+	pic fan3 tics 1
+	pic fan4 tics 1
+
+flat FLAVA1
+	pic flava1 tics 8
+	pic flava2 tics 8
+
+flat BWATER1
+	pic bwater1 tics 8
+	pic bwater2 tics 8
+	pic bwater3 tics 8
+	pic bwater4 tics 8
+
+flat BLBLOOD1
+	pic blblood1 tics 8
+	pic blblood2 tics 8
+	pic blblood3 tics 8
+
+texture BBFALL1
+	pic bbfall1 tics 8
+	pic bbfall2 tics 8
+	pic bbfall3 tics 8
+	pic bbfall4 tics 8
+
+texture GSTFONT4
+	pic gstfont4 tics 8
+	pic gstfont5 tics 8
+	pic gstfont6 tics 8
+
+texture CACBBL1
+	pic cacbbl1 tics 8
+	pic cacbbl2 tics 8
+	pic cacbbl3 tics 8
+
+texture CACRBL1
+	pic cacrbl1 tics 8
+	pic cacrbl2 tics 8
+	pic cacrbl3 tics 8
+
+texture SNUKE1
+	pic snuke1 tics 8
+	pic snuke2 tics 8
+	pic snuke3 tics 8
+
+flat GRANUKE1
+	pic granuke1 tics 8
+	pic granuke2 tics 8
+	pic granuke3 tics 8
+
+texture TELR1
+	pic telr1 tics 5
+	pic telr2 tics 5
+	pic telr3 tics 5
+	pic telr4 tics 5
+	pic telr5 tics 5
+	pic telr6 tics 5
+	pic telr7 tics 5
+	pic telr8 tics 5
+	pic telr9 tics 5
+
+warp flat E1SKY1
+warp flat E3SKY1
+warp flat WBLOOD1
+warp flat WFWATER1
+warp flat WQLAVA
+warp flat WSFLR6_4
+warp flat WSLIME01
+warp texture WARPFACE
+warp texture WSKSNAK2
+warp texture WSKY2
+warp2 texture HYNUKE
+warp2 texture HYWATER
+
+//cameratexture	CAMTX64 	384 384		fit	64 64
+//cameratexture	CAMTX128	384 384		fit	128 128
+//cameratexture CAMTEX1 	640 480 	fit 128 72
+
+//Daikatana Animdefs
+//Warping Potentially flats & textures
+WARP2 TEXTURE DKTXTR01
+WARP2 TEXTURE DKTXTR02
+WARP2 TEXTURE DKTXTR04
+WARP2 TEXTURE DKTXTR05
+WARP2 TEXTURE DKTXTR06
+
+//Animated Textures
+texture DKLAVA1A range DKLAVA1C tics 5 //pouring lava
+texture DKLAVA2A range DKLAVA2C tics 5 //lava in cracks
+texture DKTX0269 range DKTX0270 tics 5 //new by me - flickering wall
+
+//Switches - New
+switch doom 1 DKTXSW01 on pic DKTXSW02 tics 0
+switch doom 1 DKTXSW03 on pic DKTXSW04 tics 0
+switch doom 1 DKTXSW05 on pic DKTXSW06 tics 0
+switch doom 1 DKTXSW07 on pic DKTXSW08 tics 0
+switch doom 1 DKTXSW09 on pic DKTXSW10 tics 0
+switch doom 1 DKTXSW11 on pic DKTXSW12 tics 0
+switch doom 1 DKTXSW13 on pic DKTXSW14 tics 0
+switch doom 1 DKTXSW15 on pic DKTXSW16 tics 0
+switch doom 1 DKTXSW17 on pic DKTXSW18 tics 0
+switch doom 1 DKTXSW19 on pic DKTXSW20 tics 0
+switch doom 1 DKTXSW21 on pic DKTXSW22 tics 0
+switch doom 1 DKTXSW23 on pic DKTXSW24 tics 0
+switch doom 1 DKTXSW25 on pic DKTXSW26 tics 0
+switch doom 1 DKTXSW27 on pic DKTXSW28 tics 0
+
+//DukePlus Animdefs
+texture DPWTR-00 range DPWTR-31 tics 2
+texture DPBLD-00 range DPBLD-31 tics 2
+texture DPNKE-00 range DPNKE-31 tics 2
+texture DPMUD-00 range DPMUD-31 tics 2
+
+//Baker's Legacy AnimDefs
+texture BAKCAND1
+ pic BAKCAND1 tics 8
+ pic BAKCAND2 tics 8
+ pic BAKCAND3 tics 8
+
+texture BAKRUNE1
+ pic BAKRUNE1 tics 8
+ pic BAKRUNE2 tics 8
+ pic BAKRUNE3 tics 8
+ pic BAKRUNE4 tics 8
+
+switch BAKSW02 on sound Switch1 pic BAKSW01 tics 0
+switch BAKSW01 off sound Switch2 pic BAKSW02 tics 0
+switch BAKSW04 on sound Switch1 pic BAKSW03 tics 0
+switch BAKSW03 off sound Switch2 pic BAKSW04 tics 0
+switch BAKSW06 on sound Switch1 pic BAKSW05 tics 0
+switch BAKSW05 off sound Switch2 pic BAKSW06 tics 0
+switch BAKSW08 on sound Switch1 pic BAKSW07 tics 0
+switch BAKSW07 off sound Switch2 pic BAKSW08 tics 0
+switch BAKSW10 on sound Switch1 pic BAKSW09 tics 0
+switch BAKSW09 off sound Switch2 pic BAKSW10 tics 0
+
+//FAKK II AnimDefs
+//Warping Liquids & potentially Skyes
+WARP TEXTURE HMFX02
+WARP TEXTURE HMFX03
+WARP TEXTURE HMFX04
+WARP TEXTURE HMFX05
+WARP TEXTURE HMFX06
+WARP TEXTURE HMFX07
+WARP TEXTURE HMFX10
+WARP TEXTURE HMFX11
+WARP TEXTURE HMFX15
+WARP TEXTURE HMFX17
+WARP TEXTURE HMFX18
+WARP TEXTURE HMFX19
+WARP TEXTURE HMFX20
+WARP TEXTURE HMFX22
+WARP TEXTURE HMFX28
+WARP TEXTURE HMFX29
+WARP TEXTURE HMFX46
+WARP TEXTURE HMFX48
+WARP TEXTURE HMFX50
+WARP TEXTURE HMFX51
+WARP TEXTURE HMFX55
+WARP TEXTURE HMFX56
+WARP TEXTURE HMFX57
+WARP TEXTURE HMFX60
+WARP TEXTURE HMFX61
+WARP TEXTURE HMFX64
+WARP TEXTURE HMFX65
+WARP TEXTURE HMFX68
+WARP TEXTURE HMFX69
+WARP TEXTURE HMFX71
+WARP TEXTURE HMFX72
+WARP TEXTURE HMFX73
+WARP TEXTURE HMFX86
+WARP TEXTURE HMFX90
+WARP TEXTURE HMFX96
+WARP TEXTURE HMFX97
+WARP TEXTURE HMFX99
+WARP TEXTURE HMFX100
+WARP TEXTURE HMFX101
+WARP TEXTURE HMFX106
+WARP TEXTURE HMFX108
+WARP TEXTURE HMFX109
+WARP TEXTURE HMFX110
+WARP TEXTURE HMFX115
+WARP TEXTURE HMFX122
+
+//Warping potentially flats & other textures
+WARP TEXTURE HMTX653
+WARP TEXTURE HMTXM653
+
+//Heretic II AnimDefs
+//Warping Liquids & potentially Skyes
+WARP TEXTURE HR2FX01
+WARP TEXTURE HR2FX02
+WARP TEXTURE HR2FX03
+WARP TEXTURE HR2FX04
+WARP TEXTURE HR2FX11
+WARP TEXTURE HR2FX13
+WARP TEXTURE HR2FX14
+WARP TEXTURE HR2FX15
+WARP TEXTURE HR2FX16
+WARP TEXTURE HR2FX20
+WARP TEXTURE HR2FX21
+
+//Animated Textures
+texture HR2BOIL1
+ pic HR2BOIL1 tics 5
+ pic HR2BOIL2 tics 5
+ pic HR2BOIL3 tics 5
+ pic HR2BOIL4 tics 5
+
+texture HR2INSE1
+ pic HR2INSE1 tics 5
+ pic HR2INSE2 tics 5
+ pic HR2INSE3 tics 5
+ pic HR2INSE4 tics 5
+
+texture HR2WFAL1
+ pic HR2WFAL1 tics 5
+ pic HR2WFAL2 tics 5
+ pic HR2WFAL3 tics 5
+ pic HR2WFAL4 tics 5
+
+//Switches
+switch HR2SW1B on sound Switch1 pic HR2SW1A tics 0
+switch HR2SW1A off sound Switch2 pic HR2SW1B tics 0
+switch HR2SW2B on sound Switch1 pic HR2SW2A tics 0
+switch HR2SW2A off sound Switch2 pic HR2SW2B tics 0
+switch HR2SW3B on sound Switch1 pic HR2SW3A tics 0
+switch HR2SW3A off sound Switch2 pic HR2SW3B tics 0
+switch HR2SW4B on sound Switch1 pic HR2SW4A tics 0
+switch HR2SW4A off sound Switch2 pic HR2SW4B tics 0
+
+//GothicTX AnimDefs
+//Warping Liquids & potentially Skyes
+WARP texture ADEL_Z01
+WARP flat SLIME05
+WARP flat SLIME06
+WARP flat SLIME07
+WARP flat SLIME08
+
+//Animated Textures
+flat SLIME05
+	pic SLIME05 tics 8
+	pic SLIME06 tics 8
+	pic SLIME07 tics 8
+	pic SLIME08 tics 8
+
+texture SLMFALL1
+	pic SLMFALL1 tics 8
+	pic SLMFALL2 tics 8
+	pic SLMFALL3 tics 8
+	pic SLMFALL4 tics 8
+
+texture ADEL_Z90
+	pic ADEL_Z90 tics 8
+	pic ADEL_Z91 tics 8
+	pic ADEL_Z92 tics 8
+	pic ADEL_Z93 tics 8
+
+flat DEADGUY1
+	pic DEADGUY1 tics 8
+	pic DEADGUY2 tics 16
+
+//Switches
+switch SW2GOTH1 on sound Switch1 pic SW1GOTH1 tics 0
+switch SW1GOTH1 off sound Switch1 pic SW2GOTH1 tics 0
+switch SW2GOTH2 on sound Switch1 pic SW1GOTH2 tics 0
+switch SW1GOTH2 off sound Switch1 pic SW2GOTH2 tics 0
+switch ADEL_Z51 on sound Switch1 pic ADEL_Z50 tics 0
+switch ADEL_Z50 off sound Switch1 pic ADEL_Z51 tics 0

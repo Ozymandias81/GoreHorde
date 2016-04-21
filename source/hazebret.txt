@@ -1,0 +1,45 @@
+//Breath actor from "Lost In Cold: Haze" by Pawel Zarczynski
+ACTOR IsInside : Ammo {Inventory.MaxAmount 1}
+
+ACTOR BreathAir
+{
+PROJECTILE
++NOCLIP
++DONTSPLASH
++NOTIMEFREEZE
+Damage 0
+Speed 2
+Renderstyle Add
+Alpha 0.15
+Scale 0.24
+States
+	{
+	Spawn:
+	BRTH ABCDEFGH 2 BRIGHT
+	BRTH K 2 BRIGHT A_SetTranslucent(.1,1)
+	BRTH L 2 BRIGHT A_SetTranslucent(.07,1)
+	Stop
+	}
+}
+
+/*
+Spawn: // will be replaced later once I produce them
+PLAY A 1 A_JumpIfInventory("IsInside",1,"NoSteam")
+PLAY A 45 A_CustomMissile("BreathAir",32,0,0,2)
+Loop
+See:
+PLAY A 0 A_JumpIfInventory("IsInside",1,"NoSteam")
+PLAY A 0 A_JumpIfInventory("IsPanting",11,"PantHeavy")
+PLAY A 0 A_JumpIfInventory("IsPanting",6,"PantMeejum")
+PLAY ABCD 45 A_CustomMissile("BreathAir",32,0,0,2)
+Loop
+PantHeavy:
+PLAY A 10 A_CustomMissile("BreathAir",32,0,0,2)
+Goto See
+PantMeejum:
+PLAY A 25 A_CustomMissile("BreathAir",32,0,0,2)
+Goto See
+NoSteam:
+PLAY A 10
+Goto See
+*/

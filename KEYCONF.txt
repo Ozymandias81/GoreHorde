@@ -1,0 +1,14 @@
+addkeysection "Gore Keys" goresection
+
+addmenukey "Zoom In/Out" zoomin
+alias zoomout "fov 90; eval * $mouse_sensitivity 2.5 mouse_sensitivity; rebind zoomin"
+alias zoomin "fov 20; eval / $mouse_sensitivity 2.5 mouse_sensitivity; rebind zoomout"
+defaultbind Mouse3 zoomin
+
+addmenukey "Random Laughs" laughs
+alias laughs "pukename Laughy"
+defaultbind h laughs
+
+addmenukey "Random Taunts" taunts
+alias taunts "pukename Taunty"
+defaultbind j taunts

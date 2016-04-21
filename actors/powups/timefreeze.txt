@@ -1,0 +1,22 @@
+Actor TimeFreezeSphereST : PowerupGiver 32274
+{
+//$Category New Powerups
+tag "Time Freeze Sphere"
+Game Doom
+Inventory.MaxAmount 0
+Powerup.Type TimeFreezer
+Powerup.Color GoldMap
+Inventory.PickupMessage "Time freeze!"
++FLOATBOB
++COUNTITEM
++NOGRAVITY
++NOTIMEFREEZE
++INVENTORY.AUTOACTIVATE
+ConversationID 335
+States
+	{
+	Spawn:
+	TIME ABCD 6 Bright
+	Loop
+	}
+}

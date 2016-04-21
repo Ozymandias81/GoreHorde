@@ -1,0 +1,4 @@
+IWAD = "doom2.wad"
+STARTUPTITLE = "= = = = = = = = = = = = = = G  O  R  E = = = = = = = = = = = = = ="
+STARTUPCOLORS = "EA0000","000000"
+STARTUPTYPE = "Strife"

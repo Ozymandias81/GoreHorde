@@ -1,0 +1,126 @@
+//splashes
+actor WaterSplashBase2 : WaterSplashBase
+{
+renderstyle Add
+alpha 0.5
+}
+
+actor WaterSplash2 : WaterSplash
+{
+renderstyle Add
+alpha 0.5
+}
+
+actor BloodSplashBase2 : BloodSplashBase
+{
+renderstyle Translucent
+alpha 0.4
+}
+
+actor BloodSplash2 : BloodSplash
+{
+renderstyle Translucent
+alpha 0.4
+//scale 0.7
+}
+
+actor SlimeSplash2 : SlimeSplash
+{
+renderstyle Translucent
+alpha 0.7
+}
+
+actor SlimeChunk2 : SlimeChunk
+{
+renderstyle Translucent
+alpha 0.7
+}
+
+actor LavaSplash2 : LavaSplash
+{
+renderstyle Add
+alpha 0.5
+}
+
+actor SludgeSplash2 : SludgeSplash
+{
+renderstyle Translucent
+alpha 0.6
+}
+
+actor SludgeChunk2 : SludgeChunk
+{
+renderstyle Translucent
+alpha 0.6
+}
+
+//mud--a brown variant of the "sludge" that better fits Doom's brown sludgy textures
+ACTOR MudChunk
+{
+Radius 2
+Height 4
++NOBLOCKMAP
++MISSILE
++DROPOFF
++NOTELEPORT
++LOWGRAVITY
++CANNOTPUSH
++DONTSPLASH
+renderstyle Translucent
+alpha 0.6
+States
+	{
+	Spawn:
+	MUDS ABCD 8
+	Stop
+	Death:
+	MUDS D 6
+	Stop
+	}
+}
+
+ACTOR MudSplash
+{
++NOBLOCKMAP
++NOCLIP
++NOGRAVITY
++DONTSPLASH
+renderstyle Translucent
+alpha 0.6
+States
+	{
+	Spawn:
+	MUDS EFGH 6
+	Stop
+	}
+}
+
+//new splash
+ACTOR IceDebris
+{
+Game Doom
+Radius 2
+Height 4
++MISSILE
++DROPOFF
++NOBLOCKMAP
++NOTELEPORT
++LOWGRAVITY
++CANNOTPUSH
++DONTSPLASH
++WINDTHRUST
++CLIENTSIDEONLY
+Renderstyle ADD
+Alpha 0.5
+scale 0.7
+States
+	{
+	Spawn:
+	ICYD AABBCC 8 A_FadeIn(0.8)
+	ICYD DD 16 A_FadeOut(0.16)
+	Stop
+	Death:
+	ICYD D 10 A_FadeOut(0.32)
+	Stop
+	}
+}

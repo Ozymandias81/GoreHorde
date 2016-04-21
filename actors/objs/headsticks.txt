@@ -1,0 +1,76 @@
+//health & +shootable for NashGores;
+ACTOR DoomHeadStick 12000
+{
+//$Category New Obstacles
+Tag "Doom Head Stick"
+Game Doom
+Radius 16
+Height 56
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
++SOLID
+States
+	{
+	Spawn:
+	HPOL A -1
+	Stop
+	}
+}
+
+ACTOR ImpHeadStick 12001
+{
+//$Category New Obstacles
+Tag "Imp Head Stick"
+Game Doom
+Radius 16
+Height 56
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
++SOLID
+States
+	{
+	Spawn:
+	HPOL B -1
+	Stop
+	}
+}
+
+ACTOR TrooperHeadStick 12002
+{
+//$Category New Obstacles
+Tag "Trooper Head Stick"
+Game Doom
+Radius 16
+Height 53
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
++SOLID
+States
+	{
+	Spawn:
+	HPOL C -1
+	Stop
+	}
+}
+
+ACTOR CyberHeadStick 12003
+{
+//$Category New Obstacles
+Tag "Cyberdemon Head Stick"
+Game Doom
+Radius 24
+Height 64
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
++SOLID
+States
+	{
+	Spawn:
+	HPOL D -1
+	Stop
+	}
+}

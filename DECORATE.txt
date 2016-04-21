@@ -1,0 +1,204 @@
+//Builders note: many of these following actors have been redefined for gaming purposes, so take a look to them!
+//As you can see, actors are sorted in alphabetical order: if you need to add other actors just try to keep them sorted.
+
+//Miscellanea
+#include "actors/misc/enhweaps.txt"
+#include "actors/misc/dmgtypes.txt"					//all the new damagetypes
+#include "actors/misc/miscgore.txt"					//new gibs + some redefined doom actors
+#include "actors/misc/nashblod.txt"
+#include "actors/misc/nashbody.txt"
+#include "actors/misc/nashdoom.txt"
+#include "actors/misc/nashgibs.txt"
+#include "actors/misc/plysgore.txt"					//new classes + some fake actors
+#include "actors/misc/puzzles.txt"					//new puzzle items
+#include "actors/misc/ravens.txt"
+#include "actors/misc/splashes.txt"
+#include "actors/misc/transblod.txt"				//new translated bleedings
+#include "actors/misc/transbody.txt"				//new translated bodies
+#include "actors/misc/transgibs.txt"				//new translated gibs
+//#include "actors/misc/ral22stuff.txt"				//amazing climbage stuff by ral22
+
+//Monsters - Builders note: many creatures have XDeath, Burn & Crush states and new effects added for happy gibs!
+#include "actors/mons/afrit.txt"
+#include "actors/mons/arachnobaron.txt"
+#include "actors/mons/archonofhell.txt"
+#include "actors/mons/belphegor.txt"
+#include "actors/mons/bruiserdemon.txt"
+#include "actors/mons/cardinal.txt"					//+ paingasm familiar
+#include "actors/mons/cyberbaron.txt"
+#include "actors/mons/cyberfiend.txt"
+#include "actors/mons/cyberimp.txt"
+#include "actors/mons/cybruiser.txt"
+#include "actors/mons/darknessrift.txt"
+#include "actors/mons/diabloist.txt"
+#include "actors/mons/esoul.txt"
+#include "actors/mons/fallen.txt"
+#include "actors/mons/flamerzombie.txt"
+#include "actors/mons/freezerifleguy.txt"
+#include "actors/mons/ghorror.txt" 					//new boss
+#include "actors/mons/grell.txt"
+#include "actors/mons/hellion.txt"
+#include "actors/mons/hellrose.txt"
+#include "actors/mons/hellsfury.txt"
+#include "actors/mons/hellwarrior.txt"
+#include "actors/mons/hierophant.txt"
+#include "actors/mons/hornbeast.txt"
+#include "actors/mons/hstormarchon.txt"
+#include "actors/mons/impwarlord.txt"				//+ bat, dragon familiars & bats flock spawner
+#include "actors/mons/lavademon.txt"
+#include "actors/mons/lohs.txt"
+#include "actors/mons/maulerdemon.txt"
+#include "actors/mons/nightmare.txt"
+#include "actors/mons/nmaredemon.txt"
+#include "actors/mons/phantom.txt"
+#include "actors/mons/piranha.txt"					//new
+#include "actors/mons/plasmademon.txt"
+#include "actors/mons/poisonsoul.txt"
+#include "actors/mons/profaneone.txt"
+#include "actors/mons/pyrodemon.txt"
+#include "actors/mons/pyroimp.txt"
+#include "actors/mons/qshotzombie.txt"
+#include "actors/mons/roach.txt"
+#include "actors/mons/rotwraith.txt"
+#include "actors/mons/shadow.txt"
+#include "actors/mons/sharvester.txt"
+#include "actors/mons/snakeimp.txt"
+#include "actors/mons/spiritimp.txt"
+#include "actors/mons/squire.txt"
+#include "actors/mons/ssgzombie.txt"
+#include "actors/mons/stonedemon.txt"				//+ stonedemon statue
+#include "actors/mons/suicidebomber.txt"
+#include "actors/mons/teslacoil.txt"
+#include "actors/mons/timeimp.txt"
+#include "actors/mons/tornadodemon.txt"		 //+ new goreleaf spawner - hexen like
+#include "actors/mons/unmancubus.txt"
+#include "actors/mons/volacubi.txt"
+#include "actors/mons/vore.txt"
+#include "actors/mons/vulgar.txt"
+#include "actors/mons/wohl.txt"
+
+//Other NPCs - all the new actors with dialogues and/or with some sort of interactivities
+#include "actors/npcs/chnesoth.txt"
+
+//3d Objects
+#include "actors/3dobjs/3dbases.txt"
+#include "actors/3dobjs/heretic2.txt"
+#include "actors/3dobjs/hexen2.txt"
+#include "actors/3dobjs/jk3.txt"
+#include "actors/3dobjs/quake1.txt"
+//#include "actors/3dobjs/quake2.txt"
+
+//Objects
+#include "actors/objs/bible.txt"
+#include "actors/objs/blacktorch.txt"				//+ connections with cinder sfx
+#include "actors/objs/bloodychalice.txt"
+#include "actors/objs/bloodyheads.txt"
+#include "actors/objs/bonepile.txt"
+#include "actors/objs/ceramicpotery.txt"
+#include "actors/objs/crucifiedcorpses.txt"
+#include "actors/objs/cybergore.txt"
+#include "actors/objs/d64torches.txt"
+#include "actors/objs/daisyscenes.txt"
+#include "actors/objs/deadswamptrees.txt"
+#include "actors/objs/dmburning.txt" 				//+ connections with cinder sfx & fire sfx sounds
+#include "actors/objs/doompillars.txt" 				//+ connections with cinder sfx
+#include "actors/objs/doomstatues.txt"
+#include "actors/objs/evileyes.txt"
+#include "actors/objs/firewood.txt"
+#include "actors/objs/garden.txt"
+#include "actors/objs/goredec.txt"
+#include "actors/objs/gorepack.txt"
+#include "actors/objs/hangedimps.txt"
+#include "actors/objs/hangedmarines.txt"
+#include "actors/objs/headsticks.txt"
+#include "actors/objs/hellgrowth.txt"
+#include "actors/objs/helltrees.txt"
+#include "actors/objs/hxburning.txt" 				//+ connections with cinder sfx & fire sfx sounds
+#include "actors/objs/icestalags.txt"
+#include "actors/objs/impaledmarines.txt"
+#include "actors/objs/impstick.txt"
+#include "actors/objs/lamps.txt"
+#include "actors/objs/lavacauldron.txt" 			//+ connections with cinder sfx
+#include "actors/objs/limestones.txt"
+#include "actors/objs/marblecolumns.txt"
+#include "actors/objs/marinevictim.txt"
+#include "actors/objs/mushrooms.txt"
+#include "actors/objs/myobjs.txt" 					//new + connections with cinder sfx
+#include "actors/objs/necrorocks.txt"
+#include "actors/objs/necrotombs.txt"
+#include "actors/objs/newkeys.txt"					//pink card is now purple... that was too gay for me
+#include "actors/objs/phobosrocks.txt"
+#include "actors/objs/potions.txt"
+#include "actors/objs/radcorpses.txt"
+#include "actors/objs/ravenpillars.txt" 			//+ connections with cinder sfx
+#include "actors/objs/rooflights.txt"
+#include "actors/objs/seaweed.txt"
+#include "actors/objs/serpbraziers.txt" 			//+ connections with cinder sfx
+#include "actors/objs/skewcorpses.txt"
+#include "actors/objs/skulltree.txt"
+#include "actors/objs/stgores.txt"
+#include "actors/objs/stoneheads.txt"
+#include "actors/objs/stonetorches.txt" 			//+ connections with cinder sfx
+#include "actors/objs/switchtechlamps.txt"
+#include "actors/objs/techbarrels.txt"
+#include "actors/objs/torturedbaron.txt"
+#include "actors/objs/trees&bushes.txt"
+#include "actors/objs/uacholos.txt"
+#include "actors/objs/walltorches.txt"
+#include "actors/objs/zappers.txt"
+
+//Weapons - Builders note: some weapons have new alternate fire modes
+#include "actors/weaps/bfg10k.txt"
+#include "actors/weaps/cryobow.txt"
+#include "actors/weaps/fistredux.txt"				//uses stamina (fake actor)
+#include "actors/weaps/flamethrower.txt"
+#include "actors/weaps/flashlight.txt"				//new
+#include "actors/weaps/freezerifle.txt"				//slightly modified version
+#include "actors/weaps/goreammo.txt"				//all the needed/new ammos
+#include "actors/weaps/necronomicon.txt"
+#include "actors/weaps/pyrocannon.txt"
+#include "actors/weaps/qshot.txt"
+#include "actors/weaps/silencepist.txt"
+#include "actors/weaps/stminigun.txt"
+#include "actors/weaps/tbhgrenlaun.txt"				//awesome BadHustlex - Eriance grenade launcher
+
+//SpecialFX
+#include "actors/specfx/acidrain.txt"				//new rain variant - does damage - biosuit protect from it
+#include "actors/specfx/ashspawner.txt"
+#include "actors/specfx/autumnspawner.txt"			//new ash + new rain variants - spawns leaves!
+#include "actors/specfx/bloodyrain.txt"				//new rain variant
+#include "actors/specfx/bubbles.txt"
+#include "actors/specfx/cinderspawner.txt"
+#include "actors/specfx/cloudspawner.txt"
+#include "actors/specfx/crows.txt"					//added new crowspawner actor - from props to specfx
+#include "actors/specfx/emberspawner.txt"
+#include "actors/specfx/fallspawner.txt"			//new - uses cryobow smoke sprites
+#include "actors/specfx/fire.txt"
+#include "actors/specfx/fog.txt"
+#include "actors/specfx/lavaballspawner.txt"
+#include "actors/specfx/rainspawner.txt"
+#include "actors/specfx/scurryingrats.txt"
+#include "actors/specfx/snowspawner.txt"
+#include "actors/specfx/soulspawner.txt"
+#include "actors/specfx/steamspawner.txt"
+#include "actors/specfx/t667thun.txt"
+#include "actors/specfx/tport.txt"
+#include "actors/specfx/unholysparkle.txt"			//new teleport sparkle variant
+#include "actors/specfx/waterlits.txt"				//captaintoenail + mine underwater lights fx
+
+//PowerUps
+#include "actors/powups/armorshard.txt"
+#include "actors/powups/biosuit.txt"
+#include "actors/powups/cloakot.txt" 				//new
+#include "actors/powups/flightsphere.txt"
+#include "actors/powups/guardsphere.txt"
+#include "actors/powups/hastesphere.txt"
+#include "actors/powups/megapack.txt"
+#include "actors/powups/ragesphere.txt"
+#include "actors/powups/regensphere.txt"
+#include "actors/powups/shieldsphere.txt"
+#include "actors/powups/supershield.txt"
+#include "actors/powups/timefreeze.txt"
+
+//Voxels - Builders note: Voxels are tricky to get placed on maps, so be patient!
+#include "actors/misc/kvxgore.txt"					//new from Blood & Shadow Warrior

@@ -1,0 +1,468 @@
+//SmokeSpawners from WW-DIAZ: The Last Hour Of Purity by wildweasel
+ACTOR PistolSmokeSpawner
+{
+Radius 1
+Height 1
+Speed 25
+PROJECTILE
+States
+	{
+	Spawn:
+	TNT1 A 1
+	TNT1 A 0 A_Die
+	Goto Death
+	Death:
+	TNT1 A 0 A_CustomMissile("PistolSmoke",random(-2,2),0,0)
+	Stop
+	}
+}
+
+ACTOR PistolSmoke
+{
+Radius 1
+Height 1
+RenderStyle ADD
+Alpha 0.6
+Scale 0.1
++NOCLIP
++NOGRAVITY
++NOBLOCKMAP
++DONTSPLASH
++CLIENTSIDEONLY
++FORCEXYBILLBOARD
+States
+	{
+	Spawn:
+	SMSP ABCDEFGHIJKLMNOPQ 1
+	Stop
+	}
+}
+
+ACTOR ShotSmokeSpawner
+{
+Radius 1
+Height 1
+Speed 20
+PROJECTILE
+States
+	{
+	Spawn:
+	TNT1 A 1
+	TNT1 A 0 A_Die
+	Goto Death
+	Death:
+	TNT1 A 0 A_CustomMissile("ShotSmoke",random(-2,2),0,0)
+	Stop
+	}
+}
+
+ACTOR ShotSmoke
+{
+Radius 1
+Height 1
+RenderStyle ADD
+Alpha 0.6
+Scale 0.15
++NOCLIP
++NOGRAVITY
++NOBLOCKMAP
++DONTSPLASH
++CLIENTSIDEONLY
++FORCEXYBILLBOARD
+States
+	{
+	Spawn:
+	SMSP ABCDEFGHIJKLMNOPQ 1
+	Stop
+	}
+}
+
+ACTOR ChainSmokeSpawner
+{
+Radius 1
+Height 1
+Speed 28
+PROJECTILE
+States
+	{
+	Spawn:
+	TNT1 A 1
+	TNT1 A 0 A_Die
+	Goto Death
+	Death:
+	TNT1 A 0 A_CustomMissile("ChainSmoke",random(-2,2),0,0)
+	Stop
+	}
+}
+
+ACTOR ChainSmoke
+{
+Radius 1
+Height 1
+RenderStyle ADD
+Alpha 0.5
+Scale 0.20
++NOCLIP
++NOGRAVITY
++NOBLOCKMAP
++DONTSPLASH
++CLIENTSIDEONLY
++FORCEXYBILLBOARD
+States
+	{
+	Spawn:
+	SMSP ABCDEFGHIJKLMNOPQ 1
+	Stop
+	}
+}
+
+//Weapons Base Decorate Enhancement from UTNT by Tormentor667
+ACTOR NewChaingun : Chaingun replaces Chaingun
+{
+attacksound "weapons/chngun"
+Decal BulletChip
+States
+	{
+	Fire:
+	CHGG A 0 A_GunFlash
+	TNT1 A 0 A_SetBlend("Orange",0.025,4)
+	CHGG A 0 A_SpawnItemEx("PisCaseSpawn", random(20,28), random(6,8), random(20,28), momx, momy, momz, 0, random(128,132))
+	CHGG A 3 A_FireBullets(4,4,1,5,"NewPuff",1)
+	TNT1 A 0 ACS_Execute(905,0,4,0,0)
+	TNT1 A 0 A_JumpIf(waterlevel > 0,2)
+	TNT1 A 0 A_FireCustomMissile("ChainSmokeSpawner",0,0,0,random(-4,4),0,0)
+	CHGG A 0 A_JumpIfNoAmmo(5)
+	CHGG B 0 A_SpawnItemEx("PisCaseSpawn", random(20,28), random(6,8), random(20,28), momx, momy, momz, 0, random(128,132))
+	CHGG B 3 A_FireBullets(4,4,1,5,"NewPuff",1)
+	TNT1 A 0 A_JumpIf(waterlevel > 0,2)
+	TNT1 A 0 A_FireCustomMissile("ChainSmokeSpawner",0,0,0,random(-4,4),0,0)
+	CHGG B 0 A_Refire
+	TNT1 A 0 A_PlaySound("weapons/cgunspindown",6,1.5)
+	CHGG ABAB 3
+	CHGG AB 3
+	CHGG AB 5
+	Goto Ready
+	Flash:
+	CHGF A 4 BRIGHT A_Light1
+	CHGF A 0 BRIGHT A_JumpIfNoAmmo(2)
+	CHGF B 4 BRIGHT A_Light2
+	TNT1 B 0 BRIGHT A_Light0
+	Stop
+	}
+}
+
+ACTOR NewPuff : BulletPuff
+{
+Alpha 1.0
+States
+	{
+	Spawn:
+	Melee:
+	PUFF A 2
+	PUFF A 0 A_Jump(128,2)
+	PUFF A 2 A_SpawnItemEx("Puff2", 0, 0, 0, 0, 0, 0, 0, 128)
+	PUFF BCD 4
+	Stop
+	}
+}
+
+ACTOR Puff2
+{
+PROJECTILE
++NOCLIP
+Mass 1
+States
+	{
+	Spawn:
+	PUFF E 2 Bright
+	PUFF E 2 Bright A_PlaySound("puff/ric")
+	PUFF FGH 4 Bright
+	Stop
+	}
+}
+
+ACTOR NewPistol : Pistol replaces Pistol
+{
+AttackSound "weapons/pistol"
+Decal BulletChip
+States
+	{
+	Fire:
+	PISG A 2
+	PISG A 1 A_SpawnItemEx("PisCaseSpawn",random(20,24),0,random(29,32),momx, momy, momz, 0, random(128,132))
+	PISG B 0 A_GunFlash
+	TNT1 A 0 A_SetBlend("Orange",0.020,3)
+	PISG B 6 A_FireBullets(4,4,1,5,"NewPuff",1)
+	TNT1 A 0 A_JumpIf(waterlevel > 0,2)
+	TNT1 A 0 A_FireCustomMissile("PistolSmokeSpawner",0,0,0,random(-4,4),0,0)
+	PISG C 4
+	PISG B 5 A_Refire
+	Goto Ready
+	Hold:
+	PISG A 2
+	PISG A 0 A_SpawnItemEx("PisCaseSpawn",random(20,24),0,random(29,32),momx, momy, momz, 0, random(128,132))
+	PISG B 0 A_GunFlash
+	TNT1 A 0 A_SetBlend("Orange",0.020,3)
+	PISG B 6 A_FireBullets(4,4,1,5,"NewPuff",1)
+	TNT1 A 0 A_JumpIf(waterlevel > 0,2)
+	TNT1 A 0 A_FireCustomMissile("ChainSmokeSpawner",0,0,0,random(-4,4),0,0)
+	PISG C 4
+	PISG B 5 A_Refire
+	Goto Ready
+	}
+}
+
+ACTOR PisCaseSpawn
+{
+Speed 20
+PROJECTILE
++NOCLIP
++NOTELEFRAG //avoiding telefragging problems
++NOTELEPORT //ATP
+States
+	{
+	Spawn:
+	TNT1 AA 1 A_SpawnItemEx("PistolCasing", 0, 0, 0, 4, 0, Random(2, 4), Random(85, 95), 128)
+	Stop
+	}
+}
+
+ACTOR PistolCasing
+{
+Height 8
+Radius 6
+Speed 4
+Scale 0.45
+BounceFactor 0.4
+Mass 128
+PROJECTILE
++DOOMBOUNCE
++NOTELEFRAG //ATP
++NOTELEPORT //ATP
+-NOGRAVITY
+-NOBLOCKMAP
+Seesound "weapons/case1"
+States
+	{
+	Spawn:
+	CAS2 A 0 A_Playsound("NULL")
+	CAS2 ABCD 2 A_JumpIf(waterlevel > 0, "WaterDeath")
+	Goto Spawn+1
+	Death:
+	CAS2 A 0 A_Jump(64,4)
+	CAS2 A 0 A_Jump(85,4)
+	CAS2 A 0 A_Jump(128,4)
+	CAS2 A 350
+	Stop
+	CAS2 B 350
+	Stop
+	CAS2 C 350
+	Stop
+	CAS2 D 350
+	Stop
+	WaterDeath:
+	CAS2 A 0 A_Jump(64,4)
+	CAS2 A 0 A_Jump(85,4)
+	CAS2 A 0 A_Jump(128,4)
+	CAS2 A 128
+	Stop
+	CAS2 B 128
+	Stop
+	CAS2 C 128
+	Stop
+	CAS2 D 128
+	Stop
+	}
+}
+
+ACTOR NewShotgun : Shotgun replaces Shotgun
+{
+AttackSound "weapons/shotgf"
+Decal BulletChip
+States
+	{
+	Fire:
+	SHTG A 3
+	SHTG A 0 A_GunFlash
+	TNT1 A 0 A_SetBlend("Orange",0.025,4)
+	SHTG A 7 A_FireBullets(5.6, 0, 7, 5, "NewPuff")
+	TNT1 A 0 ACS_Execute(905,0,1,0,0)
+	TNT1 A 0 A_JumpIf(waterlevel > 0,2)
+	TNT1 A 0 A_FireCustomMissile("ShotSmokeSpawner",0,0,0,random(-4,4),0,0)
+	SHTG BC 5
+	SHTG D 1
+	SHTG D 3 A_SpawnItemEx("ShotCaseSpawn", random(20,24), -4, random(24,28), momx, momy, momz, 0, random(128,132))
+	SHTG CB 5
+    SHTG A 1 Offset(10,36)
+    SHTG A 1 Offset(9,38)
+    SHTG A 1 Offset(7,38)
+    SHTG A 1 Offset(4,36)
+    SHTG A 1 Offset(0,32)
+	SHTG A 7 A_Refire
+	Goto Ready
+	Hold:
+	SHTG A 3
+	SHTG A 0 A_GunFlash
+	TNT1 A 0 A_SetBlend("Orange",0.025,4)
+	SHTG A 7 A_FireBullets(5,3,7,5,"NewPuff")
+	TNT1 A 0 ACS_Execute(905,0,1,0,0)
+	TNT1 A 0 A_JumpIf(waterlevel > 0,2)
+	TNT1 A 0 A_FireCustomMissile("ShotSmokeSpawner",0,0,0,random(-4,4),0,0)
+	SHTG BC 5
+	SHTG D 1
+	SHTG D 3 A_SpawnItemEx("ShotCaseSpawn", random(20,24), -4, random(24,28), momx, momy, momz, 0, random(128,132))
+	SHTG CB 5
+    SHTG A 1 Offset(10,36)
+    SHTG A 1 Offset(9,40)
+    SHTG A 1 Offset(4,40)
+    SHTG A 1 Offset(0,32)
+	SHTG A 7 A_Refire
+	Goto Ready
+	}
+}
+
+ACTOR NewSuperShotgun : SuperShotgun replaces SuperShotgun
+{
+AttackSound "weapons/sshotf"
+Decal BulletChip
+States
+	{
+	Fire:
+	SHT2 A 3
+	SHT2 A 0 A_GunFlash
+	TNT1 A 0 A_SetBlend("Orange",0.045,4)
+	SHT2 A 7 A_FireBullets(12,6,20,5,"NewPuff")
+	TNT1 A 0 ACS_Execute(905,0,2,0,0)
+	TNT1 A 0 A_JumpIf(waterlevel > 0,3)
+	TNT1 AA 0 A_FireCustomMissile("ShotSmokeSpawner",0,0,0,random(-4,4),0,0)
+	SHT2 B 7 A_CheckReload
+	SHT2 C 7
+	SHT2 D 0 A_SpawnItemEx("SShotCaseSpawn", random(20,24), -2, random(30,34), 0, 0, 0, random(180,184), random(128,132))
+	SHT2 D 0 A_SpawnItemEx("SShotCaseSpawn", random(20,24), 2, random(30,34), 0, 0, 0, random(180,184), random(128,132))
+	SHT2 D 7 A_PlaySound("weapons/sshoto")
+	SHT2 E 7
+	SHT2 F 7 A_PlaySound("weapons/sshotl")
+    SHT2 G 1 Offset(20,36)
+    SHT2 G 1 Offset(19,40)
+    SHT2 G 1 Offset(14,39)
+    SHT2 G 1 Offset(10,38)
+    SHT2 G 1 Offset(9,37)
+    SHT2 G 1 Offset(4,36)
+    SHT2 G 1 Offset(2,34)
+    SHT2 G 1 Offset(0,32)
+	SHT2 H 0 A_Refire
+	SHT2 H 7 A_PlaySound("weapons/sshotc")
+	Goto Ready
+	Hold:
+	SHT2 A 3
+	SHT2 A 0 A_GunFlash
+	TNT1 A 0 A_SetBlend("Orange",0.045,4)
+	SHT2 A 7 A_FireBullets(12,6,20,5,"NewPuff")
+	TNT1 A 0 ACS_Execute(905,0,2,0,0)
+	TNT1 A 0 A_JumpIf(waterlevel > 0,3)
+	TNT1 AA 0 A_FireCustomMissile("ShotSmokeSpawner",0,0,0,random(-4,4),0,0)
+	SHT2 B 7 A_CheckReload
+	SHT2 C 7
+	SHT2 D 0 A_SpawnItemEx("SShotCaseSpawn", random(20,24), -2, random(30,34), 0, 0, 0, random(180,184), random(128,132))
+	SHT2 D 0 A_SpawnItemEx("SShotCaseSpawn", random(20,24), 2, random(30,34), 0, 0, 0, random(180,184), random(128,132))
+	SHT2 D 7 A_PlaySound("weapons/sshoto")
+	SHT2 E 7
+	SHT2 F 7 A_PlaySound("weapons/sshotl")
+    SHT2 A 1 Offset(20,36)
+    SHT2 A 1 Offset(19,40)
+    SHT2 A 1 Offset(14,39)
+    SHT2 A 1 Offset(10,38)
+    SHT2 A 1 Offset(9,37)
+    SHT2 A 1 Offset(4,36)
+    SHT2 A 1 Offset(2,34)
+    SHT2 A 1 Offset(0,32)
+	SHT2 H 0 A_Refire
+	SHT2 H 7 A_PlaySound("weapons/sshotc")
+	Goto Ready
+	}
+}
+
+ACTOR ShotCaseSpawn : PisCaseSpawn
+{
+States
+	{
+	Spawn:
+	TNT1 AA 1 A_SpawnItemEx("ShotgunCasing", 0, 0, 0, 4, 0, Random(2, 4), Random(-95, -85), 128)
+	Stop
+	}
+}
+
+ACTOR SShotCaseSpawn : ShotCaseSpawn
+{
+Speed 66
+States
+	{
+	Spawn:
+	TNT1 AA 1 A_SpawnItemEx("ShotgunCasing", 0, 0, 0, 4, 0, Random(2, 4), Random(-95, -85), 128)
+	Stop
+	}
+}
+
+ACTOR ShotgunCasing : PistolCasing
+{
+Height 12
+Radius 9
+Mass 192
+Scale 0.7
+SeeSound "weapons/shell"
+States
+	{
+	Spawn:
+	D3S1 A 0 A_PlaySound("NULL")
+	D3S1 ACBHEGFD 1 A_JumpIf(waterlevel > 0, "WaterDeath")
+	Goto Spawn+1
+	Death:
+	D3S1 A 0 A_Jump(32,8)
+	D3S1 A 0 A_Jump(37,8)
+	D3S1 A 0 A_Jump(43,8)
+	D3S1 A 0 A_Jump(51,8)
+	D3S1 A 0 A_Jump(64,8)
+	D3S1 A 0 A_Jump(85,8)
+	D3S1 A 0 A_Jump(128,8)
+	D3S1 A 350
+	Stop
+	D3S1 B 350
+	Stop
+	D3S1 C 350
+	Stop
+	D3S1 D 350
+	Stop
+	D3S1 E 350
+	Stop
+	D3S1 F 350
+	Stop
+	D3S1 G 350
+	Stop
+	D3S1 H 350
+	Stop
+	WaterDeath:
+	D3S1 A 0 A_Jump(32,8)
+	D3S1 A 0 A_Jump(37,8)
+	D3S1 A 0 A_Jump(43,8)
+	D3S1 A 0 A_Jump(51,8)
+	D3S1 A 0 A_Jump(64,8)
+	D3S1 A 0 A_Jump(85,8)
+	D3S1 A 0 A_Jump(128,8)
+	D3S1 A 128
+	Stop
+	D3S1 B 128
+	Stop
+	D3S1 C 128
+	Stop
+	D3S1 D 128
+	Stop
+	D3S1 E 128
+	Stop
+	D3S1 F 128
+	Stop
+	D3S1 G 128
+	Stop
+	D3S1 H 128
+	Stop
+	}
+}

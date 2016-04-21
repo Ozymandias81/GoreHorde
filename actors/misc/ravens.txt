@@ -1,0 +1,310 @@
+ACTOR GoreShard : GlassShard replaces GlassShard //Redefined Hexen's GlassShard
+{
+Game Doom
+Radius 5
+Mass 5
+Projectile
+-ACTIVATEPCROSS
+-ACTIVATEIMPACT
++NOTELEPORT
++NOTELEFRAG
+BounceType "DoomCompat"
+BounceFactor 0.3
+}
+
+ACTOR GoreShard1 : GoreShard
+{
+Game Doom
+SpawnID 54
+renderstyle Translucent
+alpha 0.7
++DONTSPLASH
+States
+	{
+	Spawn:
+	SGSA ABCDE 4
+	Loop
+	Death:
+	SGSA E 900 A_FadeOut(0.16)
+	Stop
+	}
+}
+
+ACTOR GoreShard2 : GoreShard
+{
+SpawnID 55
+renderstyle Translucent
+alpha 0.7
++DONTSPLASH
+States
+	{
+	Spawn:
+	SGSA FGHIJ 4
+	Loop
+	Death:
+	SGSA J 900 A_FadeOut(0.16)
+	Stop
+	}
+}
+
+ACTOR GoreShard3 : GoreShard
+{
+SpawnID 56
+renderstyle Translucent
+alpha 0.7
++DONTSPLASH
+States
+	{
+	Spawn:
+	SGSA KLMNO 4
+	Loop
+	Death:
+	SGSA O 900 A_FadeOut(0.16)
+	Stop
+	}
+}
+
+ACTOR GoreShard4 : GoreShard
+{
+SpawnID 57
+renderstyle Translucent
+alpha 0.7
++DONTSPLASH
+States
+	{
+	Spawn:
+	SGSA PQRST 4
+	Loop
+	Death:
+	SGSA T 900 A_FadeOut(0.16)
+	Stop
+	}
+}
+
+ACTOR GoreShard5 : GoreShard
+{
+SpawnID 58
+renderstyle Translucent
+alpha 0.7
++DONTSPLASH
+States
+	{
+	Spawn:
+	SGSA UVWXY 4
+	Loop
+	Death:
+	SGSA Y 900 A_FadeOut(0.16)
+	Stop
+	}
+}
+
+ACTOR GoreShard6 : GoreShard
+{
+SpawnID 59
+renderstyle Translucent
+alpha 0.7
++DONTSPLASH
+States
+	{
+	Spawn:
+	SGSB A 4
+	Loop
+	Death:
+	SGSB A 900 A_FadeOut(0.16)
+	Stop
+	}
+}
+
+ACTOR GoreShard7 : GoreShard
+{
+SpawnID 60
+renderstyle Translucent
+alpha 0.7
++DONTSPLASH
+States
+	{
+	Spawn:
+	SGSB B 4
+	Loop
+	Death:
+	SGSB B 900 A_FadeOut(0.16)
+	Stop
+	}
+}
+
+ACTOR GoreShard8 : GoreShard
+{
+SpawnID 61
+renderstyle Translucent
+alpha 0.7
++DONTSPLASH
+States
+	{
+	Spawn:
+	SGSB C 4
+	Loop
+	Death:
+	SGSB C 900 A_FadeOut(0.16)
+	Stop
+	}
+}
+
+ACTOR GoreShard9 : GoreShard
+{
+SpawnID 62
+renderstyle Translucent
+alpha 0.7
++DONTSPLASH
+States
+	{
+	Spawn:
+	SGSB D 4
+	Loop
+	Death:
+	SGSB D 900 A_FadeOut(0.16)
+	Stop
+	}
+}
+
+ACTOR GoreShard0 : GoreShard
+{
+SpawnID 63
+renderstyle Translucent
+alpha 0.7
++DONTSPLASH
+States
+	{
+	Spawn:
+	SGSB E 4
+	Loop
+	Death:
+	SGSB E 900 A_FadeOut(0.16)
+	Stop
+	}
+}
+//Special Window Thing - Useful only with ACS
+ACTOR ZWindow8 119
+{
+//$Category Special Effects
+Tag "Window 8x"
+Game Doom
+Health 1
+Radius 4
+Height 128
++SHOOTABLE
++NOBLOOD
++NOBLOODDECALS
+Activation THINGSPEC_MissileTrigger
+States
+	{
+	Spawn:
+	NULL A 4 Bright
+	Loop
+	Death:
+	NULL A -1
+	Stop
+	}
+}
+
+ACTOR ZWindow16 120
+{
+//$Category Special Effects
+Tag "Window 16x"
+Game Doom
+Health 1
+Radius 8
+Height 128
++SHOOTABLE
++NOBLOOD
++NOBLOODDECALS
+Activation THINGSPEC_MissileTrigger
+States
+	{
+	Spawn:
+	NULL A 4 Bright
+	Loop
+	Death:
+	NULL A -1
+	Stop
+	}
+}
+
+ACTOR ZWindow32 121
+{
+//$Category Special Effects
+Tag "Window 32x"
+Game Doom
+Health 1
+Radius 16
+Height 128
++SHOOTABLE
++NOBLOOD
++NOBLOODDECALS
+Activation THINGSPEC_MissileTrigger
+States
+	{
+	Spawn:
+	NULL A 4 Bright
+	Loop
+	Death:
+	NULL A -1
+	Stop
+	}
+}
+
+ACTOR ZWindow64 122
+{
+//$Category Special Effects
+Tag "Window 64x"
+Game Doom
+Health 1
+Radius 32
+Height 128
++SHOOTABLE
++NOBLOOD
++NOBLOODDECALS
+Activation THINGSPEC_MissileTrigger
+States
+	{
+	Spawn:
+	NULL A 4 Bright
+	Loop
+	Death:
+	NULL A -1
+	Stop
+	}
+}
+
+ACTOR ZWindow128 123
+{
+//$Category Special Effects
+Tag "Window 128x"
+Game Doom
+Health 1
+Radius 64
+Height 128
++SHOOTABLE
++NOBLOOD
++NOBLOODDECALS
+Activation THINGSPEC_MissileTrigger
+States
+	{
+	Spawn:
+	NULL A 4 Bright
+	Loop
+	Death:
+	NULL A -1
+	Stop
+	}
+}
+
+ACTOR GoreLeafSpawner : LeafSpawner 12999
+{
+//$Category Special Effects
+//$Sprite LEF1A0
+Tag "Gore Leaf Spawner"
+Game Doom
++NOGRAVITY
++RANDOMIZE
++CLIENTSIDEONLY
+}

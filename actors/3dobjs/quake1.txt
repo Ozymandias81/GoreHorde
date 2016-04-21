@@ -1,0 +1,66 @@
+//All models from Quake I + Expansions + AddOns
+actor Shubbie : 3dBoss 31999
+{
+//$Category My Bosses
+Tag "Shub Niggurath"
+Game Doom
++NOTARGET
+-BOSSDEATH
++RANDOMIZE
++NOICEDEATH
++NOINFIGHTING
++LOOKALLAROUND
+-ACTLIKEBRIDGE
+Speed 0
+Radius 192
+Height 188
+Health 99999999
+Mass 0x7fffffff
+Painchance 128
+DamageFactor Fire, 0.5
+DamageFactor Soul, 1.0
+DamageFactor Ice, 0.5
+RadiusDamageFactor 0.5
+States
+	{
+	Spawn:
+	3DOB ABC 4
+	Loop
+	See:
+	3DOB ABCDEFGHIJKLMNOPQRSTUVWXYZ 4
+	4DOB ABCDEFGHIJKLMNOPQRST 4
+	Loop
+	Pain:
+	5DOB ABCDEFGHIJKLMNOPQPONMLKJIHGFEDCBA 1
+	Goto See
+	}
+}
+
+/*actor 3dBoss
+{
+Mass 0x7fffffff
+MONSTER
++BOSS
++SOLID
++NOFEAR
++DONTGIB
++DROPPED
++SHOOTABLE
++BOSSDEATH
++DONTMORPH
++FLOORCLIP
++FULLVOLDEATH
++NOTIMEFREEZE
++NEVERRESPAWN
++ACTLIKEBRIDGE
++DONTHURTSPECIES
+//these must be always defined when needed
+DamageFactor Fire, 0
+DamageFactor HellFire, 0
+DamageFactor Poison, 0
+DamageFactor PoisonCloud, 0
+DamageFactor Soul, 0
+DamageFactor Curse, 0
+DamageFactor Ice, 0
+RadiusDamageFactor 0
+}*/

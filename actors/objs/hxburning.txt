@@ -1,0 +1,25 @@
+//health & +shootable for NashGores;
+Actor ZCorpseBurning 32118
+{
+//$Category New Obstacles
+//$Sprite WBRNA0
+Tag "Hexen Burning Corpse"
+Game Doom
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
++SOLID
+Radius 8
+Height 100
+BloodColor "Black"
+States
+	{
+	Spawn:
+	TNT1 A 0 NoDelay A_JumpIf(CallACS("Cinders")==1,"Advanced")
+	WBRN ABCDEFGH 4 Bright
+	Loop
+	Advanced:
+	WBRN ABCDEFGH 4 Bright A_SpawnItemEx("FloatingCinder", 0, 0, 8, 1, 0, random (1, 3), random (0, 360), 0, 224)
+	Goto Spawn
+	}
+}

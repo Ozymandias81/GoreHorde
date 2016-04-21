@@ -1,0 +1,48 @@
+//health & +shootable for NashGores
+ACTOR ZCorpseCrucified : ZBannerTattered 32143
+{
+//$Category New Obstacles
+Tag "Crucified Corpse"
+Game Doom
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
+States
+	{
+	Spawn:
+	CRUX A -1
+	Stop
+	}
+}
+
+ACTOR ZCorpseCrucifiedBloody : ZBannerTattered 32144
+{
+//$Category New Obstacles
+Tag "Crucified Corpse Bloody"
+Game Doom
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
+States
+	{
+	Spawn:
+	CRUX B -1
+	Stop
+	}
+}
+
+ACTOR ZCorpseCrucifiedSword : ZBannerTattered 32145
+{
+//$Category New Obstacles
+Tag "Crucified Corpse Stabbed"
+Game Doom
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
+States
+	{
+	Spawn:
+	CRUX C -1
+	Stop
+	}
+}

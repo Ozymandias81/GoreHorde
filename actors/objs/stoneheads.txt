@@ -1,0 +1,79 @@
+ACTOR BigHead1 10300
+{
+//$Category New Obstacles
+Tag "Big Stone Head 1"
+Game Doom
+Radius 24
+Height 88
++SOLID
+States
+	{
+	Spawn:
+	EHED A -1
+	Stop
+	}
+}
+
+ACTOR BigHead2 10301
+{
+//$Category New Obstacles
+Tag "Big Stone Head 2"
+Game Doom
+Radius 24
+Height 88
++SOLID
+States
+	{
+	Spawn:
+	EHED B -1
+	Stop
+	}
+}
+
+ACTOR BigHead3 10302
+{
+//$Category New Obstacles
+Tag "Big Stone Head 3"
+Game Doom
+Radius 24
+Height 88
++SOLID
+States
+	{
+	Spawn:
+	EHED C -1
+	Stop
+	}
+}
+
+ACTOR BigHead4 10303
+{
+//$Category New Obstacles
+Tag "Big Stone Head 4"
+Game Doom
+Radius 24
+Height 80
++SOLID
+States
+	{
+	Spawn:
+	EHED D -1
+	Stop
+	}
+}
+
+ACTOR BigHead5 10304
+{
+//$Category New Obstacles
+Tag "Big Stone Head 5"
+Game Doom
+Radius 24
+Height 80
++SOLID
+States
+	{
+	Spawn:
+	EHED E -1
+	Stop
+	}
+}

@@ -1,0 +1,83 @@
+Actor BlackEvilEye : EvilEye 32195
+{
+//$Category New Obstacles
+Tag "Evil Eye Black"
+Game Doom
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	BAYE ABCB 6 BRIGHT
+	Loop
+	}
+}
+
+Actor BlueEvilEye : EvilEye 32196
+{
+//$Category New Obstacles
+Tag "Evil Eye Blue"
+Game Doom
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	BEYE ABCB 6 BRIGHT
+	Loop
+	}
+}
+
+Actor GrayEvilEye : EvilEye 32197
+{
+//$Category New Obstacles
+Tag "Evil Eye Gray"
+Game Doom
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	GEYE ABCB 6 BRIGHT
+	Loop
+	}
+}
+
+Actor PurpleEvilEye : EvilEye 32198
+{
+//$Category New Obstacles
+Tag "Evil Eye Purple"
+Game Doom
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	PEYE ABCB 6 BRIGHT
+	Loop
+	}
+}
+
+Actor RedEvilEye : EvilEye 32199
+{
+//$Category New Obstacles
+Tag "Evil Eye Red"
+Game Doom
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	REYE ABCB 6 BRIGHT
+	Loop
+	}
+}
+
+Actor YellowEvilEye : EvilEye 32200
+{
+//$Category New Obstacles
+Tag "Evil Eye Yellow"
+Game Doom
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	YEYE ABCB 6 BRIGHT
+	Loop
+	}
+}

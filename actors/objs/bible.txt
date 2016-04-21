@@ -1,0 +1,14 @@
+Actor Bible 32101
+{
+//$Category New Decorations
+Tag "Bible"
+Game Doom
++FLOORCLIP
+Scale 0.4
+States
+	{
+	Spawn:
+	BIBL A -1
+	Stop
+	}
+}

@@ -1,0 +1,95 @@
+ACTOR SmallTree1 10700
+{
+//$Category New Obstacles
+Tag "Small Tree 1"
+Game Doom
+Radius 16
+Height 96
++SOLID
+States
+	{
+	Spawn:
+	TREN A -1
+	Stop
+	}
+}
+
+ACTOR SmallTree2 10701
+{
+//$Category New Obstacles
+Tag "Small Tree 2"
+Game Doom
+Radius 16
+Height 64
++SOLID
+States
+	{
+	Spawn:
+	TREN B -1
+	Stop
+	}
+}
+
+ACTOR SmallBush1 10702
+{
+//$Category New Obstacles
+Tag "Small Bush 1"
+Game Doom
+Radius 16
+Height 24
++SOLID
+States
+	{
+	Spawn:
+	BUSN A -1
+	Stop
+	}
+}
+
+ACTOR SmallBush2 10703
+{
+//$Category New Obstacles
+Tag "Small Bush 2"
+Game Doom
+Radius 16
+Height 40
++SOLID
+States
+	{
+	Spawn:
+	BUSN B -1
+	Stop
+	}
+}
+
+ACTOR SmallWinterTree1 10704
+{
+//$Category New Obstacles
+Tag "Small Winter Tree 1"
+Game Doom
+Radius 16
+Height 72
++SOLID
+States
+	{
+	Spawn:
+	TRWN A -1
+	Stop
+	}
+}
+
+ACTOR SmallWinterTree2 10705
+{
+//$Category New Obstacles
+Tag "Small Winter Tree 2"
+Game Doom
+Radius 16
+Height 88
++SOLID
+States
+	{
+	Spawn:
+	TRWN B -1
+	Stop
+	}
+}

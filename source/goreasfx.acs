@@ -1,0 +1,15 @@
+//advanced sfx toggle acs
+#library "goreasfx"
+#include "zcommon.acs"
+
+script "Cinders" (void)
+{SetResultValue(GetCVar("Cinders"));}
+
+script "Weather" (void)
+{SetResultValue(GetCVar("Weather"));}
+
+script "Bleeds" (void)
+{SetResultValue(GetCVar("Bleeds"));}
+
+script "Falls" (void)
+{SetResultValue(GetCVar("Falls"));}

@@ -1,0 +1,391 @@
+//All models from Heretic II
+//banners****************************************************
+//note: Banner2A-3AB models modified and adapted with Quake4
+//fresh Strogg skin! :-)
+actor Banner1A : 3dDeco 32300
+{
+//$Category Models - Decorations
+Tag "Banner 1 A (Heretic2)"
+Game Doom
+States
+	{
+	Spawn:
+	3DOB A 0 NoDelay
+	3DOB ABCDEFGHIJKLMNOPQRSTU 2
+	loop
+	}
+}
+
+actor Banner2A : 3dDeco 32301
+{
+//$Category Models - Decorations
+Tag "Banner 2 A (Heretic2)"
+Game Doom
+-FIXMAPTHINGPOS
+States
+	{
+	Spawn:
+	3DOB A 0 NoDelay
+	3DOB ABCDEFGHIJKLMNO 2
+	loop
+	}
+}
+
+actor Banner3A : Banner2A 32302
+{
+//$Category Models - Decorations
+Tag "Banner 3 A (Heretic2)"
+}
+
+actor Banner3B : Banner2A 32441
+{
+//$Category Models - Decorations
+Tag "Banner 3 B (Heretic2)"
+}
+
+//carts*****************************************************
+actor MineCartF : 3dObstacle 32303
+{
+//$Category Models - Obstacles
+Tag "Cart Mine Full (Heretic2)"
+Game Doom
+Radius 34
+Height 24
+States
+	{
+	Spawn:
+	3DOB A 0 NoDelay
+	3DOB A 4
+	Loop
+	Moving: //acs only
+	3DOB ABCDEFGHIJKLMNOPQRST 4
+	Loop
+	}
+}
+
+actor MineCartE : MineCartF 32304
+{
+//$Category Models - Obstacles
+Tag "Cart Mine Empty (Heretic2)"
+}
+
+actor MineCartW : 3dObstacle 32305
+{
+//$Category Models - Obstacles
+Tag "Cart Mine Wrecked (Heretic2)"
+Game Doom
+}
+
+actor WoodenCart : 3dObstacle 32306
+{
+//$Category Models - Obstacles
+Tag "Cart Pushable (Heretic2)"
+Game Doom
+Radius 32
+Height 16
+States
+	{
+	Spawn:
+	3DOB A 0 NoDelay
+	3DOB A 4
+	Loop
+	Moving: //acs only
+	3DOB ABCDEFGHIJKLMNOPQRST 4
+	Loop
+	}
+}
+
+actor LightCart : 3dObstacle 32307
+{
+//$Category Models - Obstacles
+Tag "Cart Light (Heretic2)"
+Radius 32
+Height 16
+}
+
+actor SideCart : LightCart 32308
+{
+//$Category Models - Obstacles
+Tag "Cart Light (On Side - Heretic2)"
+}
+
+//crystals**************************************************
+actor CrystalBlue : 3dObject 32309
+{
+//$Category Models - Scenery A
+Tag "Blue Crystal (Heretic2)"
+Game Doom
+Radius 64
+Height 96
++NOGRAVITY
+}
+
+actor CrystalGreen : CrystalBlue 32310
+{
+//$Category Models - Scenery A
+Tag "Green Crystal (Heretic2)"
+}
+
+actor CrystalRed : CrystalBlue 32311
+{
+//$Category Models - Scenery A
+Tag "Red Crystal (Heretic2)"
+}
+
+//statues***************************************************
+//pisces
+actor Pisces : 3dObstacle 32312
+{
+//$Category Models - Statues
+Tag "Pisces Statue (Heretic2)"
+Game Doom
+Radius 48
+Height 80
+}
+
+actor BoldFish : 3dObstacle 32313
+{
+//$Category Models - Statues
+Tag "Boulder Fish Statue (Heretic2)"
+Game Doom
+Radius 32
+Height 56
+}
+
+actor DuckBillL : 3dObstacle 32314
+{
+//$Category Models - Statues
+Tag "DuckBill Statue (Left - Heretic2)"
+Game Doom
+Radius 64
+Height 96
+}
+
+actor DuckBillR : DuckBillL 32315
+{
+//$Category Models - Statues
+Tag "DuckBill Statue (Right - Heretic2)"
+}
+
+actor SDragonL : 3dObstacle 32316
+{
+//$Category Models - Statues
+Tag "Dragon Statue (Left - Heretic2)"
+Game Doom
+Radius 64
+Height 128
+}
+
+actor SDragonR : SDragonL 32317
+{
+//$Category Models - Statues
+Tag "Dragon Statue (Right - Heretic2)"
+}
+
+//vegetation************************************************
+//plants
+actor Plant1 : 3dFlora 32319
+{
+//$Category Models - Vegetation A
+Tag "Plant 1 (Heretic2)"
+Game Doom
+Radius 8
+Height 8
+-SOLID
+}
+
+actor Plant2 : Plant1 32320
+{
+//$Category Models - Vegetation A
+Tag "Plant 2 (Heretic2)"
+}
+
+actor Plant3a : Plant1 32321
+{
+//$Category Models - Vegetation A
+Tag "Plant 3 A (Heretic2)"
+}
+
+actor Plant3b : Plant1 32322
+{
+//$Category Models - Vegetation A
+Tag "Plant 3 B (Heretic2)"
+}
+
+actor Plant3c : Plant1 32323
+{
+//$Category Models - Vegetation A
+Tag "Plant 3 C (Heretic2)"
+}
+
+//grass*****************************************************
+actor Grass : Plant1 32324
+{
+//$Category Models - Vegetation A
+Tag "Grass (Heretic2)"
+}
+
+//bush******************************************************
+actor Bush1a : Plant1 32325
+{
+//$Category Models - Vegetation A
+Tag "Bush 1 A (Heretic2)"
+}
+
+actor Bush1b : Plant1 32326
+{
+//$Category Models - Vegetation A
+Tag "Bush 1 B (Heretic2)"
+}
+
+actor Bush2 : Plant1 32327
+{
+//$Category Models - Vegetation A
+Tag "Bush 2 (Heretic2)"
+}
+
+//cactus****************************************************
+actor Cactus1a : Plant1 32328
+{
+//$Category Models - Vegetation A
+Tag "Cactus 1 A (Heretic2)"
+}
+
+actor Cactus1b : Plant1 32329
+{
+//$Category Models - Vegetation A
+Tag "Cactus 1 B (Heretic2)"
+}
+
+actor Cactus2 : Plant1 32330
+{
+//$Category Models - Vegetation A
+Tag "Cactus 2 (Heretic2)"
+}
+
+actor Cactus3 : 3dFlora 32331
+{
+//$Category Models - Vegetation C
+Tag "Cactus 3 (Heretic2)"
+Game Doom
+Radius 8
+Height 12
+States
+	{
+	Spawn:
+	3DOB A 0 NoDelay
+	3DOB AAAA 0 A_SpawnItemEx("Spore", 0, 0, 8, 2, 0, 2, Random(0, 360), random(32,128))
+	3DOB AAAAAAAA 4 A_SpawnItemEx("Spore", 0, 0, 8, 2, 0, 2, Random(0, 360), random(32,128))
+	3DOB ABCDEFGHIJKLMNOP 3
+	3DOB QQQQ 16
+	3DOB PONMLKJIHGFEDCB 3
+	loop
+	}
+}
+
+//scenery***************************************************
+actor H2Stal1a : 3dObstacle 32429
+{
+//$Category Models - Scenery A
+Tag "Stalagtite 1A (Rocky - Heretic2)"
+Game Doom
+Radius 16
+Height 164
++NOGRAVITY
++NOLIFTDROP
++SPAWNCEILING
+}
+
+actor H2Stal1b : H2Stal1a 32430
+{
+//$Category Models - Scenery A
+Tag "Stalagtite 1B (Rocky - Heretic2)"
+}
+
+actor H2Stal2a : H2Stal1a 32431
+{
+//$Category Models - Scenery A
+Tag "Stalagtite 2A (Rocky - Heretic2)"
+Radius 40
+Height 110
+}
+
+actor H2Stal2b : H2Stal1a 32432
+{
+//$Category Models - Scenery A
+Tag "Stalagtite 2B (Rocky - Heretic2)"
+Radius 40
+Height 110
+}
+
+actor H2Stal3a : H2Stal1a 32433
+{
+//$Category Models - Scenery A
+Tag "Stalagtite 3A (Rocky - Heretic2)"
+Height 168
+}
+
+actor H2Stal3b : H2Stal1a 32434
+{
+//$Category Models - Scenery A
+Tag "Stalagtite 3B (Rocky - Heretic2)"
+Height 168
+}
+
+actor H2Stag1a : 3dObstacle 32435
+{
+//$Category Models - Scenery A
+Tag "Stalagmite 1A (Rocky - Heretic2)"
+Game Doom
+Radius 16
+Height 164
++NOLIFTDROP
+}
+
+actor H2Stag1b : H2Stag1a 32436
+{
+//$Category Models - Scenery A
+Tag "Stalagmite 1B (Rocky - Heretic2)"
+}
+
+actor H2Stag2a : 3dObstacle 32437
+{
+//$Category Models - Scenery A
+Tag "Stalagmite 2A (Rocky - Heretic2)"
+Game Doom
+Radius 40
+Height 110
++NOLIFTDROP
+}
+
+actor H2Stag2b : H2Stag2a 32438
+{
+//$Category Models - Scenery A
+Tag "Stalagmite 2B (Rocky - Heretic2)"
+}
+
+actor H2Stag3a : H2Stag1a 32439
+{
+//$Category Models - Scenery A
+Tag "Stalagmite 3A (Rocky - Heretic2)"
+Height 168
+}
+
+actor H2Stag3b : H2Stag1a 32440
+{
+//$Category Models - Scenery A
+Tag "Stalagmite 3B (Rocky - Heretic2)"
+Height 168
+}
+
+//misc******************************************************
+//shrine
+actor H2Shrine : 3dObject 32332
+{
+//$Category Models - Decorations
+Tag "Magical Shrine (Heretic2)"
+Game Doom
+Height 80
++DROPPED
++NOLIFTDROP
+}

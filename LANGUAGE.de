@@ -1,0 +1,93 @@
+[de]
+//quits
+QUITMSG		= "Willst du nie wieder bluten?";
+QUITMSG1    = "Komm schon! Heute Nacht gibt's eine Pyjama-Party mit Pyro-Daemonen!";
+QUITMSG2    = "Heute traeumst du von rammelnden Imps. Viel Spass!";
+QUITMSG3    = "Bist du etwa so Ned wie Flanders?";
+QUITMSG4    = "Fuehlst du dich wie ein schwaechelnder Flucher?";
+QUITMSG5    = "Geniesse dein Bier und halte dich von Arachnobarons fern.";
+QUITMSG6    = "Du wirst vom Gargantuan Horror verschlungen, wenn du jetzt gehst.";
+QUITMSG7    = "Weisst du nicht, dass ein Cyberbaron Robocop umbringen kann?";
+QUITMSG8    = "Es ist aus... Es ist aus... Es ist aus...";
+QUITMSG9    = "Ich kann dir nicht boese sein: Du hast nicht die Eier dazu.";
+QUITMSG10   = "Geniesse Profane-One-Kotze in deinem morgigen Fruehstueck!";
+QUITMSG11   = "Wenn du jetzt abhaust werden tausende Poison-Souls in deinen Arsch kriechen.";
+QUITMSG12   = "Irgendwas schabt hier herum, oder...?";
+QUITMSG13   = "Oh, oh, oh. Hast du Angst vor dem Dark-Cardinal?";
+QUITMSG14   = "Wirst du gerade von einem Tornado-Daemon besucht oder was?";
+//cheats
+STSTR_DQDON 	= "Versagermodus AN.";
+STSTR_DQDOFF 	= "Versagermodus AUS.";
+STSTR_KFAADDED 	= "Arsenal der Versager hinzugefuegt.";
+STSTR_FAADDED 	= "Halbes Arsenal der Versager hinzugefuegt.";
+STSTR_NCON 		= "Lauermodus AN.";
+STSTR_NCOFF		= "Lauermodus AUS.";
+STSTR_NC2ON 	= "Zweiter Lauermodus AN.";
+//keys
+GOTGRENCARD	= "Gruene Schluesselkarte aufgehoben.";
+GOTORNGCARD	= "Orange Schluesselkarte aufgehoben.";
+GOTSLVRCARD	= "Silberne Schluesselkarte aufgehoben.";
+GOTPRPLCARD	= "Lilane Schluesselkarte aufgehoben.";
+GOTGRENSKUL	= "Gruenen Schaedelschluessel aufgehoben.";
+GOTORNGSKUL	= "Orangen Schaedelschluessel aufgehoben.";
+GOTSLVRSKUL	= "Silbernen Schaedelschluessel aufgehoben.";
+GOTPRPLSKUL	= "Lilanen Schaedelschluessel aufgehoben.";
+PD_BLUEO 	= "Blaue Schluesselkarte fuer dieses Objekt benoetigt.";
+PD_REDO 	= "Rote Schluesselkarte fuer dieses Objekt benoetigt.";
+PD_YELLOWO 	= "Gelbe Schluesselkarte fuer dieses Objekt benoetigt.";
+PD_BLUEK 	= "Blaue Schluesselkarte fuer diese Tuer benoetigt.";
+PD_REDK 	= "Rote Schluesselkarte fuer diese Tuer benoetigt.";
+PD_YELLOWK 	= "Gelbe Schluesselkarte fuer diese Tuer benoetigt.";
+PD_BLUECO 	= "Blaue Schluesselkarte fuer dieses Objekt benoetigt.";
+PD_REDCO 	= "Rote Schlueselkarte fuer dieses Objekt benoetigt.";
+PD_YELLOWCO 	= "Gelbe Schluesselkarte fuer dieses Objekt benoetigt.";
+PD_BLUESO 	= "Blaue Schluesselkarte fuer dieses Objekt benoetigt.";
+PD_REDSO 	= "Rote Schluesselkarte skullkey fuer dieses Objekt benoetigt.";
+PD_YELLOWSO 	= "Gelbe Schluesselkarte fuer dieses Objekt benoetigt.";
+PD_GREENO 	= "Gruener Schluessel fuer dieses Objekt benoetigt.";
+PD_ORANGEO 	= "Oranger Schluessel fuer dieses Objekt benoetigt.";
+PD_SILVERO 	= "Silberner Schluessel fuer dieses Objekt benoetigt.";
+PD_PURPLEO 	= "Lilaner Schluessel fuer dieses Objekt benoetigt.";
+PD_GREENK 	= "Gruener Schluessel fuer diese Tuer benoetigt.";
+PD_ORANGEK 	= "Oranger Schluessel fuer diese Tuer benoetigt.";
+PD_SILVERK 	= "Silberner Schluessel fuer diese Tuer benoetigt.";
+PD_PURPLEK 	= "Lilaner Schluessel fuer dieses Objekt benoetigt.";
+PD_GREENCO 	= "Gruener Schluessel fuer dieses Objekt benoetigt.";
+PD_ORANGECO = "Orange Schluesselkarte fuer dieses Objekt benoetigt.";
+PD_SILVERCO = "Silberne Schluesselkarte fuer dieses Objekt benoetigt.";
+PD_PURPLECO = "Lilane Schluesselkarte fuer dieses Objekt benoetigt.";
+PD_GREENSO 	= "Gruener Schaedelschluessel fuer dieses Objekt benoetigt.";
+PD_ORANGESO = "Oranger Schaedelschluessel fuer dieses Objekt benoetigt.";
+PD_SILVERSO = "Silberner Schaedelschluessel fuer dieses Objekt benoetigt.";
+PD_PURPLESO = "Lilaner Schaedelschluessel fuer dieses Objekt benoetigt.";
+PD_GREENC 	= "Gruene Schluesselkarte fuer diese Tuer benoetigt.";
+PD_ORANGEC 	= "Orange Schluesselkarte fuer diese Tuer benoetigt.";
+PD_SILVERC 	= "Silberne Schluesselkarte fuer diese Tuer benoetigt.";
+PD_PURPLEC 	= "Lilane Schluesselkarte fuer diese Tuer benoetigt.";
+PD_GREENS 	= "Gruener Schaedelschluessel fuer diese Tuer benoetigt.";
+PD_ORANGES 	= "Oranger Schaedelschluessel fuer diese Tuer benoetigt.";
+PD_SILVERS 	= "Silberner Schaedelschluessel fuer diese Tuer benoetigt.";
+PD_PURPLES 	= "Lilaner Schaedelschluessel fuer diese Tuer benoetigt.";
+PD_ALL4 	= "Alle vier neuen Schluessel werden fuer diese Tuer benoetigt.";
+PD_ALL4O 	= "Alle vier neuen Schluessel werden fuer dieses Objekt benoetigt.";
+PD_ALL8 	= "Alle acht neuen Schluessel werden fuer diese Tuer benoetigt.";
+PD_ALL8O 	= "Alle acht neuen Schluessel werden fuer dieses Objekt benoetigt.";
+PD_ALL14 	= "Alle 14 Schluessel werden fuer diese Tuer benoetigt.";
+PD_ALL14O 	= "Alle 14 Schluessel werden fuer dieses Objekt benoetigt.";
+
+ENDGAME		= "Willst du die Menschheit verdammen?\nDruecke Y oder N.";
+
+MNU_CHOOSECLAss = "DEIN HELD";
+
+STARTUP1 =
+	"\n"
+	"*=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=*\n"
+	"|    GORE fuer GZDoom v01 r260115          |\n"
+	"|      Ein Ozymandias81-Projekt            |\n"
+	"|  Vielen Dank an das Realm667-Repository! |\n"
+	"*=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=*\n"
+	"\n";
+
+ENDACT1		= "Sehr gut, Akt I gemeistert";
+ENDACT2		= "Sehr gut, Akt II gemeistert";
+ENDACT3		= "Gratuliere, letzter Akt gemeistert";

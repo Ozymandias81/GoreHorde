@@ -1,0 +1,82 @@
+#library "compass"
+#include "zcommon.acs"
+
+//FUNCTIONS
+function int _sqrt (int x)
+{
+int r;
+x = (x + 1) >> 1;
+r = 0;
+while (x > r)
+	{
+	x -= r++;
+	}
+return r;
+}
+
+function int _cos (int angle)
+{
+angle %= 1.0;
+if (angle < 0)
+angle += 1.0;
+if (angle > 0.5)
+angle = -angle + 1.0;
+return cos (angle);
+}
+
+function int _sin (int angle)
+{
+return _cos (angle + 0.25);
+}
+
+function void DrawCompass (int tid1) //, int tid2)
+{
+if (!tid1)
+return;
+SetHUDSize (1024, 768, 1);
+SetFont ("COMPASS");
+HUDMessage (s:"A"; HUDMSG_PLAIN, 102, CR_UNTRANSLATED, 512.4, 700.0, 0.4);
+int angle = GetActorAngle (tid1);
+int x = -_cos (angle) * 33 / 1.0;
+int y = _sin (angle) * 33 / 1.0;
+SetFont ("NORTH");
+HUDMessage (s:"A"; HUDMSG_PLAIN, 103, CR_UNTRANSLATED, x * 1.0 + 512.4, y * 1.0 + 700.0, 1.0);
+SetFont ("SOUTH");
+HUDMessage (s:"A"; HUDMSG_PLAIN, 104, CR_UNTRANSLATED, -x * 1.0 + 512.4, -y * 1.0 + 700.0, 1.0);
+SetFont ("EAST");
+HUDMessage (s:"A"; HUDMSG_PLAIN, 105, CR_UNTRANSLATED, -y * 1.0 + 512.4, x * 1.0 + 700.0, 1.0);
+SetFont ("WEST");
+HUDMessage (s:"A"; HUDMSG_PLAIN, 106, CR_UNTRANSLATED, y * 1.0 + 512.4, -x * 1.0 + 700.0, 1.0);
+
+////////////////////////////////////////////////////////////////////
+//this will be used for special objectives markers
+/*if (tid2)
+	{
+	int dx = GetActorX (tid1) - GetActorX (tid2);
+	int dy = GetActorY (tid1) - GetActorY (tid2);
+	angle = GetActorAngle (tid1) - VectorAngle (dx, dy) - 0.25;
+	dx /= 1.0;
+	dy /= 1.0;
+	int dist = _sqrt (dx*dx + dy*dy);
+	int rdist = dist / 10;
+	if (rdist > 44)
+	rdist = 44;
+	x = -_cos (angle) * rdist / 1.0;
+	y = _sin (angle) * rdist / 1.0;
+	SetFont ("URHERE");
+	HUDMessage (s:"A"; HUDMSG_PLAIN, 101, CR_UNTRANSLATED, x * 1.0 + 592.0, y * 1.0 + 48.0, 1.0);
+	//SetFont ("SmallFont");
+	//HUDMessage (i:dist / 32, s:" m"; HUDMSG_PLAIN, 107, CR_RED, 592.4, 96.1, 1.0);
+	}*/
+////////////////////////////////////////////////////////////////////
+}
+
+//SCRIPTS
+script "BoACompass" ENTER
+{
+if (!ActivatorTID ())
+Thing_ChangeTID (0, 256 + PlayerNumber ());
+DrawCompass (ActivatorTID ());
+Delay (1);
+restart;
+}

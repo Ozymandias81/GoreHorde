@@ -1,0 +1,108 @@
+Actor Gas : Ammo 30115
+{
+//$Category New Ammunitions
+Tag "Gas Canister"
+Inventory.Amount 24
+Inventory.MaxAmount 240
+Ammo.BackpackAmount 24
+Ammo.BackpackMaxAmount 480
+Inventory.PickupMessage "You picked up a gasoline canister"
+Inventory.Icon "AGASA0"
+States
+	{
+	Spawn:
+	AGAS A -1
+	Loop
+	}
+}
+
+Actor BigGas : Gas 30120
+{
+//$Category New Ammunitions
+Tag "Big Gas Canister"
+Inventory.Amount 120
+Inventory.PickupMessage "You picked up a gasoline pack"
+Inventory.Icon "AGASB0"
+States
+	{
+	Spawn:
+	AGAS B -1
+	Loop
+	}
+}
+
+Actor Darkmana : Ammo 30126
+{
+//$Category New Ammunitions
+Tag "Dark Mana"
++FLOATBOB
+Inventory.Amount 5
+Inventory.MaxAmount 50
+Ammo.BackpackAmount 10
+Ammo.BackpackMaxAmount 100
+Inventory.PickupMessage "You picked up an evil Dark Mana"
+Inventory.Icon "REVII0"
+States
+	{
+	Spawn:
+	REVI I -1
+	Stop
+	}
+}
+
+Actor IceGlobe : Ammo 30144
+{
+//$Category New Ammunitions
+Tag "Ice Globe"
++FLOATBOB
+RenderStyle Translucent
+Inventory.Amount 25
+Inventory.MaxAmount 200
+Ammo.BackpackAmount 25
+Ammo.BackpackMaxAmount 400
+Inventory.PickupMessage "You picked up an Icy Globe"
+Inventory.Icon "IGLOA0"
+States
+	{
+	Spawn:
+	IGLO ABCB 4
+	Loop
+	}
+}
+
+ACTOR CryoBolts : Ammo 20001
+{
+//$Category New Ammunitions
+Tag "CryoBolts"
+Inventory.PickupMessage "Picked up some cryo bolts."
+Inventory.Amount 2
+Inventory.MaxAmount 50
+Ammo.BackpackAmount 8
+Ammo.BackpackMaxAmount 100
+Inventory.Icon "ABOWC0"
+States
+	{
+	Spawn:
+	ABOW ABCDCB 5 BRIGHT
+	Loop
+	}
+}
+
+Actor Batteries : Ammo 14072
+{
+//$Category New Ammunitions
+Tag "Batteries"
+Inventory.Amount 250
+Inventory.MaxAmount 4500 //120,5 sec.
+Ammo.BackpackAmount 500
+Ammo.BackpackMaxAmount 9000 //250 sec.
+Inventory.PickupMessage "You picked up some batteries"
+Inventory.Icon "BTRYA0"
+Scale 0.65
+States
+	{
+	Spawn:
+	BTRY A -1
+	Stop
+	}
+}

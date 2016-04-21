@@ -1,0 +1,46 @@
+ACTOR SeaWeed 11912
+{
+//$Category New Decorations
+Tag "SeaWeed"
+Game Doom
++CLIENTSIDEONLY
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	CWED AB 12
+	Loop
+	}
+}
+
+ACTOR SeaWeedRipple1 11913
+{
+//$Category New Decorations
+Tag "SeaWeed Ripple 1"
+Game Doom
+Scale 0.7
++CLIENTSIDEONLY
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	CRIP A -1
+	Stop
+	}
+}
+
+ACTOR SeaWeedRipple2 11914
+{
+//$Category New Decorations
+Tag "SeaWeed Ripple 2"
+Game Doom
+Scale 0.7
++CLIENTSIDEONLY
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	CRIP B -1
+	Stop
+	}
+}

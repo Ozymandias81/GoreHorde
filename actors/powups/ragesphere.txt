@@ -1,0 +1,24 @@
+ACTOR RageSphere : PowerupGiver 32272
+{
+//$Category New Powerups
+tag "Rage Sphere"
+Game Doom
++COUNTITEM
++FLOATBOB
++INVENTORY.AUTOACTIVATE
++INVENTORY.ALWAYSPICKUP
++INVENTORY.BIGPOWERUP
+Inventory.MaxAmount 0
+Powerup.Duration -60
+Powerup.Color 255, 0, 0, 0.125
+Powerup.Type "PowerDoubleFiringSpeed"
+Inventory.PickupMessage "Double fire rate!"
+Inventory.PickUpSound "powups/rage"
+ConversationID 339
+States
+	{
+	Spawn:
+	BLDS ABCDCB 6 Bright
+	Loop
+	}
+}

@@ -1,0 +1,207 @@
+ACTOR Bone1 32206
+{
+//$Category New Decorations
+Tag "GorePack Bone 1"
+Game Doom
+Radius 16
+Height 56
+-SOLID
+States
+	{
+	Spawn:
+	BONE A -1
+	Stop
+	}
+}
+
+ACTOR Bone2 32207
+{
+//$Category New Decorations
+Tag "GorePack Bone 2"
+Game Doom
+Radius 16
+Height 56
+-SOLID
+States
+	{
+	Spawn:
+	BONE B -1
+	Stop
+	}
+}
+
+ACTOR BrainMush 32208
+{
+//$Category New Decorations
+Tag "GorePack Brain Mush"
+Game Doom
+Radius 16
+Height 56
+-SOLID
+States
+	{
+	Spawn:
+	MUSH A -1
+	Stop
+	}
+}
+
+ACTOR GoreChunk1 32209
+{
+//$Category New Decorations
+Tag "GorePack Gore Chunk 1"
+Game Doom
+Radius 16
+Height 56
+-SOLID
+States
+	{
+	Spawn:
+	CHNK A -1
+	Stop
+	}
+}
+
+ACTOR GoreChunk2 32210
+{
+//$Category New Decorations
+Tag "GorePack Gore Chunk 2"
+Game Doom
+Radius 16
+Height 56
+-SOLID
+States
+	{
+	Spawn:
+	CHNK B -1
+	Stop
+	}
+}
+
+ACTOR GoreChunk3 32211
+{
+//$Category New Decorations
+Tag "GorePack Gore Chunk 3"
+Game Doom
+Radius 16
+Height 56
+-SOLID
+States
+	{
+	Spawn:
+	CHNK C -1
+	Stop
+	}
+}
+
+ACTOR EyeBall 32212
+{
+//$Category New Decorations
+Tag "GorePack Eye Ball"
+Game Doom
+Radius 16
+Height 56
+-SOLID
+States
+	{
+	Spawn:
+	EYEB A -1
+	Stop
+	}
+}
+
+ACTOR Organ1 32213
+{
+//$Category New Decorations
+Tag "GorePack Organ 1"
+Game Doom
+Radius 16
+Height 56
+-SOLID
+States
+	{
+	Spawn:
+	ORGN A -1
+	Stop
+	}
+}
+
+ACTOR Organ2 32214
+{
+//$Category New Decorations
+Tag "GorePack Organ 2"
+Game Doom
+Radius 16
+Height 56
+-SOLID
+States
+	{
+	Spawn:
+	ORGN B -1
+	Stop
+	}
+}
+
+ACTOR RibCage 32215
+{
+//$Category New Decorations
+Tag "GorePack Rib Cage"
+Game Doom
+Radius 16
+Height 56
+-SOLID
+States
+	{
+	Spawn:
+	RIBC A -1
+	Stop
+	}
+}
+
+ACTOR SpinalCord 32216
+{
+//$Category New Decorations
+Tag "GorePack Spinal Cord"
+Game Doom
+Radius 16
+Height 56
+-SOLID
+States
+	{
+	Spawn:
+	GPSP A -1 //renamed because TornadoDemon
+	Stop
+	}
+}
+
+ACTOR Organs 32217
+{
+//$Category New Decorations
+Tag "GorePack Organs"
+Game Doom
+Radius 16
+Height 56
+-SOLID
+States
+	{
+	Spawn:
+	ORGS A -1
+	Stop
+	}
+}
+
+ACTOR Torso 32218
+{
+//$Category New Decorations
+Tag "GorePack Torso"
+Game Doom
+Radius 16
+Height 56
+-SOLID
+States
+	{
+	Spawn:
+	TRSO A -1
+	Stop
+	}
+}

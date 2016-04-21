@@ -1,0 +1,118 @@
+actor Squire : BaronOfHell 9403 //Main Actor sprites renamed due to prevent doubles with Warlord Of Hell
+{
+//$Category Realm667 Monsters
+Tag "Squire"
+spawnid 140
+health 225
+gibhealth 35
+radius 20
+height 56
+mass 200
+speed 8
+painchance 120
+scale 0.9
+MONSTER
++FLOORCLIP
++DONTHURTSPECIES
+-BOSSDEATH
+seesound "squire/sight"
+painsound "knight/pain"
+deathsound "squire/death"
+activesound "knight/active"
+obituary "%o was scorched by a Squire."
+hitobituary "%o was torn up by a Squire."
+DropItem "ArmorShard", 8
+DropItem "Shell", 48
+BloodColor "0 a3 0"
+MaxStepHeight 32
+MaxDropOffHeight 32
+states
+	{
+	Spawn:
+	SQRE AB 10 A_Look
+	loop
+	See:
+	SQRE AABBCCDD 4 A_Chase
+	loop
+	Melee:
+	SQRE EF 8 A_FaceTarget
+	SQRE G 8 A_CustomMeleeAttack(6, "baron/melee")
+	goto See
+	Missile:
+	SQRE EF 8 A_FaceTarget
+	SQRE G 8 A_CustomMissile("SquireShot")
+	goto See
+	Pain:
+	SQRE H 2
+	SQRE H 2 A_Pain
+	goto See
+	Death:
+	SQRE I 8
+	SQRE J 8 A_Scream
+	SQRE K 8
+	SQRE L 8 A_NoBlocking
+	SQRE MN 8
+	SQRE O -1
+	stop
+	XDeath: //new
+	SQRE P 0 A_SpawnDebris("Gore_GreenGib11",0)
+	SQRE P 0 A_SpawnDebris("Gore_GreenGib11",0)
+	SQRE P 0 A_SpawnItem("Gore_GibGeneratorGreen",0,0,0,0)
+	SQRE P 8
+	SQRE Q 0 A_SpawnItem("Gore_GibGeneratorGreen",0,0,0,2)
+	SQRE Q 8 A_XScream
+	SQRE R 0 A_SpawnItem("Gore_GibGeneratorGreen",0,0,0,4)
+	SQRE R 8
+	SQRE S 0 A_SpawnItem("Gore_GibGeneratorGreen",0,0,0,6)
+	SQRE S 8 A_NoBlocking
+	SQRE TU 8
+	SQRE V -1
+	stop
+	Crush:
+	TNT1 A 1 A_SpawnItem("NashGore_CrushedMediumGreen",0,0,0,0)
+	stop
+	Raise:
+	SQRE ONMLKJI 8
+	goto See
+	}
+}
+
+ACTOR SquireShot
+{
+Speed 15
+Radius 10
+Height 6
+Damage 5
+Projectile
++SPAWNSOUNDSOURCE
+RenderStyle Add
+SeeSound "fireball/fire"
+DeathSound "fireball/hit"
+Alpha 0.85
+States
+	{
+	Spawn:
+	HHFX ABC 3 Bright A_SpawnItemEx("SmokeTrail", 0, -8, 0)
+	Loop
+	Death:
+	HHFX DE 4 Bright
+	HHFX FGH 3 Bright
+	Stop
+	}
+}
+
+actor SmokeTrail
+{
+PROJECTILE
+RENDERSTYLE TRANSLUCENT
++NOCLIP
+ALPHA 0.3
+Scale 0.5
+States
+	{
+	Spawn:
+	SMK1 J 3
+	SMK1 ABCDEFGHI 2 Bright
+	Stop
+	}
+}

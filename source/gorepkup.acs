@@ -1,0 +1,211 @@
+#library "gorepkup"
+#include "zcommon.acs"
+
+//pickups scripts
+script 120 (int pickupmsg)
+{
+sethudsize (640,480,1);
+setfont ("GOREMSGF");
+hudmessage (s:"A";HUDMSG_FADEINOUT,1,CR_WHITE,128.0,64.0,10.7);
+switch (pickupmsg)
+		{
+case 1: //for best fit, 9 spaces max
+    delay (const:10);
+    sethudsize (800,600,1);
+    setfont ("SmallFont");
+    hudmessage(s:
+	"\cfmagic relics\n\ckrage sphere\n\nThis is literally an embodiment\nof an indefinable amount of rage\ncompressed in one single gulp.\n\n\n\cgAs you can feel in your hands,\n\cgit doubles your firing speed rate.";
+	HUDMSG_FADEINOUT | HUDMSG_LOG,0,CR_WHITE,160.0,80.0,10.0);
+    break;
+case 2:
+    delay (const:10);
+    sethudsize (800,600,1);
+    setfont ("SmallFont");
+    hudmessage(s:
+	"\cfmagic relics\n\ckcloak of terror\n\nAges ago these rags were wore\nby necromancers during satanic rites,\nin order to protect themselves from\nsummoned abominations or some\nparanormal activities. Unfortunately,\nthese clothes didn't work in some\ncircumstances and then forsaken.\n\cgIt impose an arcane fear on some\n\cgcreatures and can be useful to\n\cgexploit when one is surrounded.";
+	HUDMSG_FADEINOUT | HUDMSG_LOG,0,CR_WHITE,160.0,80.0,10.0);
+    break;
+case 3:
+    delay (const:10);
+    sethudsize (800,600,1);
+    setfont ("SmallFont");
+    hudmessage(s:
+	"\cfmagic relics\n\ckhaste sphere\n\nThis simple relic, also known as\n'Piece of Icaro', it was\nfirstly retrieved by UAC during\nan exploration mission on\nplanet Venus in 5312 A.D.\n\n\cgAs you can feel in your legs,\n\cgit doubles your moving speed rate.";
+	HUDMSG_FADEINOUT | HUDMSG_LOG,0,CR_WHITE,160.0,80.0,10.0);
+    break;
+case 4:
+    delay (const:10);
+    sethudsize (800,600,1);
+    setfont ("SmallFont");
+    hudmessage(s:
+	"\cfmagic relics\n\ckflight sphere\n\nA strange relic with a singular but\nintuitive story: in order to hide\nseveral magic books from strangers,\nthe one-eyed monk Chnesoth from\nDeceit Chapel has summoned a Tornado\nDemon to bridle its essence in a\nglass orb, then make the removal\nundisturbed.\n\cgAs you can see, you feel very lighter.";
+	HUDMSG_FADEINOUT | HUDMSG_LOG,0,CR_WHITE,160.0,80.0,10.0);
+    break;
+case 5:
+    delay (const:10);
+    sethudsize (800,600,1);
+    setfont ("SmallFont");
+    hudmessage(s:
+	"\cfmagic relics\n\ckguard sphere\n\nAn easy and useful relic\nthat was initially used\nto protect people from injuries\nor undesired diseases during\nsome space expeditons.\n\n\cgBy the way, you will be safe\n\cgfrom various types of damage\n\cgbut not invulnerable.";
+	HUDMSG_FADEINOUT | HUDMSG_LOG,0,CR_WHITE,160.0,80.0,10.0);
+    break;
+case 6:
+    delay (const:10);
+    sethudsize (800,600,1);
+    setfont ("SmallFont");
+    hudmessage(s:"\cfmagic relics\n\ckregen sphere\n\nThis relic is a rare example\nof what medicine or scientific research\ncan not cure today without\na good taste for some magical aid.\n\n\cgSince you get it, you will feel\n\cghealthy and rejuvenated until\n\cgthe end of its effects.";HUDMSG_FADEINOUT | HUDMSG_LOG,0,CR_WHITE,160.0,80.0,10.0);
+    break;
+case 7:
+    delay (const:10);
+    sethudsize (800,600,1);
+    setfont ("SmallFont");
+    hudmessage(s:
+	"\cfmythic relics\n\ckshield sphere\n\nThis ancient and unique relic\nis a globe of massively power\nwhere some unstable black matter,\nmixed with some sort of compressed\nsun flares, is trying to remain\ninhert, but it not seems to be an\naffordable bet.\n\cgThis is a must-have powerup that can\n\cggrant protection like a reflective\n\cgshield of invulnerability.";
+	HUDMSG_FADEINOUT | HUDMSG_LOG,0,CR_WHITE,160.0,80.0,10.0);
+    break;
+case 8:
+    delay (const:10);
+    sethudsize (800,600,1);
+    setfont ("SmallFont");
+    hudmessage(s:
+	"\cfmythic relics\n\cktime freeze sphere\n\nThis legendary relic was probably\na successful experiment by Chnesoth,\nwhen he was studying Time Imps\nand their absurd skill to modify\nthe natural flow of the time,\nsomewhere in the lost Icy Forest\nnear Deceit Mountains.\n\cgWith this magical relic activated\n\cgthe time will never be a problem\n\cgfor you, but for others.";
+	HUDMSG_FADEINOUT | HUDMSG_LOG,0,CR_WHITE,160.0,80.0,10.0);
+    break;
+case 9:
+    delay (const:10);
+    sethudsize (800,600,1);
+    setfont ("SmallFont");
+    hudmessage(s:
+	"\cfUAC reinforcements\n\ckbio-suit\n\n";
+	HUDMSG_FADEINOUT | HUDMSG_LOG,0,CR_WHITE,160.0,80.0,10.0);
+    break;
+case 10:
+    delay (const:10);
+    sethudsize (800,600,1);
+    setfont ("SmallFont");
+    hudmessage(s:
+	"\cfUAC reinforcements\n\ckmega pack\n\n";
+	HUDMSG_FADEINOUT | HUDMSG_LOG,0,CR_WHITE,160.0,80.0,10.0);
+    break;
+case 11:
+    delay (const:10);
+    sethudsize (800,600,1);
+    setfont ("SmallFont");
+    hudmessage(s:
+	"\cfpuzzle items\n\cktetragrammaton\n\nThis ancient artifact has a\ngloomy story of rage and grief:\nforged in the depths of Olympus\nMons, it's made with goat bones,\nhuman blood and black onyx, all\nobtained in a single bloodshed\nby the hand of a necromancer.\n\cgIt is used to open or to seal Gates.";
+	HUDMSG_FADEINOUT | HUDMSG_LOG,0,CR_WHITE,160.0,80.0,10.0);
+    break;
+case 12:
+    delay (const:10);
+    sethudsize (800,600,1);
+    setfont ("SmallFont");
+    hudmessage(s:
+	"\cfpuzzle items\n\ckgrudge orb\n\n";
+	HUDMSG_FADEINOUT | HUDMSG_LOG,0,CR_WHITE,160.0,80.0,10.0);
+    break;
+case 13:
+    delay (const:10);
+    sethudsize (800,600,1);
+    setfont ("SmallFont");
+    hudmessage(s:
+	"\cfpuzzle items\n\ckpapyrus of hate\n\n";
+	HUDMSG_FADEINOUT | HUDMSG_LOG,0,CR_WHITE,160.0,80.0,10.0);
+    break;
+case 14:
+    delay (const:10);
+    sethudsize (800,600,1);
+    setfont ("SmallFont");
+    hudmessage(s:
+	"\cfpuzzle items\n\ckeye of chnesoth\n\n";
+	HUDMSG_FADEINOUT | HUDMSG_LOG,0,CR_WHITE,160.0,80.0,10.0);
+    break;
+case 15:
+    delay (const:10);
+    sethudsize (800,600,1);
+    setfont ("SmallFont");
+    hudmessage(s:
+	"\cfpuzzle items\n\ckdraconian shard\n\n";
+	HUDMSG_FADEINOUT | HUDMSG_LOG,0,CR_WHITE,160.0,80.0,10.0);
+    break;
+case 16:
+    delay (const:10);
+    sethudsize (800,600,1);
+    setfont ("SmallFont");
+    hudmessage(s:"\cfpuzzle items\n\cknecromancer's shield\n\n";HUDMSG_FADEINOUT | HUDMSG_LOG,0,CR_WHITE,160.0,80.0,10.0);
+    break;
+case 17:
+    delay (const:10);
+    sethudsize (800,600,1);
+    setfont ("SmallFont");
+    hudmessage(s:
+	"\cfUAC weaponry\n\ckminigun\n\nA really fast-paced projectile\nweapon that is ideal in a close\ncombat situation, expecially\nwith human beings.\n\n\cgIts limitations consists in slow\n\cgrecoil timing and limited firing\n\cgrate damage.";
+	HUDMSG_FADEINOUT | HUDMSG_LOG,0,CR_WHITE,160.0,80.0,10.0);
+    break;
+case 18:
+    delay (const:10);
+    sethudsize (800,600,1);
+    setfont ("SmallFont");
+    hudmessage(s:"\cfUAC weaponry\n\cksilenced pistol\n\n";HUDMSG_FADEINOUT | HUDMSG_LOG,0,CR_WHITE,160.0,80.0,10.0);
+    break;
+case 19:
+    delay (const:10);
+    sethudsize (800,600,1);
+    setfont ("SmallFont");
+    hudmessage(s:
+	"\cfUAC weaponry\n\ckgrenade launcher\n\n";
+	HUDMSG_FADEINOUT | HUDMSG_LOG,0,CR_WHITE,160.0,80.0,10.0);
+    break;
+case 20:
+    delay (const:10);
+    sethudsize (800,600,1);
+    setfont ("SmallFont");
+    hudmessage(s:"\cfUAC weaponry\n\ckquad-shotgun\n\n";HUDMSG_FADEINOUT | HUDMSG_LOG,0,CR_WHITE,160.0,80.0,10.0);
+    break;
+case 21:
+    delay (const:10);
+    sethudsize (800,600,1);
+    setfont ("SmallFont");
+    hudmessage(s:
+	"\cfUAC weaponry\n\ckfreeze rifle\n\n";
+	HUDMSG_FADEINOUT | HUDMSG_LOG,0,CR_WHITE,160.0,80.0,10.0);
+    break;
+case 22:
+    delay (const:10);
+    sethudsize (800,600,1);
+    setfont ("SmallFont");
+    hudmessage(s:
+	"\cfUAC weaponry\n\ckflamethrower\n\n";
+	HUDMSG_FADEINOUT | HUDMSG_LOG,0,CR_WHITE,160.0,80.0,10.0);
+    break;
+case 23:
+    delay (const:10);
+    sethudsize (800,600,1);
+    setfont ("SmallFont");
+    hudmessage(s:"\cfUAC weaponry\n\ckpyrocannon\n\n";HUDMSG_FADEINOUT | HUDMSG_LOG,0,CR_WHITE,160.0,80.0,10.0);
+    break;
+case 24:
+    delay (const:10);
+    sethudsize (800,600,1);
+    setfont ("SmallFont");
+    hudmessage(s:
+	"\cfUAC weaponry\n\ckBFG 10000\n\n";
+	HUDMSG_FADEINOUT | HUDMSG_LOG,0,CR_WHITE,160.0,80.0,10.0);
+    break;
+case 25:
+    delay (const:10);
+    sethudsize (800,600,1);
+    setfont ("SmallFont");
+    hudmessage(s:
+	"\cfUAC weaponry\n\ckcryobow\n\n";
+	HUDMSG_FADEINOUT | HUDMSG_LOG,0,CR_WHITE,160.0,80.0,10.0);
+    break;
+case 26:
+    delay (const:10);
+    sethudsize (800,600,1);
+    setfont ("SmallFont");
+    hudmessage(s:
+	"\cfmythic weapons\n\cknecronomicon\n\n";
+	HUDMSG_FADEINOUT | HUDMSG_LOG,0,CR_WHITE,160.0,80.0,10.0);
+    break;
+		}
+}

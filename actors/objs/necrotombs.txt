@@ -1,0 +1,84 @@
+Actor NTomb1 11907
+{
+//$Category New Obstacles
+Tag "Necrodome Tomb 1"
+Game Doom
+Radius 15
+Height 73
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	NTOM A -1
+	Stop
+	}
+}
+
+Actor NTomb2 11908
+{
+//$Category New Obstacles
+Tag "Necrodome Tomb 2"
+Game Doom
+Radius 15
+Height 77
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	NTOM B -1
+	Stop
+	}
+}
+
+Actor NTomb3 11909
+{
+//$Category New Obstacles
+Tag "Necrodome Tomb 3"
+Game Doom
+Radius 15
+Height 82
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	NTOM C -1
+	Stop
+	}
+}
+
+Actor NTomb4 11910
+{
+//$Category New Obstacles
+Tag "Necrodome Tomb 4"
+Game Doom
+Radius 15
+Height 50
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	NTOM D -1
+	Stop
+	}
+}
+
+Actor NTomb5 11911
+{
+//$Category New Obstacles
+Tag "Necrodome Tomb 5"
+Game Doom
+Radius 12
+Height 58
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	NTOM E -1
+	Stop
+	}
+}

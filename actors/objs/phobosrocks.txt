@@ -1,0 +1,49 @@
+actor PhobosRock1 30354
+{
+//$Category New Decorations
+Tag "Phobos Rock 1"
+Game Doom
+Radius 27
+Height 16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	ROK1 A -1
+	Loop
+	}
+}
+
+actor PhobosRock2 30355
+{
+//$Category New Decorations
+Tag "Phobos Rock 2"
+Game Doom
+Radius 19
+Height 16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	ROK2 A -1
+	Loop
+	}
+}
+
+actor PhobosRockSmall 30356
+{
+//$Category New Decorations
+Tag "Phobos Rock Small"
+Game Doom
+Radius 4
+Height 8
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	ROK3 A -1
+	Loop
+	}
+}

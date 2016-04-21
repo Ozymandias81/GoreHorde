@@ -1,0 +1,140 @@
+height 32;
+monospacefonts true, "0";
+
+statusbar fullscreen, fullscreenoffsets // ZDoom HUD
+{
+ InInventory not HudToken {}
+ InInventory HudToken
+ {//opening hudtoken
+		drawimage "MEDIA0", 20, -2, centerbottom;													//health
+		drawnumber 2147483647, HUDFONT_DOOM, untranslated, health, drawshadow, 75, -20;
+		drawimage armoricon, 20, -32, centerbottom;													//armor
+		drawnumber 2147483647, HUDFONT_DOOM, untranslated, armor, drawshadow, whennotzero, 75, -47;
+		drawimage "AIRSIGN", 19, -64, centerbottom;													//aircontrol
+		drawbar "VERTAIRF", "VERTAIRE", airtime, vertical, interpolate(2), 15, -174;
+		IsSelected not Flashlight																	//ammo
+		{
+		drawimage ammoicon1, -12, -3, centerbottom;
+		drawnumber 2147483647, HUDFONT_DOOM, untranslated, ammo1, drawshadow, -27, -20;
+		}
+		IsSelected Flashlight
+		{
+		drawimage "ENERGY", -18, -63, centerbottom;
+		drawbar "VFLASHF", "VFLASHE", ammo1, vertical, interpolate(2), -22, -174;
+		}
+
+	usesammo
+	{
+		//secondary ammo and inventory
+		usessecondaryammo
+		{
+			drawimage ammoicon2, -10, -42, centerbottom;
+			drawnumber 2147483647, HUDFONT_DOOM, untranslated, ammo2, drawshadow, -30, -52;
+			inventorybarnotvisible
+			{
+			drawselectedinventory centerbottom, drawshadow, alwaysshowcounter, HUDFONT_DOOM, -16, -39, -28, -56, untranslated;
+			}
+		}
+		else //no secondary ammo
+		{
+			inventorybarnotvisible
+			{
+			drawselectedinventory centerbottom, drawshadow, alwaysshowcounter, HUDFONT_DOOM, -16, -30, -28, -47, untranslated;
+			}
+		}
+	}
+	else // no ammo but inventory
+	{
+		inventorybarnotvisible
+		{
+		drawselectedinventory centerbottom, drawshadow, alwaysshowcounter, HUDFONT_DOOM, -16, -3, -28, -20, untranslated;
+		}
+	}
+
+	gamemode deathmatch //here only for compatibility
+	{
+	drawnumber 2147483647, HUDFONT_DOOM, untranslated, frags, drawshadow, -3, 1;
+	}
+	else
+	{
+	drawkeybar 32, horizontal, auto, -8, 0, 0, 1, auto; //14 keys total
+	}
+ }//closing hudtoken
+}
+
+statusbar normal // Standard Doom Status bar
+{
+ InInventory not HudToken {drawimage "NOBAR", 0, 168;} //avoiding homs
+ InInventory HudToken
+ {//opening hudtoken
+	drawimage "STBAR", 0, 168;
+	drawimage "STTPRCN2", 43, 172;		//char a bit small than the original
+	drawimage "STTPRCN2", 110, 172;		//char a bit small than the original
+	drawnumber 3, HUDFONT_DOOM, untranslated, health, 41, 172;
+	drawnumber 3, HUDFONT_DOOM, untranslated, armor, 108, 172;
+	drawbar "HORZAIRF", "HORZAIRE", airtime, horizontal, interpolate(2), 10, 188;
+	IsSelected not Flashlight
+	{drawnumber 3, HUDFONT_DOOM, untranslated, ammo1, 245, 172;}
+	IsSelected Flashlight
+	{drawbar "HFLASHF", "HFLASHE", ammo1, horizontal, interpolate(2), 202, 175;}
+
+	//keys
+	drawswitchableimage keyslot 2 && 5, "nullimage", "STKEYS0", "STKEYS3", "STKEYS6", 196, 190;			//blue
+	drawswitchableimage keyslot 3 && 6, "nullimage", "STKEYS1", "STKEYS4", "STKEYS7", 204, 190;			//yellow
+	drawswitchableimage keyslot 1 && 4, "nullimage", "STKEYS2", "STKEYS5", "STKEYS8", 212, 190;			//red
+	drawswitchableimage keyslot 7 && 11, "nullimage", "STKEYS9", "STKEYS13", "STKEYS17", 220, 190;		//green
+	drawswitchableimage keyslot 8 && 12, "nullimage", "STKEYS10", "STKEYS14", "STKEYS18", 228, 190;		//orange
+	drawswitchableimage keyslot 9 && 13, "nullimage", "STKEYS11", "STKEYS15", "STKEYS19", 236, 190;		//silver
+	drawswitchableimage keyslot 10 && 14, "nullimage", "STKEYS12", "STKEYS16", "STKEYS20", 244, 190;	//purple
+
+	drawnumber 3, INDEXFONT_DOOM, WHITE,	ammo(Clip), 272, 172;
+	drawnumber 3, INDEXFONT_DOOM, YELLOW, 	ammo(Shell), 272, 178;
+	drawnumber 3, INDEXFONT_DOOM, RED, 		ammo(RocketAmmo), 272, 184;
+	drawnumber 3, INDEXFONT_DOOM, GREEN, 	ammo(Cell), 272, 190;
+	drawnumber 3, INDEXFONT_DOOM, CYAN, 	ammo(IceGlobe), 302, 172;
+	drawnumber 3, INDEXFONT_DOOM, BROWN, 	ammo(Gas), 302, 178;
+	drawnumber 3, INDEXFONT_DOOM, BLUE, 	ammo(CryoBolts), 302, 184;
+	drawnumber 3, INDEXFONT_DOOM, PURPLE, 	ammo(DarkMana), 302, 190;
+
+	drawnumber 3, INDEXFONT_DOOM, WHITE, 	ammocapacity(Clip), 286, 172;
+	drawnumber 3, INDEXFONT_DOOM, YELLOW, 	ammocapacity(Shell), 286, 178;
+	drawnumber 3, INDEXFONT_DOOM, RED, 		ammocapacity(RocketAmmo), 286, 184;
+	drawnumber 3, INDEXFONT_DOOM, GREEN, 	ammocapacity(Cell), 286, 190;
+	drawnumber 3, INDEXFONT_DOOM, CYAN, 	ammocapacity(IceGlobe), 316, 172;
+	drawnumber 3, INDEXFONT_DOOM, BROWN, 	ammocapacity(Gas), 316, 178;
+	drawnumber 3, INDEXFONT_DOOM, BLUE, 	ammocapacity(CryoBolts), 316, 184;
+	drawnumber 3, INDEXFONT_DOOM, PURPLE, 	ammocapacity(DarkMana), 316, 190;
+
+	gamemode deathmatch, teamgame //here only for compatibility
+	{drawnumber 2, HUDFONT_DOOM, untranslated, frags, 138, 172;}
+
+	gamemode cooperative, singleplayer
+	{
+		//drawimage "STARMS", 104, 168; - commented out because useless here
+		drawswitchableimage weaponslot 1, "STGNUM1", "STYSNUM1", 70, 190;
+		drawswitchableimage weaponslot 2, "STGNUM2", "STYSNUM2", 76, 190;
+		drawswitchableimage weaponslot 3, "STGNUM3", "STYSNUM3", 82, 190;
+		drawswitchableimage weaponslot 4, "STGNUM4", "STYSNUM4", 88, 190;
+		drawswitchableimage weaponslot 5, "STGNUM5", "STYSNUM5", 94, 190;
+		drawswitchableimage weaponslot 6, "STGNUM6", "STYSNUM6", 100, 190;
+		drawswitchableimage weaponslot 7, "STGNUM7", "STYSNUM7", 106, 190;
+		drawswitchableimage weaponslot 8, "STGNUM8", "STYSNUM8", 112, 190;
+		drawswitchableimage weaponslot 9, "STGNUM9", "STYSNUM9", 118, 190;
+	}
+
+	gamemode cooperative, deathmatch, teamgame //here only for compatibility
+	{drawimage translatable "STFBANY", 143, 169;}
+//many thankx to Endless123 & jdRedAlert for these strings! I love zdoom forums!
+	drawselectedinventory alternateonempty, INDEXFONT, 144, 168
+	IsSelected Flashlight
+	{drawmugshot "STF", 5,disablerampage, 144, 168;}
+	Else
+	{drawmugshot "STF", 5, 144, 168;}
+ }//closing hudtoken
+}
+
+statusbar inventory // Standard bar overlay (ZDoom Addition)
+{drawinventorybar Doom, translucent, 9, INDEXFONT, 21, 138;}
+
+statusbar inventoryfullscreen, fullscreenoffsets // ZDoom HUD overlay.
+{drawinventorybar Doom, translucent, 9, INDEXFONT, -141+center, -31;}

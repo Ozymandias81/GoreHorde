@@ -1,0 +1,19 @@
+//health & +shootable for NashGores;
+ACTOR ImpStick 32231
+{
+//$Category New Obstacles
+Tag "Imp Stick"
+Game Doom
+Radius 16
+Height 64
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
++SOLID
+States
+	{
+	Spawn:
+	NJDG A -1
+	Stop
+	}
+}

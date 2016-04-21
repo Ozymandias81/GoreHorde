@@ -1,0 +1,22 @@
+actor FlightSphere : PowerupGiver 32275
+{
+//$Category New Powerups
+tag "Flight Sphere"
+Game Doom
+inventory.pickupmessage "You feel lighter."
+inventory.maxamount 0
+powerup.duration -60
+powerup.color "FF 00 FF", 0.1
+powerup.type Flight
++FLOATBOB
++COUNTITEM
++INVENTORY.AUTOACTIVATE
++INVENTORY.ALWAYSPICKUP
+ConversationID 336
+States
+	{
+	Spawn:
+	FLYT ABCD 6 Bright
+	Loop
+	}
+}

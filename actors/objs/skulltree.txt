@@ -1,0 +1,33 @@
+ACTOR SkullTree1 6454
+{
+//$Category New Obstacles
+Tag "Skull Tree 1"
+Game Doom
+Radius 48
+Height 169
+ProjectilePassHeight -16
++SOLID
+States
+	{
+	Spawn:
+	TRES A -1
+	Stop
+	}
+}
+
+ACTOR SkullTree2 6455	//new
+{
+//$Category New Obstacles
+Tag "Skull Tree 2"
+Game Doom
+Radius 48
+Height 169
+ProjectilePassHeight -16
++SOLID
+States
+	{
+	Spawn:
+	TRES B -1
+	Stop
+	}
+}

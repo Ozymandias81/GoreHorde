@@ -1,0 +1,72 @@
+//health & +shootable for NashGores; +pushable for Caleb football!
+Actor Head1 32109
+{
+//$Category New Decorations
+Tag "Bloody Head 1"
+Game Doom
+Health -1
++SHOOTABLE
++PUSHABLE
+Radius 20
+Height 4
+States
+	{
+	Spawn:
+	HED1 A -1
+	Loop
+	}
+}
+
+Actor Head2 32110
+{
+//$Category New Decorations
+Tag "Bloody Head 2"
+Game Doom
+Health -1
++SHOOTABLE
++PUSHABLE
+Radius 20
+Height 4
+States
+	{
+	Spawn:
+	HED2 A -1
+	Loop
+	}
+}
+
+Actor Head3 32111
+{
+//$Category New Decorations
+Tag "Bloody Head 3"
+Game Doom
+Health -1
++SHOOTABLE
++PUSHABLE
+Radius 20
+Height 4
+States
+	{
+	Spawn:
+	HED3 A -1
+	Loop
+	}
+}
+
+Actor Head4 32112
+{
+//$Category New Decorations
+Tag "Bloody Head 4"
+Game Doom
+Health -1
++SHOOTABLE
++PUSHABLE
+Radius 20
+Height 4
+States
+	{
+	Spawn:
+	HED4 A -1
+	Loop
+	}
+}

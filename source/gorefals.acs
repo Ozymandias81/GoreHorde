@@ -1,0 +1,19 @@
+#library "gorefals"
+#include "zcommon.acs"
+
+//That mystique script from Paranoid TC for waterfalls
+str GoreFalls[10] = {"FallSmoke3", "FallSmoke4", "FallSmoke7", "FallSmoke8", "FallSmoke11", "FallSmoke12", "FallSmoke15", "FallSmoke16", "FallSmoke19", "FallSmoke20"};
+
+script 998 (int size)
+{
+  int r;
+  for (r=0; r<size<<16; r+=random(4.0, 8.0))
+  {
+    Spawn(GoreFalls[random(0, 15)],
+      GetActorX(0) + random(-8.0, 8.0) + FixedMul(cos(GetActorAngle(0)), r),
+      GetActorY(0) + random(-8.0, 8.0) + FixedMul(sin(GetActorAngle(0)), r),
+      GetActorZ(0) + random(-8.0, 8.0),
+      0,
+      GetActorAngle(0) >> 8);
+  }
+}

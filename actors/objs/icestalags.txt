@@ -1,0 +1,107 @@
+ACTOR IceStalagmiteLarge 10430
+{
+//$Category New Obstacles
+Tag "Ice Stalagmite Large"
+Game Doom
+Radius 24
+Height 128
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	ICES A -1
+	Stop
+	}
+}
+
+ACTOR IceStalagmiteSmall1 10431
+{
+//$Category New Obstacles
+Tag "Ice Stalagmite Small 1"
+Game Doom
+Radius 16
+Height 32
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	ICES B -1
+	Stop
+	}
+}
+
+ACTOR IceStalagmiteSmall2 10432
+{
+//$Category New Obstacles
+Tag "Ice Stalagmite Small 2"
+Game Doom
+Radius 16
+Height 32
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	ICES C -1
+	Stop
+	}
+}
+//New Stalags added by me
+ACTOR C_IceStalagmiteLarge 10707
+{
+//$Category New Obstacles
+Tag "Ice Stalagmite Ceiling Large"
+Game Doom
+Radius 24
+Height 128
++SOLID
++SPAWNCEILING
++NOGRAVITY
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	ICES D -1
+	Stop
+	}
+}
+
+ACTOR C_IceStalagmiteSmall1 10708
+{
+//$Category New Obstacles
+Tag "Ice Stalagmite Ceiling Small 1"
+Game Doom
+Radius 16
+Height 32
++SOLID
++SPAWNCEILING
++NOGRAVITY
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	ICES E -1
+	Stop
+	}
+}
+
+ACTOR C_IceStalagmiteSmall2 10709
+{
+//$Category New Obstacles
+Tag "Ice Stalagmite Ceiling Small 2"
+Game Doom
+Radius 16
+Height 32
++SOLID
++SPAWNCEILING
++NOGRAVITY
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	ICES F -1
+	Stop
+	}
+}

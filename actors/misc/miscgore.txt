@@ -1,0 +1,166 @@
+//Flashlight Actors - Dec base from BGPA Missions by Enjay
+ACTOR FlashBeam : FastProjectile
+{
+Speed 100
+Damage 0
++CANNOTPUSH
++NODAMAGETHRUST
++THRUGHOST
++NOGRAVITY
++NOCLIP
++NOBLOCKMAP
++NOTELEPORT
++DONTSPLASH
++NOTIMEFREEZE
++CLIENTSIDEONLY
+-ACTIVATEIMPACT
+-ACTIVATEPCROSS
+Renderstyle NONE
+States
+	{
+	Spawn:
+	NONE AABBCCDDEE 1
+	Stop
+	}
+}
+
+ACTOR FlashClose
+{
+Speed 0
++NOGRAVITY
++NOCLIP
++NOBLOCKMAP
++DONTSPLASH
++NOTIMEFREEZE
++NOTELEPORT
++CLIENTSIDEONLY
+Renderstyle NONE
+States
+	{
+	Spawn:
+	NONE A 2
+	Stop
+	}
+}
+
+//Monsters Gibs
+Actor Gore_DemonArm //sprites by NeoWorm
+{
+Game Doom
+Radius 8
+Height 8
+Speed 8
++DOOMBOUNCE
++DROPOFF
++MISSILE
++CORPSE
++NOTELEPORT
+States
+	{
+	Spawn:
+	TNT1 AA 0 A_JumpIf(waterlevel > 0, "Underwater")
+	SAAR ABCDEFGH 2 A_SpawnDebris("NashGore_FlyingBlood",1)
+	Loop
+	Underwater:
+	SAAR ABCDEFGH 2 A_SpawnDebris("NashGore_FlyingBlood", 1)
+	SAAR I -1
+	Stop
+	Death:
+	SAAR I -1
+	Loop
+	Crash:
+	SAAR I -1
+	Loop
+	}
+}
+
+Actor Gore_SpectreArm : Gore_DemonArm
+{
++SHADOW
+RenderStyle OptFuzzy
+Alpha 0.5
+States
+	{
+	Spawn:
+	TNT1 AA 0 A_JumpIf(waterlevel > 0, "Underwater")
+	SAAR ABCDEFGH 2 A_SpawnDebris("Gore_FuzzyFlyingBlood",1)
+	Loop
+	Underwater:
+	SAAR ABCDEFGH 2 A_SpawnDebris("Gore_FuzzyFlyingBlood", 1)
+	SAAR I -1
+	Stop
+	}
+}
+
+Actor Gore_NDemonArm //new
+{
+Game Doom
+translation "16:47=112:127","168:191=114:128"
+RenderStyle TRANSLUCENT
+Alpha 0.3
+Radius 8
+Height 8
+Speed 8
++DOOMBOUNCE
++DROPOFF
++MISSILE
++CORPSE
++NOTELEPORT
+States
+	{
+	Spawn:
+	TNT1 AA 0 A_JumpIf(waterlevel > 0, "Underwater")
+	NAAR ABCDABCD 2 A_SpawnDebris("Gore_TGreenFlyingBlood",1)
+	Loop
+	Underwater:
+	NAAR ABCDABCD 2 A_SpawnDebris("Gore_TGreenFlyingBlood", 1)
+	NAAR E -1
+	Stop
+	Death:
+	NAAR E -1
+	Loop
+	Crash:
+	NAAR E -1
+	Loop
+	}
+}
+
+Actor Gore_PDemonArm //new
+{
+Game Doom
+translation "16:47=112:127","168:191=114:128"
+Radius 8
+Height 8
+Speed 8
++DOOMBOUNCE
++DROPOFF
++MISSILE
++CORPSE
++NOTELEPORT
+States
+	{
+	Spawn:
+	TNT1 AA 0 A_JumpIf(waterlevel > 0, "Underwater")
+	NAAR ABCDABCD 2 A_SpawnDebris("Gore_GreenFlyingBlood",1)
+	Loop
+	Underwater:
+	NAAR ABCDABCD 2 A_SpawnDebris("Gore_GreenFlyingBlood", 1)
+	NAAR E -1
+	Stop
+	Death:
+	NAAR E -1
+	Loop
+	Crash:
+	NAAR E -1
+	Loop
+	}
+}
+
+//Doom Floating Objects
+ACTOR BobFloatingSkull: FloatingSkull replaces FloatingSkull
+{SpawnId 153 +FLOATBOB +NOGRAVITY +NOTAUTOAIMED +ACTLIKEBRIDGE}
+
+ACTOR BobSoulSphere: SoulSphere replaces SoulSphere {+FLOATBOB}
+ACTOR BobMegaSphere: MegaSphere replaces MegaSphere {+FLOATBOB}
+ACTOR BobBlurSphere: BlurSphere replaces BlurSphere {+FLOATBOB}
+ACTOR BobInvulnerabilitySphere: InvulnerabilitySphere replaces InvulnerabilitySphere {+FLOATBOB}

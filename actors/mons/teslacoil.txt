@@ -1,0 +1,111 @@
+actor TeslaCoil 12040
+{
+//$Category Realm667 Monsters
+Tag "Tesla Coil"
+Game Doom
+obituary "%o was zapped by a tesla coil."
+health 250
+radius 16
+height 56
+mass 10000
+meleerange 1000
+speed 0
+DamageFactor Poison, 0
+DamageFactor PoisonCloud, 0
+DamageFactor Ice, 0.5
+MONSTER
++NOFEAR
++NOBLOOD
++NOTARGET
++FLOORCLIP
++NOICEDEATH
++NOINFIGHTING
++NOTIMEFREEZE
++NEVERRESPAWN
++LOOKALLAROUND
+states
+	{
+	Spawn:
+	TESL A 1 A_Look
+	TESL A 0 A_PlaySoundEx ("Tesla/Loop", "SoundSlot5", 1, random(90,127))
+	loop
+	See:
+	TESL A 1 A_Chase
+	TESL A 0 A_PlaySoundEx ("Tesla/Loop", "SoundSlot5", 1, random(90,127))
+	loop
+	Melee:
+	TESL A 9 A_FaceTarget
+	TESL A 1 Bright
+	TESL A 0 Bright A_PlaySound ("Tesla/Attack")
+	TESL A 0 Bright A_SpawnItem ("TeslaZapper", 0, 60)
+	TESL A 1 Bright
+	TESL A 59
+	goto See
+	Death:
+	TESL A 1 Bright
+	TESL A 0 Bright A_CustomMissile("Boom",60,0,0,2,0)
+	TESL A 0 Bright A_CustomMissile("Boom",60,0,20,2,0)
+	TESL A 0 Bright A_CustomMissile("Boom",60,0,40,2,0)
+	TESL A 0 Bright A_CustomMissile("Boom",60,0,60,2,0)
+	TESL A 0 Bright A_CustomMissile("Boom",60,0,80,2,0)
+	TESL A 0 Bright A_CustomMissile("Boom",60,0,100,2,0)
+	TESL A 0 Bright A_CustomMissile("Boom",60,0,120,2,0)
+	TESL A 0 Bright A_CustomMissile("Boom",60,0,140,2,0)
+	TESL A 0 Bright A_CustomMissile("Boom",60,0,160,2,0)
+	TESL A 0 Bright A_CustomMissile("Boom",60,0,180,2,0)
+	TESL A 0 Bright A_CustomMissile("Boom",60,0,200,2,0)
+	TESL A 0 Bright A_CustomMissile("Boom",60,0,220,2,0)
+	TESL A 0 Bright A_CustomMissile("Boom",60,0,240,2,0)
+	TESL A 0 Bright A_CustomMissile("Boom",60,0,260,2,0)
+	TESL A 0 Bright A_CustomMissile("Boom",60,0,280,2,0)
+	TESL A 0 Bright A_CustomMissile("Boom",60,0,300,2,0)
+	TESL A 0 Bright A_CustomMissile("Boom",60,0,320,2,0)
+	TESL A 0 Bright A_CustomMissile("Boom",60,0,340,2,0)
+	TESL A 0 Bright A_StopSoundEx ("SoundSlot5")
+	TESL A 0 Bright A_PlaySound ("weapons/rocklx")
+	TESL AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 0 Bright A_SpawnItemEx ("FallSmoke17",random(-64,64),random(-64,64),48,momx,0,random(0.5,1),0,128)
+	TESL B -1
+	stop
+	}
+}
+
+actor TeslaZapper
+{
+obituary "%o was zapped by a tesla coil."
+radius 2
+height 2
+Decal "ArachnotronScorch"
++NOGRAVITY
++LOOKALLAROUND
++NOCLIP
++INVULNERABLE
+states
+	{
+	Spawn:
+	TNT1 A 1 A_FaceTarget
+	Missile:
+	TNT1 AAAAA 0 Bright A_CustomRailgun (2, 0, none, lightblue, 1, 0, 1000)
+	TNT1 AAAAA 0 Bright A_CustomRailgun (2, 0, none, white, 1, 0, 1000)
+	stop
+	}
+}
+
+actor Boom
+{
+Radius 11
+Height 8
+Speed 8
+Damage 0
+Projectile
+renderstyle Add
++MISSILE
++NOINTERACTION
+States
+	{
+	Spawn:
+	MISL B 8 Bright
+	MISL C 6 Bright
+	MISL D 4 Bright A_FadeOut (0.05)
+	stop
+	}
+}

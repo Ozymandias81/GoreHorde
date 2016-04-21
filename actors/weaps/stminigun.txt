@@ -1,0 +1,62 @@
+ACTOR STMinigun : Weapon 30121
+{
+//$Category New Weapons
+Tag "SkullTag MiniGun"
+Game Doom
+Weapon.AmmoType "Clip"
+Weapon.AmmoGive 20
+Weapon.AmmoUse 1
+Weapon.SlotNumber 4
+Inventory.PickUpSound "weapons/stminipk"
+Inventory.PickupMessage "Picked up a minigun!"
+Obituary "%o was shredded by %k's minigun."
+AttackSound "weapons/minigunfire"
+States
+	{
+	Spawn:
+	MNGN A -1
+	Loop
+	Ready:
+	MNGG A 1 A_WeaponReady
+	Loop
+	Deselect:
+	MNGG A 1 A_Lower
+	Loop
+	Select:
+	MNGG A 1 A_Raise
+	Loop
+	Fire:
+	MNGG A 0 A_GunFlash
+	TNT1 A 0 A_SetBlend("Orange",0.015,3)
+	MNGG A 0 A_Recoil(0.5)
+	MNGG A 0 A_SpawnItemEx("PisCaseSpawn",random(20,24),0,random(29,32),0,0,0,0,random(128,132))
+	MNGG A 2 A_FireBullets(5, 1, 1, 5, "NewPuff",1) //added enhanced puff
+	TNT1 A 0 ACS_Execute(905,0,5,0,0)
+	TNT1 A 0 A_JumpIf(waterlevel > 0,2)
+	TNT1 A 0 A_FireCustomMissile("ChainSmokeSpawner",0,0,0,random(-4,4),0,0)
+	MNGG A 0 A_Recoil(0.5)
+	MNGG A 0 A_SetPitch(pitch+0.7)
+	MNGG B 0 A_SetPitch(pitch-0.7)
+	TNT1 A 0 A_SetBlend("Orange",0.015,3)
+	MNGG B 0 A_SpawnItemEx("PisCaseSpawn",random(20,24),0,random(29,32),0,0,0,0,random(128,132))
+	MNGG B 2 A_FireBullets(5, 1, 1, 5, "NewPuff",1) //added enhanced puff
+	TNT1 A 0 ACS_Execute(905,0,5,0,0)
+	TNT1 A 0 A_JumpIf(waterlevel > 0,2)
+	TNT1 A 0 A_FireCustomMissile("ChainSmokeSpawner",0,0,0,random(-4,4),0,0)
+	MNGG A 0 A_SetPitch(pitch+0.7)
+	MNGG B 0 A_SetPitch(pitch-0.7)
+	TNT1 A 0 A_SetBlend("Orange",0.015,3)
+	MNGG B 0 A_ReFire
+	TNT1 A 0 A_PlaySound("weapons/mgunspindown",6,2.0)
+	MNGG ABABABAB 2
+	MNGG ABAB 3
+	MNGG ABAB 4
+	MNGG AB 5
+	MNGG B 6
+	goto Ready
+	Flash:
+	MNGF A 3 BRIGHT A_Light1
+	MNGF B 3 BRIGHT A_Light0
+	Stop
+	}
+}

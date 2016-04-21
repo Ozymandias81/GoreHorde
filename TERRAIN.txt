@@ -1,0 +1,1520 @@
+//Splash Defs
+splash Water
+{
+smallclass		WaterSplashBase2
+smallclip		12
+smallsound		world/watersplashsmall
+baseclass		WaterSplashBase2
+chunkclass		WaterSplash2
+chunkxvelshift	8
+chunkyvelshift	8
+chunkzvelshift	8
+chunkbasezvel	2
+sound			world/watersplash
+noalert
+}
+
+splash Blood
+{
+smallclass		BloodSplashBase2
+smallclip		6
+smallsound		bloodsplat //world/sludgegloopsmall
+baseclass		BloodSplashBase2
+chunkclass		BloodSplash2
+chunkxvelshift	8
+chunkyvelshift	8
+chunkzvelshift	8
+chunkbasezvel	1
+sound			bloodsplat //world/sludgegloop
+noalert
+}
+
+splash Nuke
+{
+smallclass		SlimeSplash2
+smallclip		2
+smallsound		world/nukesplashsmall
+baseclass		SlimeSplash2
+chunkclass		SlimeChunk2
+chunkxvelshift	8
+chunkyvelshift	8
+chunkzvelshift	8
+chunkbasezvel	1
+sound			world/nukesplash
+noalert
+}
+
+splash Lava
+{
+smallclass		LavaSmoke
+smallclip		12
+smallsound		world/lavasizzlesmall
+baseclass		LavaSplash2
+chunkclass		LavaSmoke
+chunkxvelshift	-1
+chunkyvelshift	-1
+chunkzvelshift	7
+chunkbasezvel	1
+sound			world/lavasizzle
+noalert
+}
+
+splash Slime
+{
+smallclass		SludgeSplash2
+smallclip		2
+smallsound		world/sludgegloopsmall
+baseclass		SludgeSplash2
+chunkclass		SludgeChunk2
+chunkxvelshift	8
+chunkyvelshift	8
+chunkzvelshift	8
+chunkbasezvel	1
+sound			world/sludgegloop
+noalert
+}
+
+splash Mud
+{
+smallclass		MudSplash
+smallclip		0
+smallsound		world/sludgegloop
+baseclass		MudSplash
+chunkclass		MudChunk
+chunkxvelshift	8
+chunkyvelshift	8
+chunkzvelshift	8
+chunkbasezvel	1
+sound			world/sludgegloop
+noalert
+}
+
+splash Hot
+{
+smallclass		LavaSmoke
+smallclip		12
+smallsound		world/lavasizzlesmall
+baseclass		None
+chunkclass		LavaSmoke
+chunkxvelshift	-1
+chunkyvelshift	-1
+chunkzvelshift	7
+chunkbasezvel	1
+sound			world/lavasizzlesmall
+noalert
+}
+
+//Splash Defs from Stronghold - I cover myself with shame :-(
+Splash Carpet
+{
+SmallClass      "None"
+SmallClip       0
+SmallSound      "Misc/Blank"
+BaseClass       "None"
+ChunkClass      "None"
+ChunkXVelShift  0
+ChunkYVelShift  0
+ChunkZVelShift  0
+ChunkBaseZVel   0
+Sound           "Floor/Carpet"
+NoAlert
+}
+
+Splash Dirt
+{
+SmallClass      "None"
+SmallClip       0
+SmallSound      "Misc/Blank"
+BaseClass       "None"
+ChunkClass      "None"
+ChunkXVelShift  0
+ChunkYVelShift  0
+ChunkZVelShift  0
+ChunkBaseZVel   0
+Sound           "Floor/Dirt"
+NoAlert
+}
+
+Splash Metal
+{
+SmallClass      "None"
+SmallClip       0
+SmallSound      "Misc/Blank"
+BaseClass       "None"
+ChunkClass      "None"
+ChunkXVelShift  0
+ChunkYVelShift  0
+ChunkZVelShift  0
+ChunkBaseZVel   0
+Sound           "Floor/Metal"
+NoAlert
+}
+
+Splash Rock
+{
+SmallClass      "None"
+SmallClip       0
+SmallSound      "Misc/Blank"
+BaseClass       "None"
+ChunkClass      "None"
+ChunkXVelShift  0
+ChunkYVelShift  0
+ChunkZVelShift  0
+ChunkBaseZVel   0
+Sound           "Floor/Rock"
+NoAlert
+}
+
+Splash Snow
+{
+SmallClass      "None"
+SmallClip       0
+SmallSound      "Misc/Blank"
+BaseClass       "None"
+ChunkClass      "None"
+ChunkXVelShift  0
+ChunkYVelShift  0
+ChunkZVelShift  0
+ChunkBaseZVel   0
+Sound           "Floor/Snow"
+NoAlert
+}
+
+Splash Wood
+{
+SmallClass      "None"
+SmallClip       0
+SmallSound      "Misc/Blank"
+BaseClass       "None"
+ChunkClass      "None"
+ChunkXVelShift  0
+ChunkYVelShift  0
+ChunkZVelShift  0
+ChunkBaseZVel   0
+Sound           "Floor/Wood"
+NoAlert
+}
+
+//Terrain Defs
+terrain Water
+{
+splash			Water
+footclip		2
+liquid
+}
+
+terrain Lava
+{
+splash			Lava
+footclip		2
+liquid
+}
+
+terrain Blood
+{
+splash			Blood
+footclip		2
+liquid
+}
+
+terrain Nuke
+{
+splash			Nuke
+footclip		2
+liquid
+}
+
+terrain Slime
+{
+splash			Slime
+footclip		2
+liquid
+}
+
+terrain Mud
+{
+splash			Mud
+footclip		2
+liquid
+}
+
+terrain Hot
+{
+splash			Hot
+footclip		0
+liquid
+}
+
+//Terrain Defs from Stronghold - I cover myself with shame :-(
+Terrain Carpet
+{
+Splash          Carpet
+FootClip        0
+}
+
+Terrain Dirt
+{
+Splash          Dirt
+FootClip        0
+}
+
+Terrain Metal
+{
+Splash          Metal
+FootClip        0
+}
+
+Terrain Rock
+{
+Splash          Rock
+FootClip        0
+}
+
+Terrain Snow
+{
+Splash          Snow
+FootClip        0
+}
+
+Terrain Wood
+{
+Splash          Wood
+FootClip        0
+}
+
+//new terrains
+splash Ice
+{
+smallclass		"IceDebris"
+smallclip		1
+smallsound		"misc/blank"
+baseclass		"None"
+chunkclass		"IceDebris"
+chunkxvelshift	-1
+chunkyvelshift	-1
+chunkzvelshift	7
+chunkbasezvel	1
+sound			"world/icecrackling"
+noalert
+}
+
+Splash Flesh
+{
+SmallClass      "None"
+SmallClip       0
+SmallSound      "Misc/Blank"
+BaseClass       "None"
+ChunkClass      "None"
+ChunkXVelShift  0
+ChunkYVelShift  0
+ChunkZVelShift  0
+ChunkBaseZVel   0
+Sound           "Floor/Flesh"
+NoAlert
+}
+
+terrain Ice
+{
+splash			Ice
+footclip		0
+friction		1.7
+}
+
+Terrain Flesh
+{
+Splash          Flesh
+FootClip        0
+}
+
+//Flat Mappings - Dio Santissimo...
+ifdoom
+floor BLOOD1 Blood			//Doom II Defs
+floor BLOOD2 Blood
+floor BLOOD3 Blood
+floor CEIL1_1 Wood
+floor CEIL1_2 Metal
+floor CEIL1_3 Wood
+floor CEIL4_1 Carpet
+floor FLAT10 Rock
+floor FLAT14 Carpet
+floor FLAT5_1 Wood
+floor FLAT5_2 Wood
+floor FLAT5_7 Rock
+floor FLAT5_8 Rock
+floor FLOOR1_1 Carpet
+floor FLOOR1_6 Carpet
+floor FLOOR6_1 Rock
+floor FLOOR6_2 Rock
+floor FWATER1 Water
+floor FWATER2 Water
+floor FWATER3 Water
+floor FWATER4 Water
+floor GRASS1 Dirt
+floor GRASS2 Dirt
+floor GRNROCK Rock
+floor LAVA1 Lava
+floor LAVA2 Lava
+floor LAVA3 Lava
+floor LAVA4 Lava
+floor MFLR8_2 Rock
+floor MFLR8_3 Rock
+floor MFLR8_4 Rock
+floor NUKAGE1 Nuke
+floor NUKAGE2 Nuke
+floor NUKAGE3 Nuke
+floor RROCK01 Hot
+floor RROCK02 Hot
+floor RROCK03 Rock
+floor RROCK04 Rock
+floor RROCK05 Hot
+floor RROCK06 Hot
+floor RROCK07 Hot
+floor RROCK08 Hot
+floor RROCK09 Rock
+floor RROCK13 Rock
+floor RROCK16 Dirt
+floor RROCK17 Dirt
+floor RROCK18 Dirt
+floor RROCK19 Dirt
+floor RROCK20 Dirt
+floor SLIME01 Mud
+floor SLIME02 Mud
+floor SLIME03 Mud
+floor SLIME04 Mud
+floor SLIME05 Mud
+floor SLIME06 Mud
+floor SLIME07 Mud
+floor SLIME08 Mud
+floor SLIME09 Hot
+floor SLIME10 Hot
+floor SLIME11 Hot
+floor SLIME12 Hot
+endif
+
+floor BLBLOOD1 Water			//SkullTags Defs
+floor BLBLOOD1 Water
+floor BLBLOOD1 Water
+floor BWATER1 Water
+floor BWATER2 Water
+floor BWATER3 Water
+floor BWATER4 Water
+floor DMDMFLAT Metal
+floor FLAT14-B Dirt
+floor FLAT14-G Dirt
+floor FLAT14-M Dirt
+floor FLAT14-Y Dirt
+floor FLAT15 Metal
+floor FLAT21 Metal
+floor FLAT24 Metal
+floor FLAT25 Metal
+floor FLAT26 Metal
+floor FLAT27 Metal
+floor FLAT28 Metal
+floor FLAT29 Metal
+floor FLAT30 Metal
+floor FLAT31 Metal
+floor FLAT32 Metal
+floor FLAT33 Metal
+floor FLATNEW1 Metal
+floor FLATNEW2 Dirt
+floor FLATNEW3 Metal
+floor FLATNEW4 Metal
+floor FLATNEW5 Metal
+floor FLATNEW6 Dirt
+floor FLOOR7_3 Rock
+floor FLR1_3_ Metal
+floor GATE5 Metal
+floor GATE6 Metal
+floor GATEB1 Metal
+floor GATEB2 Metal
+floor GATEB3 Metal
+floor GATEBL1 Metal
+floor GATEBL2 Metal
+floor GATEBL3 Metal
+floor GATEBLB2 Metal
+floor GATEGR1 Metal
+floor GATEGR2 Metal
+floor GATEGR3 Metal
+floor GATEGRB2 Metal
+floor GATEOR1 Metal
+floor GATEOR1 Metal
+floor GATEOR1 Metal
+floor GATEOR2 Metal
+floor GATEOR3 Metal
+floor GATEORB2 Metal
+floor GRANUKE1 Hot
+floor GRANUKE2 Hot
+floor GRANUKE3 Hot
+floor GRASS1_2 Dirt
+floor GRASS1_3 Dirt
+floor HYNUKE Nuke
+floor HYWATER Water
+floor ICEF1 Ice
+floor J-FLAT1 Metal
+floor J-FLAT2 Metal
+floor NFSNOW01 Snow
+floor NFSNOW02 Snow
+floor NFTECH02 Metal
+floor NFTECH03 Metal
+floor PANEL1 Metal
+floor PANEL2 Metal
+floor PANEL3 Metal
+floor PANEL4 Metal
+floor PANEL5 Metal
+floor PANEL6 Metal
+floor PANEL7 Metal
+floor PWFLAT11 Metal
+floor PWFLAT12 Metal
+floor PWFLAT13 Metal
+floor PWFLAT22 Metal
+floor PWFLAT23 Metal
+floor PWFLAT24 Metal
+floor PWFLAT25 Metal
+floor Q2GRATE1 Metal
+floor Q2LITE1G Metal
+floor Q2LITE1H Metal
+floor Q2LITE1I Metal
+floor STPIPE Metal
+floor WBLOOD1 Blood
+floor WFWATER1 Water
+floor WQLAVA Lava
+floor WSLIME01 Slime
+floor YEL_1 Metal
+
+floor HR2BOIL1 Hot			//Heretic II Defs
+floor HR2BOIL2 Hot
+floor HR2BOIL3 Hot
+floor HR2BOIL4 Hot
+floor HR2BWAL1 Rock
+floor HR2BWAL2 Rock
+floor HR2BWAL3 Rock
+floor HR2BWAL4 Rock
+floor HR2BWAL5 Rock
+floor HR2BWAL6 Rock
+floor HR2BWAL7 Rock
+floor HR2BWAL8 Rock
+floor HR2FX01 Water
+floor HR2FX02 Slime
+floor HR2FX03 Water
+floor HR2FX04 Water
+floor HR2FX11 Water
+floor HR2FX13 Water
+floor HR2FX14 Lava
+floor HR2FX16 Mud
+floor HR2WFAL1 Water
+floor HR2WFAL2 Water
+floor HR2WFAL3 Water
+floor HR2WFAL4 Water
+
+floor DPWTR-00 Water		//Duke Plus Defs
+floor DPWTR-01 Water
+floor DPWTR-02 Water
+floor DPWTR-03 Water
+floor DPWTR-04 Water
+floor DPWTR-05 Water
+floor DPWTR-06 Water
+floor DPWTR-07 Water
+floor DPWTR-08 Water
+floor DPWTR-09 Water
+floor DPWTR-10 Water
+floor DPWTR-11 Water
+floor DPWTR-12 Water
+floor DPWTR-13 Water
+floor DPWTR-14 Water
+floor DPWTR-15 Water
+floor DPWTR-16 Water
+floor DPWTR-17 Water
+floor DPWTR-18 Water
+floor DPWTR-19 Water
+floor DPWTR-20 Water
+floor DPWTR-21 Water
+floor DPWTR-22 Water
+floor DPWTR-23 Water
+floor DPWTR-24 Water
+floor DPWTR-25 Water
+floor DPWTR-26 Water
+floor DPWTR-27 Water
+floor DPWTR-28 Water
+floor DPWTR-29 Water
+floor DPWTR-30 Water
+floor DPWTR-31 Water
+floor DPBLD-00 Blood
+floor DPBLD-01 Blood
+floor DPBLD-02 Blood
+floor DPBLD-03 Blood
+floor DPBLD-04 Blood
+floor DPBLD-05 Blood
+floor DPBLD-06 Blood
+floor DPBLD-07 Blood
+floor DPBLD-08 Blood
+floor DPBLD-09 Blood
+floor DPBLD-10 Blood
+floor DPBLD-11 Blood
+floor DPBLD-12 Blood
+floor DPBLD-13 Blood
+floor DPBLD-14 Blood
+floor DPBLD-15 Blood
+floor DPBLD-16 Blood
+floor DPBLD-17 Blood
+floor DPBLD-18 Blood
+floor DPBLD-19 Blood
+floor DPBLD-20 Blood
+floor DPBLD-21 Blood
+floor DPBLD-22 Blood
+floor DPBLD-23 Blood
+floor DPBLD-24 Blood
+floor DPBLD-25 Blood
+floor DPBLD-26 Blood
+floor DPBLD-27 Blood
+floor DPBLD-28 Blood
+floor DPBLD-29 Blood
+floor DPBLD-30 Blood
+floor DPBLD-31 Blood
+floor DPNKE-00 Slime
+floor DPNKE-01 Slime
+floor DPNKE-02 Slime
+floor DPNKE-03 Slime
+floor DPNKE-04 Slime
+floor DPNKE-05 Slime
+floor DPNKE-06 Slime
+floor DPNKE-07 Slime
+floor DPNKE-08 Slime
+floor DPNKE-09 Slime
+floor DPNKE-10 Slime
+floor DPNKE-11 Slime
+floor DPNKE-12 Slime
+floor DPNKE-13 Slime
+floor DPNKE-14 Slime
+floor DPNKE-15 Slime
+floor DPNKE-16 Slime
+floor DPNKE-17 Slime
+floor DPNKE-18 Slime
+floor DPNKE-19 Slime
+floor DPNKE-20 Slime
+floor DPNKE-21 Slime
+floor DPNKE-22 Slime
+floor DPNKE-23 Slime
+floor DPNKE-24 Slime
+floor DPNKE-25 Slime
+floor DPNKE-26 Slime
+floor DPNKE-27 Slime
+floor DPNKE-28 Slime
+floor DPNKE-29 Slime
+floor DPNKE-30 Slime
+floor DPNKE-31 Slime
+floor DPMUD-00 Mud
+floor DPMUD-01 Mud
+floor DPMUD-02 Mud
+floor DPMUD-03 Mud
+floor DPMUD-04 Mud
+floor DPMUD-05 Mud
+floor DPMUD-06 Mud
+floor DPMUD-07 Mud
+floor DPMUD-08 Mud
+floor DPMUD-09 Mud
+floor DPMUD-10 Mud
+floor DPMUD-11 Mud
+floor DPMUD-12 Mud
+floor DPMUD-13 Mud
+floor DPMUD-14 Mud
+floor DPMUD-15 Mud
+floor DPMUD-16 Mud
+floor DPMUD-17 Mud
+floor DPMUD-18 Mud
+floor DPMUD-19 Mud
+floor DPMUD-20 Mud
+floor DPMUD-21 Mud
+floor DPMUD-22 Mud
+floor DPMUD-23 Mud
+floor DPMUD-24 Mud
+floor DPMUD-25 Mud
+floor DPMUD-26 Mud
+floor DPMUD-27 Mud
+floor DPMUD-28 Mud
+floor DPMUD-29 Mud
+floor DPMUD-30 Mud
+floor DPMUD-31 Mud
+
+floor Q4TX0971 Ice			//Quake IV Defs
+floor Q4TX1011 Snow
+floor Q4TX1978 Metal
+floor Q4TX1983 Metal
+floor Q4TX2597 Metal
+floor Q4TX2601 Metal
+
+floor DKLAVA2A Hot			//Daikatana Defs
+floor DKLAVA2B Hot
+floor DKLAVA2C Hot
+floor DKTM0206 Dirt
+floor DKTM0278 Metal
+floor DKTX0010 Rock
+floor DKTX0011 Rock
+floor DKTX0012 Rock
+floor DKTX0013 Rock
+floor DKTX0024 Rock
+floor DKTX0028 Rock
+floor DKTX0029 Rock
+floor DKTX0030 Rock
+floor DKTX0031 Rock
+floor DKTX0032 Rock
+floor DKTX0033 Metal
+floor DKTX0038 Rock
+floor DKTX0040 Rock
+floor DKTX0046 Rock
+floor DKTX0047 Rock
+floor DKTX0048 Rock
+floor DKTX0059 Rock
+floor DKTX0060 Rock
+floor DKTX0064 Rock
+floor DKTX0065 Rock
+floor DKTX0066 Rock
+floor DKTX0067 Rock
+floor DKTX0068 Metal
+floor DKTX0069 Rock
+floor DKTX0070 Dirt
+floor DKTX0071 Dirt
+floor DKTX0073 Rock
+floor DKTX0076 Metal
+floor DKTX0077 Metal
+floor DKTX0080 Dirt
+floor DKTX0083 Metal
+floor DKTX0084 Metal
+floor DKTX0088 Metal
+floor DKTX0089 Metal
+floor DKTX0110 Snow
+floor DKTX0111 Snow
+floor DKTX0117 Snow
+floor DKTX0119 Ice
+floor DKTX0119 Snow
+floor DKTX0127 Ice
+floor DKTX0127 Ice
+floor DKTX0143 Rock
+floor DKTX0144 Rock
+floor DKTX0152 Rock
+floor DKTX0153 Rock
+floor DKTX0154 Dirt
+floor DKTX0155 Rock
+floor DKTX0158 Rock
+floor DKTX0159 Rock
+floor DKTX0169 Metal
+floor DKTX0204 Dirt
+floor DKTX0205 Dirt
+floor DKTX0206 Dirt
+floor DKTX0207 Wood
+floor DKTX0208 Rock
+floor DKTX0209 Rock
+floor DKTX0210 Dirt
+floor DKTX0211 Hot
+floor DKTX0212 Rock
+floor DKTX0225 Rock
+floor DKTX0228 Rock
+floor DKTX0229 Rock
+floor DKTX0230 Rock
+floor DKTX0231 Rock
+floor DKTX0232 Rock
+floor DKTX0233 Rock
+floor DKTX0235 Rock
+floor DKTX0237 Rock
+floor DKTX0254 Rock
+floor DKTX0255 Rock
+floor DKTX0278 Metal
+floor DKTX0279 Metal
+floor DKTXTR01 Blood
+floor DKTXTR02 Lava
+floor DKTXTR03 Ice
+floor DKTXTR04 Water
+floor DKTXTR05 Blood
+floor DKTXTR06 Water
+
+floor HMFX02 Water		//FAKK II Defs - ARGH!
+floor HMFX03 Hot
+floor HMFX04 Water
+floor HMFX05 Water
+floor HMFX06 Water
+floor HMFX07 Hot
+floor HMFX10 Water
+floor HMFX100 Water
+floor HMFX101 Slime
+floor HMFX106 Hot
+floor HMFX108 Water
+floor HMFX109 Nuke
+floor HMFX11 Water
+floor HMFX110 Mud
+floor HMFX115 Lava
+floor HMFX117 Ice
+floor HMFX118 Ice
+floor HMFX119 Ice
+floor HMFX120 Ice
+floor HMFX121 Ice
+floor HMFX122 Lava
+floor HMFX15 Mud
+floor HMFX17 Hot
+floor HMFX18 Mud
+floor HMFX19 Hot
+floor HMFX20 Mud
+floor HMFX22 Mud
+floor HMFX28 Hot
+floor HMFX29 Water
+floor HMFX46 Lava
+floor HMFX48 Mud
+floor HMFX50 Lava
+floor HMFX51 Lava
+floor HMFX52 Hot
+floor HMFX53 Ice
+floor HMFX55 Lava
+floor HMFX56 Lava
+floor HMFX57 Hot
+floor HMFX59 Ice
+floor HMFX60 Hot
+floor HMFX61 Hot
+floor HMFX64 Water
+floor HMFX65 Hot
+floor HMFX66 Ice
+floor HMFX68 Hot
+floor HMFX69 Water
+floor HMFX71 Water
+floor HMFX72 Hot
+floor HMFX73 Blood
+floor HMFX86 Blood
+floor HMFX90 Water
+floor HMFX96 Water
+floor HMFX97 Hot
+floor HMFX99 Water
+floor HMGFX04A Metal
+floor HMGFX04B Metal
+floor HMGFX10A Wood
+floor HMGFX10B Wood
+floor HMGFX17A Wood
+floor HMGFX17B Wood
+floor HMGFX19A Wood
+floor HMGFX19B Wood
+floor HMTD024 Wood
+floor HMTD025 Metal
+floor HMTD026 Metal
+floor HMTD027 Metal
+floor HMTX014 Metal
+floor HMTX027 Wood
+floor HMTX028 Wood
+floor HMTX038 Dirt
+floor HMTX042 Metal
+floor HMTX043 Dirt
+floor HMTX047 Rock
+floor HMTX086 Metal
+floor HMTX087 Metal
+floor HMTX089 Metal
+floor HMTX090 Metal
+floor HMTX093 Rock
+floor HMTX133 Wood
+floor HMTX139 Metal
+floor HMTX142 Metal
+floor HMTX143 Metal
+floor HMTX145 Metal
+floor HMTX153 Rock
+floor HMTX154 Rock
+floor HMTX179 Rock
+floor HMTX180 Rock
+floor HMTX182 Dirt
+floor HMTX183 Dirt
+floor HMTX184 Dirt
+floor HMTX189 Dirt
+floor HMTX191 Dirt
+floor HMTX192 Wood
+floor HMTX193 Wood
+floor HMTX195 Wood
+floor HMTX197 Wood
+floor HMTX198 Rock
+floor HMTX199 Dirt
+floor HMTX200 Dirt
+floor HMTX201 Rock
+floor HMTX202 Metal
+floor HMTX204 Rock
+floor HMTX205 Wood
+floor HMTX206 Wood
+floor HMTX208 Rock
+floor HMTX211 Metal
+floor HMTX212 Metal
+floor HMTX214 Rock
+floor HMTX215 Dirt
+floor HMTX216 Dirt
+floor HMTX217 Dirt
+floor HMTX219 Dirt
+floor HMTX220 Rock
+floor HMTX221 Dirt
+floor HMTX222 Dirt
+floor HMTX223 Dirt
+floor HMTX224 Dirt
+floor HMTX225 Dirt
+floor HMTX226 Rock
+floor HMTX230 Dirt
+floor HMTX233 Dirt
+floor HMTX234 Dirt
+floor HMTX235 Dirt
+floor HMTX236 Dirt
+floor HMTX237 Dirt
+floor HMTX238 Dirt
+floor HMTX241 Dirt
+floor HMTX242 Dirt
+floor HMTX244 Dirt
+floor HMTX245 Dirt
+floor HMTX246 Dirt
+floor HMTX247 Dirt
+floor HMTX248 Dirt
+floor HMTX249 Wood
+floor HMTX252 Rock
+floor HMTX253 Dirt
+floor HMTX255 Rock
+floor HMTX256 Rock
+floor HMTX268 Dirt
+floor HMTX269 Dirt
+floor HMTX271 Dirt
+floor HMTX278 Metal
+floor HMTX367 Rock
+floor HMTX374 Metal
+floor HMTX375 Metal
+floor HMTX376 Wood
+floor HMTX377 Dirt
+floor HMTX386 Metal
+floor HMTX398 Metal
+floor HMTX399 Metal
+floor HMTX425 Rock
+floor HMTX427 Metal
+floor HMTX427 Metal
+floor HMTX428 Rock
+floor HMTX429 Wood
+floor HMTX431 Metal
+floor HMTX456 Dirt
+floor HMTX460 Rock
+floor HMTX461 Dirt
+floor HMTX463 Metal
+floor HMTX474 Metal
+floor HMTX475 Rock
+floor HMTX476 Wood
+floor HMTX477 Wood
+floor HMTX478 Dirt
+floor HMTX480 Dirt
+floor HMTX481 Dirt
+floor HMTX482 Metal
+floor HMTX483 Metal
+floor HMTX485 Metal
+floor HMTX486 Dirt
+floor HMTX491 Metal
+floor HMTX498 Dirt
+floor HMTX499 Wood
+floor HMTX500 Wood
+floor HMTX501 Wood
+floor HMTX502 Dirt
+floor HMTX520 Rock
+floor HMTX533 Rock
+floor HMTX539 Metal
+floor HMTX554 Metal
+floor HMTX565 Rock
+floor HMTX567 Rock
+floor HMTX568 Rock
+floor HMTX573 Metal
+floor HMTX583 Rock
+floor HMTX585 Rock
+floor HMTX591 Rock
+floor HMTX596 Metal
+floor HMTX603 Wood
+floor HMTX606 Wood
+floor HMTX608 Rock
+floor HMTX612 Rock
+floor HMTX613 Rock
+floor HMTX616 Rock
+floor HMTX619 Rock
+floor HMTX620 Rock
+floor HMTX621 Rock
+floor HMTX622 Wood
+floor HMTX623 Wood
+floor HMTX626 Rock
+floor HMTX627 Rock
+floor HMTX628 Rock
+floor HMTX629 Rock
+floor HMTX630 Rock
+floor HMTX633 Rock
+floor HMTX634 Rock
+floor HMTX647 Rock
+floor HMTX648 Rock
+floor HMTX649 Rock
+floor HMTX653 Blood
+floor HMTX665 Wood
+floor HMTX669 Dirt
+floor HMTX670 Dirt
+floor HMTX671 Dirt
+floor HMTX678 Wood
+floor HMTX679 Metal
+floor HMTX682 Wood
+floor HMTX694 Wood
+floor HMTX695 Wood
+floor HMTX699 Dirt
+floor HMTX700 Dirt
+floor HMTX703 Rock
+floor HMTX706 Rock
+floor HMTX707 Rock
+floor HMTX713 Wood
+floor HMTX718 Wood
+floor HMTX719 Rock
+floor HMTX720 Wood
+floor HMTX721 Wood
+floor HMTX722 Rock
+floor HMTX724 Dirt
+floor HMTX725 Rock
+floor HMTX726 Rock
+floor HMTX727 Rock
+floor HMTX729 Carpet
+floor HMTX734 Wood
+floor HMTX737 Wood
+floor HMTX738 Wood
+floor HMTX739 Wood
+floor HMTX740 Wood
+floor HMTX741 Wood
+floor HMTX742 Wood
+floor HMTX744 Metal
+floor HMTX745 Dirt
+floor HMTX751 Rock
+floor HMTX767 Wood
+floor HMTX768 Wood
+floor HMTX769 Wood
+floor HMTX770 Wood
+floor HMTX771 Metal
+floor HMTXM179 Rock
+floor HMTXM180 Rock
+floor HMTXM201 Rock
+floor HMTXM220 Rock
+floor HMTXM221 Dirt
+floor HMTXM222 Dirt
+floor HMTXM223 Dirt
+floor HMTXM224 Dirt
+floor HMTXM225 Dirt
+floor HMTXM226 Rock
+floor HMTXM234 Dirt
+floor HMTXM252 Rock
+floor HMTXM482 Metal
+floor HMTXM483 Metal
+floor HMTXM485 Metal
+floor HMTXM585 Rock
+floor HMTXM608 Rock
+floor HMTXM612 Rock
+floor HMTXM613 Rock
+floor HMTXM616 Rock
+floor HMTXM619 Rock
+floor HMTXM620 Rock
+floor HMTXM621 Rock
+floor HMTXM626 Rock
+floor HMTXM627 Rock
+floor HMTXM633 Rock
+floor HMTXM634 Rock
+floor HMTXM647 Rock
+floor HMTXM648 Rock
+floor HMTXM649 Rock
+floor HMTXM653 Blood
+floor HMTXM703 Rock
+floor HMTXM706 Rock
+floor HMTXM707 Rock
+floor HMTXM729 Carpet
+
+floor A-DAN1 Metal		//GothicTX Defs
+floor A-DAN2 Metal
+floor A-DAN3 Metal
+floor A-DAN4 Metal
+floor ADEL_B01 Rock
+floor ADEL_B03 Wood
+floor ADEL_B04 Wood
+floor ADEL_B11 Metal
+floor ADEL_B14 Rock
+floor ADEL_B15 Rock
+floor ADEL_B17 Rock
+floor ADEL_B18 Rock
+floor ADEL_B20 Rock
+floor ADEL_B21 Rock
+floor ADEL_B22 Dirt
+floor ADEL_B23 Dirt
+floor ADEL_E02 Dirt
+floor ADEL_E03 Dirt
+floor ADEL_F04 Dirt
+floor ADEL_F08 Rock
+floor ADEL_F09 Metal
+floor ADEL_F12 Wood
+floor ADEL_F13 Wood
+floor ADEL_F14 Rock
+floor ADEL_F16 Metal
+floor ADEL_F31 Metal
+floor ADEL_F33 Metal
+floor ADEL_F34 Metal
+floor ADEL_F36 Metal
+floor ADEL_F50 Metal
+floor ADEL_F50 Metal
+floor ADEL_F51 Metal
+floor ADEL_F52 Metal
+floor ADEL_F53 Metal
+floor ADEL_F54 Metal
+floor ADEL_F57 Metal
+floor ADEL_F58 Metal
+floor ADEL_F62 Rock
+floor ADEL_F64 Metal
+floor ADEL_F67 Wood
+floor ADEL_F68 Wood
+floor ADEL_F71 Wood
+floor ADEL_F72 Wood
+floor ADEL_F73 Metal
+floor ADEL_F74 Metal
+floor ADEL_F75 Dirt
+floor ADEL_F76 Dirt
+floor ADEL_G01 Wood
+floor ADEL_G02 Wood
+floor ADEL_G03 Wood
+floor ADEL_G04 Wood
+floor ADEL_J06 Metal
+floor ADEL_J07 Metal
+floor ADEL_J16 Metal
+floor ADEL_J17 Dirt
+floor ADEL_J18 Metal
+floor ADEL_J19 Wood
+floor ADEL_L03 Metal
+floor ADEL_L04 Metal
+floor ADEL_L05 Metal
+floor ADEL_L06 Metal
+floor ADEL_L07 Metal
+floor ADEL_L09 Metal
+floor ADEL_L20 Metal
+floor ADEL_L21 Metal
+floor ADEL_L22 Metal
+floor ADEL_L23 Metal
+floor ADEL_M02 Metal
+floor ADEL_M03 Metal
+floor ADEL_M06 Metal
+floor ADEL_M07 Metal
+floor ADEL_N05 Metal
+floor ADEL_Q03 Metal
+floor ADEL_Q04 Metal
+floor ADEL_Q40 Metal
+floor ADEL_Q60 Rock
+floor ADEL_Q61 Dirt
+floor ADEL_Q61 Rock
+floor ADEL_R94 Metal
+floor ADEL_R95 Metal
+floor ADEL_R97 Metal
+floor ADEL_R98 Metal
+floor ADEL_R99 Metal
+floor ADEL_RR1 Metal
+floor ADEL_RR2 Metal
+floor ADEL_RR3 Metal
+floor ADEL_RR5 Metal
+floor ADEL_S00 Metal
+floor ADEL_S01 Metal
+floor ADEL_S03 Metal
+floor ADEL_S04 Metal
+floor ADEL_S06 Wood
+floor ADEL_S19 Metal
+floor ADEL_S32 Metal
+floor ADEL_S33 Metal
+floor ADEL_S52 Metal
+floor ADEL_S53 Metal
+floor ADEL_S54 Dirt
+floor ADEL_S65 Metal
+floor ADEL_S66 Metal
+floor ADEL_S67 Metal
+floor ADEL_S68 Metal
+floor ADEL_S70 Metal
+floor ADEL_S71 Metal
+floor ADEL_T01 Metal
+floor ADEL_U20 Rock
+floor ADEL_U21 Rock
+floor ADEL_U22 Rock
+floor ADEL_W14 Metal
+floor ADEL_W29 Wood
+floor ADEL_W30 Metal
+floor ADEL_W32 Metal
+floor ADEL_W33 Metal
+floor ADEL_W34 Metal
+floor ADEL_W35 Metal
+floor ADEL_W36 Metal
+floor ADEL_W37 Wood
+floor ADEL_W38 Wood
+floor ADEL_W39 Wood
+floor ADEL_W53 Metal
+floor ADEL_X03 Metal
+floor ADEL_X04 Metal
+floor ADEL_Y00 Metal
+floor ADEL_Y01 Metal
+floor ADEL_Y03 Metal
+floor ADEL_Y04 Metal
+floor ADEL_Y05 Metal
+floor ADEL_Y61 Metal
+floor ADEL_Y71 Metal
+floor ADEL_Y74 Metal
+floor ADEL_Y75 Metal
+floor ADEL_Y76 Metal
+floor ADEL_Y77 Metal
+floor ADEL_Y78 Metal
+floor AQUABRIK Rock
+floor AQUAPAN1 Rock
+floor AQUAPAN2 Rock
+floor AQUATILE Rock
+floor AQUAWALA Dirt
+floor AQUAWALB Dirt
+floor AQUAWALL Dirt
+floor AROMAN01 Metal
+floor ARW13_1 Wood
+floor HY_ADL01 Rock
+floor HY_ADL02 Rock
+floor HY_ADL03 Metal
+floor HY_ADL04 Metal
+floor NICK_A02 Wood
+floor NICK_A03 Dirt
+floor NICK_A04 Dirt
+floor NICK_A06 Dirt
+floor NICK_A08 Wood
+floor NICK_A09 Wood
+floor NICK_A10 Rock
+floor NICK_W01 Rock
+floor NICK_W02 Wood
+floor NICK_W05 Rock
+floor NICK_W07 Rock
+floor NICK_W08 Rock
+floor NICK_W09 Rock
+floor OLA_F_01 Wood
+floor OLA_F_01 Wood
+floor OLA_W5_2 Metal
+floor OLA_W7_1 Rock
+floor OLA_W7_2 Rock
+floor OLA_W7_3 Rock
+floor OLA_W7_4 Rock
+floor OLA_W7_5 Rock
+floor OLA_W7_6 Rock
+floor OLA_W7_7 Rock
+floor OLA_W9_1 Metal
+floor OLA_W9_2 Metal
+floor OLA_W_10 Wood
+floor OLA_W_11 Wood
+floor OLA_W_12 Dirt
+floor OLA_W_13 Rock
+floor OLA_W_15 Rock
+floor OLA_W_16 Rock
+floor OLA_W_34 Metal
+floor OLA_W_35 Metal
+floor OLA_W_37 Rock
+floor OLA_W_38 Rock
+floor OLA_W_40 Rock
+floor QFLAT01 Rock
+floor QFLAT02 Rock
+floor QFLAT03 Rock
+floor QFLAT04 Rock
+floor QFLAT05 Rock
+floor QFLAT06 Rock
+floor QFLAT07 Rock
+floor QFLAT09 Metal
+floor QFLAT10 Rock
+floor TRAV_F01 Carpet
+floor TRAV_F02 Carpet
+floor TRAV_F04 Carpet
+
+floor F_OGRO01 Metal		//OgroTX Defs
+floor F_OGRO02 Metal
+floor F_OGRO03 Metal
+floor F_OGRO04 Metal
+floor F_OGRO05 Metal
+floor F_OGRO06 Metal
+floor F_OGRO07 Metal
+floor F_OGRO08 Metal
+floor F_OGRO09 Metal
+floor F_OGRO10 Metal
+floor F_OGRO11 Metal
+floor F_OGRO12 Metal
+floor F_OGRO13 Metal
+floor F_OGRO16 Rock
+floor F_OGRO17 Rock
+floor F_OGRO18 Rock
+floor F_OGRO19 Rock
+floor F_OGRO20 Metal
+floor F_OGRO21 Metal
+floor OGRO003 Metal
+floor OGRO004 Metal
+floor OGRO005 Metal
+floor OGRO006 Metal
+floor OGRO007 Metal
+floor OGRO008 Metal
+floor OGRO009 Metal
+floor OGRO010 Metal
+floor OGRO011 Metal
+floor OGRO012 Metal
+floor OGRO013 Metal
+floor OGRO014 Metal
+floor OGRO015 Dirt
+floor OGRO016 Dirt
+floor OGRO017 Dirt
+floor OGRO018 Dirt
+floor OGRO019 Dirt
+floor OGRO020 Dirt
+floor OGRO021 Dirt
+floor OGRO022 Metal
+floor OGRO023 Metal
+floor OGRO024 Metal
+floor OGRO025 Metal
+floor OGRO026 Metal
+floor OGRO027 Metal
+floor OGRO028 Metal
+floor OGRO029 Metal
+floor OGRO030 Metal
+floor OGRO031 Metal
+floor OGRO032 Metal
+floor OGRO033 Metal
+floor OGRO034 Rock
+floor OGRO035 Rock
+floor OGRO036 Metal
+floor OGRO037 Metal
+floor OGRO038 Metal
+floor OGRO039 Metal
+floor OGRO040 Metal
+floor OGRO041 Metal
+floor OGRO042 Metal
+floor OGRO044 Dirt
+floor OGRO045 Dirt
+floor OGRO046 Dirt
+floor OGRO047 Dirt
+floor OGRO048 Dirt
+floor OGRO049 Dirt
+floor OGRO050 Dirt
+floor OGRO051 Dirt
+floor OGRO052 Dirt
+floor OGRO053 Metal
+floor OGRO054 Metal
+floor OGRO055 Metal
+floor OGRO056 Metal
+floor OGRO057 Metal
+floor OGRO058 Metal
+floor OGRO059 Metal
+floor OGRO060 Metal
+floor OGRO061 Metal
+floor OGRO062 Metal
+floor OGRO063 Metal
+floor OGRO064 Metal
+floor OGRO065 Metal
+floor OGRO066 Metal
+floor OGRO067 Metal
+floor OGRO068 Metal
+floor OGRO069 Metal
+floor OGRO070 Dirt
+floor OGRO071 Dirt
+floor OGRO072 Dirt
+floor OGRO073 Metal
+floor OGRO074 Metal
+floor OGRO075 Metal
+floor OGRO076 Metal
+floor OGRO077 Metal
+floor OGRO078 Metal
+floor OGRO079 Metal
+floor OGRO080 Metal
+floor OGRO081 Dirt
+floor OGRO082 Dirt
+floor OGRO083 Dirt
+floor OGRO084 Dirt
+floor OGRO085 Dirt
+floor OGRO086 Dirt
+floor OGRO087 Dirt
+floor OGRO088 Dirt
+floor OGRO089 Dirt
+floor OGRO090 Dirt
+floor OGRO091 Flesh
+floor OGRO092 Flesh
+floor OGRO094 Flesh
+floor OGRO095 Flesh
+floor OGRO096 Flesh
+floor OGRO097 Flesh
+floor OGRO098 Flesh
+floor OGRO099 Flesh
+floor OGRO100 Flesh
+floor OGRO101 Flesh
+floor OGRO102 Flesh
+floor OGRO103 Flesh
+floor OGRO105 Rock
+floor OGRO106 Rock
+floor OGRO107 Rock
+floor OGRO108 Metal
+floor OGRO109 Dirt
+floor OGRO110 Metal
+floor OGRO111 Metal
+floor OGRO112 Metal
+floor OGRO113 Metal
+floor OGRO114 Metal
+floor OGRO115 Metal
+floor OGRO116 Metal
+floor OGRO117 Metal
+floor OGRO118 Metal
+floor OGRO119 Metal
+floor OGRO120 Metal
+floor OGRO127 Dirt
+floor OGRO128 Dirt
+floor OGRO129 Snow
+floor OGRO130 Rock
+floor OGRO131 Snow
+floor OGRO135 Rock
+floor OGRO136 Rock
+floor OGRO137 Rock
+floor OGRO138 Metal
+floor OGRO139 Metal
+floor OGRO140 Metal
+floor OGRO141 Metal
+
+floor N5FL14RD Carpet		//NightmareTX Defs
+floor NFBRWN01 Wood
+floor NFBRWN02 Wood
+floor NFMETA03 Metal
+floor NFMETA04 Metal
+floor NFMETA05 Metal
+floor NFMETA06 Metal
+floor NFMETA45 Metal
+floor NFMTRC14 Metal
+floor NFMTRC15 Metal
+floor NFMTSP3C Metal
+floor NFMTSP3D Metal
+floor NFMTSQ01 Metal
+floor NFMTSQ02 Metal
+floor NFMTSQ03 Metal
+floor NFMTSQ04 Metal
+floor NFMTSQ05 Metal
+floor NFROCK01 Rock
+floor NFTECH02 Metal
+floor NFTECH03 Metal
+floor N_FBRK33 Rock
+floor N_FBRK34 Rock
+floor N_FBRK35 Rock
+floor N_FBRK36 Rock
+floor N_FBRK37 Rock
+floor N_MTBL01 Metal
+floor N_MTDR02 Wood
+floor N_MTDR03 Wood
+floor N_MTGN01 Metal
+floor N_MTGY01 Metal
+floor N_MTOR01 Metal
+floor N_MTPR01 Metal
+floor N_MTRC01 Metal
+floor N_MTRC02 Metal
+floor N_MTRC03 Metal
+floor N_MTRC04 Metal
+floor N_MTRC05 Metal
+floor N_MTRC06 Metal
+floor N_MTRC07 Metal
+floor N_MTRC08 Metal
+floor N_MTRC09 Metal
+floor N_MTRC10 Metal
+floor N_MTRC11 Metal
+floor N_MTRC12 Metal
+floor N_MTRC13 Metal
+floor N_MTRC14 Metal
+floor N_MTRC15 Metal
+floor N_MTRD01 Metal
+floor N_MTSP3B Metal
+floor N_MTSP3C Metal
+floor N_MTSP3D Metal
+floor N_MTSP3E Metal
+floor N_MTSP3F Metal
+floor N_MTSQ01 Metal
+floor N_MTSQ02 Metal
+floor N_MTSQ03 Metal
+floor N_MTSQ04 Metal
+floor N_MTSQ05 Metal
+floor N_MTSQ07 Metal
+floor N_MTSQ08 Metal
+floor N_MTSQ09 Metal
+floor N_MTVN3 Metal
+floor N_MTWL01 Metal
+floor N_MTYL01 Metal
+floor N_ROCK01 Dirt
+floor N_ROCK02 Dirt
+floor N_ROCK03 Dirt
+floor N_ROCK04 Dirt
+floor N_ROCK05 Dirt
+floor N_ROCK06 Dirt
+floor N_ROCK07 Dirt
+floor N_ROCK08 Dirt
+floor N_ROCK09 Dirt
+floor N_ROCK12 Dirt
+
+floor BAKRUNE1 Rock		//BAK_LEGTX Defs
+floor BAKRUNE2 Rock
+floor BAKRUNE3 Rock
+floor BAKRUNE4 Rock
+floor BAKTX033 Snow
+floor BAKTX039 Ice
+floor BAKTX048 Metal
+floor BAKTX049 Metal
+floor BAKTX050 Metal
+floor BAKTX051 Metal
+floor BAKTX086 Metal
+floor BAKTX147 Snow
+floor BAKTX154 Snow
+floor BAKTX177 Rock
+floor BAKTX197 Rock
+floor BAKTX213 Wood
+floor BAKTX226 Dirt
+floor BAKTX236 Wood
+
+floor CMTX004 Rock		//COMMTX Defs
+floor CMTX007 Carpet
+floor CMTX008 Carpet
+floor CMTX079 Carpet
+floor CMTX091 Rock
+floor CMTX092 Wood
+floor CMTX093 Wood
+
+floor MALICE03 Metal	//MaliceTX Defs
+floor MALICE04 Metal
+floor MALICE05 Metal
+floor MALICE06 Metal
+floor MALICE07 Metal
+floor MALICE08 Metal
+floor MALICE09 Metal
+floor MALICE10 Metal
+floor MALICE11 Metal
+floor MALICE12 Metal
+floor MALICE13 Metal
+floor MALICE14 Metal
+floor MALICE17 Metal
+floor MALICE18 Metal
+floor MALICE20 Metal
+floor MALICE21 Rock
+floor MALICE22 Metal
+floor MALICE23 Metal
+floor MALICE24 Rock
+floor MALICE25 Rock
+floor MALICE26 Rock
+floor MALICE27 Rock
+floor MALICE28 Rock
+floor MALICE29 Wood
+floor MALICE30 Rock
+floor MALICE31 Metal
+floor MALICE32 Metal
+floor MALICE33 Metal
+floor MALICE34 Metal
+floor MALICE35 Metal
+floor MALICE38 Metal
+floor MALICE39 Metal
+floor MALICE40 Metal
+floor MALICE41 Rock
+floor MALICE42 Rock
+floor MALICE43 Rock
+floor MALICE43 Rock
+floor MALICE44 Metal
+floor MALICE45 Rock
+floor MALICE46 Rock
+floor MALICE47 Rock
+floor MALICE48 Metal
+floor MALICE50 Metal
+floor MALICE51 Metal
+floor MALICE52 Metal
+floor MALICE53 Metal
+floor MALICE54 Metal
+floor MALICE55 Metal
+floor MALICE56 Metal
+floor MALICE57 Metal
+floor MALICE58 Metal
+floor MALICE59 Metal
+
+floor NMNCTX05 Metal	//NMNCorpTX Defs
+floor NMNCTX06 Metal
+floor NMNCTX07 Dirt
+floor NMNCTX08 Dirt
+floor NMNCTX09 Dirt
+floor NMNCTX10 Dirt
+floor NMNCTX11 Dirt

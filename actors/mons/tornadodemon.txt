@@ -1,0 +1,545 @@
+ACTOR TornadoDemon 32725
+{
+//$Category Realm667 Monsters
+Tag "Tornado Demon"
+Game Doom
+spawnid 146
+OBITUARY "%o was blown away by a tornado demon"
+Health 1500
+gibhealth 35
+Radius 20
+Height 56
+Mass 500
+Speed 20
+RENDERSTYLE Translucent
+Alpha 0.50
+PainChance 10
+DamageFactor Poison, 0.1
+DamageFactor PoisonCloud, 0.1
+SEESOUND "tornado/see"
+PAINSOUND "tornado/pain"
+DEATHSOUND "tornado/death"
+ACTIVESOUND "tornado/active"
+MONSTER
++VISIBILITYPULSE
++FLOORCLIP
++NOTARGET
++NOFEAR
+DropItem "RegenSphere", 96
+DropItem "ShellBox", 128, 2
+Bloodcolor "85 85 85"
+BloodType "Gore_TIvoryBlood"
+MaxStepHeight 32
+MaxDropOffHeight 32
+states
+	{
+	Spawn:
+	SILE AB 10 A_Look
+	Loop
+	See:
+	SILE AABBCCDDEEFF 2 A_Chase
+	SILE A 0 A_Jump(32,1)
+	Loop
+	SPIN A 0 A_SetInvulnerable
+	SPIN ABCDEFGHABCDEFGHABCDEFGHABCDEFGH 1
+	FX07 ABC 2
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 ABC 2 A_Wander
+	FX07 A 1 A_PlaySound("tornado/form")
+	FX07 A 0 A_CustomMissile("KnockbackTornado",32,0,0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	FX07 A 0 A_CustomMissile("Leaves3",Random(16,64),Random(-32,32),Random(0,360),0,0)
+	SPIN ABCDEFGHABCDEFGHABCDEFGHABCDEFGH 1
+	SPIN A 0 A_UnsetInvulnerable
+	Goto See
+	Missile:
+	SILE G 0 A_Jump(64,21)
+	SILE G 0 BRIGHT A_PlaySound("tornado/form")
+	SILE G 10 BRIGHT A_FaceTarget
+	SILE H 8 BRIGHT
+	SILE IJKLMN 8 BRIGHT A_FaceTarget
+	SILE N 0 A_PlaySound("wind/away")
+	SILE N 0 A_CustomMissile("Leaves1",Random(16,64),Random(-64,64),Random(45,-45),0,0)
+	SILE N 0 A_CustomMissile("Leaves1",Random(16,64),Random(-64,64),Random(45,-45),0,0)
+	SILE N 0 A_CustomMissile("Leaves1",Random(16,64),Random(-64,64),Random(45,-45),0,0)
+	SILE N 0 A_CustomMissile("Leaves1",Random(16,64),Random(-64,64),Random(45,-45),0,0)
+	SILE N 0 A_CustomMissile("Leaves1",Random(16,64),Random(-64,64),Random(45,-45),0,0)
+	SILE N 0 A_CustomMissile("Leaves1",Random(16,64),Random(-64,64),Random(45,-45),0,0)
+	SILE N 0 A_CustomMissile("Leaves1",Random(16,64),Random(-64,64),Random(45,-45),0,0)
+	SILE N 0 A_CustomMissile("Leaves1",Random(16,64),Random(-64,64),Random(45,-45),0,0)
+	SILE O 8 BRIGHT A_CustomMissile("WindyDisaster",32,0,0,0)
+	SILE P 20 BRIGHT
+	Goto See
+	SILE A 1 A_PlaySound("wind/away")
+	SILE A 0 A_SpawnItemEx("Leaves2",Random(-32,32),0,Random(16,64),3,0,0,Random(0,360),128)
+	SILE A 0 A_SpawnItemEx("Leaves2",Random(-32,32),0,Random(16,64),3,0,0,Random(0,360),128)
+	SILE A 0 A_SpawnItemEx("Leaves2",Random(-32,32),0,Random(16,64),3,0,0,Random(0,360),128)
+	SILE A 0 A_SpawnItemEx("Leaves2",Random(-32,32),0,Random(16,64),3,0,0,Random(0,360),128)
+	SILE A 0 A_SpawnItemEx("Leaves2",Random(-32,32),0,Random(16,64),3,0,0,Random(0,360),128)
+	SILE A 0 A_SpawnItemEx("Leaves2",Random(-32,32),0,Random(16,64),3,0,0,Random(0,360),128)
+	SILE A 0 A_SpawnItemEx("Leaves2",Random(-32,32),0,Random(16,64),3,0,0,Random(0,360),128)
+	SILE A 0 A_SpawnItemEx("Leaves2",Random(-32,32),0,Random(16,64),3,0,0,Random(0,360),128)
+	SILE A 0 A_UnSetShootable
+	SILE A 1 A_SetTranslucent(0.50)
+	SILE A 1 A_SetTranslucent(0.40)
+	SILE A 1 A_SetTranslucent(0.30)
+	SILE A 1 A_SetTranslucent(0.20)
+	SILE A 1 A_SetTranslucent(0.10)
+	NULL AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 0 A_Wander
+	NULL A 0 A_Jump(128,25)
+	NULL AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 0 A_ExtChase(0,0,1,1)
+	SILE A 1 A_SetTranslucent(0.10)
+	SILE A 1 A_SetTranslucent(0.20)
+	SILE A 1 A_SetTranslucent(0.30)
+	SILE A 1 A_SetTranslucent(0.40)
+	SILE A 1 A_SetTranslucent(0.50)
+	SILE A 0 A_SetShootable
+	SILE A 1 A_PlaySound("wind/away")
+	Goto See
+	Pain:
+	SILE Q 5
+	SILE Q 5 A_Pain
+	Goto See
+	Death:
+	SILE Q 7
+	SILE R 7 A_Scream
+	SILE S 7 A_NoBlocking
+	SILE TUVW 7
+	SILE XY 5
+	SILE Z -1
+	Stop
+	XDeath: //new
+	SILE Q 0 A_SpawnDebris("Gore_TIvoryGib11",0)
+	SILE Q 0 A_SpawnDebris("Gore_TIvoryGib11",0)
+	SILE Q 0 A_SpawnItem("Gore_GibGeneratorTIvory",0,0,0,0)
+	SILE Q 7
+	SILE R 0 A_SpawnItem("Gore_GibGeneratorTIvory",0,0,0,2)
+	SILE R 7 A_Scream
+	SILE S 0 A_SpawnItem("Gore_GibGeneratorTIvory",0,0,0,4)
+	SILE S 7 A_NoBlocking
+	SILE T 0 A_SpawnItem("Gore_GibGeneratorTIvory",0,0,0,6)
+	SILE TUVW 7
+	SILE XY 5
+	SILE Z -1
+	Stop
+	Crush:
+	TNT1 A 1 A_SpawnItem("NashGore_CrushedSmallTIvory",0,0,0,0)
+	stop
+	}
+}
+
+ACTOR KnockbackTornado
+{
+Height 4
+Speed 50
+Radius 50
+Height 16
+PROJECTILE
++Randomize
+states
+	{
+	Spawn:
+	NULL ABCDEFGHIJK 1 A_RadiusThrust(128,255,0)
+	Stop
+	}
+}
+
+ACTOR WindyDisaster
+{
+Height 4
+Speed 50
+Radius 50
+Height 16
+PROJECTILE
++Randomize
+states
+	{
+	Spawn:
+	NULL A 0 A_PlaySound("wind/away")
+	NULL AAAAAAAAAAAAAAAAAA 0 A_RadiusThrust(128,255,0)
+	NULL A 10
+	Stop
+	}
+}
+
+ACTOR Leaves1
+{
+Radius 8
+Height 16
+Speed 15
+Damage 4
+PROJECTILE
++RANDOMIZE
++NOGRAVITY
++FLOAT
+states
+	{
+	Spawn:
+	LEF1 ABCDEFGHI 4 BRIGHT
+	LEF1 ABCDEFGHI 4 BRIGHT
+	LEF1 ABCDEFGHI 4 BRIGHT
+	LEF1 ABCDEFGHI 4 BRIGHT
+	LEF1 ABCDEFGHI 4 BRIGHT
+	Goto death
+	Death:
+	LEF1 A 1 BRIGHT
+	Stop
+	}
+}
+
+ACTOR Leaves2
+{
+Radius 6
+Height 16
+Speed 3
+PROJECTILE
++RANDOMIZE
+-NOGRAVITY
++FLOAT
+states
+	{
+	Spawn:
+	LEF2 ABCDEFGHI 4 BRIGHT
+	LEF2 ABCDEFGHI 4 BRIGHT
+	LEF2 ABCDEFGHI 4 BRIGHT
+	LEF2 ABCDEFGHI 4 BRIGHT
+	LEF2 ABCDEFGHI 4 BRIGHT
+	Goto death
+	Death:
+	LEF2 A 1 BRIGHT
+	Stop
+	}
+}
+
+ACTOR Leaves3 : LoreShot
+{
+Radius 8
+Height 16
+Speed 15
+Damage 1
+PROJECTILE
++RANDOMIZE
++NOGRAVITY
++FLOAT
+states
+	{
+	Spawn:
+	LEF1 ABCDEFGHI 1 BRIGHT
+	LEF1 ABCDEFGHI 1 BRIGHT
+	LEF1 ABCDEFGHI 1 BRIGHT
+	LEF1 ABCDEFGHI 1 BRIGHT
+	LEF1 ABCDEFGHI 1 BRIGHT
+	Goto death
+	Death:
+	LEF1 A 1 BRIGHT
+	Stop
+	}
+}

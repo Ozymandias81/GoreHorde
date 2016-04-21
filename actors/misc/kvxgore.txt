@@ -1,0 +1,514 @@
+//sw switchables
+ACTOR SWFloorLever : SwitchableDecoration 28300
+{
+//$Category Gore Voxels
+Tag "Floor Lever"
+Game Doom
+Radius 48
+Height 96
+Mass 0x7fffffff
++SOLID
++SHOOTABLE
++NODAMAGE
++NOBLOOD
++NOGRAVITY
++NOTIMEFREEZE
++NOLIFTDROP
++USESPECIAL
++NOTAUTOAIMED
+Activation THINGSPEC_Switch|THINGSPEC_DeActivate
+States
+	{
+	Spawn:
+	Inactive:
+	SWT3 A -1 A_Playsound("misc/buttons/lever1")
+	Stop
+	Active:
+	SWT3 B -1 A_Playsound("misc/buttons/lever2")
+	Stop
+	Stuck: //acs only
+	TNT1 A 0 A_Playsound("misc/buttons/lever3")
+	SWT3 A -1 A_Changeflag("USESPECIAL",0)
+	Stop
+	}
+}
+
+ACTOR SWWallButton : SwitchableDecoration 28301
+{
+//$Category Gore Voxels
+Tag "Wall Button"
+Game Doom
+radius 8
+height 32
+Mass 0x7fffffff
++SOLID
++SHOOTABLE
++NODAMAGE
++NOBLOOD
++NOGRAVITY
++NOTIMEFREEZE
++NOLIFTDROP
++USESPECIAL
++NOTAUTOAIMED
+Activation THINGSPEC_Switch|THINGSPEC_DeActivate
+scale 0.5
+States
+	{
+	Spawn:
+	Inactive:
+	BUTN A -1
+	Stop
+	Active:
+	BUTN B -1 A_Playsound("misc/buttons/hr2basic")
+	Stop
+	Stuck: //acs only
+	BUTN B -1 A_Changeflag("USESPECIAL",0)
+	Stop
+	}
+}
+
+ACTOR SWWallLever : SwitchableDecoration 28302
+{
+//$Category Gore Voxels
+Tag "Wall Lever 1"
+Game Doom
+radius 8
+height 48
+Mass 0x7fffffff
++SOLID
++SHOOTABLE
++NODAMAGE
++NOBLOOD
++NOGRAVITY
++NOTIMEFREEZE
++NOLIFTDROP
++USESPECIAL
++NOTAUTOAIMED
+Activation THINGSPEC_Switch|THINGSPEC_DeActivate
+States
+	{
+	Spawn:
+	Inactive:
+	SWT1 A -1 A_Playsound("misc/buttons/lever1")
+	Stop
+	Active:
+	SWT1 B -1 A_Playsound("misc/buttons/lever1")
+	Stop
+	Stuck: //acs only
+	TNT1 A 0 A_Playsound("misc/buttons/lever3")
+	SWT1 A -1 A_Changeflag("USESPECIAL",0)
+	Stop
+	}
+}
+
+ACTOR SWSimpleWallLever : SwitchableDecoration 28303
+{
+//$Category Gore Voxels
+Tag "Wall Lever 2"
+Game Doom
+radius 8
+height 48
+Mass 0x7fffffff
++SOLID
++SHOOTABLE
++NODAMAGE
++NOBLOOD
++NOGRAVITY
++NOTIMEFREEZE
++NOLIFTDROP
++USESPECIAL
++NOTAUTOAIMED
+Activation THINGSPEC_Switch|THINGSPEC_DeActivate
+States
+	{
+	Spawn:
+	Inactive:
+	SWT4 A -1 A_Playsound("misc/buttons/lever1")
+	Stop
+	Active:
+	SWT4 B -1 A_Playsound("misc/buttons/lever1")
+	Stop
+	Stuck: //acs only
+	TNT1 A 0 A_Playsound("misc/buttons/lever3")
+	SWT4 A -1 A_Changeflag("USESPECIAL",0)
+	Stop
+	}
+}
+
+ACTOR SWPowerSupply : SwitchableDecoration 28304
+{
+//$Category Gore Voxels
+Tag "Power Station"
+Game Doom
+radius 8
+height 64
+Mass 0x7fffffff
++SOLID
++SHOOTABLE
++NODAMAGE
++NOBLOOD
++NOGRAVITY
++NOTIMEFREEZE
++NOLIFTDROP
++USESPECIAL
++NOTAUTOAIMED
+Activation THINGSPEC_Switch|THINGSPEC_DeActivate
+States
+	{
+	Spawn:
+	Inactive:
+	SWT2 A -1 A_Playsound("POWOFF")
+	Stop
+	Active:
+	SWT2 B -1 A_Playsound("POWON")
+	Stop
+	Stuck: //acs only
+	TNT1 A 0 A_Playsound("misc/buttons/lever3")
+	SWT2 A -1 A_Changeflag("USESPECIAL",0)
+	Stop
+	}
+}
+
+ACTOR SWHiddenSwitch : SwitchableDecoration 28305
+{
+//$Category Gore Voxels
+Tag "Hidden Switch"
+Game Doom
+radius 8
+height 8
+Mass 0x7fffffff
++SOLID
++SHOOTABLE
++NODAMAGE
++NOBLOOD
++NOGRAVITY
++NOTIMEFREEZE
++NOLIFTDROP
++USESPECIAL
++NOTAUTOAIMED
+Activation THINGSPEC_Switch|THINGSPEC_DeActivate
+States
+	{
+	Spawn:
+	Inactive:
+	SWT5 A -1 A_Playsound("misc/buttons/hr2clank")
+	Stop
+	Active:
+	SWT5 B -1 A_Playsound("misc/buttons/hr2clank")
+	Stop
+	Stuck:
+	SWT5 A -1 A_Changeflag("USESPECIAL",0)
+	Stop
+	}
+}
+
+//sw scenery
+actor SWPulsatingHeart 28306 //could be useful in particular situations via acs when killed
+{
+//$Category Gore Voxels
+Tag "Pulsating Heart"
+Game Doom
+radius 8
+height 8
+health 100
+Mass 0x7fffffff
++SOLID
++CANPASS
++SHOOTABLE
++NOTIMEFREEZE
++NOGRAVITY
++NOICEDEATH
+bloodcolor "red"
+scale 0.7
+States
+	{
+	Spawn:
+	HEAR AB 12 A_Playsound("hbeat",random(127,215))
+	Loop
+	Death:
+	HEAR AB 0 A_NoBlocking
+	HEAR AB 2 A_Mushroom ("BloodPuke",10) //yes, it hurts
+	TNT1 A 1
+	Stop
+	}
+}
+
+//bl scenery
+actor BLWoodenBeams : SwitchableDecoration 28308
+{
+//$Category Gore Voxels
+Tag "Wooden Beams"
+Game Doom
+radius 16
+height 32
+Mass 0x7fffffff
+scale 0.5
++SOLID
++CANPASS
++SHOOTABLE
++NODAMAGE
++NOBLOOD
++NOGRAVITY
++NOTIMEFREEZE
++NOLIFTDROP
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	WDBM A -1
+	Stop
+	Active:
+	WDBM A 1
+	WDBM A 1 A_SpawnItemEx ("InvisibleBridge16",0,0,-32)
+	WDBM A -1
+	Stop
+	}
+}
+
+actor BLGrave1 : SwitchableDecoration 28309
+{
+//$Category Gore Voxels
+Tag "Blood Grave 1"
+Game Doom
+radius 8
+height 16
+Mass 0x7fffffff
+scale 0.5
++SOLID
++CANPASS
++SHOOTABLE
++NODAMAGE
++NOBLOOD
++NOGRAVITY
++NOTIMEFREEZE
++NOLIFTDROP
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	GRV1 A -1
+	Stop
+	Active:
+	GRV1 A 1
+	GRV1 A 1 A_SpawnItemEx ("InvisibleBridge8",0,0,-16)
+	GRV1 A -1
+	Stop
+	}
+}
+
+actor BLGrave2 : SwitchableDecoration 28310
+{
+//$Category Gore Voxels
+Tag "Blood Grave 2"
+Game Doom
+radius 8
+height 16
+Mass 0x7fffffff
+scale 0.5
++SOLID
++CANPASS
++SHOOTABLE
++NODAMAGE
++NOBLOOD
++NOGRAVITY
++NOTIMEFREEZE
++NOLIFTDROP
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	GRV2 A -1
+	Stop
+	Active:
+	GRV2 A 1
+	GRV2 A 1 A_SpawnItemEx ("InvisibleBridge8",0,0,-16)
+	GRV2 A -1
+	Stop
+	}
+}
+
+actor BLGrave3 : SwitchableDecoration 28311
+{
+//$Category Gore Voxels
+Tag "Blood Grave 3"
+Game Doom
+radius 8
+height 16
+Mass 0x7fffffff
+scale 0.5
++SOLID
++CANPASS
++SHOOTABLE
++NODAMAGE
++NOBLOOD
++NOGRAVITY
++NOTIMEFREEZE
++NOLIFTDROP
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	GRV3 A -1
+	Stop
+	Active:
+	GRV3 A 1
+	GRV3 A 1 A_SpawnItemEx ("InvisibleBridge8",0,0,-16)
+	GRV3 A -1
+	Stop
+	}
+}
+
+actor BLGrave4 : SwitchableDecoration 28312
+{
+//$Category Gore Voxels
+Tag "Blood Grave 4"
+Game Doom
+radius 12
+height 24
+Mass 0x7fffffff
+scale 0.5
++SOLID
++CANPASS
++SHOOTABLE
++NODAMAGE
++NOBLOOD
++NOGRAVITY
++NOTIMEFREEZE
++NOLIFTDROP
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	GRV4 A -1
+	Stop
+	Active:
+	GRV4 A 1
+	GRV4 A 1 A_SpawnItemEx ("InvisibleBridge8",0,0,-24)
+	GRV4 A -1
+	Stop
+	}
+}
+
+actor BLGrave5 : SwitchableDecoration 28313
+{
+//$Category Gore Voxels
+Tag "Blood Grave 5"
+Game Doom
+radius 12
+height 24
+Mass 0x7fffffff
+scale 0.5
++SOLID
++CANPASS
++SHOOTABLE
++NODAMAGE
++NOBLOOD
++NOGRAVITY
++NOTIMEFREEZE
++NOLIFTDROP
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	GRV5 A -1
+	Stop
+	Active:
+	GRV5 A 1
+	GRV5 A 1 A_SpawnItemEx ("InvisibleBridge8",0,0,-24)
+	GRV5 A -1
+	Stop
+	}
+}
+
+actor BLGrave6 : SwitchableDecoration 28314
+{
+//$Category Gore Voxels
+Tag "Blood Grave 6"
+Game Doom
+radius 8
+height 16
+Mass 0x7fffffff
+scale 0.5
++SOLID
++CANPASS
++SHOOTABLE
++NODAMAGE
++NOBLOOD
++NOGRAVITY
++NOTIMEFREEZE
++NOLIFTDROP
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	GRV6 A -1
+	Stop
+	Active:
+	GRV6 A 1
+	GRV6 A 1 A_SpawnItemEx ("InvisibleBridge8",0,0,-16)
+	GRV6 A -1
+	Stop
+	}
+}
+
+actor BLGrave7 : SwitchableDecoration 28315 //Eric Draven Grave
+{
+//$Category Gore Voxels
+Tag "Blood Grave 7"
+Game Doom
+radius 8
+height 24
+Mass 0x7fffffff
+scale 0.5
++SOLID
++CANPASS
++SHOOTABLE
++NODAMAGE
++NOBLOOD
++NOGRAVITY
++NOTIMEFREEZE
++NOLIFTDROP
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	GRV7 A -1
+	Stop
+	Active:
+	GRV7 A 1
+	GRV7 A 1 A_SpawnItemEx ("InvisibleBridge8",0,0,-24)
+	GRV7 A -1
+	Stop
+	}
+}
+
+actor BLGrave8 : SwitchableDecoration 28316
+{
+//$Category Gore Voxels
+Tag "Blood Grave 8"
+Game Doom
+radius 8
+height 24
+Mass 0x7fffffff
+scale 0.5
++SOLID
++CANPASS
++SHOOTABLE
++NODAMAGE
++NOBLOOD
++NOGRAVITY
++NOTIMEFREEZE
++NOLIFTDROP
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	GRV8 A -1
+	Stop
+	Active:
+	GRV8 A 1
+	GRV8 A 1 A_SpawnItemEx ("InvisibleBridge8",0,0,-24)
+	GRV8 A -1
+	Stop
+	}
+}

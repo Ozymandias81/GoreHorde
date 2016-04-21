@@ -1,0 +1,40 @@
+ACTOR LavaCauldron 10420
+{
+//$Category New Obstacles
+Tag "Lava Cauldron"
+Game Doom
+Radius 24
+Height 32
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	LAVC A 0 Bright
+	LAVC A 0 Bright A_PlaySoundEx ("LavaCauldron/Loop", "SoundSlot5", 1, -1)
+	Bubble:
+	LAVC ABC 6 Bright
+	Loop
+	}
+}
+
+ACTOR LavaCauldronSpitter 10421
+{
+//$Category New Obstacles
+Tag "Lava Cauldron Spitter"
+Game Doom
+Radius 24
+Height 32
++SOLID
++CLIENTSIDEONLY
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	LAVC A 0 Bright
+	LAVC A 0 Bright A_PlaySoundEx ("LavaCauldron/Loop", "SoundSlot5", 1, -1)
+	Bubble:
+	LAVC ABC 6 Bright A_SpawnItemEx ("VolcanoTBlast", 0, 0, 28, 1, 0, random (1, 3), random (0, 360), 0, 224)
+	Loop
+	}
+}

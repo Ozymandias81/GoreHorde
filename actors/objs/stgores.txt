@@ -1,0 +1,238 @@
+//health & +shootable for NashGores;
+//Impaling Spike
+ACTOR ImpalingSpike 14166
+{
+//$Category New Obstacles
+Tag "Impaling Spike 1"
+Game Doom
+Radius 16
+Height 64
+Mass 0x7fffffff
++SOLID
+States
+	{
+	Spawn:
+	POL7 A -1
+	Stop
+	}
+}
+
+//Chaingunner Head
+ACTOR ImpalingSpike2 14167
+{
+//$Category New Obstacles
+Tag "Impaling Spike 2"
+Game Doom
+Radius 16
+Height 56
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
++SOLID
+States
+	{
+	Spawn:
+	POL8 A -1
+	Stop
+	}
+}
+
+//Zombieman Head
+ACTOR ImpalingSpike3 14168
+{
+//$Category New Obstacles
+Tag "Impaling Spike 3"
+Game Doom
+Radius 16
+Height 56
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
++SOLID
+States
+	{
+	Spawn:
+	POL9 A -1
+	Stop
+	}
+}
+
+//Doomguy Head
+ACTOR ImpalingSpike4 14169
+{
+//$Category New Obstacles
+Tag "Impaling Spike 4"
+Game Doom
+Radius 16
+Height 56
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
++SOLID
+States
+	{
+	Spawn:
+	POLA A -1
+	Stop
+	}
+}
+
+//3 Doomguy Heads
+ACTOR ImpalingSpike5 14170
+{
+//$Category New Obstacles
+Tag "Impaling Spike 5"
+Game Doom
+Radius 16
+Height 64
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
++SOLID
+States
+	{
+	Spawn:
+	POLB A -1
+	Stop
+	}
+}
+
+//3 Doomguy Heads, Short
+ACTOR ImpalingSpike6 14171
+{
+//$Category New Obstacles
+Tag "Impaling Spike 6"
+Game Doom
+Radius 16
+Height 48
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
++SOLID
+States
+	{
+	Spawn:
+	POLI A -1 //renamed to prevent conflicts
+	Stop
+	}
+}
+
+//Doomguy torso, one arm
+ACTOR ImpalingSpike7 14172
+{
+//$Category New Obstacles
+Tag "Impaling Spike 7"
+Game Doom
+Radius 16
+Height 64
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
++SOLID
+States
+	{
+	Spawn:
+	POLD A -1
+	Stop
+	}
+}
+
+//Doomguy torso, two arms
+ACTOR ImpalingSpike8 14173
+{
+//$Category New Obstacles
+Tag "Impaling Spike 8"
+Game Doom
+Radius 16
+Height 64
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
++SOLID
+States
+	{
+	Spawn:
+	POLE A -1
+	Stop
+	}
+}
+
+//Doomguy skewered, twitching
+ACTOR ImpalingSpike9 14174
+{
+//$Category New Obstacles
+Tag "Impaling Spike 9"
+Game Doom
+Radius 16
+Height 64
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
++SOLID
+States
+	{
+	Spawn:
+	POLF A 6
+	POLF B 8
+	Loop
+	}
+}
+
+//Doomguy skewered, long arm
+ACTOR ImpalingSpike10 14175
+{
+//$Category New Obstacles
+Tag "Impaling Spike 10"
+Game Doom
+Radius 16
+Height 64
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
++SOLID
+States
+	{
+	Spawn:
+	POLG A -1
+	Stop
+	}
+}
+
+//Doomguy skewered, short arm
+ACTOR ImpalingSpike11 14176
+{
+//$Category New Obstacles
+Tag "Impaling Spike 11"
+Game Doom
+Radius 16
+Height 64
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
++SOLID
+States
+	{
+	Spawn:
+	POLH A -1
+	Stop
+	}
+}
+
+//Pool of Blood with Marine Helmet
+ACTOR MarineHelmetGibs 14177
+{
+//$Category New Decorations
+Tag "Marine Helmet Gibs"
+Game Doom
+Radius 20
+Height 4
++NOBLOCKMAP
++MOVEWITHSECTOR
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	STGB A -1 //renamed to prevent conflicts
+	Stop
+	}
+}

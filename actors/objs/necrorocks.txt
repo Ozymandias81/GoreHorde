@@ -1,0 +1,349 @@
+ACTOR NRock1 20003
+{
+//$Category New Decorations
+Tag "Necrodome Rock 1"
+Game Doom
+Radius 16
+Height 16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	NROK A -1
+	Stop
+	}
+}
+
+ACTOR NRock2 20004
+{
+//$Category New Decorations
+Tag "Necrodome Rock 2"
+Game Doom
+Radius 16
+Height 16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	NROK B -1
+	Stop
+	}
+}
+
+ACTOR NRock3 20005
+{
+//$Category New Decorations
+Tag "Necrodome Rock 3"
+Game Doom
+Radius 16
+Height 16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	NROK C -1
+	Stop
+	}
+}
+
+ACTOR NRock4 20006
+{
+//$Category New Decorations
+Tag "Necrodome Rock 4"
+Game Doom
+Radius 16
+Height 16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	NROK D -1
+	Stop
+	}
+}
+
+ACTOR NRock5 20007
+{
+//$Category New Decorations
+Tag "Necrodome Rock 5"
+Game Doom
+Radius 16
+Height 16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	NROK E -1
+	Stop
+	}
+}
+
+ACTOR NRock6 20008
+{
+//$Category New Decorations
+Tag "Necrodome Rock 6"
+Game Doom
+Radius 16
+Height 16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	NROK F -1
+	Stop
+	}
+}
+
+ACTOR NRock7 20009
+{
+//$Category New Decorations
+Tag "Necrodome Rock 7"
+Game Doom
+Radius 16
+Height 16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	NROK G -1
+	Stop
+	}
+}
+
+ACTOR NRock8 20010
+{
+//$Category New Decorations
+Tag "Necrodome Rock 8"
+Game Doom
+Radius 16
+Height 16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	NROK H -1
+	Stop
+	}
+}
+
+ACTOR NRock9 20011
+{
+//$Category New Decorations
+Tag "Necrodome Rock 9"
+Game Doom
+Radius 16
+Height 16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	NROK I -1
+	Stop
+	}
+}
+
+ACTOR NRock10 20012
+{
+//$Category New Decorations
+Tag "Necrodome Rock 10"
+Game Doom
+Radius 16
+Height 16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	NROK J -1
+	Stop
+	}
+}
+
+ACTOR NRock1small 20013
+{
+//$Category New Decorations
+Tag "Necrodome Small Rock 1"
+Game Doom
+Radius 16
+Height 16
++SOLID
++NOTAUTOAIMED
+Scale 0.6
+States
+	{
+	Spawn:
+	NROK A -1
+	Stop
+	}
+}
+
+ACTOR NRock2small 20014
+{
+//$Category New Decorations
+Tag "Necrodome Small Rock 2"
+Game Doom
+Radius 16
+Height 16
++SOLID
++NOTAUTOAIMED
+Scale 0.6
+States
+	{
+	Spawn:
+	NROK B -1
+	Stop
+	}
+}
+
+ACTOR NRock3small 20015
+{
+//$Category New Decorations
+Tag "Necrodome Small Rock 3"
+Game Doom
+Radius 16
+Height 16
++SOLID
++NOTAUTOAIMED
+Scale 0.6
+States
+	{
+	Spawn:
+	NROK C -1
+	Stop
+	}
+}
+
+ACTOR NRock4small 20016
+{
+//$Category New Decorations
+Tag "Necrodome Small Rock 4"
+Game Doom
+Radius 16
+Height 16
++SOLID
++NOTAUTOAIMED
+Scale 0.6
+States
+	{
+	Spawn:
+	NROK D -1
+	Stop
+	}
+}
+
+ACTOR NRock5small 20017
+{
+//$Category New Decorations
+Tag "Necrodome Small Rock 5"
+Game Doom
+Radius 16
+Height 16
++SOLID
++NOTAUTOAIMED
+Scale 0.6
+States
+	{
+	Spawn:
+	NROK E -1
+	Stop
+	}
+}
+
+ACTOR NRock6small 20018
+{
+//$Category New Decorations
+Tag "Necrodome Small Rock 6"
+Game Doom
+Radius 16
+Height 16
++SOLID
++NOTAUTOAIMED
+Scale 0.6
+States
+	{
+	Spawn:
+	NROK F -1
+	Stop
+	}
+}
+
+ACTOR NRock7small 20019
+{
+//$Category New Decorations
+Tag "Necrodome Small Rock 7"
+Game Doom
+Radius 16
+Height 16
++SOLID
++NOTAUTOAIMED
+Scale 0.6
+States
+	{
+	Spawn:
+	NROK G -1
+	Stop
+	}
+}
+
+ACTOR NRock8small 20020
+{
+//$Category New Decorations
+Tag "Necrodome Small Rock 8"
+Game Doom
+Radius 16
+Height 16
++SOLID
++NOTAUTOAIMED
+Scale 0.6
+States
+	{
+	Spawn:
+	NROK H -1
+	Stop
+	}
+}
+
+ACTOR NRock9small 20021
+{
+//$Category New Decorations
+Tag "Necrodome Small Rock 9"
+Game Doom
+Radius 16
+Height 16
++SOLID
++NOTAUTOAIMED
+Scale 0.6
+States
+	{
+	Spawn:
+	NROK I -1
+	Stop
+	}
+}
+
+ACTOR NRock10small 20022
+{
+//$Category New Decorations
+Tag "Necrodome Small Rock 10"
+Game Doom
+Radius 16
+Height 16
++SOLID
++NOTAUTOAIMED
+Scale 0.6
+States
+	{
+	Spawn:
+	NROK J -1
+	Stop
+	}
+}

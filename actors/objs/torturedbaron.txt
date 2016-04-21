@@ -1,0 +1,22 @@
+//+shootable for NashGores;
+ACTOR TorturedBaron 32256
+{
+//$Category New Decorations
+Tag "Tortured Baron"
+Game Doom
+Radius 20
+Height 103
+Mass 0x7fffffff
++NODAMAGE
++SHOOTABLE
++SOLID
++NOGRAVITY
++NOTAUTOAIMED
+BloodColor "0 a3 0"
+States
+	{
+	Spawn:
+	NJDH A -1
+	Loop
+	}
+}

@@ -1,0 +1,16 @@
+actor ArmorShard : ArmorBonus 32292
+{
+//$Category New Health And Armor
+Tag "Armor Shard"
+Game Doom
+Inventory.Pickupmessage "Picked up an Armor Shard."
+Inventory.Icon "ARSDA0"
+Inventory.PickupSound "powups/armorshard"
+Armor.Saveamount 10
+States
+	{
+	Spawn:
+	ARSD ABCDCB 6
+	loop
+	}
+}

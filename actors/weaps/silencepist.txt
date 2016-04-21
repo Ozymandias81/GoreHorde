@@ -1,0 +1,49 @@
+actor SilencedPistol : Weapon 30145
+{
+//$Category New Weapons
+Tag "Silenced Pistol"
+Game Doom
+Height 8
+Radius 8
+Weapon.AmmoUse 1
+Weapon.AmmoUse2 1
+Weapon.AmmoGive 20
+Weapon.AmmoType "Clip"
+Weapon.AmmoType2 "Clip"
+Weapon.SlotNumber 2
+Obituary "%o was killed by %k's Silent killer."
++NOALERT
+Decal BulletChip
+AttackSound "weapons/SPIFIR"
+Inventory.Pickupmessage "Picked up a Silenced Pistol."
+Inventory.PickUpSound "weapons/spistpk"
+States
+	{
+	Spawn:
+	SIPS A -1 //renamed due to prevent connections
+	Stop
+	Ready:
+	SPIL A 1 A_WeaponReady
+	Loop
+	Deselect:
+	SPIL A 1 A_Lower
+	Loop
+	Select:
+	SPIL A 1 A_Raise
+	Loop
+	Fire:
+	SPIL A 0 A_SpawnItemEx("PisCaseSpawn",random(20,24),0,random(29,32),0,0,0,0,random(128,132))
+	SPIL A 3 A_FireBullets(5.2,1,1,7.5,"NewPuff",1) //added enhanced puff
+	TNT1 A 0 A_JumpIf(waterlevel > 0,2)
+	TNT1 A 0 A_FireCustomMissile("PistolSmokeSpawner",0,0,0,random(-4,4),0,0)
+	SPIL B 2
+	SPIL C 1
+	SPIL D 1
+	SPIL E 2
+	SPIL B 4 A_ReFire
+	Goto Ready
+	Flash:
+	SPIL A 3 Bright A_Light1
+	Goto LightDone
+	}
+}

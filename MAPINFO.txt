@@ -1,0 +1,567 @@
+clearepisodes
+
+gameinfo
+{
+borderflat = "wblood1"
+pickupcolor = "9E 9E FF"
+playerclasses = "Skrylax","Kragoth","Visor"
+}
+
+episode MAP00
+{
+name = "Venture"
+noskillmenu
+}
+
+defaultmap
+{
+allowcrouch
+allowjump
+allowfreelook
+checkswitchrange
+evenlighting
+fallingdamage
+grinding_polyobj
+monsterfallingdamage
+nointermission
+smoothlighting
+teamplayoff
+useplayerstartz
+horizwallshade = 8
+vertwallshade = 1
+//pixelratio = 1.0
+}
+
+map TITLEMAP "Intro"
+{
+music = "TENEBRAE"
+sky1 = "DPSKY8"//, 0.03
+}
+
+map MAP00 "The Abandoned City"
+{
+noautosavehint
+noinventorybar
+music = "T_THE_DA"
+next = "MAP01"
+}
+
+map MAP01 "The Grisly Cavern"
+{
+levelnum = 1
+keepfullinventory
+music = "T_DEAD"
+next = "MAP02"
+}
+
+map MAP02 "Ruthless Mines"
+{
+levelnum = 2
+keepfullinventory
+sky1 = "Q4SKY6"//, 0.03
+music = "H_E2M8"
+next = "MAP03"
+}
+
+map MAP03 "Sunken Hopes"
+{
+levelnum = 3
+keepfullinventory
+sky1 = "Q4SKY3" //, 0.03
+music = "X_OCTOR"
+next = "MAP04"
+}
+
+map MAP04 "Watery Grave"
+{
+levelnum = 4
+keepfullinventory
+sky1 = "Q4SKY3" //, 0.03
+music = "H_E2M4"
+next = "MAP05"
+}
+
+map MAP05 "Mountains Of Deceit (Part One)"
+{
+levelnum = 5
+keepfullinventory
+sky1 = "Q4SKY6"//, 0.03
+music = "H_E1M2"
+next = "MAP06"
+cluster = 1
+}
+
+map MAP06 "Mountains Of Deceit (Part Two)"
+{
+levelnum = 6
+keepfullinventory
+sky1 = "Q4SKY6"//, 0.03
+music = "H_E1M2"
+next = "MAP07"
+cluster = 1
+}
+
+map MAP07 "The Frozen Top"
+{
+levelnum = 7
+keepfullinventory
+sky1 = "Q4SKY6"//, 0.03
+music = "X_FANTAR"
+next = "MAP08"
+cluster = 2
+}
+
+map MAP08 "Snow-Covered Hate"
+{
+levelnum = 8
+keepfullinventory
+sky1 = "Q4SKY6"//, 0.03
+music = "X_CHAP1R"
+next = "MAP09"
+}
+
+map MAP09 "The Forsaken Marsh"
+{
+levelnum = 9
+keepfullinventory
+sky1 = "Q4SKY6"//, 0.03
+music = "H_E1M4"
+next = "MAP10"
+}
+
+map MAP10 "Bayou"
+{
+levelnum = 10
+keepfullinventory
+sky1 = "Q4SKY6"//, 0.03
+music = "E_DOOM"
+next = "MAP11"
+}
+
+map MAP11 "Mechanical Labyrinth"
+{
+levelnum = 11
+keepfullinventory
+sky1 = "Q4SKY6"//, 0.03
+music = "H_E1M7"
+next = "MAP12"
+}
+
+map MAP12 "Pathway To Hell"
+{
+levelnum = 12
+keepfullinventory
+sky1 = "Q4SKY6"//, 0.03
+music = "BLASPH1"
+next = "MAP13"
+cluster = 3
+}
+
+map MAP13 "Inside The Evil"
+{
+levelnum = 13
+keepfullinventory
+sky1 = "Q4SKY6"//, 0.03
+music = "X_CHAP2R"
+next = "MAP14"
+}
+
+map MAP14 "The Crowded Caldera"
+{
+levelnum = 14
+keepfullinventory
+sky1 = "Q4SKY6"//, 0.03
+music = "E_STLKS2"
+next = "MAP15"
+}
+
+map MAP15 "Incubation"
+{
+levelnum = 15
+keepfullinventory
+sky1 = "Q4SKY6"//, 0.03
+music = "H_E1M9"
+next = "MAP16"
+}
+
+map MAP16 "Oniric Paranoia"
+{
+levelnum = 16
+keepfullinventory
+sky1 = "Q4SKY6"//, 0.03
+music = "BLASPH2"
+next = "MAP17"
+}
+
+map MAP17 "Brain Dismemberment"
+{
+levelnum = 17
+keepfullinventory
+sky1 = "Q4SKY6"//, 0.03
+music = "E_STALKS"
+next = "MAP18"
+}
+
+map MAP18 "Confrontation"
+{
+levelnum = 18
+keepfullinventory
+sky1 = "Q4SKY6"//, 0.03
+music = "D_SHAWN"
+secretnext = "MAP33"
+next = "ENDMAP"
+cluster = 4
+}
+
+map ENDMAP "The End?"
+{
+levelnum = 19
+noautosavehint
+noinventorybar
+sky1 = "Q4SKY2"//, 0.05
+music = "EISEN"
+}
+
+map MAP99 "Test Map"
+{
+levelnum = 666
+music = "T_THE_DA"
+sky1 = "Q4SKY3"//, 0.01
+UnFreezeSinglePlayerConversations
+}
+
+cluster 1
+{
+hub
+}
+
+cluster 2
+{
+entertext = lookup, "ENDACT1"
+music = "D_READ_M"
+flat = "Q4TX1011"
+}
+
+cluster 3
+{
+exittext = lookup, "ENDACT2"
+music = "D_READ_M"
+flat = "Q4TX1011"
+}
+
+cluster 4
+{
+exittext = lookup, "ENDACT3"
+music = "D_READ_M"
+flat = "Q4TX1011"
+}
+
+//new skills
+clearskills
+
+skill merciful
+{
+	ACSReturn = 1
+	Aggressiveness = 0.0
+	AmmoFactor = 2
+	AutoUseHealth
+	DamageFactor = 0.5
+	EasyBossBrain
+	SpawnFilter = Baby
+}
+
+skill simple
+{
+	ACSReturn = 2
+	Aggressiveness = 0.1
+	EasyBossBrain
+	SpawnFilter = Easy
+}
+
+skill normal
+{
+	ACSReturn = 3
+	Aggressiveness = 0.3
+	DefaultSkill
+	SpawnFilter = Normal
+}
+
+skill bloody
+{
+	ACSReturn = 4
+	Aggressiveness = 0.6
+	DisableCheats
+	SpawnFilter = Hard
+}
+
+skill unmerciful
+{
+	ACSReturn = 5
+	Aggressiveness = 1.0
+	AmmoFactor = 2
+	DisableCheats
+	FastMonsters
+	RespawnTime = 12
+	SpawnFilter = Nightmare
+}
+/*
+DoomEdNums //aaaargh, so many! XD
+{
+//Models - Enemies
+31999 = Shubbie
+
+//Models - Scenery
+32309 = CrystalBlue
+32310 = CrystalGreen
+32311 = CrystalRed
+32420 = JK3Stal1a
+32421 = JK3Stal2a
+32422 = JK3Stal3a
+32427 = JK3MineralsR1
+32428 = JK3MineralsB1
+32429 = H2Stal1a
+32430 = H2Stal1b
+32431 = H2Stal2a
+32432 = H2Stal2b
+32433 = H2Stal3a
+32434 = H2Stal3b
+32435 = H2Stag1a
+32436 = H2Stag1b
+32437 = H2Stag2a
+32438 = H2Stag2b
+32439 = H2Stag3a
+32440 = H2Stag3b
+32442 = JK3Stag1a
+32443 = JK3Stag2a
+32444 = JK3Stag3a
+32445 = JK3Stag1b
+32446 = JK3Stag2b
+32447 = JK3Stag3b
+32448 = JK3Stal1b
+32449 = JK3Stal2b
+32450 = JK3Stal3b
+32451 = JK3MineralsG1
+32452 = JK3MineralsG2
+32453 = JK3MineralsR2
+32454 = JK3MineralsB2
+32455 = JK3MineralsG3
+32456 = JK3MineralsR3
+32457 = JK3MineralsB3
+
+//Models - Statues
+32312 = Pisces
+32313 = BoldFish
+32314 = DuckBillL
+32315 = DuckBillR
+32316 = SDragonL
+32317 = SDragonR
+32400 = Caesar
+32401 = Lion
+32402 = King
+
+//Models - Decorations
+32300 = Banner1A
+32301 = Banner2A
+32302 = Banner3A
+32332 = H2Shrine
+32441 = Banner3B
+
+//Models - Obstacles
+32303 = MineCartF
+32304 = MineCartE
+32305 = MineCartW
+32306 = WoodenCart
+32307 = LightCart
+32308 = SideCart
+32405 = SimpleCart
+
+//Models - Interactive
+32407 = Bell
+32408 = iuBell
+32409 = ibBell
+32410 = Barrel1a
+32411 = Barrel1b
+32412 = Barrel2a
+32413 = Barrel2b
+32414 = Barrel3a
+32415 = Barrel3b
+
+//Models - Flora
+32319 = Plant1
+32320 = Plant2
+32321 = Plant3a
+32322 = Plant3b
+32323 = Plant3c
+32324 = Grass
+32325 = Bush1a
+32326 = Bush1b
+32327 = Bush2
+32328 = Cactus1a
+32329 = Cactus1b
+32330 = Cactus2
+32331 = Cactus3
+32403 = X2Tree1
+32404 = X2Tree2
+32423 = JK3Tree1
+32424 = JK3Tree2
+32425 = JK3Tree3
+32426 = JK3Tree4
+
+//NPCs
+14068 = Chnesoth
+
+//Enemies
+2722 = ProfaneOne
+3112 = BelphegorClone
+3119 = HellWarrior
+3120 = Cardinal
+3121 = LordofHeresy
+3123 = MaulerDemon
+3124 = PlasmaDemon
+3126 = Shadow
+3127 = HellsFury
+3333 = BruiserDemon
+3397 = FlyingFatso
+3398 = FFPlasma
+3399 = FFSlime
+6666 = GHorror
+9403 = Squire
+10004 = Paingasm
+12040 = TeslaCoil
+12512 = Piranha
+13463 = UnMancubus
+15001 = DarknessRift
+15002 = Hellrose
+20002 = CyberImp
+22282 = WarlordOfHell
+25625 = FreezeRifleGuy
+25626 = FlamerZombie
+25628 = ESoul
+25629 = Roach
+25630 = Vulgar
+25634 = PoisonSoul
+26000 = KDiZDNightmare
+30104 = ArchonOfHell
+30105 = PyroDemon
+30106 = HellstormArchon
+30107 = Lavademon
+30108 = Cyberbaron
+30109 = CyberFiend
+30110 = NightmareDemon
+30111 = Afrit
+30112 = Diabloist
+30113 = HornBeast
+30117 = StoneDemon
+30118 = Vore
+30119 = QuadShotgunZombie
+30127 = Grell
+30128 = Cybruiser
+30131 = PyroImp
+30132 = Hellion
+30133 = SoulHarvester
+30134 = SpiritImp
+30135 = Hierophant
+30136 = SuicideBomber
+30137 = SSGZombie
+30138 = TimeImp
+30139 = Fallen
+30140 = ImpWarlord
+30141 = BatFamiliar
+30142 = DragonFamiliar
+30143 = RotWraith
+30150 = SnakeImp
+30213 = Arachnobaron
+30862 = Phantom
+32725 = TornadoDemon
+
+//Puzzle Items
+12005 = TetraPuzzle
+12006 = GrudgePuzzle
+12007 = PapyrusPuzzle
+12009 = ChnesothPuzzle
+12010 = DraconianPuzzle
+12011 = ShieldPuzzle
+12012 = EyeGem
+12013 = KnifeGem
+12014 = FireGem
+12015 = MoonGem
+12016 = ArachnoGem
+12017 = EyeGemGyzmo
+12018 = KnifeGemGyzmo
+12019 = FireGemGyzmo
+12020 = MoonGemGyzmo
+12021 = ArachnoGemGyzmo
+12022 = GrudgeStand
+20080 = SupplyChest
+20081 = ChestKey
+28317 = BLArcaneBook
+
+//Special Effects
+119 = ZWindow8
+120 = ZWindow16
+121 = ZWindow32
+122 = ZWindow64
+123 = ZWindow128
+3194 = Thunder_GeneratorPink
+3195 = Thunder_GeneratorBlue
+3196 = Thunder_GeneratorRed
+3197 = Thunder_GeneratorGreen
+3198 = Thunder_GeneratorTan
+3199 = Thunder_GeneratorWhite
+8881 = CrowWander1L
+8882 = CrowWander1R
+8883 = CrowWander2L
+8884 = CrowWander2R
+8885 = CrowWander3L
+8886 = CrowWander3R
+8887 = CrowWander4L
+8888 = CrowWander4R
+8889 = CrowStill1L
+8890 = CrowStill1R
+8891 = CrowStill2L
+8892 = CrowStill2R
+8893 = CrowStill3L
+8894 = CrowStill3R
+8895 = CrowStill4L
+8896 = CrowStill4R
+8897 = CrowSpawner
+8898 = ZAutumnSpawner
+8899 = BatsFlockSpawner
+10001 = AshSpawner
+10003 = CinderSpawner
+10005 = EmberSpawner
+10008 = RainSpawner
+10009 = SnowSpawner
+10010 = SteamSpawner
+10011 = TPortal
+10012 = TPortalPermanent
+10013 = TPortalTemporary
+10014 = CloudSpawner
+10015 = AcidRainSpawner
+10017 = WhiteUnholySpawner
+10018 = BlueUnholySpawner
+10019 = GreenUnholySpawner
+10020 = RedUnholySpawner
+10021 = OrangeUnholySpawner
+10022 = PurpleUnholySpawner
+10706 = BloodyRainSpawner
+11000 = BigFallSpawner
+11001 = MidFallSpawner
+11002 = SmallFallSpawner
+11003 = HugeFallSpawner
+11004 = TinyFallSpawner
+11005 = ACSFallSpawner
+11006 = FireSpawner
+12008 = UWLightGenerator1
+12023 = UWLightGenerator2
+12024 = UWLightGenerator3
+12025 = UWLightGenerator4
+12342 = ScurryRat
+12343 = RatSpawner
+12344 = DamnedSoulSpawner
+12345 = BubbleSpawner
+12999 = GoreLeafSpawner
+14070 = AutumnSpawner
+20073 = FogCloud_Generator
+
+}*/

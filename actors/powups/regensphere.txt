@@ -1,0 +1,23 @@
+actor RegenSphere : PowerupGiver 32273
+{
+//$Category New Powerups
+tag "Regeneration Sphere"
+Game Doom
+inventory.pickupmessage "Regeneration!!!"
+inventory.maxamount 0
+inventory.pickupsound "powups/regen"
+powerup.duration -60
+powerup.color "FF FF FF", 0.1
+powerup.type Regeneration
++FLOATBOB
++COUNTITEM
++INVENTORY.AUTOACTIVATE
++INVENTORY.ALWAYSPICKUP
+ConversationID 340
+States
+	{
+	Spawn:
+	REGN ABCD 6 Bright
+	Loop
+	}
+}

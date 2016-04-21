@@ -1,0 +1,78 @@
+actor BaronArm 20029
+{
+//$Category New Decorations
+Tag "Baron Arm"
+Game Doom
+Height 10
+Radius 20
+States
+	{
+	Spawn:
+	BARM A 10
+	Loop
+	}
+}
+
+actor PileoGuts 20030
+{
+//$Category New Decorations
+Tag "Pile O' Guts"
+Game Doom
+Height 20
+Radius 20
+States
+	{
+	Spawn:
+	CHAI A 10
+	Loop
+	}
+}
+
+actor RockHead 20031
+{
+//$Category New Decorations
+Tag "Rock Head"
+Game Doom
+Height 40
+Radius 17
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	DMHR A 10
+	Loop
+	}
+}
+
+actor FatsoArmGore 20032
+{
+//$Category New Decorations
+Tag "Fatso Arm"
+Game Doom
+Height 40
+Radius 23
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	MANG A 10
+	Loop
+	}
+}
+
+actor DemonLeg 20033
+{
+//$Category New Decorations
+Tag "Demon Leg"
+Game Doom
+Height 10
+Radius 20
+States
+	{
+	Spawn:
+	DELG A 10
+	Loop
+	}
+}

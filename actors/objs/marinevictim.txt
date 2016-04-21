@@ -1,0 +1,20 @@
+//health & +shootable for NashGores;
+ACTOR MarineVictim 32236
+{
+//$Category New Obstacles
+Tag "Marine Victim"
+Game Doom
+Radius 16
+Height 32
+Mass 999999999
+Health -1
++SHOOTABLE
++SOLID
+Scale 0.6
+States
+	{
+	Spawn:
+	VCTM A -1
+	Stop
+	}
+}

@@ -1,0 +1,74 @@
+actor SuicideBomber 30136 //connections with Bloodpuke actor :-)
+{
+//$Category Realm667 Monsters
+Tag "Suicide Bomber"
+Game Doom
+spawnid 143
+obituary "%o was killed by a crazy suicide bomber."
+health 80
+gibhealth 35
+radius 20
+height 56
+mass 100
+speed 14 //10 - aargh, more fast!
+painchance 20
+MONSTER
++FLOORCLIP
+DamageType Fire
+DamageFactor Fire, 0.5
+DamageFactor HellFire, 0.5
+DamageFactor Poison, 0.2
+DamageFactor PoisonCloud, 0.2
+seesound "suicide/sit"
+attacksound "shotguy/death"
+painsound "shotguy/pain"
+deathsound "shotguy/death"
+DropItem "RocketAmmo", 8
+MaxStepHeight 32
+MaxDropOffHeight 32
+states
+	{
+	Spawn:
+	BMBE AB 10 A_Look
+	loop
+	See:
+	BMBE AAABBBCCCDDD 2 A_Chase
+	BMBE A 0 A_PlaySound("suicide/scream")
+	loop
+	Melee:
+	BMBE A 0 A_Die
+	stop
+	Pain:
+	BMBE A 3
+	BMBE A 3 A_Pain
+	goto See
+	Death:
+	BMBE M 0 bright A_Explode (50, 128)
+	BMBE M 5 bright A_PlaySound ("weapons/rocklx")
+	BMBE N 5 bright A_XScream
+	BMBE O 5 A_NoBlocking
+	BMBE PQRST 5
+	BMBE U -1
+	stop
+	XDeath: //new
+	BMBE M 0 A_SpawnDebris("NashGore_Gib9",0)
+	BMBE M 0 A_SpawnDebris("NashGore_Gib10",0)
+	BMBE M 0 A_SpawnDebris("NashGore_Gib11",0)
+	BMBE M 0 A_SpawnDebris("NashGore_Gib11",0)
+	BMBE M 0 A_SpawnItem("NashGore_GibGenerator",0,0,0,0)
+	BMBE M 0 bright A_Explode (50, 128)
+	BMBE M 5 bright A_PlaySound ("weapons/rocklx")
+	BMBE N 0 A_SpawnItem("NashGore_GibGenerator",0,0,0,2)
+	BMBE N 0 A_Mushroom ("BloodPuke",8)
+	BMBE N 5 bright A_XScream
+	BMBE O 0 A_SpawnItem("NashGore_GibGenerator",0,0,0,4)
+	BMBE O 5 A_NoBlocking
+	BMBE P 0 A_SpawnItem("NashGore_GibGenerator",0,0,0,6)
+	BMBE PQRST 5
+	BMBE U -1
+	stop
+	Raise:
+	BMBE UTSRQPON 5
+	goto See
+	}
+}

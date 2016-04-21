@@ -1,0 +1,33 @@
+ACTOR HellGrowth 12367
+{
+//$Category New Obstacles
+Tag "Hellgrowth 1"
+Game Doom
+Radius 16
+Height 71
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	HTRE A -1
+	Stop
+	}
+}
+
+ACTOR HellGrowth2 12368 //new
+{
+//$Category New Obstacles
+Tag "Hellgrowth 2"
+Game Doom
+Radius 16
+Height 71
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	HTRE B -1
+	Stop
+	}
+}

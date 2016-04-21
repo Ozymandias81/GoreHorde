@@ -1,0 +1,5551 @@
+/////////////////////////////////////
+//OZYMANDIAS81 SPECIAL GORE BRIGHTS//
+// THESE ARE ALL THE NEWLY BRIGHTS //
+/////////////////////////////////////
+//MONSTERS//
+//cyberbaron
+brightmap sprite CBOSA1
+{map "brightmaps/gore/BMCBOSA1.png"}
+brightmap sprite CBOSA2
+{map "brightmaps/gore/BMCBOSA2.png"}
+brightmap sprite CBOSA3
+{map "brightmaps/gore/BMCBOSA3.png"}
+brightmap sprite CBOSA4
+{map "brightmaps/gore/BMCBOSA4.png"}
+brightmap sprite CBOSA5
+{map "brightmaps/gore/BMCBOSA5.png"}
+brightmap sprite CBOSA7
+{map "brightmaps/gore/BMCBOSA7.png"}
+brightmap sprite CBOSA8
+{map "brightmaps/gore/BMCBOSA8.png"}
+brightmap sprite CBOSB1
+{map "brightmaps/gore/BMCBOSB1.png"}
+brightmap sprite CBOSB2
+{map "brightmaps/gore/BMCBOSB2.png"}
+brightmap sprite CBOSB3
+{map "brightmaps/gore/BMCBOSB3.png"}
+brightmap sprite CBOSB4
+{map "brightmaps/gore/BMCBOSB4.png"}
+brightmap sprite CBOSB5
+{map "brightmaps/gore/BMCBOSB5.png"}
+brightmap sprite CBOSB7
+{map "brightmaps/gore/BMCBOSB7.png"}
+brightmap sprite CBOSB8
+{map "brightmaps/gore/BMCBOSB8.png"}
+brightmap sprite CBOSC1
+{map "brightmaps/gore/BMCBOSC1.png"}
+brightmap sprite CBOSC2
+{map "brightmaps/gore/BMCBOSC2.png"}
+brightmap sprite CBOSC3
+{map "brightmaps/gore/BMCBOSC3.png"}
+brightmap sprite CBOSC4
+{map "brightmaps/gore/BMCBOSC4.png"}
+brightmap sprite CBOSC5
+{map "brightmaps/gore/BMCBOSC5.png"}
+brightmap sprite CBOSC6
+{map "brightmaps/gore/BMCBOSC6.png"}
+brightmap sprite CBOSC8
+{map "brightmaps/gore/BMCBOSC8.png"}
+brightmap sprite CBOSD1
+{map "brightmaps/gore/BMCBOSD1.png"}
+brightmap sprite CBOSD2
+{map "brightmaps/gore/BMCBOSD2.png"}
+brightmap sprite CBOSD3
+{map "brightmaps/gore/BMCBOSD3.png"}
+brightmap sprite CBOSD4
+{map "brightmaps/gore/BMCBOSD4.png"}
+brightmap sprite CBOSD5
+{map "brightmaps/gore/BMCBOSD5.png"}
+brightmap sprite CBOSD7
+{map "brightmaps/gore/BMCBOSD7.png"}
+brightmap sprite CBOSD8
+{map "brightmaps/gore/BMCBOSD8.png"}
+brightmap sprite CBOSE1
+{map "brightmaps/gore/BMCBOSE1.png"}
+brightmap sprite CBOSE2
+{map "brightmaps/gore/BMCBOSE2.png"}
+brightmap sprite CBOSE3
+{map "brightmaps/gore/BMCBOSE3.png"}
+brightmap sprite CBOSE4
+{map "brightmaps/gore/BMCBOSE4.png"}
+brightmap sprite CBOSE5
+{map "brightmaps/gore/BMCBOSE5.png"}
+brightmap sprite CBOSE7
+{map "brightmaps/gore/BMCBOSE7.png"}
+brightmap sprite CBOSE8
+{map "brightmaps/gore/BMCBOSE8.png"}
+brightmap sprite CBOSF1
+{map "brightmaps/gore/BMCBOSF1.png"}
+brightmap sprite CBOSF2
+{map "brightmaps/gore/BMCBOSF2.png"}
+brightmap sprite CBOSF3
+{map "brightmaps/gore/BMCBOSF3.png"}
+brightmap sprite CBOSF4
+{map "brightmaps/gore/BMCBOSF4.png"}
+brightmap sprite CBOSF5
+{map "brightmaps/gore/BMCBOSF5.png"}
+brightmap sprite CBOSF6
+{map "brightmaps/gore/BMCBOSF6.png"}
+brightmap sprite CBOSF7
+{map "brightmaps/gore/BMCBOSF7.png"}
+brightmap sprite CBOSF8
+{map "brightmaps/gore/BMCBOSF8.png"}
+brightmap sprite CBOSH1
+{map "brightmaps/gore/BMCBOSH1.png"}
+brightmap sprite CBOSH2
+{map "brightmaps/gore/BMCBOSH2.png"}
+brightmap sprite CBOSH3
+{map "brightmaps/gore/BMCBOSH3.png"}
+brightmap sprite CBOSH4
+{map "brightmaps/gore/BMCBOSH4.png"}
+brightmap sprite CBOSH5
+{map "brightmaps/gore/BMCBOSH5.png"}
+brightmap sprite CBOSH7
+{map "brightmaps/gore/BMCBOSH7.png"}
+brightmap sprite CBOSH8
+{map "brightmaps/gore/BMCBOSH8.png"}
+brightmap sprite CBOSI0
+{map "brightmaps/gore/BMCBOSI0.png"}
+brightmap sprite CBOSJ0
+{map "brightmaps/gore/BMCBOSJ0.png"}
+brightmap sprite CBOSK0
+{map "brightmaps/gore/BMCBOSK0.png"}
+brightmap sprite CBOSL0
+{map "brightmaps/gore/BMCBOSL0.png"}
+brightmap sprite CBOSM0
+{map "brightmaps/gore/BMCBOSM0.png"}
+brightmap sprite CBOSP1
+{map "brightmaps/gore/BMCBOSP1.png"}
+brightmap sprite CBOSP2
+{map "brightmaps/gore/BMCBOSP2.png"}
+brightmap sprite CBOSP3
+{map "brightmaps/gore/BMCBOSP3.png"}
+brightmap sprite CBOSP4
+{map "brightmaps/gore/BMCBOSP4.png"}
+brightmap sprite CBOSP5
+{map "brightmaps/gore/BMCBOSP5.png"}
+brightmap sprite CBOSP6
+{map "brightmaps/gore/BMCBOSP6.png"}
+brightmap sprite CBOSP7
+{map "brightmaps/gore/BMCBOSP7.png"}
+brightmap sprite CBOSP8
+{map "brightmaps/gore/BMCBOSP8.png"}
+brightmap sprite CBOSQ1
+{map "brightmaps/gore/BMCBOSQ1.png"}
+brightmap sprite CBOSQ2
+{map "brightmaps/gore/BMCBOSQ2.png"}
+brightmap sprite CBOSQ3
+{map "brightmaps/gore/BMCBOSQ3.png"}
+brightmap sprite CBOSQ4
+{map "brightmaps/gore/BMCBOSQ4.png"}
+brightmap sprite CBOSQ5
+{map "brightmaps/gore/BMCBOSQ5.png"}
+brightmap sprite CBOSQ6
+{map "brightmaps/gore/BMCBOSQ6.png"}
+brightmap sprite CBOSQ7
+{map "brightmaps/gore/BMCBOSQ7.png"}
+brightmap sprite CBOSQ8
+{map "brightmaps/gore/BMCBOSQ8.png"}
+brightmap sprite CBOSR1
+{map "brightmaps/gore/BMCBOSR1.png"}
+brightmap sprite CBOSR2
+{map "brightmaps/gore/BMCBOSR2.png"}
+brightmap sprite CBOSR3
+{map "brightmaps/gore/BMCBOSR3.png"}
+brightmap sprite CBOSR4
+{map "brightmaps/gore/BMCBOSR4.png"}
+brightmap sprite CBOSR5
+{map "brightmaps/gore/BMCBOSR5.png"}
+brightmap sprite CBOSR6
+{map "brightmaps/gore/BMCBOSR6.png"}
+brightmap sprite CBOSR7
+{map "brightmaps/gore/BMCBOSR7.png"}
+brightmap sprite CBOSR8
+{map "brightmaps/gore/BMCBOSR8.png"}
+//hell warrior
+BrightMap Sprite HWARA1
+{
+map "brightmaps/hwar/BMHWARA1.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARA2
+{
+map "brightmaps/hwar/BMHWARA2.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARA3
+{
+map "brightmaps/hwar/BMHWARA3.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARA4
+{
+map "brightmaps/hwar/BMHWARA4.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARA5
+{
+map "brightmaps/hwar/BMHWARA5.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARA6
+{
+map "brightmaps/hwar/BMHWARA6.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARA7
+{
+map "brightmaps/hwar/BMHWARA7.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARA8
+{
+map "brightmaps/hwar/BMHWARA8.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARB1
+{
+map "brightmaps/hwar/BMHWARB1.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARB2
+{
+map "brightmaps/hwar/BMHWARB2.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARB3
+{
+map "brightmaps/hwar/BMHWARB3.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARB4
+{
+map "brightmaps/hwar/BMHWARB4.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARB5
+{
+map "brightmaps/hwar/BMHWARB5.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARB6
+{
+map "brightmaps/hwar/BMHWARB6.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARB7
+{
+map "brightmaps/hwar/BMHWARB7.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARB8
+{
+map "brightmaps/hwar/BMHWARB8.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARC1
+{
+map "brightmaps/hwar/BMHWARC1.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARC2
+{
+map "brightmaps/hwar/BMHWARC2.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARC3
+{
+map "brightmaps/hwar/BMHWARC3.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARC4
+{
+map "brightmaps/hwar/BMHWARC4.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARC5
+{
+map "brightmaps/hwar/BMHWARC5.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARC6
+{
+map "brightmaps/hwar/BMHWARC6.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARC7
+{
+map "brightmaps/hwar/BMHWARC7.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARC8
+{
+map "brightmaps/hwar/BMHWARC8.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARD1
+{
+map "brightmaps/hwar/BMHWARD1.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARD2
+{
+map "brightmaps/hwar/BMHWARD2.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARD3
+{
+map "brightmaps/hwar/BMHWARD3.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARD4
+{
+map "brightmaps/hwar/BMHWARD4.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARD5
+{
+map "brightmaps/hwar/BMHWARD5.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARD6
+{
+map "brightmaps/hwar/BMHWARD6.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARD7
+{
+map "brightmaps/hwar/BMHWARD7.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARD8
+{
+map "brightmaps/hwar/BMHWARD8.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARE1
+{
+map "brightmaps/hwar/BMHWARE1.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARE2
+{
+map "brightmaps/hwar/BMHWARE2.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARE3
+{
+map "brightmaps/hwar/BMHWARE3.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARE4
+{
+map "brightmaps/hwar/BMHWARE4.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARE5
+{
+map "brightmaps/hwar/BMHWARE5.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARE6
+{
+map "brightmaps/hwar/BMHWARE6.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARE7
+{
+map "brightmaps/hwar/BMHWARE7.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARE8
+{
+map "brightmaps/hwar/BMHWARE8.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARF1
+{
+map "brightmaps/hwar/BMHWARF1.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARF2
+{
+map "brightmaps/hwar/BMHWARF2.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARF3
+{
+map "brightmaps/hwar/BMHWARF3.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARF4
+{
+map "brightmaps/hwar/BMHWARF4.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARF5
+{
+map "brightmaps/hwar/BMHWARF5.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARF6
+{
+map "brightmaps/hwar/BMHWARF6.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARF7
+{
+map "brightmaps/hwar/BMHWARF7.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARF8
+{
+map "brightmaps/hwar/BMHWARF8.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARG1
+{
+map "brightmaps/hwar/BMHWARG1.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARG2
+{
+map "brightmaps/hwar/BMHWARG2.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARG3
+{
+map "brightmaps/hwar/BMHWARG3.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARG4
+{
+map "brightmaps/hwar/BMHWARG4.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARG5
+{
+map "brightmaps/hwar/BMHWARG5.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARG6
+{
+map "brightmaps/hwar/BMHWARG6.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARG7
+{
+map "brightmaps/hwar/BMHWARG7.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARG8
+{
+map "brightmaps/hwar/BMHWARG8.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARH1
+{
+map "brightmaps/hwar/BMHWARH1.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARH2
+{
+map "brightmaps/hwar/BMHWARH2.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARH3
+{
+map "brightmaps/hwar/BMHWARH3.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARH4
+{
+map "brightmaps/hwar/BMHWARH4.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARH5
+{
+map "brightmaps/hwar/BMHWARH5.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARH6
+{
+map "brightmaps/hwar/BMHWARH6.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARH7
+{
+map "brightmaps/hwar/BMHWARH7.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARH8
+{
+map "brightmaps/hwar/BMHWARH8.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARI1
+{
+map "brightmaps/hwar/BMHWARI1.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARI2
+{
+map "brightmaps/hwar/BMHWARI2.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARI3
+{
+map "brightmaps/hwar/BMHWARI3.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARI4
+{
+map "brightmaps/hwar/BMHWARI4.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARI5
+{
+map "brightmaps/hwar/BMHWARI5.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARI6
+{
+map "brightmaps/hwar/BMHWARI6.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARI7
+{
+map "brightmaps/hwar/BMHWARI7.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARI8
+{
+map "brightmaps/hwar/BMHWARI8.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARJ1
+{
+map "brightmaps/hwar/BMHWARJ1.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARJ2
+{
+map "brightmaps/hwar/BMHWARJ2.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARJ3
+{
+map "brightmaps/hwar/BMHWARJ3.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARJ4
+{
+map "brightmaps/hwar/BMHWARJ4.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARJ5
+{
+map "brightmaps/hwar/BMHWARJ5.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARJ6
+{
+map "brightmaps/hwar/BMHWARJ6.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARJ7
+{
+map "brightmaps/hwar/BMHWARJ7.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARJ8
+{
+map "brightmaps/hwar/BMHWARJ8.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARK0
+{
+map "brightmaps/hwar/BMHWARK0.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARL0
+{
+map "brightmaps/hwar/BMHWARK0.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARM0
+{
+map "brightmaps/hwar/BMHWARM0.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARN0
+{
+map "brightmaps/hwar/BMHWARN0.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARO0
+{
+map "brightmaps/hwar/BMHWARO0.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWARP0
+{
+map "brightmaps/hwar/BMHWARP0.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWSHA0
+{
+map "brightmaps/hwar/BMHWSHA0.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWSHE0
+{
+map "brightmaps/hwar/BMHWSHE0.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWSHF0
+{
+map "brightmaps/hwar/BMHWSHF0.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWSHG0
+{
+map "brightmaps/hwar/BMHWSHG0.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWSHH0
+{
+map "brightmaps/hwar/BMHWSHH0.png"
+DisableFullBright
+}
+
+BrightMap Sprite HWSHI0
+{
+map "brightmaps/hwar/BMHWSHI0.png"
+DisableFullBright
+}
+//hell's fury
+brightmap sprite HFRYA1
+{
+map "brightmaps/gore/BMHFRYA1.png"
+disablefullbright
+}
+brightmap sprite HFRYA2A8
+{
+map "brightmaps/gore/BMHFRYA2A8.png"
+disablefullbright
+}
+brightmap sprite HFRYA3A7
+{
+map "brightmaps/gore/BMHFRYA3A7.png"
+disablefullbright
+}
+brightmap sprite HFRYA4A6
+{
+map "brightmaps/gore/BMHFRYA4A6.png"
+disablefullbright
+}
+brightmap sprite HFRYA5
+{
+map "brightmaps/gore/BMHFRYA5.png"
+disablefullbright
+}
+brightmap sprite HFRYB1
+{
+map "brightmaps/gore/BMHFRYB1.png"
+disablefullbright
+}
+brightmap sprite HFRYB2B8
+{
+map "brightmaps/gore/BMHFRYB2B8.png"
+disablefullbright
+}
+brightmap sprite HFRYB3A7
+{
+map "brightmaps/gore/BMHFRYB3B7.png"
+disablefullbright
+}
+brightmap sprite HFRYB4B6
+{
+map "brightmaps/gore/BMHFRYB4B6.png"
+disablefullbright
+}
+brightmap sprite HFRYB5
+{
+map "brightmaps/gore/BMHFRYB5.png"
+disablefullbright
+}
+brightmap sprite HFRYC1
+{
+map "brightmaps/gore/BMHFRYC1.png"
+disablefullbright
+}
+brightmap sprite HFRYC2A8
+{
+map "brightmaps/gore/BMHFRYC2C8.png"
+disablefullbright
+}
+brightmap sprite HFRYC3C7
+{
+map "brightmaps/gore/BMHFRYC3C7.png"
+disablefullbright
+}
+brightmap sprite HFRYC4C6
+{
+map "brightmaps/gore/BMHFRYC4C6.png"
+disablefullbright
+}
+brightmap sprite HFRYC5
+{
+map "brightmaps/gore/BMHFRYC5.png"
+disablefullbright
+}
+brightmap sprite HFRYD1
+{
+map "brightmaps/gore/BMHFRYD1.png"
+disablefullbright
+}
+brightmap sprite HFRYD2D8
+{
+map "brightmaps/gore/BMHFRYD2D8.png"
+disablefullbright
+}
+brightmap sprite HFRYD3D7
+{
+map "brightmaps/gore/BMHFRYD3D7.png"
+disablefullbright
+}
+brightmap sprite HFRYD4D6
+{
+map "brightmaps/gore/BMHFRYD4D6.png"
+disablefullbright
+}
+brightmap sprite HFRYD5
+{
+map "brightmaps/gore/BMHFRYD5.png"
+disablefullbright
+}
+brightmap sprite HFRYE1
+{
+map "brightmaps/gore/BMHFRYE1.png"
+disablefullbright
+}
+brightmap sprite HFRYE2
+{
+map "brightmaps/gore/BMHFRYE2.png"
+disablefullbright
+}
+brightmap sprite HFRYE3
+{
+map "brightmaps/gore/BMHFRYE3.png"
+disablefullbright
+}
+brightmap sprite HFRYE4
+{
+map "brightmaps/gore/BMHFRYE4.png"
+disablefullbright
+}
+brightmap sprite HFRYE5
+{
+map "brightmaps/gore/BMHFRYE5.png"
+disablefullbright
+}
+brightmap sprite HFRYE6
+{
+map "brightmaps/gore/BMHFRYE6.png"
+disablefullbright
+}
+brightmap sprite HFRYE7
+{
+map "brightmaps/gore/BMHFRYE7.png"
+disablefullbright
+}
+brightmap sprite HFRYE8
+{
+map "brightmaps/gore/BMHFRYE8.png"
+disablefullbright
+}
+brightmap sprite HFRYF1
+{
+map "brightmaps/gore/BMHFRYF1.png"
+disablefullbright
+}
+brightmap sprite HFRYF2
+{
+map "brightmaps/gore/BMHFRYF2.png"
+disablefullbright
+}
+brightmap sprite HFRYF3
+{
+map "brightmaps/gore/BMHFRYF3.png"
+disablefullbright
+}
+brightmap sprite HFRYF4
+{
+map "brightmaps/gore/BMHFRYF4.png"
+disablefullbright
+}
+brightmap sprite HFRYF5
+{
+map "brightmaps/gore/BMHFRYF5.png"
+disablefullbright
+}
+brightmap sprite HFRYF6
+{
+map "brightmaps/gore/BMHFRYF6.png"
+disablefullbright
+}
+brightmap sprite HFRYF7
+{
+map "brightmaps/gore/BMHFRYF7.png"
+disablefullbright
+}
+brightmap sprite HFRYF8
+{
+map "brightmaps/gore/BMHFRYF8.png"
+disablefullbright
+}
+brightmap sprite HFRYG1
+{
+map "brightmaps/gore/BMHFRYG1.png"
+disablefullbright
+}
+brightmap sprite HFRYG2
+{
+map "brightmaps/gore/BMHFRYG2.png"
+disablefullbright
+}
+brightmap sprite HFRYG3
+{
+map "brightmaps/gore/BMHFRYG3.png"
+disablefullbright
+}
+brightmap sprite HFRYG4
+{
+map "brightmaps/gore/BMHFRYG4.png"
+disablefullbright
+}
+brightmap sprite HFRYG5
+{
+map "brightmaps/gore/BMHFRYG5.png"
+disablefullbright
+}
+brightmap sprite HFRYG6
+{
+map "brightmaps/gore/BMHFRYG6.png"
+disablefullbright
+}
+brightmap sprite HFRYG7
+{
+map "brightmaps/gore/BMHFRYG7.png"
+disablefullbright
+}
+brightmap sprite HFRYG8
+{
+map "brightmaps/gore/BMHFRYG8.png"
+disablefullbright
+}
+brightmap sprite HFRYH1
+{
+map "brightmaps/gore/BMHFRYH1.png"
+disablefullbright
+}
+brightmap sprite HFRYH2
+{
+map "brightmaps/gore/BMHFRYH2.png"
+disablefullbright
+}
+brightmap sprite HFRYH3
+{
+map "brightmaps/gore/BMHFRYH3.png"
+disablefullbright
+}
+brightmap sprite HFRYH4
+{
+map "brightmaps/gore/BMHFRYH4.png"
+disablefullbright
+}
+brightmap sprite HFRYH5
+{
+map "brightmaps/gore/BMHFRYH5.png"
+disablefullbright
+}
+brightmap sprite HFRYH6
+{
+map "brightmaps/gore/BMHFRYH6.png"
+disablefullbright
+}
+brightmap sprite HFRYH7
+{
+map "brightmaps/gore/BMHFRYH7.png"
+disablefullbright
+}
+brightmap sprite HFRYH8
+{
+map "brightmaps/gore/BMHFRYH8.png"
+disablefullbright
+}
+brightmap sprite HFRYI0
+{
+map "brightmaps/gore/BMHFRYI0.png"
+disablefullbright
+}
+brightmap sprite HFRYP1
+{
+map "brightmaps/gore/BMHFRYP1.png"
+disablefullbright
+}
+brightmap sprite HFRYP2
+{
+map "brightmaps/gore/BMHFRYP2.png"
+disablefullbright
+}
+brightmap sprite HFRYP3
+{
+map "brightmaps/gore/BMHFRYP3.png"
+disablefullbright
+}
+brightmap sprite HFRYP4
+{
+map "brightmaps/gore/BMHFRYP4.png"
+disablefullbright
+}
+brightmap sprite HFRYP5
+{
+map "brightmaps/gore/BMHFRYP5.png"
+disablefullbright
+}
+brightmap sprite HFRYP6
+{
+map "brightmaps/gore/BMHFRYP6.png"
+disablefullbright
+}
+brightmap sprite HFRYP7
+{
+map "brightmaps/gore/BMHFRYP7.png"
+disablefullbright
+}
+brightmap sprite HFRYP8
+{
+map "brightmaps/gore/BMHFRYP8.png"
+disablefullbright
+}
+brightmap sprite HFRYQ1
+{
+map "brightmaps/gore/BMHFRYQ1.png"
+disablefullbright
+}
+brightmap sprite HFRYQ2
+{
+map "brightmaps/gore/BMHFRYQ2.png"
+disablefullbright
+}
+brightmap sprite HFRYQ3
+{
+map "brightmaps/gore/BMHFRYQ3.png"
+disablefullbright
+}
+brightmap sprite HFRYQ4
+{
+map "brightmaps/gore/BMHFRYQ4.png"
+disablefullbright
+}
+brightmap sprite HFRYQ5
+{
+map "brightmaps/gore/BMHFRYQ5.png"
+disablefullbright
+}
+brightmap sprite HFRYQ6
+{
+map "brightmaps/gore/BMHFRYQ6.png"
+disablefullbright
+}
+brightmap sprite HFRYQ7
+{
+map "brightmaps/gore/BMHFRYQ7.png"
+disablefullbright
+}
+brightmap sprite HFRYQ8
+{
+map "brightmaps/gore/BMHFRYQ8.png"
+disablefullbright
+}
+//imp warlord
+brightmap sprite WARIA1
+{
+map "brightmaps/gore/BMWARIA1.png"
+disablefullbright
+}
+brightmap sprite WARIA2
+{
+map "brightmaps/gore/BMWARIA2.png"
+disablefullbright
+}
+brightmap sprite WARIA3
+{
+map "brightmaps/gore/BMWARIA3.png"
+disablefullbright
+}
+brightmap sprite WARIA7
+{
+map "brightmaps/gore/BMWARIA7.png"
+disablefullbright
+}
+brightmap sprite WARIA8
+{
+map "brightmaps/gore/BMWARIA8.png"
+disablefullbright
+}
+brightmap sprite WARIB1
+{
+map "brightmaps/gore/BMWARIB1.png"
+disablefullbright
+}
+brightmap sprite WARIB2
+{
+map "brightmaps/gore/BMWARIB2.png"
+disablefullbright
+}
+brightmap sprite WARIB3
+{
+map "brightmaps/gore/BMWARIB3.png"
+disablefullbright
+}
+brightmap sprite WARIB7
+{
+map "brightmaps/gore/BMWARIB7.png"
+disablefullbright
+}
+brightmap sprite WARIB8
+{
+map "brightmaps/gore/BMWARIB8.png"
+disablefullbright
+}
+brightmap sprite WARIC1
+{
+map "brightmaps/gore/BMWARIC1.png"
+disablefullbright
+}
+brightmap sprite WARIC2
+{
+map "brightmaps/gore/BMWARIC2.png"
+disablefullbright
+}
+brightmap sprite WARIC3
+{
+map "brightmaps/gore/BMWARIC3.png"
+disablefullbright
+}
+brightmap sprite WARIC7
+{
+map "brightmaps/gore/BMWARIC7.png"
+disablefullbright
+}
+brightmap sprite WARIC8
+{
+map "brightmaps/gore/BMWARIC8.png"
+disablefullbright
+}
+brightmap sprite WARID1
+{
+map "brightmaps/gore/BMWARID1.png"
+disablefullbright
+}
+brightmap sprite WARID2
+{
+map "brightmaps/gore/BMWARID2.png"
+disablefullbright
+}
+brightmap sprite WARID3
+{
+map "brightmaps/gore/BMWARID3.png"
+disablefullbright
+}
+brightmap sprite WARID7
+{
+map "brightmaps/gore/BMWARID7.png"
+disablefullbright
+}
+brightmap sprite WARID8
+{
+map "brightmaps/gore/BMWARID8.png"
+disablefullbright
+}
+brightmap sprite WARIE1
+{
+map "brightmaps/gore/BMWARIE1.png"
+disablefullbright
+}
+brightmap sprite WARIE2
+{
+map "brightmaps/gore/BMWARIE2.png"
+disablefullbright
+}
+brightmap sprite WARIE7
+{
+map "brightmaps/gore/BMWARIE7.png"
+disablefullbright
+}
+brightmap sprite WARIE8
+{
+map "brightmaps/gore/BMWARIE8.png"
+disablefullbright
+}
+brightmap sprite WARIF1
+{
+map "brightmaps/gore/BMWARIF1.png"
+disablefullbright
+}
+brightmap sprite WARIF2
+{
+map "brightmaps/gore/BMWARIF2.png"
+disablefullbright
+}
+brightmap sprite WARIF3
+{
+map "brightmaps/gore/BMWARIF3.png"
+disablefullbright
+}
+brightmap sprite WARIF7
+{
+map "brightmaps/gore/BMWARIF7.png"
+disablefullbright
+}
+brightmap sprite WARIF8
+{
+map "brightmaps/gore/BMWARIF8.png"
+disablefullbright
+}
+brightmap sprite WARIG1
+{
+map "brightmaps/gore/BMWARIG1.png"
+disablefullbright
+}
+brightmap sprite WARIG2
+{
+map "brightmaps/gore/BMWARIG2.png"
+disablefullbright
+}
+brightmap sprite WARIG3
+{
+map "brightmaps/gore/BMWARIG3.png"
+disablefullbright
+}
+brightmap sprite WARIG7
+{
+map "brightmaps/gore/BMWARIG7.png"
+disablefullbright
+}
+brightmap sprite WARIG8
+{
+map "brightmaps/gore/BMWARIG8.png"
+disablefullbright
+}
+brightmap sprite WARIH1
+{
+map "brightmaps/gore/BMWARIH1.png"
+disablefullbright
+}
+brightmap sprite WARIH2
+{
+map "brightmaps/gore/BMWARIH2.png"
+disablefullbright
+}
+brightmap sprite WARIH8
+{
+map "brightmaps/gore/BMWARIH8.png"
+disablefullbright
+}
+brightmap sprite WARII1
+{
+map "brightmaps/gore/BMWARII1.png"
+disablefullbright
+}
+brightmap sprite WARII2
+{
+map "brightmaps/gore/BMWARII2.png"
+disablefullbright
+}
+brightmap sprite WARII8
+{
+map "brightmaps/gore/BMWARII8.png"
+disablefullbright
+}
+brightmap sprite WARIJ1
+{
+map "brightmaps/gore/BMWARIJ1.png"
+disablefullbright
+}
+brightmap sprite WARIJ2
+{
+map "brightmaps/gore/BMWARIJ2.png"
+disablefullbright
+}
+brightmap sprite WARIJ3
+{
+map "brightmaps/gore/BMWARIJ3.png"
+disablefullbright
+}
+brightmap sprite WARIJ4
+{
+map "brightmaps/gore/BMWARIJ4.png"
+disablefullbright
+}
+brightmap sprite WARIJ5
+{
+map "brightmaps/gore/BMWARIJ5.png"
+disablefullbright
+}
+brightmap sprite WARIJ6
+{
+map "brightmaps/gore/BMWARIJ6.png"
+disablefullbright
+}
+brightmap sprite WARIJ7
+{
+map "brightmaps/gore/BMWARIJ7.png"
+disablefullbright
+}
+brightmap sprite WARIJ8
+{
+map "brightmaps/gore/BMWARIJ8.png"
+disablefullbright
+}
+brightmap sprite WARIK1
+{
+map "brightmaps/gore/BMWARIK1.png"
+disablefullbright
+}
+brightmap sprite WARIK2
+{
+map "brightmaps/gore/BMWARIK2.png"
+disablefullbright
+}
+brightmap sprite WARIK3
+{
+map "brightmaps/gore/BMWARIK3.png"
+disablefullbright
+}
+brightmap sprite WARIK4
+{
+map "brightmaps/gore/BMWARIK4.png"
+disablefullbright
+}
+brightmap sprite WARIK5
+{
+map "brightmaps/gore/BMWARIK5.png"
+disablefullbright
+}
+brightmap sprite WARIK6
+{
+map "brightmaps/gore/BMWARIK6.png"
+disablefullbright
+}
+brightmap sprite WARIK7
+{
+map "brightmaps/gore/BMWARIK7.png"
+disablefullbright
+}
+brightmap sprite WARIK8
+{
+map "brightmaps/gore/BMWARIK8.png"
+disablefullbright
+}
+brightmap sprite WARIL1
+{
+map "brightmaps/gore/BMWARIL1.png"
+disablefullbright
+}
+brightmap sprite WARIL2
+{
+map "brightmaps/gore/BMWARIL2.png"
+disablefullbright
+}
+brightmap sprite WARIL3
+{
+map "brightmaps/gore/BMWARIL3.png"
+disablefullbright
+}
+brightmap sprite WARIL4
+{
+map "brightmaps/gore/BMWARIL4.png"
+disablefullbright
+}
+brightmap sprite WARIL5
+{
+map "brightmaps/gore/BMWARIL5.png"
+disablefullbright
+}
+brightmap sprite WARIL6
+{
+map "brightmaps/gore/BMWARIL6.png"
+disablefullbright
+}
+brightmap sprite WARIL7
+{
+map "brightmaps/gore/BMWARIL7.png"
+disablefullbright
+}
+brightmap sprite WARIL8
+{
+map "brightmaps/gore/BMWARIL8.png"
+disablefullbright
+}
+brightmap sprite WARIM1
+{
+map "brightmaps/gore/BMWARIM1.png"
+disablefullbright
+}
+brightmap sprite WARIM2
+{
+map "brightmaps/gore/BMWARIM2.png"
+disablefullbright
+}
+brightmap sprite WARIM3
+{
+map "brightmaps/gore/BMWARIM3.png"
+disablefullbright
+}
+brightmap sprite WARIM4
+{
+map "brightmaps/gore/BMWARIM4.png"
+disablefullbright
+}
+brightmap sprite WARIM5
+{
+map "brightmaps/gore/BMWARIM5.png"
+disablefullbright
+}
+brightmap sprite WARIM6
+{
+map "brightmaps/gore/BMWARIM6.png"
+disablefullbright
+}
+brightmap sprite WARIM7
+{
+map "brightmaps/gore/BMWARIM7.png"
+disablefullbright
+}
+brightmap sprite WARIM8
+{
+map "brightmaps/gore/BMWARIM8.png"
+disablefullbright
+}
+brightmap sprite WARIN1
+{
+map "brightmaps/gore/BMWARIN1.png"
+disablefullbright
+}
+brightmap sprite WARIN2
+{
+map "brightmaps/gore/BMWARIN2.png"
+disablefullbright
+}
+brightmap sprite WARIN3
+{
+map "brightmaps/gore/BMWARIN3.png"
+disablefullbright
+}
+brightmap sprite WARIN4
+{
+map "brightmaps/gore/BMWARIN4.png"
+disablefullbright
+}
+brightmap sprite WARIN6
+{
+map "brightmaps/gore/BMWARIN6.png"
+disablefullbright
+}
+brightmap sprite WARIN7
+{
+map "brightmaps/gore/BMWARIN7.png"
+disablefullbright
+}
+brightmap sprite WARIN8
+{
+map "brightmaps/gore/BMWARIN8.png"
+disablefullbright
+}
+brightmap sprite WARIO1
+{
+map "brightmaps/gore/BMWARIL1.png"
+disablefullbright
+}
+brightmap sprite WARIO2
+{
+map "brightmaps/gore/BMWARIL2.png"
+disablefullbright
+}
+brightmap sprite WARIO3
+{
+map "brightmaps/gore/BMWARIL3.png"
+disablefullbright
+}
+brightmap sprite WARIO4
+{
+map "brightmaps/gore/BMWARIL4.png"
+disablefullbright
+}
+brightmap sprite WARIO5
+{
+map "brightmaps/gore/BMWARIL5.png"
+disablefullbright
+}
+brightmap sprite WARIO6
+{
+map "brightmaps/gore/BMWARIL6.png"
+disablefullbright
+}
+brightmap sprite WARIO7
+{
+map "brightmaps/gore/BMWARIL7.png"
+disablefullbright
+}
+brightmap sprite WARIO8
+{
+map "brightmaps/gore/BMWARIL8.png"
+disablefullbright
+}
+brightmap sprite WARIP1
+{
+map "brightmaps/gore/BMWARIM1.png"
+disablefullbright
+}
+brightmap sprite WARIP2
+{
+map "brightmaps/gore/BMWARIM2.png"
+disablefullbright
+}
+brightmap sprite WARIP3
+{
+map "brightmaps/gore/BMWARIM3.png"
+disablefullbright
+}
+brightmap sprite WARIP4
+{
+map "brightmaps/gore/BMWARIM4.png"
+disablefullbright
+}
+brightmap sprite WARIP5
+{
+map "brightmaps/gore/BMWARIM5.png"
+disablefullbright
+}
+brightmap sprite WARIP6
+{
+map "brightmaps/gore/BMWARIM6.png"
+disablefullbright
+}
+brightmap sprite WARIP7
+{
+map "brightmaps/gore/BMWARIM7.png"
+disablefullbright
+}
+brightmap sprite WARIP8
+{
+map "brightmaps/gore/BMWARIM8.png"
+disablefullbright
+}
+brightmap sprite WARIQ1
+{
+map "brightmaps/gore/BMWARIN1.png"
+disablefullbright
+}
+brightmap sprite WARIQ2
+{
+map "brightmaps/gore/BMWARIN2.png"
+disablefullbright
+}
+brightmap sprite WARIQ3
+{
+map "brightmaps/gore/BMWARIN3.png"
+disablefullbright
+}
+brightmap sprite WARIQ4
+{
+map "brightmaps/gore/BMWARIN4.png"
+disablefullbright
+}
+brightmap sprite WARIQ6
+{
+map "brightmaps/gore/BMWARIN6.png"
+disablefullbright
+}
+brightmap sprite WARIQ7
+{
+map "brightmaps/gore/BMWARIN7.png"
+disablefullbright
+}
+brightmap sprite WARIQ8
+{
+map "brightmaps/gore/BMWARIN8.png"
+disablefullbright
+}
+//cyberfiend
+brightmap sprite CYFNA1C1
+{
+map "brightmaps/gore/BMCYFNA1C1.png"
+disablefullbright
+}
+brightmap sprite CYFNA2C8
+{
+map "brightmaps/gore/BMCYFNA2C8.png"
+disablefullbright
+}
+brightmap sprite CYFNA3C7
+{
+map "brightmaps/gore/BMCYFNA3C7.png"
+disablefullbright
+}
+brightmap sprite CYFNB1D1
+{
+map "brightmaps/gore/BMCYFNB1D1.png"
+disablefullbright
+}
+brightmap sprite CYFNB2D8
+{
+map "brightmaps/gore/BMCYFNB2D8.png"
+disablefullbright
+}
+brightmap sprite CYFNB3D7
+{
+map "brightmaps/gore/BMCYFNB3D7.png"
+disablefullbright
+}
+brightmap sprite CYFNC2A8
+{
+map "brightmaps/gore/BMCYFNC2A8.png"
+disablefullbright
+}
+brightmap sprite CYFNC3A7
+{
+map "brightmaps/gore/BMCYFNC3A7.png"
+disablefullbright
+}
+brightmap sprite CYFND2B8
+{
+map "brightmaps/gore/BMCYFND2B8.png"
+disablefullbright
+}
+brightmap sprite CYFND3B7
+{
+map "brightmaps/gore/BMCYFND3B7.png"
+disablefullbright
+}
+brightmap sprite CYFNE1
+{
+map "brightmaps/gore/BMCYFNE1.png"
+disablefullbright
+}
+brightmap sprite CYFNE2
+{
+map "brightmaps/gore/BMCYFNE2.png"
+disablefullbright
+}
+brightmap sprite CYFNE8
+{
+map "brightmaps/gore/BMCYFNE8.png"
+disablefullbright
+}
+brightmap sprite CYFNF1
+{
+map "brightmaps/gore/BMCYFNF1.png"
+disablefullbright
+}
+brightmap sprite CYFNF2
+{
+map "brightmaps/gore/BMCYFNF2.png"
+disablefullbright
+}
+brightmap sprite CYFNF8
+{
+map "brightmaps/gore/BMCYFNF8.png"
+disablefullbright
+}
+brightmap sprite CYFNG1
+{
+map "brightmaps/gore/BMCYFNG1.png"
+disablefullbright
+}
+brightmap sprite CYFNG2
+{
+map "brightmaps/gore/BMCYFNG2.png"
+disablefullbright
+}
+brightmap sprite CYFNG8
+{
+map "brightmaps/gore/BMCYFNG8.png"
+disablefullbright
+}
+brightmap sprite CYFNH1
+{
+map "brightmaps/gore/BMCYFNH1.png"
+disablefullbright
+}
+brightmap sprite CYFNH2
+{
+map "brightmaps/gore/BMCYFNH2.png"
+disablefullbright
+}
+brightmap sprite CYFNH3
+{
+map "brightmaps/gore/BMCYFNH3.png"
+disablefullbright
+}
+brightmap sprite CYFNH4
+{
+map "brightmaps/gore/BMCYFNH4.png"
+disablefullbright
+}
+brightmap sprite CYFNH8
+{
+map "brightmaps/gore/BMCYFNH8.png"
+disablefullbright
+}
+//mauler demon
+brightmap sprite MAUDA1C1
+{
+map "brightmaps/gore/BMMAUDA1C1.png"
+disablefullbright
+}
+brightmap sprite MAUDA2C8
+{
+map "brightmaps/gore/BMMAUDA2C8.png"
+disablefullbright
+}
+brightmap sprite MAUDA3C7
+{
+map "brightmaps/gore/BMMAUDA3C7.png"
+disablefullbright
+}
+brightmap sprite MAUDA7C3
+{
+map "brightmaps/gore/BMMAUDA7C3.png"
+disablefullbright
+}
+brightmap sprite MAUDA8C2
+{
+map "brightmaps/gore/BMMAUDA8C2.png"
+disablefullbright
+}
+brightmap sprite MAUDB1D1
+{
+map "brightmaps/gore/BMMAUDB1D1.png"
+disablefullbright
+}
+brightmap sprite MAUDB2D8
+{
+map "brightmaps/gore/BMMAUDB2D8.png"
+disablefullbright
+}
+brightmap sprite MAUDB3D7
+{
+map "brightmaps/gore/BMMAUDB3D7.png"
+disablefullbright
+}
+brightmap sprite MAUDB7D3
+{
+map "brightmaps/gore/BMMAUDB7D3.png"
+disablefullbright
+}
+brightmap sprite MAUDB8D2
+{
+map "brightmaps/gore/BMMAUDB8D2.png"
+disablefullbright
+}
+brightmap sprite MAUDE1
+{
+map "brightmaps/gore/BMMAUDE1.png"
+disablefullbright
+}
+brightmap sprite MAUDE2
+{
+map "brightmaps/gore/BMMAUDE2.png"
+disablefullbright
+}
+brightmap sprite MAUDE8
+{
+map "brightmaps/gore/BMMAUDE8.png"
+disablefullbright
+}
+brightmap sprite MAUDF1
+{
+map "brightmaps/gore/BMMAUDF1.png"
+disablefullbright
+}
+brightmap sprite MAUDF2
+{
+map "brightmaps/gore/BMMAUDF2.png"
+disablefullbright
+}
+brightmap sprite MAUDF8
+{
+map "brightmaps/gore/BMMAUDF8.png"
+disablefullbright
+}
+brightmap sprite MAUDG1
+{
+map "brightmaps/gore/BMMAUDG1.png"
+disablefullbright
+}
+brightmap sprite MAUDG2
+{
+map "brightmaps/gore/BMMAUDG2.png"
+disablefullbright
+}
+brightmap sprite MAUDG8
+{
+map "brightmaps/gore/BMMAUDG8.png"
+disablefullbright
+}
+brightmap sprite MAUDH1
+{
+map "brightmaps/gore/BMMAUDH1.png"
+disablefullbright
+}
+brightmap sprite MAUDH2
+{
+map "brightmaps/gore/BMMAUDH2.png"
+disablefullbright
+}
+brightmap sprite MAUDH3
+{
+map "brightmaps/gore/BMMAUDH3.png"
+disablefullbright
+}
+brightmap sprite MAUDH4
+{
+map "brightmaps/gore/BMMAUDH4.png"
+disablefullbright
+}
+brightmap sprite MAUDH8
+{
+map "brightmaps/gore/BMMAUDH8.png"
+disablefullbright
+}
+brightmap sprite MAUDI0
+{
+map "brightmaps/gore/BMMAUDI0.png"
+disablefullbright
+}
+//pyroimp
+brightmap sprite PRIMA1C1
+{
+map "brightmaps/gore/BMPRIMA1C1.png"
+disablefullbright
+}
+brightmap sprite PRIMA2C8
+{
+map "brightmaps/gore/BMPRIMA2C8.png"
+disablefullbright
+}
+brightmap sprite PRIMA3C7
+{
+map "brightmaps/gore/BMPRIMA3C7.png"
+disablefullbright
+}
+brightmap sprite PRIMA7C3
+{
+map "brightmaps/gore/BMPRIMA7C3.png"
+disablefullbright
+}
+brightmap sprite PRIMA8C2
+{
+map "brightmaps/gore/BMPRIMA8C2.png"
+disablefullbright
+}
+brightmap sprite PRIMB1D1
+{
+map "brightmaps/gore/BMPRIMB1D1.png"
+disablefullbright
+}
+brightmap sprite PRIMB2D8
+{
+map "brightmaps/gore/BMPRIMB2D8.png"
+disablefullbright
+}
+brightmap sprite PRIMB3D7
+{
+map "brightmaps/gore/BMPRIMB3D7.png"
+disablefullbright
+}
+brightmap sprite PRIMB7D3
+{
+map "brightmaps/gore/BMPRIMB7D3.png"
+disablefullbright
+}
+brightmap sprite PRIMB8D2
+{
+map "brightmaps/gore/BMPRIMB8D2.png"
+disablefullbright
+}
+brightmap sprite PRIMF1
+{
+map "brightmaps/gore/BMPRIMF1.png"
+disablefullbright
+}
+brightmap sprite PRIMF2F8
+{
+map "brightmaps/gore/BMPRIMF2F8.png"
+disablefullbright
+}
+brightmap sprite PRIMF3F7
+{
+map "brightmaps/gore/BMPRIMF3F7.png"
+disablefullbright
+}
+brightmap sprite PRIMF1
+{
+map "brightmaps/gore/BMPRIMF1.png"
+disablefullbright
+}
+brightmap sprite PRIMF2F8
+{
+map "brightmaps/gore/BMPRIMF2F8.png"
+disablefullbright
+}
+brightmap sprite PRIMF3F7
+{
+map "brightmaps/gore/BMPRIMF3F7.png"
+disablefullbright
+}
+brightmap sprite PRIMG1
+{
+map "brightmaps/gore/BMPRIMG1.png"
+disablefullbright
+}
+brightmap sprite PRIMG2G8
+{
+map "brightmaps/gore/BMPRIMG2G8.png"
+disablefullbright
+}
+brightmap sprite PRIMG3G7
+{
+map "brightmaps/gore/BMPRIMG3G7.png"
+disablefullbright
+}
+brightmap sprite PRIMH1
+{
+map "brightmaps/gore/BMPRIMH1.png"
+disablefullbright
+}
+brightmap sprite PRIMJ0
+{
+map "brightmaps/gore/BMPRIMJ0.png"
+disablefullbright
+}
+//diabloist
+brightmap sprite DIABG1
+{
+map "brightmaps/gore/BMDIABG1.png"
+disablefullbright
+}
+brightmap sprite DIABG2
+{
+map "brightmaps/gore/BMDIABG2.png"
+disablefullbright
+}
+brightmap sprite DIABG3
+{
+map "brightmaps/gore/BMDIABG3.png"
+disablefullbright
+}
+brightmap sprite DIABG4
+{
+map "brightmaps/gore/BMDIABG4.png"
+disablefullbright
+}
+brightmap sprite DIABG5
+{
+map "brightmaps/gore/BMDIABG5.png"
+disablefullbright
+}
+brightmap sprite DIABG6
+{
+map "brightmaps/gore/BMDIABG6.png"
+disablefullbright
+}
+brightmap sprite DIABG7
+{
+map "brightmaps/gore/BMDIABG7.png"
+disablefullbright
+}
+brightmap sprite DIABG8
+{
+map "brightmaps/gore/BMDIABG8.png"
+disablefullbright
+}
+brightmap sprite DIABH1
+{
+map "brightmaps/gore/BMDIABH1.png"
+disablefullbright
+}
+brightmap sprite DIABH2
+{
+map "brightmaps/gore/BMDIABH2.png"
+disablefullbright
+}
+brightmap sprite DIABH3
+{
+map "brightmaps/gore/BMDIABH3.png"
+disablefullbright
+}
+brightmap sprite DIABH4
+{
+map "brightmaps/gore/BMDIABH4.png"
+disablefullbright
+}
+brightmap sprite DIABH5
+{
+map "brightmaps/gore/BMDIABH5.png"
+disablefullbright
+}
+brightmap sprite DIABH6
+{
+map "brightmaps/gore/BMDIABH6.png"
+disablefullbright
+}
+brightmap sprite DIABH7
+{
+map "brightmaps/gore/BMDIABH7.png"
+disablefullbright
+}
+brightmap sprite DIABH8
+{
+map "brightmaps/gore/BMDIABH8.png"
+disablefullbright
+}
+brightmap sprite DIABI1
+{
+map "brightmaps/gore/BMDIABI1.png"
+disablefullbright
+}
+brightmap sprite DIABI2
+{
+map "brightmaps/gore/BMDIABI2.png"
+disablefullbright
+}
+brightmap sprite DIABI3
+{
+map "brightmaps/gore/BMDIABI3.png"
+disablefullbright
+}
+brightmap sprite DIABI4
+{
+map "brightmaps/gore/BMDIABI4.png"
+disablefullbright
+}
+brightmap sprite DIABI5
+{
+map "brightmaps/gore/BMDIABI5.png"
+disablefullbright
+}
+brightmap sprite DIABI6
+{
+map "brightmaps/gore/BMDIABI6.png"
+disablefullbright
+}
+brightmap sprite DIABI7
+{
+map "brightmaps/gore/BMDIABI7.png"
+disablefullbright
+}
+brightmap sprite DIABI8
+{
+map "brightmaps/gore/BMDIABI8.png"
+disablefullbright
+}
+brightmap sprite DIABJ1
+{
+map "brightmaps/gore/BMDIABJ1.png"
+disablefullbright
+}
+brightmap sprite DIABJ2
+{
+map "brightmaps/gore/BMDIABJ2.png"
+disablefullbright
+}
+brightmap sprite DIABJ3
+{
+map "brightmaps/gore/BMDIABJ3.png"
+disablefullbright
+}
+brightmap sprite DIABJ4
+{
+map "brightmaps/gore/BMDIABJ4.png"
+disablefullbright
+}
+brightmap sprite DIABJ5
+{
+map "brightmaps/gore/BMDIABJ5.png"
+disablefullbright
+}
+brightmap sprite DIABJ6
+{
+map "brightmaps/gore/BMDIABJ6.png"
+disablefullbright
+}
+brightmap sprite DIABJ7
+{
+map "brightmaps/gore/BMDIABJ7.png"
+disablefullbright
+}
+brightmap sprite DIABJ8
+{
+map "brightmaps/gore/BMDIABJ8.png"
+disablefullbright
+}
+brightmap sprite DIABK1
+{
+map "brightmaps/gore/BMDIABK1.png"
+disablefullbright
+}
+brightmap sprite DIABK2
+{
+map "brightmaps/gore/BMDIABK2.png"
+disablefullbright
+}
+brightmap sprite DIABK3
+{
+map "brightmaps/gore/BMDIABK3.png"
+disablefullbright
+}
+brightmap sprite DIABK4
+{
+map "brightmaps/gore/BMDIABK4.png"
+disablefullbright
+}
+brightmap sprite DIABK5
+{
+map "brightmaps/gore/BMDIABK5.png"
+disablefullbright
+}
+brightmap sprite DIABK6
+{
+map "brightmaps/gore/BMDIABK6.png"
+disablefullbright
+}
+brightmap sprite DIABK7
+{
+map "brightmaps/gore/BMDIABK7.png"
+disablefullbright
+}
+brightmap sprite DIABK8
+{
+map "brightmaps/gore/BMDIABK8.png"
+disablefullbright
+}
+brightmap sprite DIABL1
+{
+map "brightmaps/gore/BMDIABL1.png"
+disablefullbright
+}
+brightmap sprite DIABL2
+{
+map "brightmaps/gore/BMDIABL2.png"
+disablefullbright
+}
+brightmap sprite DIABL3
+{
+map "brightmaps/gore/BMDIABL3.png"
+disablefullbright
+}
+brightmap sprite DIABL4
+{
+map "brightmaps/gore/BMDIABL4.png"
+disablefullbright
+}
+brightmap sprite DIABL5
+{
+map "brightmaps/gore/BMDIABL5.png"
+disablefullbright
+}
+brightmap sprite DIABL6
+{
+map "brightmaps/gore/BMDIABL6.png"
+disablefullbright
+}
+brightmap sprite DIABL7
+{
+map "brightmaps/gore/BMDIABL7.png"
+disablefullbright
+}
+brightmap sprite DIABL8
+{
+map "brightmaps/gore/BMDIABL8.png"
+disablefullbright
+}
+brightmap sprite DIABM1
+{
+map "brightmaps/gore/BMDIABM1.png"
+disablefullbright
+}
+brightmap sprite DIABM2
+{
+map "brightmaps/gore/BMDIABM2.png"
+disablefullbright
+}
+brightmap sprite DIABM3
+{
+map "brightmaps/gore/BMDIABM3.png"
+disablefullbright
+}
+brightmap sprite DIABM4
+{
+map "brightmaps/gore/BMDIABM4.png"
+disablefullbright
+}
+brightmap sprite DIABM5
+{
+map "brightmaps/gore/BMDIABM5.png"
+disablefullbright
+}
+brightmap sprite DIABM6
+{
+map "brightmaps/gore/BMDIABM6.png"
+disablefullbright
+}
+brightmap sprite DIABM7
+{
+map "brightmaps/gore/BMDIABM7.png"
+disablefullbright
+}
+brightmap sprite DIABM8
+{
+map "brightmaps/gore/BMDIABM8.png"
+disablefullbright
+}
+brightmap sprite DIABN1
+{
+map "brightmaps/gore/BMDIABN1.png"
+disablefullbright
+}
+brightmap sprite DIABN2
+{
+map "brightmaps/gore/BMDIABN2.png"
+disablefullbright
+}
+brightmap sprite DIABN3
+{
+map "brightmaps/gore/BMDIABN3.png"
+disablefullbright
+}
+brightmap sprite DIABN4
+{
+map "brightmaps/gore/BMDIABN4.png"
+disablefullbright
+}
+brightmap sprite DIABN5
+{
+map "brightmaps/gore/BMDIABN5.png"
+disablefullbright
+}
+brightmap sprite DIABN6
+{
+map "brightmaps/gore/BMDIABN6.png"
+disablefullbright
+}
+brightmap sprite DIABN7
+{
+map "brightmaps/gore/BMDIABN7.png"
+disablefullbright
+}
+brightmap sprite DIABN8
+{
+map "brightmaps/gore/BMDIABN8.png"
+disablefullbright
+}
+brightmap sprite DIABO1
+{
+map "brightmaps/gore/BMDIABO1.png"
+disablefullbright
+}
+brightmap sprite DIABO2
+{
+map "brightmaps/gore/BMDIABO2.png"
+disablefullbright
+}
+brightmap sprite DIABO3
+{
+map "brightmaps/gore/BMDIABO3.png"
+disablefullbright
+}
+brightmap sprite DIABO4
+{
+map "brightmaps/gore/BMDIABO4.png"
+disablefullbright
+}
+brightmap sprite DIABO5
+{
+map "brightmaps/gore/BMDIABO5.png"
+disablefullbright
+}
+brightmap sprite DIABO6
+{
+map "brightmaps/gore/BMDIABO6.png"
+disablefullbright
+}
+brightmap sprite DIABO7
+{
+map "brightmaps/gore/BMDIABO7.png"
+disablefullbright
+}
+brightmap sprite DIABO8
+{
+map "brightmaps/gore/BMDIABO8.png"
+disablefullbright
+}
+brightmap sprite DIABP1
+{
+map "brightmaps/gore/BMDIABP1.png"
+disablefullbright
+}
+brightmap sprite DIABP2
+{
+map "brightmaps/gore/BMDIABP2.png"
+disablefullbright
+}
+brightmap sprite DIABP3
+{
+map "brightmaps/gore/BMDIABP3.png"
+disablefullbright
+}
+brightmap sprite DIABP4
+{
+map "brightmaps/gore/BMDIABP4.png"
+disablefullbright
+}
+brightmap sprite DIABP5
+{
+map "brightmaps/gore/BMDIABP5.png"
+disablefullbright
+}
+brightmap sprite DIABP6
+{
+map "brightmaps/gore/BMDIABP6.png"
+disablefullbright
+}
+brightmap sprite DIABP7
+{
+map "brightmaps/gore/BMDIABP7.png"
+disablefullbright
+}
+brightmap sprite DIABP8
+{
+map "brightmaps/gore/BMDIABP8.png"
+disablefullbright
+}
+brightmap sprite DIABQ1
+{
+map "brightmaps/gore/BMDIABQ1.png"
+disablefullbright
+}
+brightmap sprite DIABQ2
+{
+map "brightmaps/gore/BMDIABQ2.png"
+disablefullbright
+}
+brightmap sprite DIABQ3
+{
+map "brightmaps/gore/BMDIABQ3.png"
+disablefullbright
+}
+brightmap sprite DIABQ4
+{
+map "brightmaps/gore/BMDIABQ4.png"
+disablefullbright
+}
+brightmap sprite DIAB[1
+{
+map "brightmaps/gore/BMDIAB[1.png"
+disablefullbright
+}
+brightmap sprite DIAB[2
+{
+map "brightmaps/gore/BMDIAB[2.png"
+disablefullbright
+}
+brightmap sprite DIAB[3
+{
+map "brightmaps/gore/BMDIAB[3.png"
+disablefullbright
+}
+brightmap sprite DIAB[4
+{
+map "brightmaps/gore/BMDIAB[4.png"
+disablefullbright
+}
+brightmap sprite DIAB[5
+{
+map "brightmaps/gore/BMDIAB[5.png"
+disablefullbright
+}
+brightmap sprite DIAB[6
+{
+map "brightmaps/gore/BMDIAB[6.png"
+disablefullbright
+}
+brightmap sprite DIAB[7
+{
+map "brightmaps/gore/BMDIAB[7.png"
+disablefullbright
+}
+brightmap sprite DIAB[8
+{
+map "brightmaps/gore/BMDIAB[8.png"
+disablefullbright
+}
+brightmap sprite DIAB]1
+{
+map "brightmaps/gore/BMDIAB]1.png"
+disablefullbright
+}
+brightmap sprite DIAB]2
+{
+map "brightmaps/gore/BMDIAB]2.png"
+disablefullbright
+}
+brightmap sprite DIAB]3
+{
+map "brightmaps/gore/BMDIAB]3.png"
+disablefullbright
+}
+brightmap sprite DIAB]4
+{
+map "brightmaps/gore/BMDIAB]4.png"
+disablefullbright
+}
+brightmap sprite DIAB]5
+{
+map "brightmaps/gore/BMDIAB]5.png"
+disablefullbright
+}
+brightmap sprite DIAB]6
+{
+map "brightmaps/gore/BMDIAB]6.png"
+disablefullbright
+}
+brightmap sprite DIAB]7
+{
+map "brightmaps/gore/BMDIAB]7.png"
+disablefullbright
+}
+brightmap sprite DIAB]8
+{
+map "brightmaps/gore/BMDIAB]8.png"
+disablefullbright
+}
+brightmap sprite DIAB^1
+{
+map "brightmaps/gore/BMDIAB^1.png"
+disablefullbright
+}
+brightmap sprite DIAB^2
+{
+map "brightmaps/gore/BMDIAB^2.png"
+disablefullbright
+}
+brightmap sprite DIAB^3
+{
+map "brightmaps/gore/BMDIAB^3.png"
+disablefullbright
+}
+brightmap sprite DIAB^4
+{
+map "brightmaps/gore/BMDIAB^4.png"
+disablefullbright
+}
+brightmap sprite DIAB^5
+{
+map "brightmaps/gore/BMDIAB^5.png"
+disablefullbright
+}
+brightmap sprite DIAB^6
+{
+map "brightmaps/gore/BMDIAB^6.png"
+disablefullbright
+}
+brightmap sprite DIAB^7
+{
+map "brightmaps/gore/BMDIAB^7.png"
+disablefullbright
+}
+brightmap sprite DIAB^8
+{
+map "brightmaps/gore/BMDIAB^8.png"
+disablefullbright
+}
+brightmap sprite DIABA1D1
+{
+map "brightmaps/gore/BMDIABA1D1.png"
+disablefullbright
+}
+brightmap sprite DIABA2D8
+{
+map "brightmaps/gore/BMDIABA2D8.png"
+disablefullbright
+}
+brightmap sprite DIABA8D2
+{
+map "brightmaps/gore/BMDIABA8D2.png"
+disablefullbright
+}
+brightmap sprite DIABB1E1
+{
+map "brightmaps/gore/BMDIABB1E1.png"
+disablefullbright
+}
+brightmap sprite DIABB2E8
+{
+map "brightmaps/gore/BMDIABB2E8.png"
+disablefullbright
+}
+brightmap sprite DIABB8E2
+{
+map "brightmaps/gore/BMDIABB8E2.png"
+disablefullbright
+}
+brightmap sprite DIABC1F1
+{
+map "brightmaps/gore/BMDIABC1F1.png"
+disablefullbright
+}
+brightmap sprite DIABC2F8
+{
+map "brightmaps/gore/BMDIABC2F8.png"
+disablefullbright
+}
+brightmap sprite DIABC8F2
+{
+map "brightmaps/gore/BMDIABC8F2.png"
+disablefullbright
+}
+//snake imp
+brightmap sprite SNIMA1
+{
+map "brightmaps/gore/BMSNIMA1.png"
+disablefullbright
+}
+brightmap sprite SNIMA2A8
+{
+map "brightmaps/gore/BMSNIMA2A8.png"
+disablefullbright
+}
+brightmap sprite SNIMA3A7
+{
+map "brightmaps/gore/BMSNIMA3A7.png"
+disablefullbright
+}
+brightmap sprite SNIMB1
+{map "brightmaps/gore/BMSNIMB1.png"
+disablefullbright
+}
+brightmap sprite SNIMB2B8
+{
+map "brightmaps/gore/BMSNIMB2B8.png"
+disablefullbright
+}
+brightmap sprite SNIMB3B7
+{
+map "brightmaps/gore/BMSNIMB3B7.png"
+disablefullbright
+}
+brightmap sprite SNIMC1
+{
+map "brightmaps/gore/BMSNIMC1.png"
+disablefullbright
+}
+brightmap sprite SNIMC2C8
+{
+map "brightmaps/gore/BMSNIMC2C8.png"
+disablefullbright
+}
+brightmap sprite SNIMC3C7
+{
+map "brightmaps/gore/BMSNIMC3C7.png"
+disablefullbright
+}
+brightmap sprite SNIMD1
+{
+map "brightmaps/gore/BMSNIMD1.png"
+disablefullbright
+}
+brightmap sprite SNIMD2D8
+{
+map "brightmaps/gore/BMSNIMD2D8.png"
+disablefullbright
+}
+brightmap sprite SNIMD3D7
+{
+map "brightmaps/gore/BMSNIMD3D7.png"
+disablefullbright
+}
+brightmap sprite SNIME1
+{
+map "brightmaps/gore/BMSNIME1.png"
+disablefullbright
+}
+brightmap sprite SNIME2E8
+{
+map "brightmaps/gore/BMSNIME2E8.png"
+disablefullbright
+}
+brightmap sprite SNIME3E7
+{
+map "brightmaps/gore/BMSNIME3E7.png"
+disablefullbright
+}
+brightmap sprite SNIMF1
+{
+map "brightmaps/gore/BMSNIMF1.png"
+disablefullbright
+}
+brightmap sprite SNIMF2F8
+{
+map "brightmaps/gore/BMSNIMF2F8.png"
+disablefullbright
+}
+brightmap sprite SNIMF3F7
+{
+map "brightmaps/gore/BMSNIMF3F7.png"
+disablefullbright
+}
+brightmap sprite SNIMG1
+{
+map "brightmaps/gore/BMSNIMG1.png"
+disablefullbright
+}
+brightmap sprite SNIMG2G8
+{
+map "brightmaps/gore/BMSNIMG2G8.png"
+disablefullbright
+}
+brightmap sprite SNIMG3G7
+{
+map "brightmaps/gore/BMSNIMG3G7.png"
+disablefullbright
+}
+brightmap sprite SNIMH1
+{
+map "brightmaps/gore/BMSNIMH1.png"
+disablefullbright
+}
+brightmap sprite SNIMH2H8
+{
+map "brightmaps/gore/BMSNIMH2H8.png"
+disablefullbright
+}
+brightmap sprite SNIMH3H7
+{
+map "brightmaps/gore/BMSNIMH3H7.png"
+disablefullbright
+}
+brightmap sprite SNIMI0
+{
+map "brightmaps/gore/BMSNIMI0.png"
+disablefullbright
+}
+brightmap sprite SNIMJ0
+{
+map "brightmaps/gore/BMSNIMJ0.png"
+disablefullbright
+}
+//hellion
+brightmap sprite HELNA1D1
+{
+map "brightmaps/gore/BMHELNA1D1.png"
+disablefullbright
+}
+brightmap sprite HELNA2D8
+{
+map "brightmaps/gore/BMHELNA2D8.png"
+disablefullbright
+}
+brightmap sprite HELNA3D7
+{
+map "brightmaps/gore/BMHELNA3D7.png"
+disablefullbright
+}
+brightmap sprite HELNA7D3
+{
+map "brightmaps/gore/BMHELNA7D3.png"
+disablefullbright
+}
+brightmap sprite HELNA8D2
+{
+map "brightmaps/gore/BMHELNA1D1.png"
+disablefullbright
+}
+brightmap sprite HELNB1E1
+{
+map "brightmaps/gore/BMHELNB1E1.png"
+disablefullbright
+}
+brightmap sprite HELNB2E8
+{
+map "brightmaps/gore/BMHELNB2E8.png"
+disablefullbright
+}
+brightmap sprite HELNB3E7
+{
+map "brightmaps/gore/BMHELNB3E7.png"
+disablefullbright
+}
+brightmap sprite HELNB7E3
+{
+map "brightmaps/gore/BMHELNB7E3.png"
+disablefullbright
+}
+brightmap sprite HELNB8E2
+{
+map "brightmaps/gore/BMHELNB1E1.png"
+disablefullbright
+}
+brightmap sprite HELNC1F1
+{
+map "brightmaps/gore/BMHELNC1F1.png"
+disablefullbright
+}
+brightmap sprite HELNC2F8
+{
+map "brightmaps/gore/BMHELNC2F8.png"
+disablefullbright
+}
+brightmap sprite HELNC3F7
+{
+map "brightmaps/gore/BMHELNC3F7.png"
+disablefullbright
+}
+brightmap sprite HELNC7F3
+{
+map "brightmaps/gore/BMHELNC7F3.png"
+disablefullbright
+}
+brightmap sprite HELNC8F2
+{
+map "brightmaps/gore/BMHELNC1F1.png"
+disablefullbright
+}
+brightmap sprite HELNG1
+{
+map "brightmaps/gore/BMHELNG1.png"
+disablefullbright
+}
+brightmap sprite HELNG2
+{
+map "brightmaps/gore/BMHELNG2.png"
+disablefullbright
+}
+brightmap sprite HELNG3
+{
+map "brightmaps/gore/BMHELNG3.png"
+disablefullbright
+}
+brightmap sprite HELNG4
+{
+map "brightmaps/gore/BMHELNG4.png"
+disablefullbright
+}
+brightmap sprite HELNG5
+{
+map "brightmaps/gore/BMHELNG5.png"
+disablefullbright
+}
+brightmap sprite HELNG6
+{
+map "brightmaps/gore/BMHELNG6.png"
+disablefullbright
+}
+brightmap sprite HELNG7
+{
+map "brightmaps/gore/BMHELNG7.png"
+disablefullbright
+}
+brightmap sprite HELNG8
+{
+map "brightmaps/gore/BMHELNG8.png"
+disablefullbright
+}
+brightmap sprite HELNH1
+{
+map "brightmaps/gore/BMHELNH1.png"
+disablefullbright
+}
+brightmap sprite HELNH2
+{
+map "brightmaps/gore/BMHELNH2.png"
+disablefullbright
+}
+brightmap sprite HELNH3
+{
+map "brightmaps/gore/BMHELNH3.png"
+disablefullbright
+}
+brightmap sprite HELNH4
+{
+map "brightmaps/gore/BMHELNH4.png"
+disablefullbright
+}
+brightmap sprite HELNH5
+{
+map "brightmaps/gore/BMHELNH5.png"
+disablefullbright
+}
+brightmap sprite HELNH6
+{
+map "brightmaps/gore/BMHELNH6.png"
+disablefullbright
+}
+brightmap sprite HELNH7
+{
+map "brightmaps/gore/BMHELNH7.png"
+disablefullbright
+}
+brightmap sprite HELNH8
+{
+map "brightmaps/gore/BMHELNH8.png"
+disablefullbright
+}
+brightmap sprite HELNI1
+{
+map "brightmaps/gore/BMHELNI1.png"
+disablefullbright
+}
+brightmap sprite HELNI2
+{
+map "brightmaps/gore/BMHELNI2.png"
+disablefullbright
+}
+brightmap sprite HELNI3
+{
+map "brightmaps/gore/BMHELNI3.png"
+disablefullbright
+}
+brightmap sprite HELNI4
+{
+map "brightmaps/gore/BMHELNI4.png"
+disablefullbright
+}
+brightmap sprite HELNI5
+{
+map "brightmaps/gore/BMHELNI5.png"
+disablefullbright
+}
+brightmap sprite HELNI6
+{
+map "brightmaps/gore/BMHELNI6.png"
+disablefullbright
+}
+brightmap sprite HELNI7
+{
+map "brightmaps/gore/BMHELNI7.png"
+disablefullbright
+}
+brightmap sprite HELNI8
+{
+map "brightmaps/gore/BMHELNI8.png"
+disablefullbright
+}
+brightmap sprite HELNJ1
+{
+map "brightmaps/gore/BMHELNJ1.png"
+disablefullbright
+}
+brightmap sprite HELNJ2
+{
+map "brightmaps/gore/BMHELNJ2.png"
+disablefullbright
+}
+brightmap sprite HELNJ3
+{
+map "brightmaps/gore/BMHELNJ3.png"
+disablefullbright
+}
+brightmap sprite HELNJ4
+{
+map "brightmaps/gore/BMHELNJ4.png"
+disablefullbright
+}
+brightmap sprite HELNJ5
+{
+map "brightmaps/gore/BMHELNJ5.png"
+disablefullbright
+}
+brightmap sprite HELNJ6
+{
+map "brightmaps/gore/BMHELNJ6.png"
+disablefullbright
+}
+brightmap sprite HELNJ7
+{
+map "brightmaps/gore/BMHELNJ7.png"
+disablefullbright
+}
+brightmap sprite HELNJ8
+{
+map "brightmaps/gore/BMHELNJ8.png"
+disablefullbright
+}
+brightmap sprite HELNK1
+{
+map "brightmaps/gore/BMHELNK1.png"
+disablefullbright
+}
+brightmap sprite HELNK2
+{
+map "brightmaps/gore/BMHELNK2.png"
+disablefullbright
+}
+brightmap sprite HELNK3
+{
+map "brightmaps/gore/BMHELNK3.png"
+disablefullbright
+}
+brightmap sprite HELNK4
+{
+map "brightmaps/gore/BMHELNK4.png"
+disablefullbright
+}
+brightmap sprite HELNK5
+{
+map "brightmaps/gore/BMHELNK5.png"
+disablefullbright
+}
+brightmap sprite HELNK6
+{
+map "brightmaps/gore/BMHELNK6.png"
+disablefullbright
+}
+brightmap sprite HELNK7
+{
+map "brightmaps/gore/BMHELNK7.png"
+disablefullbright
+}
+brightmap sprite HELNK8
+{
+map "brightmaps/gore/BMHELNK8.png"
+disablefullbright
+}
+brightmap sprite HELNL1
+{
+map "brightmaps/gore/BMHELNL1.png"
+disablefullbright
+}
+brightmap sprite HELNL2
+{
+map "brightmaps/gore/BMHELNL2.png"
+disablefullbright
+}
+brightmap sprite HELNL3
+{
+map "brightmaps/gore/BMHELNL3.png"
+disablefullbright
+}
+brightmap sprite HELNL7
+{
+map "brightmaps/gore/BMHELNL7.png"
+disablefullbright
+}
+brightmap sprite HELNL8
+{
+map "brightmaps/gore/BMHELNL8.png"
+disablefullbright
+}
+//vulgar
+brightmap sprite VULGA1C1
+{
+map "brightmaps/gore/BMVULGA1C1.png"
+disablefullbright
+}
+brightmap sprite VULGA2C8
+{
+map "brightmaps/gore/BMVULGA2C8.png"
+disablefullbright
+}
+brightmap sprite VULGA3C7
+{
+map "brightmaps/gore/BMVULGA3C7.png"
+disablefullbright
+}
+brightmap sprite VULGA7C3
+{
+map "brightmaps/gore/BMVULGA7C3.png"
+disablefullbright
+}
+brightmap sprite VULGA8C2
+{
+map "brightmaps/gore/BMVULGA8C2.png"
+disablefullbright
+}
+brightmap sprite VULGB1D1
+{
+map "brightmaps/gore/BMVULGB1D1.png"
+disablefullbright
+}
+brightmap sprite VULGB2D8
+{
+map "brightmaps/gore/BMVULGB2D8.png"
+disablefullbright
+}
+brightmap sprite VULGB3D7
+{
+map "brightmaps/gore/BMVULGB3D7.png"
+disablefullbright
+}
+brightmap sprite VULGB7D3
+{
+map "brightmaps/gore/BMVULGB7D3.png"
+disablefullbright
+}
+brightmap sprite VULGB8D2
+{
+map "brightmaps/gore/BMVULGB8D2.png"
+disablefullbright
+}
+brightmap sprite VULGE1
+{
+map "brightmaps/gore/BMVULGE1.png"
+disablefullbright
+}
+brightmap sprite VULGE2
+{
+map "brightmaps/gore/BMVULGE2.png"
+disablefullbright
+}
+brightmap sprite VULGE3
+{
+map "brightmaps/gore/BMVULGE3.png"
+disablefullbright
+}
+brightmap sprite VULGE7
+{
+map "brightmaps/gore/BMVULGE7.png"
+disablefullbright
+}
+brightmap sprite VULGE8
+{
+map "brightmaps/gore/BMVULGE8.png"
+disablefullbright
+}
+brightmap sprite VULGF1
+{
+map "brightmaps/gore/BMVULGF1.png"
+disablefullbright
+}
+brightmap sprite VULGF2
+{
+map "brightmaps/gore/BMVULGF2.png"
+disablefullbright
+}
+brightmap sprite VULGF3
+{
+map "brightmaps/gore/BMVULGF3.png"
+disablefullbright
+}
+brightmap sprite VULGF7
+{
+map "brightmaps/gore/BMVULGF7.png"
+disablefullbright
+}
+brightmap sprite VULGF8
+{
+map "brightmaps/gore/BMVULGF8.png"
+disablefullbright
+}
+brightmap sprite VULGG1
+{
+map "brightmaps/gore/BMVULGG1.png"
+disablefullbright
+}
+brightmap sprite VULGG2
+{
+map "brightmaps/gore/BMVULGG2.png"
+disablefullbright
+}
+brightmap sprite VULGG8
+{
+map "brightmaps/gore/BMVULGG8.png"
+disablefullbright
+}
+brightmap sprite VULGH1
+{
+map "brightmaps/gore/BMVULGH1.png"
+disablefullbright
+}
+brightmap sprite VULGH2
+{
+map "brightmaps/gore/BMVULGH2.png"
+disablefullbright
+}
+brightmap sprite VULGH3
+{
+map "brightmaps/gore/BMVULGH3.png"
+disablefullbright
+}
+brightmap sprite VULGH4
+{
+map "brightmaps/gore/BMVULGH4.png"
+disablefullbright
+}
+brightmap sprite VULGH7
+{
+map "brightmaps/gore/BMVULGH7.png"
+disablefullbright
+}
+brightmap sprite VULGH8
+{
+map "brightmaps/gore/BMVULGH8.png"
+disablefullbright
+}
+brightmap sprite VULGI0
+{
+map "brightmaps/gore/BMVULGI0.png"
+disablefullbright
+}
+brightmap sprite VULGJ0
+{
+map "brightmaps/gore/BMVULGJ0.png"
+disablefullbright
+}
+//time imp
+brightmap sprite SIMPA1
+{
+map "brightmaps/gore/BMSIMPA1.png"
+disablefullbright
+}
+brightmap sprite SIMPA2A8
+{
+map "brightmaps/gore/BMSIMPA2A8.png"
+disablefullbright
+}
+brightmap sprite SIMPA3A7
+{
+map "brightmaps/gore/BMSIMPA3A7.png"
+disablefullbright
+}
+brightmap sprite SIMPB1
+{
+map "brightmaps/gore/BMSIMPB1.png"
+disablefullbright
+}
+brightmap sprite SIMPB2B8
+{
+map "brightmaps/gore/BMSIMPB2B8.png"
+disablefullbright
+}
+brightmap sprite SIMPB3B7
+{
+map "brightmaps/gore/BMSIMPB3B7.png"
+disablefullbright
+}
+brightmap sprite SIMPC1
+{
+map "brightmaps/gore/BMSIMPC1.png"
+disablefullbright
+}
+brightmap sprite SIMPC2C8
+{
+map "brightmaps/gore/BMSIMPC2C8.png"
+disablefullbright
+}
+brightmap sprite SIMPC3C7
+{
+map "brightmaps/gore/BMSIMPC3C7.png"
+disablefullbright
+}
+brightmap sprite SIMPD1
+{
+map "brightmaps/gore/BMSIMPD1.png"
+disablefullbright
+}
+brightmap sprite SIMPD2D8
+{
+map "brightmaps/gore/BMSIMPD2D8.png"
+disablefullbright
+}
+brightmap sprite SIMPD3D7
+{
+map "brightmaps/gore/BMSIMPD3D7.png"
+disablefullbright
+}
+brightmap sprite SIMPE1
+{
+map "brightmaps/gore/BMSIMPE1.png"
+disablefullbright
+}
+brightmap sprite SIMPE2E8
+{
+map "brightmaps/gore/BMSIMPE2E8.png"
+disablefullbright
+}
+brightmap sprite SIMPE3E7
+{
+map "brightmaps/gore/BMSIMPE3E7.png"
+disablefullbright
+}
+brightmap sprite SIMPE4E6
+{
+map "brightmaps/gore/BMSIMPE4E6.png"
+disablefullbright
+}
+brightmap sprite SIMPE5
+{
+map "brightmaps/gore/BMSIMPE5.png"
+disablefullbright
+}
+brightmap sprite SIMPF1
+{
+map "brightmaps/gore/BMSIMPF1.png"
+disablefullbright
+}
+brightmap sprite SIMPF2F8
+{
+map "brightmaps/gore/BMSIMPF2F8.png"
+disablefullbright
+}
+brightmap sprite SIMPF3F7
+{
+map "brightmaps/gore/BMSIMPF3F7.png"
+disablefullbright
+}
+brightmap sprite SIMPF4F6
+{
+map "brightmaps/gore/BMSIMPF4F6.png"
+disablefullbright
+}
+brightmap sprite SIMPF5
+{
+map "brightmaps/gore/BMSIMPF5.png"
+disablefullbright
+}
+brightmap sprite SIMPG1
+{
+map "brightmaps/gore/BMSIMPG1.png"
+disablefullbright
+}
+brightmap sprite SIMPG2G8
+{
+map "brightmaps/gore/BMSIMPG2G8.png"
+disablefullbright
+}
+brightmap sprite SIMPG3G7
+{
+map "brightmaps/gore/BMSIMPG3G7.png"
+disablefullbright
+}
+brightmap sprite SIMPG4G6
+{
+map "brightmaps/gore/BMSIMPG4G6.png"
+disablefullbright
+}
+brightmap sprite SIMPG5
+{
+map "brightmaps/gore/BMSIMPG5.png"
+disablefullbright
+}
+brightmap sprite SIMPH1
+{
+map "brightmaps/gore/BMSIMPH1.png"
+disablefullbright
+}
+brightmap sprite SIMPH2H8
+{
+map "brightmaps/gore/BMSIMPH2H8.png"
+disablefullbright
+}
+brightmap sprite SIMPH3H7
+{
+map "brightmaps/gore/BMSIMPH3H7.png"
+disablefullbright
+}
+//roach
+brightmap sprite ROACA1
+{
+map "brightmaps/gore/BMROACA1.png"
+disablefullbright
+}
+brightmap sprite ROACA2A8
+{
+map "brightmaps/gore/BMROACA2A8.png"
+disablefullbright
+}
+brightmap sprite ROACA3A7
+{
+map "brightmaps/gore/BMROACA3A7.png"
+disablefullbright
+}
+brightmap sprite ROACB1
+{
+map "brightmaps/gore/BMROACB1.png"
+disablefullbright
+}
+brightmap sprite ROACB2B8
+{
+map "brightmaps/gore/BMROACB2B8.png"
+disablefullbright
+}
+brightmap sprite ROACB3B7
+{
+map "brightmaps/gore/BMROACB3B7.png"
+disablefullbright
+}
+brightmap sprite ROACC1
+{
+map "brightmaps/gore/BMROACC1.png"
+disablefullbright
+}
+brightmap sprite ROACC2C8
+{
+map "brightmaps/gore/BMROACC2C8.png"
+disablefullbright
+}
+brightmap sprite ROACC3C7
+{
+map "brightmaps/gore/BMROACC3C7.png"
+disablefullbright
+}
+brightmap sprite ROACC4C6
+{
+map "brightmaps/gore/BMROACC4C6.png"
+disablefullbright
+}
+brightmap sprite ROACD1
+{
+map "brightmaps/gore/BMROACD1.png"
+disablefullbright
+}
+brightmap sprite ROACD2D8
+{
+map "brightmaps/gore/BMROACD2D8.png"
+disablefullbright
+}
+brightmap sprite ROACD3D7
+{
+map "brightmaps/gore/BMROACD3D7.png"
+disablefullbright
+}
+brightmap sprite ROACE1
+{
+map "brightmaps/gore/BMROACE1.png"
+disablefullbright
+}
+brightmap sprite ROACE2E8
+{
+map "brightmaps/gore/BMROACE2E8.png"
+disablefullbright
+}
+brightmap sprite ROACE3E7
+{
+map "brightmaps/gore/BMROACE3E7.png"
+disablefullbright
+}
+brightmap sprite ROACF1
+{
+map "brightmaps/gore/BMROACF1.png"
+disablefullbright
+}
+brightmap sprite ROACF2F8
+{
+map "brightmaps/gore/BMROACF2F8.png"
+disablefullbright
+}
+brightmap sprite ROACF3F7
+{
+map "brightmaps/gore/BMROACF3F7.png"
+disablefullbright
+}
+brightmap sprite ROACG1
+{
+map "brightmaps/gore/BMROACG1.png"
+disablefullbright
+}
+brightmap sprite ROACG2G8
+{
+map "brightmaps/gore/BMROACG2G8.png"
+disablefullbright
+}
+brightmap sprite ROACG3G7
+{
+map "brightmaps/gore/BMROACG3G7.png"
+disablefullbright
+}
+brightmap sprite ROACI0
+{
+map "brightmaps/gore/BMROACI0.png"
+disablefullbright
+}
+brightmap sprite ROACJ0
+{
+map "brightmaps/gore/BMROACJ0.png"
+disablefullbright
+}
+//warlord of hell
+brightmap sprite BOS6A1C1
+{
+map "brightmaps/gore/BMBOS6A1C1.png"
+disablefullbright
+}
+brightmap sprite BOS6A2C8
+{
+map "brightmaps/gore/BMBOS6A2C8.png"
+disablefullbright
+}
+brightmap sprite BOS6A3C7
+{
+map "brightmaps/gore/BMBOS6A3C7.png"
+disablefullbright
+}
+brightmap sprite BOS6A4C6
+{
+map "brightmaps/gore/BMBOS6A4C6.png"
+disablefullbright
+}
+brightmap sprite BOS6A5C5
+{
+map "brightmaps/gore/BMBOS6A5C5.png"
+disablefullbright
+}
+brightmap sprite BOS6A6C4
+{
+map "brightmaps/gore/BMBOS6A6C4.png"
+disablefullbright
+}
+brightmap sprite BOS6A7C3
+{
+map "brightmaps/gore/BMBOS6A7C3.png"
+disablefullbright
+}
+brightmap sprite BOS6A8C2
+{
+map "brightmaps/gore/BMBOS6A8C2.png"
+disablefullbright
+}
+brightmap sprite BOS6B1D1
+{
+map "brightmaps/gore/BMBOS6B1D1.png"
+disablefullbright
+}
+brightmap sprite BOS6B2D8
+{
+map "brightmaps/gore/BMBOS6B2D8.png"
+disablefullbright
+}
+brightmap sprite BOS6B3D7
+{
+map "brightmaps/gore/BMBOS6B3D7.png"
+disablefullbright
+}
+brightmap sprite BOS6B4D6
+{
+map "brightmaps/gore/BMBOS6B4D6.png"
+disablefullbright
+}
+brightmap sprite BOS6B5D5
+{
+map "brightmaps/gore/BMBOS6B5D5.png"
+disablefullbright
+}
+brightmap sprite BOS6B6D4
+{
+map "brightmaps/gore/BMBOS6B6D4.png"
+disablefullbright
+}
+brightmap sprite BOS6B7D3
+{
+map "brightmaps/gore/BMBOS6B7D3.png"
+disablefullbright
+}
+brightmap sprite BOS6B8D2
+{
+map "brightmaps/gore/BMBOS6B8D2.png"
+disablefullbright
+}
+brightmap sprite BOS6E1
+{
+map "brightmaps/gore/BMBOS6E1.png"
+disablefullbright
+}
+brightmap sprite BOS6E2
+{
+map "brightmaps/gore/BMBOS6E2.png"
+disablefullbright
+}
+brightmap sprite BOS6E3
+{
+map "brightmaps/gore/BMBOS6E3.png"
+disablefullbright
+}
+brightmap sprite BOS6E4
+{
+map "brightmaps/gore/BMBOS6E4.png"
+disablefullbright
+}
+brightmap sprite BOS6E5
+{
+map "brightmaps/gore/BMBOS6E5.png"
+disablefullbright
+}
+brightmap sprite BOS6E6
+{
+map "brightmaps/gore/BMBOS6E6.png"
+disablefullbright
+}
+brightmap sprite BOS6E7
+{
+map "brightmaps/gore/BMBOS6E7.png"
+disablefullbright
+}
+brightmap sprite BOS6E8
+{
+map "brightmaps/gore/BMBOS6E8.png"
+disablefullbright
+}
+brightmap sprite BOS6F1
+{
+map "brightmaps/gore/BMBOS6F1.png"
+disablefullbright
+}
+brightmap sprite BOS6F2
+{
+map "brightmaps/gore/BMBOS6F2.png"
+disablefullbright
+}
+brightmap sprite BOS6F3
+{
+map "brightmaps/gore/BMBOS6F3.png"
+disablefullbright
+}
+brightmap sprite BOS6F4
+{
+map "brightmaps/gore/BMBOS6F4.png"
+disablefullbright
+}
+brightmap sprite BOS6F5
+{
+map "brightmaps/gore/BMBOS6F5.png"
+disablefullbright
+}
+brightmap sprite BOS6F6
+{
+map "brightmaps/gore/BMBOS6F6.png"
+disablefullbright
+}
+brightmap sprite BOS6F7
+{
+map "brightmaps/gore/BMBOS6F7.png"
+disablefullbright
+}
+brightmap sprite BOS6F8
+{
+map "brightmaps/gore/BMBOS6F8.png"
+disablefullbright
+}
+brightmap sprite BOS6G1
+{
+map "brightmaps/gore/BMBOS6G1.png"
+disablefullbright
+}
+brightmap sprite BOS6G2
+{
+map "brightmaps/gore/BMBOS6G2.png"
+disablefullbright
+}
+brightmap sprite BOS6G3
+{
+map "brightmaps/gore/BMBOS6G3.png"
+disablefullbright
+}
+brightmap sprite BOS6G4
+{
+map "brightmaps/gore/BMBOS6G4.png"
+disablefullbright
+}
+brightmap sprite BOS6G5
+{
+map "brightmaps/gore/BMBOS6G5.png"
+disablefullbright
+}
+brightmap sprite BOS6G6
+{
+map "brightmaps/gore/BMBOS6G6.png"
+disablefullbright
+}
+brightmap sprite BOS6G7
+{
+map "brightmaps/gore/BMBOS6G7.png"
+disablefullbright
+}
+brightmap sprite BOS6G8
+{
+map "brightmaps/gore/BMBOS6G8.png"
+disablefullbright
+}
+brightmap sprite BOS6H1
+{
+map "brightmaps/gore/BMBOS6H1.png"
+disablefullbright
+}
+brightmap sprite BOS6H2
+{
+map "brightmaps/gore/BMBOS6H2.png"
+disablefullbright
+}
+brightmap sprite BOS6H3
+{
+map "brightmaps/gore/BMBOS6H3.png"
+disablefullbright
+}
+brightmap sprite BOS6H4
+{
+map "brightmaps/gore/BMBOS6H4.png"
+disablefullbright
+}
+brightmap sprite BOS6H5
+{
+map "brightmaps/gore/BMBOS6H5.png"
+disablefullbright
+}
+brightmap sprite BOS6H6
+{
+map "brightmaps/gore/BMBOS6H6.png"
+disablefullbright
+}
+brightmap sprite BOS6H7
+{
+map "brightmaps/gore/BMBOS6H7.png"
+disablefullbright
+}
+brightmap sprite BOS6H8
+{
+map "brightmaps/gore/BMBOS6H8.png"
+disablefullbright
+}
+brightmap sprite BOS6I0
+{
+map "brightmaps/gore/BMBOS6I0.png"
+disablefullbright
+}
+brightmap sprite BOS6J0
+{
+map "brightmaps/gore/BMBOS6J0.png"
+disablefullbright
+}
+brightmap sprite BOS6K0
+{
+map "brightmaps/gore/BMBOS6K0.png"
+disablefullbright
+}
+brightmap sprite BOS6L0
+{
+map "brightmaps/gore/BMBOS6L0.png"
+disablefullbright
+}
+brightmap sprite BOS6M0
+{
+map "brightmaps/gore/BMBOS6M0.png"
+disablefullbright
+}
+brightmap sprite BOS6P1
+{
+map "brightmaps/gore/BMBOS6P1.png"
+disablefullbright
+}
+brightmap sprite BOS6P2
+{
+map "brightmaps/gore/BMBOS6P2.png"
+disablefullbright
+}
+brightmap sprite BOS6P3
+{
+map "brightmaps/gore/BMBOS6P3.png"
+disablefullbright
+}
+brightmap sprite BOS6P4
+{
+map "brightmaps/gore/BMBOS6P4.png"
+disablefullbright
+}
+brightmap sprite BOS6P5
+{
+map "brightmaps/gore/BMBOS6P5.png"
+disablefullbright
+}
+brightmap sprite BOS6P6
+{
+map "brightmaps/gore/BMBOS6P6.png"
+disablefullbright
+}
+brightmap sprite BOS6P7
+{
+map "brightmaps/gore/BMBOS6P7.png"
+disablefullbright
+}
+brightmap sprite BOS6P8
+{
+map "brightmaps/gore/BMBOS6P8.png"
+disablefullbright
+}
+brightmap sprite BOS6Q1
+{
+map "brightmaps/gore/BMBOS6Q1.png"
+disablefullbright
+}
+brightmap sprite BOS6Q2
+{
+map "brightmaps/gore/BMBOS6Q2.png"
+disablefullbright
+}
+brightmap sprite BOS6Q3
+{
+map "brightmaps/gore/BMBOS6Q3.png"
+disablefullbright
+}
+brightmap sprite BOS6Q4
+{
+map "brightmaps/gore/BMBOS6Q4.png"
+disablefullbright
+}
+brightmap sprite BOS6Q5
+{
+map "brightmaps/gore/BMBOS6Q5.png"
+disablefullbright
+}
+brightmap sprite BOS6Q6
+{
+map "brightmaps/gore/BMBOS6Q6.png"
+disablefullbright
+}
+brightmap sprite BOS6Q7
+{
+map "brightmaps/gore/BMBOS6Q7.png"
+disablefullbright
+}
+brightmap sprite BOS6Q8
+{
+map "brightmaps/gore/BMBOS6Q8.png"
+disablefullbright
+}
+brightmap sprite BOS6R1
+{
+map "brightmaps/gore/BMBOS6R1.png"
+disablefullbright
+}
+brightmap sprite BOS6R2
+{
+map "brightmaps/gore/BMBOS6R2.png"
+disablefullbright
+}
+brightmap sprite BOS6R3
+{
+map "brightmaps/gore/BMBOS6R3.png"
+disablefullbright
+}
+brightmap sprite BOS6R4
+{
+map "brightmaps/gore/BMBOS6R4.png"
+disablefullbright
+}
+brightmap sprite BOS6R5
+{
+map "brightmaps/gore/BMBOS6R5.png"
+disablefullbright
+}
+brightmap sprite BOS6R6
+{
+map "brightmaps/gore/BMBOS6R6.png"
+disablefullbright
+}
+brightmap sprite BOS6R7
+{
+map "brightmaps/gore/BMBOS6R7.png"
+disablefullbright
+}
+brightmap sprite BOS6R8
+{
+map "brightmaps/gore/BMBOS6R8.png"
+disablefullbright
+}
+//lord of heresy
+brightmap sprite LOHSA1
+{
+map "brightmaps/gore/BMLOHSA1.png"
+disablefullbright
+}
+brightmap sprite LOHSA2A8
+{
+map "brightmaps/gore/BMLOHSA2A8.png"
+disablefullbright
+}
+brightmap sprite LOHSA3A7
+{
+map "brightmaps/gore/BMLOHSA3A7.png"
+disablefullbright
+}
+brightmap sprite LOHSA4A6
+{
+map "brightmaps/gore/BMLOHSA4A6.png"
+disablefullbright
+}
+brightmap sprite LOHSA5
+{
+map "brightmaps/gore/BMLOHSA5.png"
+disablefullbright
+}
+brightmap sprite LOHSB1
+{
+map "brightmaps/gore/BMLOHSB1.png"
+disablefullbright
+}
+brightmap sprite LOHSB2B8
+{
+map "brightmaps/gore/BMLOHSB2B8.png"
+disablefullbright
+}
+brightmap sprite LOHSB3B7
+{
+map "brightmaps/gore/BMLOHSB3B7.png"
+disablefullbright
+}
+brightmap sprite LOHSB4B6
+{
+map "brightmaps/gore/BMLOHSB4B6.png"
+disablefullbright
+}
+brightmap sprite LOHSB5
+{
+map "brightmaps/gore/BMLOHSB5.png"
+disablefullbright
+}
+brightmap sprite LOHSC1
+{
+map "brightmaps/gore/BMLOHSC1.png"
+disablefullbright
+}
+brightmap sprite LOHSC2C8
+{
+map "brightmaps/gore/BMLOHSC2C8.png"
+disablefullbright
+}
+brightmap sprite LOHSC3C7
+{
+map "brightmaps/gore/BMLOHSC3C7.png"
+disablefullbright
+}
+brightmap sprite LOHSC4C6
+{
+map "brightmaps/gore/BMLOHSC4C6.png"
+disablefullbright
+}
+brightmap sprite LOHSC5
+{
+map "brightmaps/gore/BMLOHSC5.png"
+disablefullbright
+}
+brightmap sprite LOHSD1
+{
+map "brightmaps/gore/BMLOHSD1.png"
+disablefullbright
+}
+brightmap sprite LOHSD2D8
+{
+map "brightmaps/gore/BMLOHSD2D8.png"
+disablefullbright
+}
+brightmap sprite LOHSD3D7
+{
+map "brightmaps/gore/BMLOHSD3D7.png"
+disablefullbright
+}
+brightmap sprite LOHSD4D6
+{
+map "brightmaps/gore/BMLOHSD4D6.png"
+disablefullbright
+}
+brightmap sprite LOHSD5
+{
+map "brightmaps/gore/BMLOHSD5.png"
+disablefullbright
+}
+brightmap sprite LOHSE1
+{
+map "brightmaps/gore/BMLOHSE1.png"
+disablefullbright
+}
+brightmap sprite LOHSE2
+{
+map "brightmaps/gore/BMLOHSE2.png"
+disablefullbright
+}
+brightmap sprite LOHSE3
+{
+map "brightmaps/gore/BMLOHSE3.png"
+disablefullbright
+}
+brightmap sprite LOHSE4
+{
+map "brightmaps/gore/BMLOHSE4.png"
+disablefullbright
+}
+brightmap sprite LOHSE5
+{
+map "brightmaps/gore/BMLOHSE5.png"
+disablefullbright
+}
+brightmap sprite LOHSE6
+{
+map "brightmaps/gore/BMLOHSE6.png"
+disablefullbright
+}
+brightmap sprite LOHSE7
+{
+map "brightmaps/gore/BMLOHSE7.png"
+disablefullbright
+}
+brightmap sprite LOHSE8
+{
+map "brightmaps/gore/BMLOHSE8.png"
+disablefullbright
+}
+brightmap sprite LOHSF1
+{
+map "brightmaps/gore/BMLOHSF1.png"
+disablefullbright
+}
+brightmap sprite LOHSF2
+{
+map "brightmaps/gore/BMLOHSF2.png"
+disablefullbright
+}
+brightmap sprite LOHSF3
+{
+map "brightmaps/gore/BMLOHSF3.png"
+disablefullbright
+}
+brightmap sprite LOHSF4
+{
+map "brightmaps/gore/BMLOHSF4.png"
+disablefullbright
+}
+brightmap sprite LOHSF5
+{
+map "brightmaps/gore/BMLOHSF5.png"
+disablefullbright
+}
+brightmap sprite LOHSF6
+{
+map "brightmaps/gore/BMLOHSF6.png"
+disablefullbright
+}
+brightmap sprite LOHSF7
+{
+map "brightmaps/gore/BMLOHSF7.png"
+disablefullbright
+}
+brightmap sprite LOHSF8
+{
+map "brightmaps/gore/BMLOHSF8.png"
+disablefullbright
+}
+brightmap sprite LOHSG1
+{
+map "brightmaps/gore/BMLOHSG1.png"
+disablefullbright
+}
+brightmap sprite LOHSG2
+{
+map "brightmaps/gore/BMLOHSG2.png"
+disablefullbright
+}
+brightmap sprite LOHSG3
+{
+map "brightmaps/gore/BMLOHSG3.png"
+disablefullbright
+}
+brightmap sprite LOHSG4
+{
+map "brightmaps/gore/BMLOHSG4.png"
+disablefullbright
+}
+brightmap sprite LOHSG5
+{
+map "brightmaps/gore/BMLOHSG5.png"
+disablefullbright
+}
+brightmap sprite LOHSG6
+{
+map "brightmaps/gore/BMLOHSG6.png"
+disablefullbright
+}
+brightmap sprite LOHSG7
+{
+map "brightmaps/gore/BMLOHSG7.png"
+disablefullbright
+}
+brightmap sprite LOHSG8
+{
+map "brightmaps/gore/BMLOHSG8.png"
+disablefullbright
+}
+brightmap sprite LOHSH1
+{
+map "brightmaps/gore/BMLOHSH1.png"
+disablefullbright
+}
+brightmap sprite LOHSH2
+{
+map "brightmaps/gore/BMLOHSH2.png"
+disablefullbright
+}
+brightmap sprite LOHSH3
+{
+map "brightmaps/gore/BMLOHSH3.png"
+disablefullbright
+}
+brightmap sprite LOHSH4
+{
+map "brightmaps/gore/BMLOHSH4.png"
+disablefullbright
+}
+brightmap sprite LOHSH5
+{
+map "brightmaps/gore/BMLOHSH5.png"
+disablefullbright
+}
+brightmap sprite LOHSH6
+{
+map "brightmaps/gore/BMLOHSH6.png"
+disablefullbright
+}
+brightmap sprite LOHSH7
+{
+map "brightmaps/gore/BMLOHSH7.png"
+disablefullbright
+}
+brightmap sprite LOHSH8
+{
+map "brightmaps/gore/BMLOHSH8.png"
+disablefullbright
+}
+brightmap sprite LOHSI0
+{
+map "brightmaps/gore/BMLOHSI0.png"
+disablefullbright
+}
+brightmap sprite LOHSJ0
+{
+map "brightmaps/gore/BMLOHSJ0.png"
+disablefullbright
+}
+//dark cardinal
+brightmap sprite CARDA1
+{
+map "brightmaps/gore/BMCARDA1.png"
+disablefullbright
+}
+brightmap sprite CARDA2
+{
+map "brightmaps/gore/BMCARDA2.png"
+disablefullbright
+}
+brightmap sprite CARDA3
+{
+map "brightmaps/gore/BMCARDA3.png"
+disablefullbright
+}
+brightmap sprite CARDA4
+{
+map "brightmaps/gore/BMCARDA4.png"
+disablefullbright
+}
+brightmap sprite CARDA5
+{
+map "brightmaps/gore/BMCARDA5.png"
+disablefullbright
+}
+brightmap sprite CARDA6
+{
+map "brightmaps/gore/BMCARDA6.png"
+disablefullbright
+}
+brightmap sprite CARDA7
+{
+map "brightmaps/gore/BMCARDA7.png"
+disablefullbright
+}
+brightmap sprite CARDA8
+{
+map "brightmaps/gore/BMCARDA8.png"
+disablefullbright
+}
+brightmap sprite CARDB1
+{
+map "brightmaps/gore/BMCARDB1.png"
+disablefullbright
+}
+brightmap sprite CARDB2
+{
+map "brightmaps/gore/BMCARDB2.png"
+disablefullbright
+}
+brightmap sprite CARDB3
+{
+map "brightmaps/gore/BMCARDB3.png"
+disablefullbright
+}
+brightmap sprite CARDB4
+{
+map "brightmaps/gore/BMCARDB4.png"
+disablefullbright
+}
+brightmap sprite CARDB5
+{
+map "brightmaps/gore/BMCARDB5.png"
+disablefullbright
+}
+brightmap sprite CARDB6
+{
+map "brightmaps/gore/BMCARDB6.png"
+disablefullbright
+}
+brightmap sprite CARDB7
+{
+map "brightmaps/gore/BMCARDB7.png"
+disablefullbright
+}
+brightmap sprite CARDB8
+{
+map "brightmaps/gore/BMCARDB8.png"
+disablefullbright
+}
+brightmap sprite CARDC1
+{
+map "brightmaps/gore/BMCARDC1.png"
+disablefullbright
+}
+brightmap sprite CARDC2
+{
+map "brightmaps/gore/BMCARDC2.png"
+disablefullbright
+}
+brightmap sprite CARDC3
+{
+map "brightmaps/gore/BMCARDC3.png"
+disablefullbright
+}
+brightmap sprite CARDC4
+{
+map "brightmaps/gore/BMCARDC4.png"
+disablefullbright
+}
+brightmap sprite CARDC5
+{
+map "brightmaps/gore/BMCARDC5.png"
+disablefullbright
+}
+brightmap sprite CARDC6
+{
+map "brightmaps/gore/BMCARDC6.png"
+disablefullbright
+}
+brightmap sprite CARDC7
+{
+map "brightmaps/gore/BMCARDC7.png"
+disablefullbright
+}
+brightmap sprite CARDC8
+{
+map "brightmaps/gore/BMCARDC8.png"
+disablefullbright
+}
+brightmap sprite CARDD1
+{
+map "brightmaps/gore/BMCARDD1.png"
+disablefullbright
+}
+brightmap sprite CARDD2
+{
+map "brightmaps/gore/BMCARDD2.png"
+disablefullbright
+}
+brightmap sprite CARDD3
+{
+map "brightmaps/gore/BMCARDD3.png"
+disablefullbright
+}
+brightmap sprite CARDD4
+{
+map "brightmaps/gore/BMCARDD4.png"
+disablefullbright
+}
+brightmap sprite CARDD5
+{
+map "brightmaps/gore/BMCARDD5.png"
+disablefullbright
+}
+brightmap sprite CARDD6
+{
+map "brightmaps/gore/BMCARDD6.png"
+disablefullbright
+}
+brightmap sprite CARDD7
+{
+map "brightmaps/gore/BMCARDD7.png"
+disablefullbright
+}
+brightmap sprite CARDD8
+{
+map "brightmaps/gore/BMCARDD8.png"
+disablefullbright
+}
+brightmap sprite CARDE0
+{
+map "brightmaps/gore/BMCARDE0.png"
+disablefullbright
+}
+brightmap sprite CARDF0
+{
+map "brightmaps/gore/BMCARDF0.png"
+disablefullbright
+}
+brightmap sprite CARDG0
+{
+map "brightmaps/gore/BMCARDG0.png"
+disablefullbright
+}
+brightmap sprite CARDH0
+{
+map "brightmaps/gore/BMCARDH0.png"
+disablefullbright
+}
+brightmap sprite CARDI0
+{
+map "brightmaps/gore/BMCARDI0.png"
+disablefullbright
+}
+brightmap sprite CARDJ0
+{
+map "brightmaps/gore/BMCARDJ0.png"
+disablefullbright
+}
+//horned beast
+brightmap sprite HBSTA1
+{
+map "brightmaps/gore/BMHBSTA1.png"
+disablefullbright
+}
+brightmap sprite HBSTA2A8
+{
+map "brightmaps/gore/BMHBSTA2A8.png"
+disablefullbright
+}
+brightmap sprite HBSTA3A7
+{
+map "brightmaps/gore/BMHBSTA3A7.png"
+disablefullbright
+}
+brightmap sprite HBSTA4A6
+{
+map "brightmaps/gore/BMHBSTA4A6.png"
+disablefullbright
+}
+brightmap sprite HBSTA5
+{
+map "brightmaps/gore/BMHBSTA5.png"
+disablefullbright
+}
+brightmap sprite HBSTB1
+{
+map "brightmaps/gore/BMHBSTB1.png"
+disablefullbright
+}
+brightmap sprite HBSTB2B8
+{
+map "brightmaps/gore/BMHBSTB2B8.png"
+disablefullbright
+}
+brightmap sprite HBSTB3B7
+{
+map "brightmaps/gore/BMHBSTB3B7.png"
+disablefullbright
+}
+brightmap sprite HBSTB4B6
+{
+map "brightmaps/gore/BMHBSTB4B6.png"
+disablefullbright
+}
+brightmap sprite HBSTB5
+{
+map "brightmaps/gore/BMHBSTB5.png"
+disablefullbright
+}
+brightmap sprite HBSTC1
+{
+map "brightmaps/gore/BMHBSTC1.png"
+disablefullbright
+}
+brightmap sprite HBSTC2C8
+{
+map "brightmaps/gore/BMHBSTC2C8.png"
+disablefullbright
+}
+brightmap sprite HBSTC3C7
+{
+map "brightmaps/gore/BMHBSTC3C7.png"
+disablefullbright
+}
+brightmap sprite HBSTC4C6
+{
+map "brightmaps/gore/BMHBSTC4C6.png"
+disablefullbright
+}
+brightmap sprite HBSTC5
+{
+map "brightmaps/gore/BMHBSTC5.png"
+disablefullbright
+}
+brightmap sprite HBSTD1
+{
+map "brightmaps/gore/BMHBSTD1.png"
+disablefullbright
+}
+brightmap sprite HBSTD2D8
+{
+map "brightmaps/gore/BMHBSTD2D8.png"
+disablefullbright
+}
+brightmap sprite HBSTD3D7
+{
+map "brightmaps/gore/BMHBSTD3D7.png"
+disablefullbright
+}
+brightmap sprite HBSTD4D6
+{
+map "brightmaps/gore/BMHBSTD4D6.png"
+disablefullbright
+}
+brightmap sprite HBSTD5
+{
+map "brightmaps/gore/BMHBSTD5.png"
+disablefullbright
+}
+brightmap sprite HBSTE1
+{
+map "brightmaps/gore/BMHBSTE1.png"
+disablefullbright
+}
+brightmap sprite HBSTE2E8
+{
+map "brightmaps/gore/BMHBSTE2E8.png"
+disablefullbright
+}
+brightmap sprite HBSTE3E7
+{
+map "brightmaps/gore/BMHBSTE3E7.png"
+disablefullbright
+}
+brightmap sprite HBSTE4E6
+{
+map "brightmaps/gore/BMHBSTE4E6.png"
+disablefullbright
+}
+brightmap sprite HBSTE5
+{
+map "brightmaps/gore/BMHBSTE5.png"
+disablefullbright
+}
+brightmap sprite HBSTF1
+{
+map "brightmaps/gore/BMHBSTF1.png"
+disablefullbright
+}
+brightmap sprite HBSTF2F8
+{
+map "brightmaps/gore/BMHBSTF2F8.png"
+disablefullbright
+}
+brightmap sprite HBSTF3F7
+{
+map "brightmaps/gore/BMHBSTF3F7.png"
+disablefullbright
+}
+brightmap sprite HBSTF4F6
+{
+map "brightmaps/gore/BMHBSTF4F6.png"
+disablefullbright
+}
+brightmap sprite HBSTF5
+{
+map "brightmaps/gore/BMHBSTF5.png"
+disablefullbright
+}
+brightmap sprite HBSTG0
+{
+map "brightmaps/gore/BMHBSTG0.png"
+disablefullbright
+}
+brightmap sprite HBSTH0
+{
+map "brightmaps/gore/BMHBSTH0.png"
+disablefullbright
+}
+brightmap sprite HBSTI0
+{
+map "brightmaps/gore/BMHBSTI0.png"
+disablefullbright
+}
+brightmap sprite HBSTJ0
+{
+map "brightmaps/gore/BMHBSTJ0.png"
+disablefullbright
+}
+brightmap sprite HBSTK0
+{
+map "brightmaps/gore/BMHBSTK0.png"
+disablefullbright
+}
+brightmap sprite HBSTL0
+{
+map "brightmaps/gore/BMHBSTL0.png"
+disablefullbright
+}
+brightmap sprite HBSTM0
+{
+map "brightmaps/gore/BMHBSTM0.png"
+disablefullbright
+}
+//poison soul
+brightmap sprite SKLLA1
+{
+map "brightmaps/gore/BMSKLLA1.png"
+disablefullbright
+}
+brightmap sprite SKLLA5
+{
+map "brightmaps/gore/BMSKLLA5.png"
+disablefullbright
+}
+brightmap sprite SKLLA6A4
+{
+map "brightmaps/gore/BMSKLLA6A4.png"
+disablefullbright
+}
+brightmap sprite SKLLA7A3
+{
+map "brightmaps/gore/BMSKLLA7A3.png"
+disablefullbright
+}
+brightmap sprite SKLLA8A2
+{
+map "brightmaps/gore/BMSKLLA8A2.png"
+disablefullbright
+}
+brightmap sprite SKLLB1
+{
+map "brightmaps/gore/BMSKLLB1.png"
+disablefullbright
+}
+brightmap sprite SKLLB5
+{
+map "brightmaps/gore/BMSKLLB5.png"
+disablefullbright
+}
+brightmap sprite SKLLB6B4
+{
+map "brightmaps/gore/BMSKLLB6B4.png"
+disablefullbright
+}
+brightmap sprite SKLLB7B3
+{
+map "brightmaps/gore/BMSKLLB7B3.png"
+disablefullbright
+}
+brightmap sprite SKLLB8B2
+{
+map "brightmaps/gore/BMSKLLB8B2.png"
+disablefullbright
+}
+brightmap sprite SKLLC1
+{
+map "brightmaps/gore/BMSKLLC1.png"
+disablefullbright
+}
+brightmap sprite SKLLC5
+{
+map "brightmaps/gore/BMSKLLC5.png"
+disablefullbright
+}
+brightmap sprite SKLLC6C4
+{
+map "brightmaps/gore/BMSKLLC6C4.png"
+disablefullbright
+}
+brightmap sprite SKLLC7C3
+{
+map "brightmaps/gore/BMSKLLC7C3.png"
+disablefullbright
+}
+brightmap sprite SKLLC8C2
+{
+map "brightmaps/gore/BMSKLLC8C2.png"
+disablefullbright
+}
+brightmap sprite SKLLD0
+{
+map "brightmaps/gore/BMSKLLD0.png"
+disablefullbright
+}
+brightmap sprite SKLLE0
+{
+map "brightmaps/gore/BMSKLLE0.png"
+disablefullbright
+}
+brightmap sprite SKLLF0
+{
+map "brightmaps/gore/BMSKLLF0.png"
+disablefullbright
+}
+brightmap sprite SKLLG0
+{
+map "brightmaps/gore/BMSKLLG0.png"
+disablefullbright
+}
+brightmap sprite SKLLH0
+{
+map "brightmaps/gore/BMSKLLH0.png"
+disablefullbright
+}
+//hellstorm archon
+brightmap sprite HSA3A1C1
+{map "brightmaps/gore/BMHSA3A1C1.png"}
+brightmap sprite HSA3A2C8
+{map "brightmaps/gore/BMHSA3A2C8.png"}
+brightmap sprite HSA3A3C7
+{map "brightmaps/gore/BMHSA3A3C7.png"}
+brightmap sprite HSA3A4C6
+{map "brightmaps/gore/BMHSA3A4C6.png"}
+brightmap sprite HSA3A5C5
+{map "brightmaps/gore/BMHSA3A5C5.png"}
+brightmap sprite HSA3A6C4
+{map "brightmaps/gore/BMHSA3A6C4.png"}
+brightmap sprite HSA3A7C3
+{map "brightmaps/gore/BMHSA3A7C3.png"}
+brightmap sprite HSA3A8C2
+{map "brightmaps/gore/BMHSA3A8C2.png"}
+brightmap sprite HSA3B1D1
+{map "brightmaps/gore/BMHSA3B1D1.png"}
+brightmap sprite HSA3B2D8
+{map "brightmaps/gore/BMHSA3B2D8.png"}
+brightmap sprite HSA3B3D7
+{map "brightmaps/gore/BMHSA3B3D7.png"}
+brightmap sprite HSA3B4D6
+{map "brightmaps/gore/BMHSA3B4D6.png"}
+brightmap sprite HSA3B5D5
+{map "brightmaps/gore/BMHSA3B5D5.png"}
+brightmap sprite HSA3B6D4
+{map "brightmaps/gore/BMHSA3B6D4.png"}
+brightmap sprite HSA3B7D3
+{map "brightmaps/gore/BMHSA3B7D3.png"}
+brightmap sprite HSA3B8D2
+{map "brightmaps/gore/BMHSA3B8D2.png"}
+brightmap sprite HSA3E1S1
+{map "brightmaps/gore/BMHSA3E1S1.png"}
+brightmap sprite HSA3E2S8
+{map "brightmaps/gore/BMHSA3E2S8.png"}
+brightmap sprite HSA3E3S7
+{map "brightmaps/gore/BMHSA3E3S7.png"}
+brightmap sprite HSA3E4S6
+{map "brightmaps/gore/BMHSA3E4S6.png"}
+brightmap sprite HSA3E5S5
+{map "brightmaps/gore/BMHSA3E5S5.png"}
+brightmap sprite HSA3E6S4
+{map "brightmaps/gore/BMHSA3E6S4.png"}
+brightmap sprite HSA3E7S3
+{map "brightmaps/gore/BMHSA3E7S3.png"}
+brightmap sprite HSA3E8S2
+{map "brightmaps/gore/BMHSA3E8S2.png"}
+brightmap sprite HSA3F1T1
+{map "brightmaps/gore/BMHSA3F1T1.png"}
+brightmap sprite HSA3F2T8
+{map "brightmaps/gore/BMHSA3F2T8.png"}
+brightmap sprite HSA3F3T7
+{map "brightmaps/gore/BMHSA3F3T7.png"}
+brightmap sprite HSA3F4T6
+{map "brightmaps/gore/BMHSA3F4T6.png"}
+brightmap sprite HSA3F5T5
+{map "brightmaps/gore/BMHSA3F5T5.png"}
+brightmap sprite HSA3F6T4
+{map "brightmaps/gore/BMHSA3F6T4.png"}
+brightmap sprite HSA3F7T3
+{map "brightmaps/gore/BMHSA3F7T3.png"}
+brightmap sprite HSA3F8T2
+{map "brightmaps/gore/BMHSA3F8T2.png"}
+brightmap sprite HSA3G1U1
+{map "brightmaps/gore/BMHSA3G1U1.png"}
+brightmap sprite HSA3G2U8
+{map "brightmaps/gore/BMHSA3G2U8.png"}
+brightmap sprite HSA3G3U7
+{map "brightmaps/gore/BMHSA3G3U7.png"}
+brightmap sprite HSA3G4U6
+{map "brightmaps/gore/BMHSA3G4U6.png"}
+brightmap sprite HSA3G5U5
+{map "brightmaps/gore/BMHSA3G5U5.png"}
+brightmap sprite HSA3G6U4
+{map "brightmaps/gore/BMHSA3G6U4.png"}
+brightmap sprite HSA3G7U3
+{map "brightmaps/gore/BMHSA3G7U3.png"}
+brightmap sprite HSA3G8U2
+{map "brightmaps/gore/BMHSA3G8U2.png"}
+brightmap sprite HSA3H1
+{map "brightmaps/gore/BMHSA3H1.png"}
+brightmap sprite HSA3H2H8
+{map "brightmaps/gore/BMHSA3H2H8.png"}
+brightmap sprite HSA3H3H7
+{map "brightmaps/gore/BMHSA3H3H7.png"}
+brightmap sprite HSA3H4H6
+{map "brightmaps/gore/BMHSA3H4H6.png"}
+brightmap sprite HSA3H5
+{map "brightmaps/gore/BMHSA3H5.png"}
+brightmap sprite HSA3I1
+{map "brightmaps/gore/BMHSA3I1.png"}
+brightmap sprite HSA3I2I8
+{map "brightmaps/gore/BMHSA3I2I8.png"}
+brightmap sprite HSA3I3I7
+{map "brightmaps/gore/BMHSA3I3I7.png"}
+brightmap sprite HSA3I4I6
+{map "brightmaps/gore/BMHSA3I4I6.png"}
+brightmap sprite HSA3I5
+{map "brightmaps/gore/BMHSA3I5.png"}
+brightmap sprite HSA3J1
+{map "brightmaps/gore/BMHSA3J1.png"}
+brightmap sprite HSA3J2J8
+{map "brightmaps/gore/BMHSA3J2J8.png"}
+brightmap sprite HSA3J3J7
+{map "brightmaps/gore/BMHSA3J3J7.png"}
+brightmap sprite HSA3J4J6
+{map "brightmaps/gore/BMHSA3J4J6.png"}
+brightmap sprite HSA3J5
+{map "brightmaps/gore/BMHSA3J5.png"}
+brightmap sprite HSA3K1
+{map "brightmaps/gore/BMHSA3K1.png"}
+brightmap sprite HSA3K2
+{map "brightmaps/gore/BMHSA3K2.png"}
+brightmap sprite HSA3K3
+{map "brightmaps/gore/BMHSA3K3.png"}
+brightmap sprite HSA3K4
+{map "brightmaps/gore/BMHSA3K4.png"}
+brightmap sprite HSA3K5
+{map "brightmaps/gore/BMHSA3K5.png"}
+brightmap sprite HSA3K6
+{map "brightmaps/gore/BMHSA3K6.png"}
+brightmap sprite HSA3K7
+{map "brightmaps/gore/BMHSA3K7.png"}
+brightmap sprite HSA3K8
+{map "brightmaps/gore/BMHSA3K8.png"}
+brightmap sprite HSA3L0
+{map "brightmaps/gore/BMHSA3L0.png"}
+brightmap sprite HSA3M0
+{map "brightmaps/gore/BMHSA3M0.png"}
+brightmap sprite HSA3N0
+{map "brightmaps/gore/BMHSA3N0.png"}
+brightmap sprite HSA3O0
+{map "brightmaps/gore/BMHSA3O0.png"}
+brightmap sprite HSA3P0
+{map "brightmaps/gore/BMHSA3P0.png"}
+//hierophant
+brightmap sprite HIERN1
+{
+map "brightmaps/gore/BMHIERN1.png"
+disablefullbright
+}
+brightmap sprite HIERN2N8
+{
+map "brightmaps/gore/BMHIERN2N8.png"
+disablefullbright
+}
+brightmap sprite HIERN3N7
+{
+map "brightmaps/gore/BMHIERN3N7.png"
+disablefullbright
+}
+brightmap sprite HIERN4N6
+{
+map "brightmaps/gore/BMHIERN4N6.png"
+disablefullbright
+}
+brightmap sprite HIERO1
+{
+map "brightmaps/gore/BMHIERO1.png"
+disablefullbright
+}
+brightmap sprite HIERO2O8
+{
+map "brightmaps/gore/BMHIERN2N8.png"
+disablefullbright
+}
+brightmap sprite HIERO3O7
+{
+map "brightmaps/gore/BMHIERO3O7.png"
+disablefullbright
+}
+brightmap sprite HIERO4O6
+{
+map "brightmaps/gore/BMHIERO4O6.png"
+disablefullbright
+}
+//grell
+brightmap sprite GRELE1
+{
+map "brightmaps/gore/BMGRELE1.png"
+disablefullbright
+}
+brightmap sprite GRELE2E8
+{
+map "brightmaps/gore/BMGRELE2E8.png"
+disablefullbright
+}
+brightmap sprite GRELE3E7
+{
+map "brightmaps/gore/BMGRELE3E7.png"
+disablefullbright
+}
+brightmap sprite GRELE4E6
+{
+map "brightmaps/gore/BMGRELE4E6.png"
+disablefullbright
+}
+brightmap sprite GRELF1
+{
+map "brightmaps/gore/BMGRELF1.png"
+disablefullbright
+}
+brightmap sprite GRELF2F8
+{
+map "brightmaps/gore/BMGRELF2F8.png"
+disablefullbright
+}
+brightmap sprite GRELF3F7
+{
+map "brightmaps/gore/BMGRELF3F7.png"
+disablefullbright
+}
+brightmap sprite GRELF4F6
+{
+map "brightmaps/gore/BMGRELF4F6.png"
+disablefullbright
+}
+brightmap sprite GRELF5
+{
+map "brightmaps/gore/BMGRELF5.png"
+disablefullbright
+}
+//ssg zombie
+brightmap sprite GPOSF1
+{
+map "brightmaps/gore/BMGPOSF1.png"
+disablefullbright
+}
+brightmap sprite GPOSF2F8
+{
+map "brightmaps/gore/BMGPOSF2F8.png"
+disablefullbright
+}
+brightmap sprite GPOSF3F7
+{
+map "brightmaps/gore/BMGPOSF3F7.png"
+disablefullbright
+}
+brightmap sprite GPOSF4F6
+{
+map "brightmaps/gore/BMGPOSF4F6.png"
+disablefullbright
+}
+brightmap sprite GPOSF5
+{
+map "brightmaps/gore/BMGPOSF5.png"
+disablefullbright
+}
+//ghorror - new monster
+brightmap sprite GAHOG1
+{
+map "brightmaps/gore/BMGAHOG1.png"
+disablefullbright
+}
+brightmap sprite GAHOG2G8
+{
+map "brightmaps/gore/BMGAHOG2G8.png"
+disablefullbright
+}
+brightmap sprite GAHOG3G7
+{
+map "brightmaps/gore/BMGAHOG3G7.png"
+disablefullbright
+}
+brightmap sprite GAHOG4G6
+{
+map "brightmaps/gore/BMGAHOG4G6.png"
+disablefullbright
+}
+brightmap sprite GAHOG5
+{
+map "brightmaps/gore/BMGAHOG5.png"
+disablefullbright
+}
+brightmap sprite GAHOO0
+{
+map "brightmaps/gore/BMGAHOO0.png"
+disablefullbright
+}
+//qshotzombie
+brightmap sprite QSZMF1
+{
+map "brightmaps/gore/BMQSZMF1.png"
+disablefullbright
+}
+brightmap sprite QSZMF2F8
+{
+map "brightmaps/gore/BMQSZMF2F8.png"
+disablefullbright
+}
+brightmap sprite QSZMF3F7
+{
+map "brightmaps/gore/BMQSZMF3F7.png"
+disablefullbright
+}
+brightmap sprite QSZMF4F6
+{
+map "brightmaps/gore/BMQSZMF4F6.png"
+disablefullbright
+}
+brightmap sprite QSZMF5
+{
+map "brightmaps/gore/BMQSZMF5.png"
+disablefullbright
+}
+//UnMancubus by Ozymandias81
+brightmap sprite UNMBD1
+{
+map "brightmaps/gore/BMUNMBD1.png"
+disablefullbright
+}
+
+brightmap sprite UNMBD2D8
+{
+map "brightmaps/gore/BMUNMBD2.png"
+disablefullbright
+}
+
+brightmap sprite UNMBD3D7
+{
+map "brightmaps/gore/BMUNMBD3.png"
+disablefullbright
+}
+
+brightmap sprite UNMBD4D6
+{
+map "brightmaps/gore/BMUNMBD4.png"
+disablefullbright
+}
+
+brightmap sprite UNMBD5
+{
+map "brightmaps/gore/BMUNMBD5.png"
+disablefullbright
+}
+
+brightmap sprite UNMBE1
+{
+map "brightmaps/gore/BMUNMBE1.png"
+disablefullbright
+}
+
+brightmap sprite UNMBE2E8
+{
+map "brightmaps/gore/BMUNMBE2.png"
+disablefullbright
+}
+
+brightmap sprite UNMBE3E7
+{
+map "brightmaps/gore/BMUNMBE3.png"
+disablefullbright
+}
+
+brightmap sprite UNMBE4E6
+{
+map "brightmaps/gore/BMUNMBE4.png"
+disablefullbright
+}
+
+brightmap sprite UNMBE5
+{
+map "brightmaps/gore/BMUNMBE5.png"
+disablefullbright
+}
+//with brightmaps.pk3 connections
+//plasma demon
+brightmap sprite DIMPA1
+{map "brightmaps/doom/SARGA1.png"}
+brightmap sprite DIMPA2A8
+{map "brightmaps/doom/SARGA2A8.png"}
+brightmap sprite DIMPA3A7
+{map "brightmaps/doom/SARGA3A7.png"}
+brightmap sprite DIMPB1
+{map "brightmaps/doom/SARGB1.png"}
+brightmap sprite DIMPB2B8
+{map "brightmaps/doom/SARGB2B8.png"}
+brightmap sprite DIMPB3B7
+{map "brightmaps/doom/SARGB3B7.png"}
+brightmap sprite DIMPC1
+{map "brightmaps/doom/SARGC1.png"}
+brightmap sprite DIMPC2C8
+{map "brightmaps/doom/SARGC2C8.png"}
+brightmap sprite DIMPC3C7
+{map "brightmaps/doom/SARGC3C7.png"}
+brightmap sprite DIMPD1
+{map "brightmaps/doom/SARGD1.png"}
+brightmap sprite DIMPD2D8
+{map "brightmaps/doom/SARGD2D8.png"}
+brightmap sprite DIMPD3D7
+{map "brightmaps/doom/SARGD3D7.png"}
+brightmap sprite DIMPE1
+{map "brightmaps/doom/SARGE1.png"}
+brightmap sprite DIMPE2
+{map "brightmaps/doom/SARGE2.png"}
+brightmap sprite DIMPE3
+{map "brightmaps/doom/SARGE3.png"}
+brightmap sprite DIMPE7
+{map "brightmaps/doom/SARGE7.png"}
+brightmap sprite DIMPE8
+{map "brightmaps/doom/SARGE8.png"}
+brightmap sprite DIMPF1
+{map "brightmaps/doom/SARGF1.png"}
+brightmap sprite DIMPF2
+{map "brightmaps/doom/SARGF2.png"}
+brightmap sprite DIMPF3
+{map "brightmaps/doom/SARGF3.png"}
+brightmap sprite DIMPF7
+{map "brightmaps/doom/SARGF7.png"}
+brightmap sprite DIMPF8
+{map "brightmaps/doom/SARGF8.png"}
+brightmap sprite DIMPG1
+{map "brightmaps/doom/SARGG1.png"}
+brightmap sprite DIMPG2
+{map "brightmaps/doom/SARGG2.png"}
+brightmap sprite DIMPG3
+{map "brightmaps/doom/SARGG3.png"}
+brightmap sprite DIMPG7
+{map "brightmaps/doom/SARGG7.png"}
+brightmap sprite DIMPG8
+{map "brightmaps/doom/SARGG8.png"}
+brightmap sprite DIMPH1
+{map "brightmaps/doom/SARGH1.png"}
+brightmap sprite DIMPH2
+{map "brightmaps/doom/SARGH2.png"}
+brightmap sprite DIMPH3
+{map "brightmaps/doom/SARGH3.png"}
+brightmap sprite DIMPH4
+{map "brightmaps/doom/SARGH4.png"}
+brightmap sprite DIMPH8
+{map "brightmaps/doom/SARGH8.png"}
+//nightmare demon
+brightmap sprite SAR2A1
+{map "brightmaps/doom/SARGA1.png"}
+brightmap sprite SAR2A2A8
+{map "brightmaps/doom/SARGA2A8.png"}
+brightmap sprite SAR2A3A7
+{map "brightmaps/doom/SARGA3A7.png"}
+brightmap sprite SAR2B1
+{map "brightmaps/doom/SARGB1.png"}
+brightmap sprite SAR2B2B8
+{map "brightmaps/doom/SARGB2B8.png"}
+brightmap sprite SAR2B3B7
+{map "brightmaps/doom/SARGB3B7.png"}
+brightmap sprite SAR2C1
+{map "brightmaps/doom/SARGC1.png"}
+brightmap sprite SAR2C2C8
+{map "brightmaps/doom/SARGC2C8.png"}
+brightmap sprite SAR2C3C7
+{map "brightmaps/doom/SARGC3C7.png"}
+brightmap sprite SAR2D1
+{map "brightmaps/doom/SARGD1.png"}
+brightmap sprite SAR2D2D8
+{map "brightmaps/doom/SARGD2D8.png"}
+brightmap sprite SAR2D3D7
+{map "brightmaps/doom/SARGD3D7.png"}
+brightmap sprite SAR2E1
+{map "brightmaps/doom/SARGE1.png"}
+brightmap sprite SAR2E2
+{map "brightmaps/doom/SARGE2.png"}
+brightmap sprite SAR2E3
+{map "brightmaps/doom/SARGE3.png"}
+brightmap sprite SAR2E7
+{map "brightmaps/doom/SARGE7.png"}
+brightmap sprite SAR2E8
+{map "brightmaps/doom/SARGE8.png"}
+brightmap sprite SAR2F1
+{map "brightmaps/doom/SARGF1.png"}
+brightmap sprite SAR2F2
+{map "brightmaps/doom/SARGF2.png"}
+brightmap sprite SAR2F3
+{map "brightmaps/doom/SARGF3.png"}
+brightmap sprite SAR2F7
+{map "brightmaps/doom/SARGF7.png"}
+brightmap sprite SAR2F8
+{map "brightmaps/doom/SARGF8.png"}
+brightmap sprite SAR2G1
+{map "brightmaps/doom/SARGG1.png"}
+brightmap sprite SAR2G2
+{map "brightmaps/doom/SARGG2.png"}
+brightmap sprite SAR2G3
+{map "brightmaps/doom/SARGG3.png"}
+brightmap sprite SAR2G7
+{map "brightmaps/doom/SARGG7.png"}
+brightmap sprite SAR2G8
+{map "brightmaps/doom/SARGG8.png"}
+brightmap sprite SAR2H1
+{map "brightmaps/doom/SARGH1.png"}
+brightmap sprite SAR2H2
+{map "brightmaps/doom/SARGH2.png"}
+brightmap sprite SAR2H3
+{map "brightmaps/doom/SARGH3.png"}
+brightmap sprite SAR2H4
+{map "brightmaps/doom/SARGH4.png"}
+brightmap sprite SAR2H8
+{map "brightmaps/doom/SARGH8.png"}
+brightmap sprite SAR2O1 //some new brights
+{map "brightmaps/gore/BMSAR2O1.png"}
+brightmap sprite SAR2O2O8
+{map "brightmaps/gore/BMSAR2O2O8.png"}
+brightmap sprite SAR2O3O7
+{map "brightmaps/gore/BMSAR2O3O7.png"}
+brightmap sprite SAR2P1
+{map "brightmaps/gore/BMSAR2P1.png"}
+brightmap sprite SAR2P2P8
+{map "brightmaps/gore/BMSAR2P2P8.png"}
+brightmap sprite SAR2P3P7
+{map "brightmaps/gore/BMSAR2P3P7.png"}
+//belphegor
+brightmap sprite BOS3A1
+{map "brightmaps/doom/bossa1.png"}
+brightmap sprite BOS3A2A8
+{map "brightmaps/doom/bossa2a8.png"}
+brightmap sprite BOS3A3A7
+{map "brightmaps/doom/bossa3a7.png"}
+brightmap sprite BOS3A4A6
+{map "brightmaps/doom/bossa4a6.png"}
+brightmap sprite BOS3A5
+{map "brightmaps/doom/bossa5.png"}
+brightmap sprite BOS3B1
+{map "brightmaps/doom/bossb1.png"}
+brightmap sprite BOS3B2B8
+{map "brightmaps/doom/bossb2b8.png"}
+brightmap sprite BOS3B3B7
+{map "brightmaps/doom/bossb3b7.png"}
+brightmap sprite BOS3B4B6
+{map "brightmaps/doom/bossb4b6.png"}
+brightmap sprite BOS3B5
+{map "brightmaps/doom/bossb5.png"}
+brightmap sprite BOS3C1
+{map "brightmaps/doom/bossc1.png"}
+brightmap sprite BOS3C2C8
+{map "brightmaps/doom/bossc2c8.png"}
+brightmap sprite BOS3C3C7
+{map "brightmaps/doom/bossc3c7.png"}
+brightmap sprite BOS3C4C6
+{map "brightmaps/doom/bossc4c6.png"}
+brightmap sprite BOS3C5
+{map "brightmaps/doom/bossc5.png"}
+brightmap sprite BOS3D1
+{map "brightmaps/doom/bossd1.png"}
+brightmap sprite BOS3D2D8
+{map "brightmaps/doom/bossd2d8.png"}
+brightmap sprite BOS3D3D7
+{map "brightmaps/doom/bossd3d7.png"}
+brightmap sprite BOS3D4D6
+{map "brightmaps/doom/bossd4d6.png"}
+brightmap sprite BOS3D5
+{map "brightmaps/doom/bossd5.png"}
+brightmap sprite BOS3E1
+{map "brightmaps/doom/bosse1.png"}
+brightmap sprite BOS3E2
+{map "brightmaps/doom/bosse2.png"}
+brightmap sprite BOS3E3
+{map "brightmaps/doom/bosse3.png"}
+brightmap sprite BOS3E4
+{map "brightmaps/doom/bosse4.png"}
+brightmap sprite BOS3E5
+{map "brightmaps/doom/bosse5.png"}
+brightmap sprite BOS3E6
+{map "brightmaps/doom/bosse6.png"}
+brightmap sprite BOS3E7
+{map "brightmaps/doom/bosse7.png"}
+brightmap sprite BOS3E8
+{map "brightmaps/doom/bosse8.png"}
+brightmap sprite BOS3F1
+{map "brightmaps/doom/BOSSF1.png"}
+brightmap sprite BOS3F2
+{map "brightmaps/doom/BOSSF2.png"}
+brightmap sprite BOS3F3
+{map "brightmaps/doom/BOSSF3.png"}
+brightmap sprite BOS3F4
+{map "brightmaps/doom/BOSSF4.png"}
+brightmap sprite BOS3F5
+{map "brightmaps/doom/BOSSF5.png"}
+brightmap sprite BOS3F6
+{map "brightmaps/doom/BOSSF6.png"}
+brightmap sprite BOS3F7
+{map "brightmaps/doom/BOSSF7.png"}
+brightmap sprite BOS3F8
+{map "brightmaps/doom/BOSSF8.png"}
+brightmap sprite BOS3G1
+{map "brightmaps/doom/BOSSG1.png"}
+brightmap sprite BOS3G2
+{map "brightmaps/doom/BOSSG2.png"}
+brightmap sprite BOS3G3
+{map "brightmaps/doom/BOSSG3.png"}
+brightmap sprite BOS3G4
+{map "brightmaps/doom/BOSSG4.png"}
+brightmap sprite BOS3G5
+{map "brightmaps/doom/BOSSG5.png"}
+brightmap sprite BOS3G6
+{map "brightmaps/doom/BOSSG6.png"}
+brightmap sprite BOS3G7
+{map "brightmaps/doom/BOSSG7.png"}
+brightmap sprite BOS3G8
+{map "brightmaps/doom/BOSSG8.png"}
+brightmap sprite BOS3H1
+{map "brightmaps/doom/BOSSH1.png"}
+brightmap sprite BOS3H2
+{map "brightmaps/doom/BOSSH2.png"}
+brightmap sprite BOS3H3
+{map "brightmaps/doom/BOSSH3.png"}
+brightmap sprite BOS3H4
+{map "brightmaps/doom/BOSSH4.png"}
+brightmap sprite BOS3H5
+{map "brightmaps/doom/BOSSH5.png"}
+brightmap sprite BOS3H6
+{map "brightmaps/doom/BOSSH6.png"}
+brightmap sprite BOS3H7
+{map "brightmaps/doom/BOSSH7.png"}
+brightmap sprite BOS3H8
+{map "brightmaps/doom/BOSSH8.png"}
+brightmap sprite BOS3I0
+{map "brightmaps/doom/BOSSI0.png"}
+brightmap sprite BOS3J0
+{map "brightmaps/doom/BOSSJ0.png"}
+brightmap sprite BOS3K0
+{map "brightmaps/doom/BOSSK0.png"}
+brightmap sprite BOS3L0
+{map "brightmaps/doom/BOSSL0.png"}
+brightmap sprite BOS3M0
+{map "brightmaps/doom/BOSSM0.png"}
+//profane one
+brightmap sprite BOSXA1
+{map "brightmaps/doom/bossa1.png"}
+brightmap sprite BOSXA2A8
+{map "brightmaps/doom/bossa2a8.png"}
+brightmap sprite BOSXA3A7
+{map "brightmaps/doom/bossa3a7.png"}
+brightmap sprite BOSXA4A6
+{map "brightmaps/doom/bossa4a6.png"}
+brightmap sprite BOSXA5
+{map "brightmaps/doom/bossa5.png"}
+brightmap sprite BOSXB1
+{map "brightmaps/doom/bossb1.png"}
+brightmap sprite BOSXB2B8
+{map "brightmaps/doom/bossb2b8.png"}
+brightmap sprite BOSXB3B7
+{map "brightmaps/doom/bossb3b7.png"}
+brightmap sprite BOSXB4B6
+{map "brightmaps/doom/bossb4b6.png"}
+brightmap sprite BOSXB5
+{map "brightmaps/doom/bossb5.png"}
+brightmap sprite BOSXC1
+{map "brightmaps/doom/bossc1.png"}
+brightmap sprite BOSXC2C8
+{map "brightmaps/doom/bossc2c8.png"}
+brightmap sprite BOSXC3C7
+{map "brightmaps/doom/bossc3c7.png"}
+brightmap sprite BOSXC4C6
+{map "brightmaps/doom/bossc4c6.png"}
+brightmap sprite BOSXC5
+{map "brightmaps/doom/bossc5.png"}
+brightmap sprite BOSXD1
+{map "brightmaps/doom/bossd1.png"}
+brightmap sprite BOSXD2D8
+{map "brightmaps/doom/bossd2d8.png"}
+brightmap sprite BOSXD3D7
+{map "brightmaps/doom/bossd3d7.png"}
+brightmap sprite BOSXD4D6
+{map "brightmaps/doom/bossd4d6.png"}
+brightmap sprite BOSXD5
+{map "brightmaps/doom/bossd5.png"}
+brightmap sprite BOSXE1
+{map "brightmaps/doom/bosse1.png"}
+brightmap sprite BOSXE2
+{map "brightmaps/doom/bosse2.png"}
+brightmap sprite BOSXE3
+{map "brightmaps/doom/bosse3.png"}
+brightmap sprite BOSXE4
+{map "brightmaps/doom/bosse4.png"}
+brightmap sprite BOSXE5
+{map "brightmaps/doom/bosse5.png"}
+brightmap sprite BOSXE6
+{map "brightmaps/doom/bosse6.png"}
+brightmap sprite BOSXE7
+{map "brightmaps/doom/bosse7.png"}
+brightmap sprite BOSXE8
+{map "brightmaps/doom/bosse8.png"}
+brightmap sprite BOSXF1
+{map "brightmaps/doom/BOSSF1.png"}
+brightmap sprite BOSXF2
+{map "brightmaps/doom/BOSSF2.png"}
+brightmap sprite BOSXF3
+{map "brightmaps/doom/BOSSF3.png"}
+brightmap sprite BOSXF4
+{map "brightmaps/doom/BOSSF4.png"}
+brightmap sprite BOSXF5
+{map "brightmaps/doom/BOSSF5.png"}
+brightmap sprite BOSXF6
+{map "brightmaps/doom/BOSSF6.png"}
+brightmap sprite BOSXF7
+{map "brightmaps/doom/BOSSF7.png"}
+brightmap sprite BOSXF8
+{map "brightmaps/doom/BOSSF8.png"}
+brightmap sprite BOSXG1
+{map "brightmaps/doom/BOSSG1.png"}
+brightmap sprite BOSXG2
+{map "brightmaps/doom/BOSSG2.png"}
+brightmap sprite BOSXG3
+{map "brightmaps/doom/BOSSG3.png"}
+brightmap sprite BOSXG4
+{map "brightmaps/doom/BOSSG4.png"}
+brightmap sprite BOSXG5
+{map "brightmaps/doom/BOSSG5.png"}
+brightmap sprite BOSXG6
+{map "brightmaps/doom/BOSSG6.png"}
+brightmap sprite BOSXG7
+{map "brightmaps/doom/BOSSG7.png"}
+brightmap sprite BOSXG8
+{map "brightmaps/doom/BOSSG8.png"}
+brightmap sprite BOSXH1
+{map "brightmaps/doom/BOSSH1.png"}
+brightmap sprite BOSXH2
+{map "brightmaps/doom/BOSSH2.png"}
+brightmap sprite BOSXH3
+{map "brightmaps/doom/BOSSH3.png"}
+brightmap sprite BOSXH4
+{map "brightmaps/doom/BOSSH4.png"}
+brightmap sprite BOSXH5
+{map "brightmaps/doom/BOSSH5.png"}
+brightmap sprite BOSXH6
+{map "brightmaps/doom/BOSSH6.png"}
+brightmap sprite BOSXH7
+{map "brightmaps/doom/BOSSH7.png"}
+brightmap sprite BOSXH8
+{map "brightmaps/doom/BOSSH8.png"}
+brightmap sprite BOSXI0
+{map "brightmaps/doom/BOSSI0.png"}
+brightmap sprite BOSXJ0
+{map "brightmaps/doom/BOSSJ0.png"}
+brightmap sprite BOSXK0
+{map "brightmaps/doom/BOSSK0.png"}
+brightmap sprite BOSXL0
+{map "brightmaps/doom/BOSSL0.png"}
+brightmap sprite BOSXM0
+{map "brightmaps/doom/BOSSM0.png"}
+//squire
+brightmap sprite SQREA1
+{map "brightmaps/doom/bossa1.png"}
+brightmap sprite SQREA2A8
+{map "brightmaps/doom/bossa2a8.png"}
+brightmap sprite SQREA3A7
+{map "brightmaps/doom/bossa3a7.png"}
+brightmap sprite SQREA4A6
+{map "brightmaps/doom/bossa4a6.png"}
+brightmap sprite SQREA5
+{map "brightmaps/doom/bossa5.png"}
+brightmap sprite SQREb1
+{map "brightmaps/doom/bossb1.png"}
+brightmap sprite SQREB2B8
+{map "brightmaps/doom/bossb2b8.png"}
+brightmap sprite SQREB3B7
+{map "brightmaps/doom/bossb3b7.png"}
+brightmap sprite SQREB4B6
+{map "brightmaps/doom/bossb4b6.png"}
+brightmap sprite SQREB5
+{map "brightmaps/doom/bossb5.png"}
+brightmap sprite SQREC1
+{map "brightmaps/doom/bossc1.png"}
+brightmap sprite SQREC2C8
+{map "brightmaps/doom/bossc2c8.png"}
+brightmap sprite SQREC3C7
+{map "brightmaps/doom/bossc3c7.png"}
+brightmap sprite SQREC4C6
+{map "brightmaps/doom/bossc4c6.png"}
+brightmap sprite SQREC5
+{map "brightmaps/doom/bossc5.png"}
+brightmap sprite SQRED1
+{map "brightmaps/doom/bossd1.png"}
+brightmap sprite SQRED2D8
+{map "brightmaps/doom/bossd2d8.png"}
+brightmap sprite SQRED3D7
+{map "brightmaps/doom/bossd3d7.png"}
+brightmap sprite SQRED4D6
+{map "brightmaps/doom/bossd4d6.png"}
+brightmap sprite SQRED5
+{map "brightmaps/doom/bossd5.png"}
+brightmap sprite SQREE1
+{map "brightmaps/doom/bosse1.png"}
+brightmap sprite SQREE2
+{map "brightmaps/doom/bosse2.png"}
+brightmap sprite SQREE3
+{map "brightmaps/doom/bosse3.png"}
+brightmap sprite SQREE4
+{map "brightmaps/doom/bosse4.png"}
+brightmap sprite SQREE5
+{map "brightmaps/doom/bosse5.png"}
+brightmap sprite SQREE6
+{map "brightmaps/doom/bosse6.png"}
+brightmap sprite SQREE7
+{map "brightmaps/doom/bosse7.png"}
+brightmap sprite SQREE8
+{map "brightmaps/doom/bosse8.png"}
+brightmap sprite SQREF1
+{map "brightmaps/doom/BOSSF1.png"}
+brightmap sprite SQREF2
+{map "brightmaps/doom/BOSSF2.png"}
+brightmap sprite SQREF3
+{map "brightmaps/doom/BOSSF3.png"}
+brightmap sprite SQREF4
+{map "brightmaps/doom/BOSSF4.png"}
+brightmap sprite SQREF5
+{map "brightmaps/doom/BOSSF5.png"}
+brightmap sprite SQREF6
+{map "brightmaps/doom/BOSSF6.png"}
+brightmap sprite SQREF7
+{map "brightmaps/doom/BOSSF7.png"}
+brightmap sprite SQREF8
+{map "brightmaps/doom/BOSSF8.png"}
+brightmap sprite SQREG1
+{map "brightmaps/doom/BOSSG1.png"}
+brightmap sprite SQREG2
+{map "brightmaps/doom/BOSSG2.png"}
+brightmap sprite SQREG3
+{map "brightmaps/doom/BOSSG3.png"}
+brightmap sprite SQREG4
+{map "brightmaps/doom/BOSSG4.png"}
+brightmap sprite SQREG5
+{map "brightmaps/doom/BOSSG5.png"}
+brightmap sprite SQREG6
+{map "brightmaps/doom/BOSSG6.png"}
+brightmap sprite SQREG7
+{map "brightmaps/doom/BOSSG7.png"}
+brightmap sprite SQREG8
+{map "brightmaps/doom/BOSSG8.png"}
+brightmap sprite SQREH1
+{map "brightmaps/doom/BOSSH1.png"}
+brightmap sprite SQREH2
+{map "brightmaps/doom/BOSSH2.png"}
+brightmap sprite SQREH3
+{map "brightmaps/doom/BOSSH3.png"}
+brightmap sprite SQREH4
+{map "brightmaps/doom/BOSSH4.png"}
+brightmap sprite SQREH5
+{map "brightmaps/doom/BOSSH5.png"}
+brightmap sprite SQREH6
+{map "brightmaps/doom/BOSSH6.png"}
+brightmap sprite SQREH7
+{map "brightmaps/doom/BOSSH7.png"}
+brightmap sprite SQREH8
+{map "brightmaps/doom/BOSSH8.png"}
+brightmap sprite SQREI0
+{map "brightmaps/doom/BOSSI0.png"}
+brightmap sprite SQREJ0
+{map "brightmaps/doom/BOSSJ0.png"}
+brightmap sprite SQREK0
+{map "brightmaps/doom/BOSSK0.png"}
+brightmap sprite SQREL0
+{map "brightmaps/doom/BOSSL0.png"}
+brightmap sprite SQREM0
+{map "brightmaps/doom/BOSSM0.png"}
+//freezerifleguy
+brightmap sprite FRPOF1
+{
+map "brightmaps/doom/possf1.png"
+disablefullbright
+}
+brightmap sprite FRPOF2F8
+{
+map "brightmaps/doom/possf2f8.png"
+disablefullbright
+}
+brightmap sprite FRPOF3F7
+{
+map "brightmaps/doom/possf3f7.png"
+disablefullbright
+}
+brightmap sprite FRPOF4F6
+{
+map "brightmaps/doom/possf4f6.png"
+disablefullbright
+}
+brightmap sprite FRPOF5
+{
+map "brightmaps/doom/possf5.png"
+disablefullbright
+}
+//flamerzombie
+brightmap sprite FLMZF1
+{
+map "brightmaps/doom/possf1.png"
+disablefullbright
+}
+brightmap sprite FLMZF2F8
+{
+map "brightmaps/doom/possf2f8.png"
+disablefullbright
+}
+brightmap sprite FLMZF3F7
+{
+map "brightmaps/doom/possf3f7.png"
+disablefullbright
+}
+brightmap sprite FLMZF4F6
+{
+map "brightmaps/doom/possf4f6.png"
+disablefullbright
+}
+brightmap sprite FLMZF5
+{
+map "brightmaps/doom/possf5.png"
+disablefullbright
+}
+//arachnobaron
+brightmap sprite ARBRG1
+{
+map "brightmaps/doom/bspig1.png"
+disablefullbright
+}
+brightmap sprite ARBRG2G8
+{
+map "brightmaps/doom/bspig2g8.png"
+disablefullbright
+}
+brightmap sprite ARBRH1
+{
+map "brightmaps/doom/bspih1.png"
+disablefullbright
+}
+brightmap sprite ARBRH2H8
+{
+map "brightmaps/doom/bspih2h8.png"
+disablefullbright
+}
+brightmap sprite ARBRH3H7
+{
+map "brightmaps/doom/bspih3h7.png"
+disablefullbright
+}
+brightmap sprite ARBRH4H6
+{
+map "brightmaps/doom/bspih4h6.png"
+disablefullbright
+}
+brightmap sprite ARBRH5
+{
+map "brightmaps/doom/bspih5.png"
+disablefullbright
+}
+//lavademon
+brightmap sprite LAVDG1
+{
+map "brightmaps/hexen/ICEYG1.png"
+disablefullbright
+}
+brightmap sprite LAVDG2G8
+{
+map "brightmaps/hexen/ICEYG2G8.png"
+disablefullbright
+}
+brightmap sprite LAVDG3G7
+{
+map "brightmaps/hexen/ICEYG3G7.png"
+disablefullbright
+}
+brightmap sprite LAVDG4G6
+{
+map "brightmaps/hexen/ICEYG4G6.png"
+disablefullbright
+}
+brightmap sprite LAVDG5
+{
+map "brightmaps/hexen/ICEYG5.png"
+disablefullbright
+}
+//rotwraith
+brightmap sprite FARGE1
+{
+map "brightmaps/hexen/WRTHE1.png"
+disablefullbright
+}
+brightmap sprite FARGE2E8
+{
+map "brightmaps/hexen/WRTHE2E8.png"
+disablefullbright
+}
+brightmap sprite FARGE3E7
+{
+map "brightmaps/hexen/WRTHE3E7.png"
+disablefullbright
+}
+brightmap sprite FARGE4E6
+{
+map "brightmaps/hexen/WRTHE4E6.png"
+disablefullbright
+}
+brightmap sprite FARGE5
+{
+map "brightmaps/hexen/WRTHE5.png"
+disablefullbright
+}
+brightmap sprite FARGF1
+{
+map "brightmaps/hexen/WRTHF1.png"
+disablefullbright
+}
+brightmap sprite FARGF2F8
+{
+map "brightmaps/hexen/WRTHF2F8.png"
+disablefullbright
+}
+brightmap sprite FARGF3F7
+{
+map "brightmaps/hexen/WRTHF3F7.png"
+disablefullbright
+}
+brightmap sprite FARGF4F6
+{
+map "brightmaps/hexen/WRTHF4F6.png"
+disablefullbright
+}
+brightmap sprite FARGF5
+{
+map "brightmaps/hexen/WRTHF5.png"
+disablefullbright
+}
+brightmap sprite FARGG1
+{
+map "brightmaps/hexen/WRTHG1.png"
+disablefullbright
+}
+brightmap sprite FARGG2G8
+{
+map "brightmaps/hexen/WRTHG2G8.png"
+disablefullbright
+}
+brightmap sprite FARGG3G7
+{
+map "brightmaps/hexen/WRTHG3G7.png"
+disablefullbright
+}
+brightmap sprite FARGG4G6
+{
+map "brightmaps/hexen/WRTHG4G6.png"
+disablefullbright
+}
+brightmap sprite FARGG5
+{
+map "brightmaps/hexen/WRTHG5.png"
+disablefullbright
+}

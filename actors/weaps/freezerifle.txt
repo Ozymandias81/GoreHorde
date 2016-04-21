@@ -1,0 +1,102 @@
+//many thankx to BadHustlex for general pitch suggestions
+actor FreezeRifle : Weapon 30123
+{
+//$Category New Weapons
+Tag "Freeze Rifle"
+Game Doom
+Weapon.AmmoUse 1
+Weapon.AmmoGive 25
+Weapon.AmmoType "IceGlobe"
+Weapon.SlotNumber 6
+Inventory.PickUpSound "weapons/freezepk"
+Inventory.PickupMessage "You got the Freeze rifle!"
+States
+	{
+	Spawn:
+	FRAS A -1
+	Stop
+	Ready:
+	FRSG A 1 A_WeaponReady
+	Loop
+	Deselect:
+	FRSG A 1 A_Lower
+	Loop
+	Select:
+	FRSG A 1 A_Raise
+	Loop
+	Fire:
+	FRSF A 0 A_GunFlash
+	TNT1 A 0 A_SetBlend("Cyan",0.095,5)
+	TNT1 A 0 A_Quake(random(1,5),random(1,5),0,64)
+	TNT1 A 0 A_Setpitch(pitch-1.2)
+	FRSF A 1 bright offset(0,38) A_FireCustomMissile("FreezeBlast")
+	FRSF B 0 bright offset(0,1)
+	FRSF B 0 bright offset(0,5)
+	FRSF B 0 bright offset(0,10)
+	FRSF B 0 bright offset(0,15)
+	FRSF B 0 bright offset(0,20)
+	FRSF B 0 bright offset(0,25)
+	FRSF B 0 bright offset(0,30)
+	FRSF B 0 bright offset(0,32)
+	FRSG FEDCB 1
+	FRSG A 10 A_ReFire
+	Goto Ready
+	Flash:
+	FRSF A 3 Bright A_Light1
+	Goto LightDone
+	FRSF B 3 Bright A_Light1
+	Goto LightDone
+	}
+}
+
+actor FreezeBlast
+{
+Game Doom
+Radius 13
+Height 8
+Speed 25
+Damage 6
+Projectile
++RANDOMIZE
+RenderStyle Add
+Alpha 0.75
+scale 0.9
+SeeSound "weapons/iceshot"
+DeathSound "weapons/icehit"
+Obituary "%o got frozen solid by %k."
+DamageType Ice
+States
+	{
+	Spawn:
+	FBLS A 6 bright A_SpawnItem("FreezeBlastTrail")
+	loop
+	Death:
+	FBLS BCDE 4 bright
+	stop
+	}
+}
+
+actor FreezeBlastTrail
+{
+Game Doom
+Radius 13
+Height 8
+Speed 20
+Damage 0
+Projectile
++RANDOMIZE
+RenderStyle Add
+Alpha 0.75
+SeeSound "weapons/iceshot"
+DeathSound "weapons/icehit"
+Obituary "%o got frozen solid by %k."
+States
+	{
+	Spawn:
+	FRTR ABC 6 bright A_FadeOut(0.2)
+	loop
+	Death:
+	FRTR ABC 4 bright
+	stop
+	}
+}

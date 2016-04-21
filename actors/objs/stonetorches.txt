@@ -1,0 +1,102 @@
+ACTOR StoneTorchBump : SwitchableDecoration 12320
+{
+//$Category Switchable Lights
+//$Sprite STORE0
+Tag "Stone Torch (Bump)"
+Game Doom
+Radius 16
+Height 64
++SOLID
++BUMPSPECIAL
++NOTAUTOAIMED
+Activation THINGSPEC_Switch|THINGSPEC_DeActivate
+States
+	{
+	Active:
+	STOR A 0 Bright A_PlaySound("Ignite")
+	Spawn:
+	TNT1 A 0 NoDelay A_JumpIf(CallACS("Cinders")==1,"Advanced")
+	STOR ABCDEFGHI 4 Bright
+	Loop
+	Advanced:
+	STOR ABCDEFGHI 4 Bright A_SpawnItemEx("FloatingCinder", 0, 0, 28, 1, 0, random (1, 3), random (0, 360), 0, 224)
+	Goto Spawn
+	Inactive:
+	STOF A -1
+	Stop
+	Script:
+	STOF A -1 A_ChangeFlag ("BUMPSPECIAL",0)
+	Stop
+	}
+}
+
+ACTOR StoneTorchUse : SwitchableDecoration 10023
+{
+//$Category Switchable Lights
+//$Sprite STORA0
+Tag "Stone Torch (Use)"
+Game Doom
+Radius 16
+Height 64
++SOLID
++USESPECIAL
++NOTAUTOAIMED
+Activation THINGSPEC_Switch|THINGSPEC_DeActivate
+States
+	{
+	Active:
+	STOR A 0 Bright A_PlaySound("Ignite")
+	Spawn:
+	TNT1 A 0 NoDelay A_JumpIf(CallACS("Cinders")==1,"Advanced")
+	STOR ABCDEFGHI 4 Bright
+	Loop
+	Advanced:
+	STOR ABCDEFGHI 4 Bright A_SpawnItemEx("FloatingCinder", 0, 0, 28, 1, 0, random (1, 3), random (0, 360), 0, 224)
+	Goto Spawn
+	Inactive:
+	STOF A -1
+	Stop
+	Script:
+	STOF A -1 A_ChangeFlag ("USESPECIAL",0)
+	Stop
+	}
+}
+
+ACTOR StoneTorchLit 32257 //new
+{
+//$Category New Lights
+//$Sprite STORC0
+Tag "Stone Torch Lit"
+Game Doom
+Radius 16
+Height 64
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	TNT1 A 0 NoDelay A_JumpIf(CallACS("Cinders")==1,"Advanced")
+	STOR ABCDEFGHI 4 Bright
+	Loop
+	Advanced:
+	STOR ABCDEFGHI 4 Bright A_SpawnItemEx("FloatingCinder", 0, 0, 28, 1, 0, random (1, 3), random (0, 360), 0, 224)
+	Goto Spawn
+	}
+}
+
+ACTOR StoneTorchSpent 32258 //new
+{
+//$Category New Lights
+Tag "Stone Torch Spent"
+Game Doom
+Radius 16
+Height 64
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	STOF A -1
+	Stop
+	}
+}

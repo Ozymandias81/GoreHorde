@@ -1,0 +1,84 @@
+[ita]
+//quits
+QUITMSG		= "Non vuoi piu'\nsanguinare ancora?";
+QUITMSG1    = "Andiamo! Stanotte ci sara' un pigiama-party con i Pyrodemon!";
+QUITMSG2    = "Impse arrivera' nei tuoi sogni stanotte";
+QUITMSG3    = "Sei come il sig. Flanders?";
+QUITMSG4    = "Ti senti come un Vulgar piagnucolante?";
+QUITMSG5    = "Bevi la tua Duff e stai alla larga dagli Arachnobaron.";
+QUITMSG6    = "Se adesso esci un Gargantuan Horror ti ridurra' a pezzettini!";
+QUITMSG7    = "Non lo sapevi che un Cyberbaron puo' uccidere Robocop?";
+QUITMSG8    = "Questa e' la Fine... Mio unico Amico, la Fine...";
+QUITMSG9    = "Non posso biasimarti, non ne hai le palle.";
+QUITMSG10   = "Un Profane One vomitera' sulla tua colazione domani.";
+QUITMSG11   = "Se te ne vai adesso migliaia di Poison Soul andranno dentro il tuo culo.";
+QUITMSG12   = "Qualcosa ti sta raggiungendo, non e' cosi'?";
+QUITMSG13   = "Eh eh eh, hai paura dell'Oscuro-Cardinal?";
+QUITMSG14   = "Un Tornado Demon si sta avvicinando alla tua casa o che cosa!?";
+//cheats
+STSTR_DQDON 	= "Modalita' Perdente ON";
+STSTR_DQDOFF 	= "Modalita' Perdente OFF";
+STSTR_KFAADDED 	= "Arsenale Da Vero Perdente Aggiunto";
+STSTR_FAADDED 	= "Arsenale Da Falso Perdente Aggiunto";
+STSTR_NCON 		= "Modalita' Perdente Eterea ON";
+STSTR_NCOFF 	= "Modalita' Perdente Eterea OFF";
+STSTR_NC2ON 	= "Modalita' Perdente Eterea 2 ON";
+//keys
+GOTBLUECARD = "Raccolta una tessera blu.";
+GOTYELWCARD = "Raccolta una tessera gialla.";
+GOTREDCARD 	= "Raccolta una tessera rossa.";
+GOTGRENCARD	= "Raccolta una tessera verde.";
+GOTORNGCARD	= "Raccolta una tessera arancione.";
+GOTSLVRCARD	= "Raccolta una tessera d'argento.";
+GOTPRPLCARD	= "Raccolta una tessera viola.";
+GOTGRENSKUL	= "Raccolta una chiave-teschio verde.";
+GOTORNGSKUL	= "Raccolta una chiave-teschio arancione.";
+GOTSLVRSKUL	= "Raccolta una chiave-teschio d'argento.";
+GOTPRPLSKUL	= "Raccolta una chiave-teschio viola.";
+PD_GREENO 	= "Ti serve una tessera verde per attivare questo oggetto";
+PD_ORANGEO 	= "Ti serve una tessera arancione per attivare questo oggetto";
+PD_SILVERO 	= "Ti serve una tessera d'argento per attivare questo oggetto";
+PD_PURPLEO 	= "Ti serve una tessera viola per attivare questo oggetto";
+PD_GREENK 	= "Ti serve una tessera verde per aprire questa porta";
+PD_ORANGEK 	= "Ti serve una tessera arancione per aprire questa porta";
+PD_SILVERK 	= "Ti serve una tessera d'argento per aprire questa porta";
+PD_PURPLEK 	= "Ti serve una tessera viola per aprire questa porta";
+PD_GREENCO 	= "Ti serve una tessera verde per attivare questo oggetto";
+PD_ORANGECO = "Ti serve una tessera arancione per attivare questo oggetto";
+PD_SILVERCO = "Ti serve una tessera d'argento per attivare questo oggetto";
+PD_PURPLECO = "Ti serve una tessera viola per attivare questo oggetto";
+PD_GREENSO 	= "Ti serve una chiave-teschio verde per attivare questo oggetto";
+PD_ORANGESO = "Ti serve una chiave-teschio arancione per attivare questo oggetto";
+PD_SILVERSO = "Ti serve una chiave-teschio d'argento per attivare questo oggetto";
+PD_PURPLESO = "Ti serve una chiave-teschio viola per attivare questo oggetto";
+PD_GREENC 	= "Ti serve una tessera verde per aprire questa porta";
+PD_ORANGEC 	= "Ti serve una tessera arancione per aprire questa porta";
+PD_SILVERC 	= "Ti serve una tessera d'argento per aprire questa porta";
+PD_PURPLEC 	= "Ti serve una tessera viola per aprire questa porta";
+PD_GREENS 	= "Ti serve una chiave-teschio verde per aprire questa porta";
+PD_ORANGES 	= "Ti serve una chiave-teschio arancione per aprire questa porta";
+PD_SILVERS 	= "Ti serve una chiave-teschio d'argento per aprire questa porta";
+PD_PURPLES 	= "Ti serve una chiave-teschio viola per aprire questa porta";
+PD_ALL4 	= "Ti servono tutte e quattro le tessere o chiavi-teschio nuove per aprire questa porta";
+PD_ALL4O 	= "Ti servono tutte e quattro le tessere o chiavi-teschio nuove per attivare questo oggetto";
+PD_ALL8 	= "Ti servono tutte e otto le chiavi nuove per aprire questa porta";
+PD_ALL8O 	= "Ti servono tutte e otto le chiavi nuove per attivare questo oggetto";
+PD_ALL14 	= "Ti servono tutte e quattordici tessere e chiavi-teschio per aprire questa porta";
+PD_ALL14O 	= "Ti servono tutte e quattordici tessere e chiavi-teschio per attivare questo oggetto";
+//miscs
+ENDGAME		= "Vuoi condannare l'umanita'?\nPremi Y o N.";
+
+MNU_CHOOSECLASS = "IL TUO EROE";
+
+STARTUP1 =
+	"\n"
+	"*=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=*\n"
+	"|    GORE per GZDoom v01 r260115    |\n"
+	"|    Un progetto di Ozymandias81    |\n"
+	"| Tante grazie al deposito Realm667 |\n"
+	"*=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=*\n"
+	"\n";
+
+ENDACT1		= "Bravo, hai finito il primo atto";
+ENDACT2		= "Bravo, hai finito il secondo atto";
+ENDACT3		= "Bravo, hai finito l'ultimo atto";

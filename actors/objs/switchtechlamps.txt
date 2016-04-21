@@ -1,0 +1,37 @@
+ACTOR TechLampOff : SwitchableDecoration 32247
+{
+//$Category Switchable Lights
+Tag "Tech Lamp Off"
+Game Doom
+Radius 16
+Height 80
++SOLID
++USESPECIAL
++NOTAUTOAIMED
+Activation THINGSPEC_Switch
+States
+	{
+	Active:
+	TLMP A 0 A_PlaySound("switches/normbutn")
+	Lit:
+	TLMP ABCD 4 Bright Light(BIGLAMP)
+	Loop
+	Inactive:
+	TLMP E 0 A_PlaySound("switches/exitbutn")
+	Spawn:
+	TLMP E -1
+	Stop
+	}
+}
+
+ACTOR TechLampOn : TechLampOff 32248
+{
+//$Category Switchable Lights
+Tag "Tech Lamp On"
+Activation THINGSPEC_Switch|THINGSPEC_Deactivate
+States
+	{
+	Spawn:
+	Goto Super::Lit
+	}
+}

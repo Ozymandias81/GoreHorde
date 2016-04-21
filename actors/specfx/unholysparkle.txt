@@ -1,0 +1,89 @@
+//Decorate base from Sparkle Spawner by Tormentor667
+Actor UnholySparkle
+{
++MISSILE
++NOGRAVITY
++NOBLOCKMAP
++NOINTERACTION
++NOTIMEFREEZE
+-SOLID
+Radius 0
+Height 0
+RenderStyle ADD
+Alpha 0.35
+Scale 0.20
+States
+	{
+	Spawn:
+	SSPW AABBCCDDEEFFGGFFEEDDCCBBAA 1 Bright A_FadeIn(0.2)
+	SSPW AABBCCDDEEFF 1 Bright A_FadeOut(0.6)
+	Stop
+	}
+}
+
+actor WhiteUnholySpawner : SwitchableDecoration 10017
+{
+//$Category Special Effects
+//$Sprite SSPWA0
+Tag "White Unholy Sparkle"
+Game Doom
++NOBLOCKMAP
++NOGRAVITY
++NOSECTOR
++NOINTERACTION
++NOCLIP
++NOTIMEFREEZE
+-SOLID
++CLIENTSIDEONLY
+states
+	{
+	Spawn:
+	Active:
+	TNT1 A 0
+	TNT1 A 0 A_JumpIf(Args[1], "Circle")
+	TNT1 A 1 A_SpawnItemEx ("UnholySparkle", random(-Args[0], Args[0]), random(-Args[0], Args[0]), random(0, 8), 0, 0, random(1,4), 0, 129, 0)
+	Loop
+	Circle:
+	TNT1 A 0
+	TNT1 A 1 A_SpawnItemEx ("UnholySparkle", random(-Args[0], Args[0]), 0, random(0, 8), 0, 0, random(1,4), Random(0, 360), 129, 0)
+	Loop
+	Inactive:
+	TNT1 A -1
+	Stop
+	}
+}
+
+actor BlueUnholySpawner : WhiteUnholySpawner 10018
+{
+//$Category Special Effects
+Tag "Blue Unholy Sparkle"
+translation "80:111=196:207"
+}
+
+actor GreenUnholySpawner : WhiteUnholySpawner 10019
+{
+//$Category Special Effects
+Tag "Green Unholy Sparkle"
+translation "80:111=112:127"
+}
+
+actor RedUnholySpawner : WhiteUnholySpawner 10020
+{
+//$Category Special Effects
+Tag "Red Unholy Sparkle"
+translation "80:111=176:191"
+}
+
+actor OrangeUnholySpawner: WhiteUnholySpawner 10021
+{
+//$Category Special Effects
+Tag "Orange Unholy Sparkle"
+translation "80:111=214:223"
+}
+
+actor PurpleUnholySpawner: WhiteUnholySpawner 10022
+{
+//$Category Special Effects
+Tag "Purple Unholy Sparkle"
+translation "80:111=250:254"
+}

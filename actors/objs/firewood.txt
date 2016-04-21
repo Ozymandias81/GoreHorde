@@ -1,0 +1,74 @@
+actor CleanLog : ZLog 20024
+{
+//$Category New Decorations
+Tag "Clean Log"
+Game Doom
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	LOG2 A -1
+	Stop
+	}
+}
+
+actor CharredLog : ZLog 20025
+{
+//$Category New Decorations
+Tag "Charred Log"
+Game Doom
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	LOG2 B -1
+	Stop
+	}
+}
+
+actor BurningLog : ZLog 20026
+{
+//$Category New Decorations
+//Sprite LOG2C0
+Tag "Burning Log"
+Game Doom
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	TNT1 A 0 NoDelay A_JumpIf(CallACS("Cinders")==1,"Advanced")
+	LOG2 CDE 4 Bright
+	Loop
+	Advanced:
+	LOG2 CDE 4 Bright A_SpawnItemEx("FloatingCinder", 0, 0, 1, 1, 0, random (1, 2), random (0, 360), 0, 232)
+	Goto Spawn
+	}
+}
+
+actor EmberLog : ZLog 20027
+{
+//$Category New Decorations
+Tag "Ember Log"
+Game Doom
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	LOG2 FGH 4 Bright
+	Loop
+	}
+}
+
+actor CutLog : ZLog 20028
+{
+//$Category New Decorations
+Tag "Cut Log"
+Game Doom
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	LOG2 I -1
+	Stop
+	}
+}

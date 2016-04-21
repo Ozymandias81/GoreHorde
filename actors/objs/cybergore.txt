@@ -1,0 +1,86 @@
+//health & +shootable for NashGores
+Actor TorturedCyber 13465
+{
+//$Category New Decorations
+Tag "Cyberdemon Tortured"
+Game Doom
+Height 91
+Radius 25
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
++SOLID
++SPAWNCEILING
++NOGRAVITY
+States
+	{
+	Spawn:
+	CYBT A -1
+	Stop
+	}
+}
+
+Actor Cyberarm 13466
+{
+//$Category New Decorations
+Tag "Cyberdemon Arm"
+Game Doom
++DROPPED
+States
+	{
+	Spawn:
+	CYRM A -1 //renamed because CyberImp
+	Stop
+	}
+}
+
+Actor Rocketarm 13467
+{
+//$Category New Decorations
+Tag "Cyberdemon Rocket Arm"
+Game Doom
+Height 80
+Radius 5
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
++SPAWNCEILING
++NOGRAVITY
++SOLID
+States
+	{
+	Spawn:
+	HARM A -1
+	Stop
+	}
+}
+
+Actor Fleshleg 13468
+{
+//$Category New Decorations
+Tag "Cyberdemon Flesh Leg"
+Game Doom
++DROPPED
+States
+	{
+	Spawn:
+	FLEG A -1
+	Stop
+	}
+}
+
+Actor Cyberleg 13469
+{
+//$Category New Decorations
+Tag "Cyberdemon Leg"
+Game Doom
+Height 17
+radius 13
++SOLID
+States
+	{
+	Spawn:
+	RLEG D -1
+	Stop
+	}
+}

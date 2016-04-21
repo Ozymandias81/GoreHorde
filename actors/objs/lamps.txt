@@ -1,0 +1,50 @@
+ACTOR TLamp1 12850
+{
+//$Category New Lights
+Tag "Techno Lamp 1"
+Game Doom
+Radius 16
+Height 80
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	LAMT A -1 Bright
+	Stop
+	}
+}
+
+ACTOR TLamp2 12851
+{
+//$Category New Lights
+Tag "Techno Lamp 2"
+Game Doom
+Radius 16
+Height 60
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	LAMT B -1 Bright
+	Stop
+	}
+}
+
+ACTOR TLamp3 12852
+{
+//$Category New Lights
+Tag "Techno Lamp 3"
+Game Doom
+Radius 16
+Height 70
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	LAMT C -1 Bright
+	Stop
+	}
+}

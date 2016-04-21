@@ -1,0 +1,43 @@
+ACTOR DoomRedFirePillar 14178
+{
+//$Category New Lights
+//$Sprite RMPFA0
+Tag "Doom Red Fire Pillar"
+Game Doom
+Radius 21
+Height 85
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	TNT1 A 0 NoDelay A_JumpIf(CallACS("Cinders")==1,"Advanced")
+	RMPF ABC 4 Bright
+	Loop
+	Advanced:
+	RMPF ABC 4 Bright A_SpawnItemEx("FloatingCinder", 0, 0, 80, 1, 0, random (1, 3), random (0, 360), 0, 224)
+	Goto Spawn
+	}
+}
+
+ACTOR DoomGreenFirePillar 14179
+{
+//$Category New Lights
+//$Sprite GMPFA0
+Tag "Doom Green Fire Pillar"
+Game Doom
+Radius 21
+Height 85
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	TNT1 A 0 NoDelay A_JumpIf(CallACS("Cinders")==1,"Advanced")
+	GMPF ABC 4 Bright
+	Loop
+	Advanced:
+	GMPF ABC 4 Bright A_SpawnItemEx("FloatingCinder", 0, 0, 80, 1, 0, random (1, 3), random (0, 360), 0, 224)
+	Goto Spawn
+	}
+}

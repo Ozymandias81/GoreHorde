@@ -1,0 +1,109 @@
+Actor SnakeImp 30150 //Actors frames renamed due to prevent doubles with Time Imp & Spirit Imp
+{
+//$Category Realm667 Monsters
+Tag "Snake Imp"
+Game Doom
+translation "16:47=112:127","168:191=114:128"
+SpawnId 155
+gibhealth 35
+Health 100
+Radius 20
+Height 60
+Speed 12
+SeeSound "imp/sight"
+ActiveSound "imp/active"
+PainSound "imp/pain"
+DeathSound "imp/death"
+Obituary "%o tasted the venom of the snake imp."
+HitObituary "%o was shredded by a snake imp."
+MONSTER
++FLOORCLIP
+DamageFactor Poison, 0
+DamageFactor PoisonCloud, 0
+DropItem "SmallPotionsSpawner", 32
+DropItem "Shell", 64
+BloodColor "0 a3 0"
+MaxStepHeight 32
+MaxDropOffHeight 32
+States
+	{
+	Spawn:
+	SNIM AB 8 A_Look
+	Loop
+	See:
+	SNIM AABBCCDD 4 A_Chase
+	Loop
+	Melee:
+	Missile:
+	SNIM EF 8 A_FaceTarget
+	SNIM G 8 A_CustomComboAttack("SnakeImpFireball",40,4,"imp/melee")
+	Goto See
+	Pain:
+	SNIM H 4 A_Pain
+	SNIM H 4
+	Goto See
+	Death:
+	SNIM I 6
+	SNIM J 6 A_Scream
+	SNIM KL 6
+	SNIM M 6 A_Fall
+	SNIM M -1
+	Stop
+	XDeath: //new
+	SNIM N 0 A_SpawnDebris("Gore_GreenGib11",0)
+	SNIM N 0 A_SpawnDebris("Gore_GreenGib11",0)
+	SNIM N 0 A_SpawnItem("Gore_GibGeneratorGreen",0,0,0,0)
+	SNIM N 6 A_XScream
+	SNIM O 0 A_SpawnItem("Gore_GibGeneratorGreen",0,0,0,2)
+	SNIM O 6 A_Fall
+	SNIM P 0 A_SpawnItem("Gore_GibGeneratorGreen",0,0,0,4)
+	SNIM PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP 0 A_SpawnItemEx ("GreenFartCloud",random(-64,64),random(-64,64),random(-48,48),0,0,0.5,0,160)
+	SNIM Q 0 A_SpawnItem("Gore_GibGeneratorGreen",0,0,0,6)
+	SNIM PQRST 6
+	SNIM U -1
+	Stop
+	Burn: //new
+	BURN A 3 Bright
+	BURN B 3 Bright A_Scream
+	BURN C 3 Bright A_Wander
+	BURN D 3 Bright A_NoBlocking
+	BURN EFGHIJKLMNOP 5 Bright
+	BURN Q 3 Bright
+	BURN RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR 0 A_SpawnItemEx ("GreenFartCloud",random(-64,64),random(-64,64),random(-48,48),0,0,0.5,0,160)
+	BURN RSTU 7 Bright
+	BURN V 4 A_CustomMissile ("HBeastSmoke",32,0,0)
+	BURN V 4 A_CustomMissile ("HBeastSmoke",36,0,0)
+	BURN V 4 A_CustomMissile ("HBeastSmoke",40,0,0)
+	BURN V 4 A_CustomMissile ("HBeastSmoke",44,0,0)
+	BURN V 4 A_CustomMissile ("HBeastSmoke",48,0,0)
+	BURN V -1
+	Stop
+	Crush:
+	TNT1 A 1 A_SpawnItem("NashGore_CrushedSmallGreen",0,0,0,0)
+	stop
+	Raise:
+	SNIM LKJI 5
+	Goto See
+	}
+}
+
+Actor SnakeImpFireball
+{
+Radius 8
+Height 16
+Speed 20
+Damage 4
+SeeSound "imp/attack"
+DeathSound "imp/shotx"
+Decal PlasmaScorchLower
+PROJECTILE
+States
+	{
+	Spawn:
+	SNBA AB 8
+	Loop
+	Death:
+	SNBA CDE 5
+	Stop
+	}
+}

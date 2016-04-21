@@ -1,0 +1,209 @@
+Actor BreakableVase1 32119
+{
+//$Category New Decorations
+Tag "Breakable Vase 1"
+Game Doom
+Radius 10
+Height 48
+Health 20
++SOLID
++SHOOTABLE
++NOBLOOD
++DONTGIB
++NOICEDEATH
+DeathSound "Pot/Break"
+States
+	{
+	Spawn:
+	EGIP A -1
+	Stop
+	Death:
+	NULL A 0 A_Scream
+	EGIK B 6
+	EGIK A -1 A_SpawnItem ("VasesPotionSpawner")
+	Stop
+	}
+}
+
+Actor BreakableVase2 32120
+{
+//$Category New Decorations
+Tag "Breakable Vase 2"
+Game Doom
+Radius 10
+Height 40
+Health 20
++SOLID
++SHOOTABLE
++NOBLOOD
++DONTGIB
++NOICEDEATH
+DeathSound "Pot/Break"
+States
+	{
+	Spawn:
+	EGIP B -1
+	Stop
+	Death:
+	NULL A 0 A_Scream
+	EGIK C 6
+	EGIK D -1 A_SpawnItem ("VasesPotionSpawner")
+	Stop
+	}
+}
+
+Actor BreakableVase3 32121
+{
+//$Category New Decorations
+Tag "Breakable Vase 3"
+Game Doom
+Radius 10
+Height 28
+Health 20
++SOLID
++SHOOTABLE
++NOBLOOD
++DONTGIB
++NOICEDEATH
+DeathSound "Pot/Break"
+States
+	{
+	Spawn:
+	EGIP C -1
+	Stop
+	Death:
+	NULL A 0 A_Scream
+	EGIK F 6
+	EGIK E -1 A_SpawnItem ("VasesPotionSpawner")
+	Stop
+	}
+}
+
+Actor BreakableVase4 32122
+{
+//$Category New Decorations
+Tag "Breakable Vase 4"
+Game Doom
+Radius 10
+Height 32
+Health 20
++SOLID
++SHOOTABLE
++NOBLOOD
++DONTGIB
++NOICEDEATH
+DeathSound "Pot/Break"
+States
+	{
+	Spawn:
+	EGIP F -1
+	Stop
+	Death:
+	NULL A 0 A_Scream
+	EGIK G 6
+	EGIK G -1 A_SpawnItem ("VasesPotionSpawner")
+	Stop
+	}
+}
+
+Actor Vase1 32123
+{
+//$Category New Decorations
+Tag "Vase 1"
+Game Doom
+Radius 10
+Height 48
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	EGIP A -1
+	Stop
+	}
+}
+
+Actor Vase2 32124
+{
+//$Category New Decorations
+Tag "Vase 2"
+Game Doom
+Radius 10
+Height 40
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	EGIP B -1
+	Stop
+	}
+}
+
+Actor Vase3 32125
+{
+//$Category New Decorations
+Tag "Vase 3"
+Game Doom
+Radius 10
+Height 28
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	EGIP C -1
+	Stop
+	}
+}
+
+Actor Vase4 32126
+{
+//$Category New Decorations
+Tag "Vase 4"
+Game Doom
+Radius 5
+Height 16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	EGIP D -1
+	Stop
+	}
+}
+
+Actor Vase5 32127
+{
+//$Category New Decorations
+Tag "Vase 5"
+Game Doom
+Radius 6
+Height 12
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	EGIP E -1
+	Stop
+	}
+}
+
+Actor Vase6 32128
+{
+//$Category New Decorations
+Tag "Vase 6"
+Game Doom
+Radius 10
+Height 32
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	EGIP F -1
+	Stop
+	}
+}

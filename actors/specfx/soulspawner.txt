@@ -1,0 +1,110 @@
+actor DamnedSoulSpawner : SwitchableDecoration 12344
+{
+//$Category Special Effects
+//$Sprite DAMDA0
+Tag "Soul Spawner"
+Game Doom
+Radius 2
+Height 2
++NOINTERACTION
++NOTIMEFREEZE
+States
+	{
+	Spawn:
+	Active:
+	TNT1 A 0
+	TNT1 A 0 A_JumpIf(Args[0] > 0, "Silent")
+	Noisy:
+	TNT1 A 0
+	TNT1 A 8 A_SpawnItemEx ("DamnedSoul", random (-Args[1], Args[1]), 0, 0, 0, 0, Args[3], random (0, 360), 0, Args[2])
+	loop
+	Silent:
+	TNT1 A 0
+	TNT1 A 8 A_SpawnItemEx ("DamnedSoulSilent", random (-Args[1], Args[1]), 0, 0, 0, 0, Args[3], random (0, 360), 0, Args[2])
+	loop
+	Inactive:
+	TNT1 A 1
+	Loop
+	}
+}
+
+actor DamnedSoul
+{
+Radius 2
+Height 2
+Speed 1
+Alpha 0
+Scale 0.5
+RenderStyle Add
+projectile
++CLIENTSIDEONLY
++NOINTERACTION
++NOTIMEFREEZE
+States
+	{
+	Spawn:
+	DAMD A 0 BRIGHT
+	DAMD A 0 BRIGHT A_PlaySound ("DamnedSoul/Moan")
+	FadeIn:
+	DAMD A 1 BRIGHT A_SetTranslucent (0.05, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.1, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.15, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.2, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.25, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.3, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.35, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.4, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.45, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.5, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.55, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.6, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.65, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.7, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.75, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.8, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.85, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.9, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.95, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (1, 1)
+	Linger:
+	DAMD A 4 BRIGHT
+	FadeOut:
+	DAMD A 1 BRIGHT A_FadeOut(0.025)
+	loop
+	}
+}
+
+actor DamnedSoulSilent : DamnedSoul
+{
+States
+	{
+	Spawn:
+	DAMD A 0 BRIGHT
+	FadeIn:
+	DAMD A 1 BRIGHT A_SetTranslucent (0.05, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.1, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.15, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.2, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.25, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.3, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.35, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.4, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.45, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.5, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.55, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.6, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.65, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.7, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.75, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.8, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.85, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.9, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (0.95, 1)
+	DAMD A 1 BRIGHT A_SetTranslucent (1, 1)
+	Linger:
+	DAMD A 4 BRIGHT
+	FadeOut:
+	DAMD A 1 BRIGHT A_FadeOut(0.025)
+	loop
+	}
+}

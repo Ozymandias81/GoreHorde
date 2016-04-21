@@ -1,0 +1,850 @@
+//RandomSpawner Columns removed = useless & not functional
+Actor TallColumnBase
+{
+Game Doom
+Radius 16
+Height 128
++SOLID
++NOTAUTOAIMED
+}
+
+Actor SpiralColumnBase
+{
+Game Doom
+Radius 16
+Height 72
++SOLID
++NOTAUTOAIMED
+}
+
+Actor MediumColumnBase
+{
+Game Doom
+Radius 16
+Height 52
++SOLID
++NOTAUTOAIMED
+}
+
+Actor SmallColumnBase
+{
+Game Doom
+Radius 16
+Height 40
++SOLID
++NOTAUTOAIMED
+}
+
+Actor FlutedGreenColumn : TallColumnBase 7100
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL7 A -1
+	Stop
+	}
+}
+
+Actor FlutedRedColumn : TallColumnBase 7101
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL8 A -1
+	Stop
+	}
+}
+
+Actor FlutedBlueColumn : TallColumnBase 7102
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL9 A -1
+	Stop
+	}
+}
+
+Actor FlutedTanColumn : TallColumnBase 7103
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL0 J -1
+	Stop
+	}
+}
+
+Actor FlutedGreyColumn : TallColumnBase 7104
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL1 J -1
+	Stop
+	}
+}
+
+Actor FlutedBicolorColumn : TallColumnBase 7105
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL2 J -1
+	Stop
+	}
+}
+
+Actor FlutedBlackColumn : TallColumnBase 7106
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL3 J -1
+	Stop
+	}
+}
+
+Actor FlutedDarkRedColumn : TallColumnBase 7107
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL4 J -1
+	Stop
+	}
+}
+
+Actor FlutedOrangeColumn : TallColumnBase 7108
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL5 J -1
+	Stop
+	}
+}
+
+Actor FlutedMauveColumn : TallColumnBase 7109
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL6 J -1
+	Stop
+	}
+}
+
+Actor SmoothGreenColumn : TallColumnBase 7110
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL7 B -1
+	Stop
+	}
+}
+
+Actor SmoothRedColumn : TallColumnBase 7111
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL8 B -1
+	Stop
+	}
+}
+
+Actor SmoothBlueColumn : TallColumnBase 7112
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL9 B -1
+	Stop
+	}
+}
+
+Actor SmoothTanColumn : TallColumnBase 7113
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL0 K -1
+	Stop
+	}
+}
+
+Actor SmoothGreyColumn : TallColumnBase 7114
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL1 K -1
+	Stop
+	}
+}
+
+Actor SmoothBicolorColumn : TallColumnBase 7115
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL2 K -1
+	Stop
+	}
+}
+
+Actor SmoothBlackColumn : TallColumnBase 7116
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL3 K -1
+	Stop
+	}
+}
+
+Actor SmoothDarkRedColumn : TallColumnBase 7117
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL4 K -1
+	Stop
+	}
+}
+
+Actor SmoothOrangeColumn : TallColumnBase 7118
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL5 K -1
+	Stop
+	}
+}
+
+Actor SmoothMauveColumn : TallColumnBase 7119
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL6 K -1
+	Stop
+	}
+}
+
+Actor MediumBlueColumn : MediumColumnBase 7122
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL9 C -1
+	Stop
+	}
+}
+
+Actor MediumTanColumn : MediumColumnBase 7123
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL0 L -1
+	Stop
+	}
+}
+
+Actor MediumGreyColumn : MediumColumnBase 7124
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL1 L -1
+	Stop
+	}
+}
+
+Actor MediumBicolorColumn : MediumColumnBase 7125
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL2 L -1
+	Stop
+	}
+}
+
+Actor MediumBlackColumn : MediumColumnBase 7126
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL3 L -1
+	Stop
+	}
+}
+
+Actor MediumDarkRedColumn : MediumColumnBase 7127
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL4 L -1
+	Stop
+	}
+}
+
+Actor MediumOrangeColumn : MediumColumnBase 7128
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL5 L -1
+	Stop
+	}
+}
+
+Actor MediumMauveColumn : MediumColumnBase 7129
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL6 L -1
+	Stop
+	}
+}
+
+Actor SmallBlueColumn : SmallColumnBase 7132
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL9 D -1
+	Stop
+	}
+}
+
+Actor SmallTanColumn : SmallColumnBase 7133
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL0 M -1
+	Stop
+	}
+}
+
+Actor SmallGreyColumn : SmallColumnBase 7134
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL1 M -1
+	Stop
+	}
+}
+
+Actor SmallBicolorColumn : SmallColumnBase 7135
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL2 M -1
+	Stop
+	}
+}
+
+Actor SmallBlackColumn : SmallColumnBase 7136
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL3 M -1
+	Stop
+	}
+}
+
+Actor SmallDarkRedColumn : SmallColumnBase 7137
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL4 M -1
+	Stop
+	}
+}
+
+Actor SmallOrangeColumn : SmallColumnBase 7138
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL5 M -1
+	Stop
+	}
+}
+
+Actor SmallMauveColumn : SmallColumnBase 7139
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL6 M -1
+	Stop
+	}
+}
+
+Actor SkullGreenColumn : SmallColumnBase 7140
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL7 E -1
+	Stop
+	}
+}
+
+Actor SkullBlueColumn : SmallColumnBase 7142
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL9 E -1
+	Stop
+	}
+}
+
+Actor SkullTanColumn : SmallColumnBase 7143
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL0 N -1
+	Stop
+	}
+}
+
+Actor SkullGreyColumn : SmallColumnBase 7144
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL1 N -1
+	Stop
+	}
+}
+
+Actor SkullBicolorColumn : SmallColumnBase 7145
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL2 N -1
+	Stop
+	}
+}
+
+Actor SkullBlackColumn : SmallColumnBase 7146
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL3 N -1
+	Stop
+	}
+}
+
+Actor SkullDarkRedColumn : SmallColumnBase 7147
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL4 N -1
+	Stop
+	}
+}
+
+Actor SkullOrangeColumn : SmallColumnBase 7148
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL5 N -1
+	Stop
+	}
+}
+
+Actor SkullMauveColumn : SmallColumnBase 7149
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL6 N -1
+	Stop
+	}
+}
+
+Actor HeartRedColumn : SmallColumnBase 7151
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL8 FG 14
+	Loop
+	}
+}
+
+Actor HeartBlueColumn : SmallColumnBase 7152
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL9 FG 14
+	Loop
+	}
+}
+
+Actor HeartTanColumn : SmallColumnBase 7153
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL0 OP 14
+	Loop
+	}
+}
+
+Actor HeartGreyColumn : SmallColumnBase 7154
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL1 OP 14
+	Loop
+	}
+}
+
+Actor HeartBicolorColumn : SmallColumnBase 7155
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL2 OP 14
+	Loop
+	}
+}
+
+Actor HeartBlackColumn : SmallColumnBase 7156
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL3 OP 14
+	Loop
+	}
+}
+
+Actor HeartDarkRedColumn : SmallColumnBase 7157
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL4 OP 14
+	Loop
+	}
+}
+
+Actor HeartOrangeColumn : SmallColumnBase 7158
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL5 OP 14
+	Loop
+	}
+}
+
+Actor HeartMauveColumn : SmallColumnBase 7159
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL6 OP 14
+	Loop
+	}
+}
+
+Actor VineGreenColumn : SmallColumnBase 7160
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL7 H -1
+	Stop
+	}
+}
+
+Actor VineRedColumn : SmallColumnBase 7161
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL8 H -1
+	Stop
+	}
+}
+
+Actor VineBlueColumn : SmallColumnBase 7162
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL9 H -1
+	Stop
+	}
+}
+
+Actor VineTanColumn : SmallColumnBase 7163
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL0 Q -1
+	Stop
+	}
+}
+
+Actor VineGreyColumn : SmallColumnBase 7164
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL1 Q -1
+	Stop
+	}
+}
+
+Actor VineBicolorColumn : SmallColumnBase 7165
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL2 Q -1
+	Stop
+	}
+}
+
+Actor VineBlackColumn : SmallColumnBase 7166
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL3 Q -1
+	Stop
+	}
+}
+
+Actor VineDarkRedColumn : SmallColumnBase 7167
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL4 Q -1
+	Stop
+	}
+}
+
+Actor VineOrangeColumn : SmallColumnBase 7168
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL5 Q -1
+	Stop
+	}
+}
+
+Actor VineMauveColumn : SmallColumnBase 7169
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL6 Q -1
+	Stop
+	}
+}
+
+Actor SpiralGreenColumn : SpiralColumnBase 7170
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL7 I -1
+	Stop
+	}
+}
+
+Actor SpiralRedColumn : SpiralColumnBase 7171
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL8 I -1
+	Stop
+	}
+}
+
+Actor SpiralBlueColumn : SpiralColumnBase 7172
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL9 I -1
+	Stop
+	}
+}
+
+Actor SpiralTanColumn : SpiralColumnBase 7173
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL0 R -1
+	Stop
+	}
+}
+
+Actor SpiralGreyColumn : SpiralColumnBase 7174
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL1 R -1
+	Stop
+	}
+}
+
+Actor SpiralBicolorColumn : SpiralColumnBase 7175
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL2 R -1
+	Stop
+	}
+}
+
+Actor SpiralBlackColumn : SpiralColumnBase 7176
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL3 R -1
+	Stop
+	}
+}
+
+Actor SpiralDarkRedColumn : SpiralColumnBase 7177
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL4 R -1
+	Stop
+	}
+}
+
+Actor SpiralOrangeColumn : SpiralColumnBase 7178
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL5 R -1
+	Stop
+	}
+}
+
+Actor SpiralMauveColumn : SpiralColumnBase 7179
+{
+//$Category Toenail Columns
+States
+	{
+	Spawn:
+	COL6 R -1
+	Stop
+	}
+}

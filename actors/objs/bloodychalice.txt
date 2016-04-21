@@ -1,0 +1,14 @@
+Actor BloodyChalice 32108
+{
+//$Category New Decorations
+Tag "Bloody Chalice"
+Game Doom
++FLOORCLIP
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	CHLC A -1
+	Stop
+	}
+}

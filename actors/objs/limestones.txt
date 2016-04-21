@@ -1,0 +1,272 @@
+ACTOR LimestoneFloorBig1 10600
+{
+//$Category New Obstacles
+Tag "Limestone Floor Big 1"
+Game Doom
+Radius 12
+Height 32
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	LIMF A -1
+	Stop
+	}
+}
+
+ACTOR LimestoneFloorBig2 10601
+{
+//$Category New Obstacles
+Tag "Limestone Floor Big 2"
+Game Doom
+Radius 12
+Height 32
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	LIMF B -1
+	Stop
+	}
+}
+
+ACTOR LimestoneFloorBig3 10602
+{
+//$Category New Obstacles
+Tag "Limestone Floor Big 3"
+Game Doom
+Radius 12
+Height 32
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	LIMF C -1
+	Stop
+	}
+}
+
+ACTOR LimestoneFloorSmallLong 10603
+{
+//$Category New Obstacles
+Tag "Limestone Floor Small Long"
+Game Doom
+Radius 4
+Height 32
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	LIMF D -1
+	Stop
+	}
+}
+
+ACTOR LimestoneFloorSmall1 10604
+{
+//$Category New Obstacles
+Tag "Limestone Floor Small 1"
+Game Doom
+Radius 4
+Height 16
+States
+	{
+	Spawn:
+	LIMF E -1
+	Stop
+	}
+}
+
+ACTOR LimestoneFloorSmall2 10605
+{
+//$Category New Obstacles
+Tag "Limestone Floor Small 2"
+Game Doom
+Radius 4
+Height 16
+States
+	{
+	Spawn:
+	LIMF F -1
+	Stop
+	}
+}
+
+ACTOR LimestoneFloorSmall3 10606
+{
+//$Category New Obstacles
+Tag "Limestone Floor Small 3"
+Game Doom
+Radius 4
+Height 16
+States
+	{
+	Spawn:
+	LIMF G -1
+	Stop
+	}
+}
+
+ACTOR LimestoneFloorKnobblyBig 10607
+{
+//$Category New Obstacles
+Tag "Limestone Floor Knobbly Big"
+Game Doom
+Radius 12
+Height 48
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	LIMK A -1
+	Stop
+	}
+}
+
+ACTOR LimestoneFloorKnobblyMedium 10608
+{
+//$Category New Obstacles
+Tag "Limestone Floor Knobbly Medium"
+Game Doom
+Radius 12
+Height 32
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	LIMK B -1
+	Stop
+	}
+}
+
+ACTOR LimestoneFloorKnobblySmall 10609
+{
+//$Category New Obstacles
+Tag "Limestone Floor Knobbly Small"
+Game Doom
+Radius 8
+Height 16
+States
+	{
+	Spawn:
+	LIMK C -1
+	Stop
+	}
+}
+
+ACTOR LimestoneCeilingBig1 10610
+{
+//$Category New Obstacles
+Tag "Limestone Ceiling Big 1"
+Game Doom
+Radius 12
+Height 32
++SOLID
++SPAWNCEILING
++NOGRAVITY
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	LIMC A -1
+	Stop
+	}
+}
+
+ACTOR LimestoneCeilingBig2 10611
+{
+//$Category New Obstacles
+Tag "Limestone Ceiling Big 2"
+Game Doom
+Radius 12
+Height 32
++SOLID
++SPAWNCEILING
++NOGRAVITY
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	LIMC B -1
+	Stop
+	}
+}
+
+ACTOR LimestoneCeilingSmallLong 10612
+{
+//$Category New Obstacles
+Tag "Limestone Ceiling Small Long"
+Game Doom
+Radius 4
+Height 32
++SOLID
++SPAWNCEILING
++NOGRAVITY
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	LIMC C -1
+	Stop
+	}
+}
+
+ACTOR LimestoneCeilingSmall1 10613
+{
+//$Category New Obstacles
+Tag "Limestone Ceiling Small 1"
+Game Doom
+Radius 4
+Height 16
++SPAWNCEILING
++NOGRAVITY
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	LIMC D -1
+	Stop
+	}
+}
+
+ACTOR LimestoneCeilingSmall2 10614
+{
+//$Category New Obstacles
+Tag "Limestone Ceiling Small 2"
+Game Doom
+Radius 4
+Height 16
++SPAWNCEILING
++NOGRAVITY
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	LIMC E -1
+	Stop
+	}
+}
+
+ACTOR LimestoneCeilingSmall3 10615
+{
+//$Category New Obstacles
+Tag "Limestone Ceiling Small 3"
+Game Doom
+Radius 4
+Height 16
++SPAWNCEILING
++NOGRAVITY
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	LIMC F -1
+	Stop
+	}
+}

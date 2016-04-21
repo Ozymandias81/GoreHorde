@@ -1,0 +1,144 @@
+//+nogravity = 3d reasons; ConversationIds: 324/331
+Actor GreenCard : DoomKey 32260
+{
+//$Category New Keys
+Tag "Green KeyCard"
+Game Doom
++NOGRAVITY
+Inventory.Pickupmessage "$GOTGRENCARD"
+Inventory.Icon "STKEYS9"
+ConversationID 324
+	States
+	{
+	Spawn:
+	GKEY A 10
+	GKEY B 10 bright
+	loop
+	}
+}
+
+Actor OrangeCard : DoomKey 32261
+{
+//$Category New Keys
+Tag "Orange KeyCard"
+Game Doom
++NOGRAVITY
+Inventory.Pickupmessage "$GOTORNGCARD"
+Inventory.Icon "STKEYS10"
+ConversationID 325
+	States
+	{
+	Spawn:
+	OKEY A 10
+	OKEY B 10 bright
+	loop
+	}
+}
+
+Actor SilverCard : DoomKey 32263
+{
+//$Category New Keys
+Tag "Silver KeyCard"
+Game Doom
++NOGRAVITY
+Inventory.Pickupmessage "$GOTSLVRCARD"
+Inventory.Icon "STKEYS11"
+ConversationID 326
+	States
+	{
+	Spawn:
+	SKEY A 10
+	SKEY B 10 bright
+	loop
+	}
+}
+
+Actor PurpleCard : DoomKey 32264
+{
+//$Category New Keys
+Tag "Purple KeyCard"
+Game Doom
++NOGRAVITY
+Inventory.Pickupmessage "$GOTPRPLCARD"
+Inventory.Icon "STKEYS12"
+ConversationID 327
+	States
+	{
+	Spawn:
+	PKEY A 10
+	PKEY B 10 bright
+	loop
+	}
+}
+
+Actor GreenSkull : DoomKey 32265
+{
+//$Category New Keys
+Tag "Green Skull Key"
+Game Doom
++NOGRAVITY
+Inventory.Pickupmessage "$GOTGRENSKUL"
+Inventory.Icon "STKEYS13"
+ConversationID 328
+	States
+	{
+	Spawn:
+	GSKU A 10
+	GSKU B 10 bright
+	loop
+	}
+}
+
+Actor OrangeSkull : DoomKey 32266
+{
+//$Category New Keys
+Tag "Orange Skull Key"
+Game Doom
++NOGRAVITY
+Inventory.Pickupmessage "$GOTORNGSKUL"
+Inventory.Icon "STKEYS14"
+ConversationID 329
+	States
+	{
+	Spawn:
+	OSKU A 10
+	OSKU B 10 bright
+	loop
+	}
+}
+
+Actor SilverSkull : DoomKey 32267
+{
+//$Category New Keys
+Tag "Silver Skull Key"
+Game Doom
++NOGRAVITY
+Inventory.Pickupmessage "$GOTSLVRSKUL"
+Inventory.Icon "STKEYS15"
+ConversationID 330
+	States
+	{
+	Spawn:
+	SSKU A 10
+	SSKU B 10 bright
+	loop
+	}
+}
+
+Actor PurpleSkull : DoomKey 32268
+{
+//$Category New Keys
+Tag "Purple Skull Key"
+Game Doom
++NOGRAVITY
+Inventory.Pickupmessage "$GOTPRPLSKUL"
+Inventory.Icon "STKEYS16"
+ConversationID 331
+	States
+	{
+	Spawn:
+	PSKU A 10
+	PSKU B 10 bright
+	loop
+	}
+}

@@ -1,0 +1,117 @@
+//health & +shootable for NashGores;
+ACTOR LiveHangingMarine 32223
+{
+//$Category New Decorations
+Tag "Live Hanging Marine"
+Game Doom
+Radius 16
+Height 74
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
++NOGRAVITY
++FLOAT
+States
+	{
+	Spawn:
+	HUSO ABCDEFG 6
+	}
+}
+
+ACTOR DeadHangingMarine 32224
+{
+//$Category New Decorations
+Tag "Dead Hanging Marine"
+Game Doom
+Radius 16
+Height 71
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
++NOGRAVITY
+States
+	{
+	Spawn:
+	HUSO H 6
+	Loop
+	}
+}
+
+ACTOR MostlyDeadHangingMarine 32225
+{
+//$Category New Decorations
+Tag "Mostly Dead Hanging Marine"
+Game Doom
+Radius 16
+Height 74
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
++NOGRAVITY
+States
+	{
+	Spawn:
+	HUSO ABCDEFG 12
+	Loop
+	}
+}
+
+ACTOR LiveHangingMarineBlocking 32226
+{
+//$Category New Decorations
+Tag "Live Hanging Marine Blocking"
+Game Doom
+Radius 16
+Height 74
+Mass 0x7fffffff
++NOGRAVITY
++SOLID
++SHOOTABLE
++NODAMAGE
+States
+	{
+	Spawn:
+	HUSO ABCDEFG 6
+	Loop
+	}
+}
+
+ACTOR DeadHangingMarineBlocking 32227
+{
+//$Category New Decorations
+Tag "Dead Hanging Marine Blocking"
+Game Doom
+Radius 16
+Height 71
+Mass 999999999
++NOGRAVITY
++SOLID
++SHOOTABLE
++NODAMAGE
+States
+	{
+	Spawn:
+	HUSO H 6
+	Loop
+	}
+}
+
+ACTOR MostlyDeadHangingMarineBlocking 32228
+{
+//$Category New Decorations
+Tag "Mostly Dead Hanging Marine Blocking"
+Game Doom
+Radius 16
+Height 74
+Mass 999999999
++NOGRAVITY
++SOLID
++SHOOTABLE
++NODAMAGE
+States
+	{
+	Spawn:
+	HUSO ABCDEFG 12
+	Loop
+	}
+}

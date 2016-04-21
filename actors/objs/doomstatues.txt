@@ -1,0 +1,33 @@
+ACTOR DoomStatue1 32192
+{
+//$Category New Obstacles
+Tag "Doom Statue 1"
+Game Doom
+height 134
+radius 19
++SOLID
++NOTAUTOAIMED
+states
+	{
+	Spawn:
+	DSTT A -1
+	Stop
+	}
+}
+
+ACTOR DoomStatue2 32193
+{
+//$Category New Obstacles
+Tag "Doom Statue 2"
+Game Doom
+height 134
+radius 19
++SOLID
++NOTAUTOAIMED
+states
+	{
+	Spawn:
+	DST2 A -1
+	Stop
+	}
+}

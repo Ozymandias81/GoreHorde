@@ -1,0 +1,187 @@
+//Totally ordinary tree (Undamaged)
+Actor HellTree 20034
+{
+//$Category New Obstacles
+Tag "Hell Tree"
+Game Doom
+Radius 19
+Height 61
+Mass 5000
+Scale 0.8
++SOLID
+States
+	{
+	Spawn:
+	HETR A -1
+	stop
+	}
+}
+
+//Scorched variants
+Actor HellTreeScorch1 20035
+{
+//$Category New Obstacles
+Tag "Hell Tree Scorched 1"
+Game Doom
+Radius 19
+Height 61
+Mass 5000
+Scale 0.8
++SOLID
+States
+	{
+	Spawn:
+	HETR B -1
+	stop
+	}
+}
+
+Actor HellTreeScorch2 20036
+{
+//$Category New Obstacles
+Tag "Hell Tree Scorched 2"
+Game Doom
+Radius 19
+Height 61
+Mass 5000
+Scale 0.8
++SOLID
+States
+	{
+	Spawn:
+	TNT1 A 0
+	HETR C -1
+	stop
+	}
+}
+
+//Burned variants
+Actor HellTreeBurn1 20037
+{
+//$Category New Obstacles
+Tag "Hell Tree Burnt 1"
+Game Doom
+Radius 19
+Height 61
+Mass 5000
+Scale 0.8
++SOLID
+States
+	{
+	Spawn:
+	HETR D -1
+	stop
+	}
+}
+
+Actor HellTreeBurn2 20038
+{
+//$Category New Obstacles
+Tag "Hell Tree Burnt 2"
+Game Doom
+Radius 19
+Height 61
+Mass 5000
+Scale 0.8
++SOLID
+States
+	{
+	Spawn:
+	HETR E -1
+	stop
+	}
+}
+
+//Damaged (and scorched) variant
+Actor HellTreeScorch3 20039
+{
+//$Category New Obstacles
+Tag "Hell Tree Scorched 3"
+Game Doom
+Radius 19
+Height 61
+Mass 5000
+Scale 0.8
++SOLID
+States
+	{
+	Spawn:
+	HETR F -1
+	stop
+	}
+}
+
+Actor HellTreeBurn3 20040 //Burned down (top) variant
+{
+//$Category New Obstacles
+Tag "Hell Tree Burnt 3"
+Game Doom
+Radius 15
+Height 46
+Mass 5000
+Scale 0.8
++SOLID
+States
+	{
+	Spawn:
+	HETR G -1
+	stop
+	}
+}
+
+Actor FleshTree1 20041 //Blood tree, grown using >90% pure human blood!
+{
+//$Category New Obstacles
+Tag "Flesh Tree 1"
+Game Doom
+Radius 32
+Height 89
+Mass 5000
+Scale 0.8
++SOLID
+Scale 1
+States
+	{
+	Spawn:
+	HETR H -1
+	stop
+	}
+}
+
+Actor FleshTree2 20042 //Flesh tree, grown on live humans! (Lots of agony was delivered!)
+{
+//$Category New Obstacles
+Tag "Flesh Tree 2"
+Game Doom
+Radius 32
+Height 89
+Mass 5000
+Scale 0.8
++SOLID
+Scale 1
+States
+	{
+	Spawn:
+	HETR I -1
+	stop
+	}
+}
+
+Actor FleshTree3 20043 //Skin tree, grown on dead waste. (Nice for cleaning the mess!)
+{
+//$Category New Obstacles
+Tag "Flesh Tree 3"
+Game Doom
+Radius 32
+Height 89
+Mass 5000
+Scale 0.8
++SOLID
+Scale 1
+States
+	{
+	Spawn:
+	HETR J -1
+	stop
+	}
+}

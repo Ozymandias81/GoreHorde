@@ -1,0 +1,185 @@
+Actor Necronomicon : Weapon 30125 //Main Actor sprites renamed due to prevent connections with Phantom
+{
+//$Category New Weapons
+Tag "Necronomicon"
+Game Doom
+Weapon.AmmoGive 10
+Weapon.AmmoUse 1
+Weapon.AmmoUse2 10
+Weapon.AmmoType "Darkmana"
+Weapon.AmmoType2 "Darkmana"
+Weapon.SlotNumber 9
+Inventory.PickupSound "monster/ar2sit"
+Inventory.PickupMessage "You have find the Necronomicon!"
++FLOATBOB
+ConversationID 300
+	States
+	{
+	Spawn:
+	NCRO A -1
+	Loop
+	Ready:
+	NECR A 1 A_WeaponReady
+	Loop
+	Deselect:
+	NECR A 1 A_Lower
+	Loop
+	Select:
+	NECR A 1 A_Raise
+	Loop
+	Fire: //now recolored & more fast!
+	NECR A 20 A_Playsound("Weapons/Incant")
+	NECR B 8
+	NECR C 6
+	NECR D 2
+	NECR E 10 A_FireCustomMissile("NecronomiconGhostEgg",0,1,0,0)
+	NECR D 3
+	NECR C 3
+	NECR B 3
+	NECR A 3
+	Goto Ready
+	AltFire: //now recolored!
+	NECR A 30 A_Playsound("Weapons/Incant")
+	NECR F 10
+	NECR G 8
+	NECR H 2
+	NECR I 16 A_FireCustomMissile("NecronomiconGhostEgg2",0,1,0,0)
+	NECR H 4
+	NECR G 4
+	NECR F 4
+	NECR A 4
+	Goto Ready
+	}
+}
+
+Actor NecronomiconGhostEgg
+{
+Radius 13
+Height 8
+Speed 25
+Damage 0
+SeeSound "Weapons/Spirit1"
+Projectile
+States
+	{
+	Spawn:
+	TNT1 A 5
+	Goto Death
+	Death:
+	TNT1 A 1 A_SpawnItem("NecronomiconGhostHatch",1,0,0)
+	Stop
+	}
+}
+
+Actor NecronomiconGhostEgg2 : NecronomiconGhostEgg
+{
+States
+	{
+	Spawn:
+	TNT1 A 7
+	Goto Death
+	Death:
+	TNT1 A 1 A_SpawnItem("NecronomiconGhostHatch2",1,0,0)
+	Stop
+	}
+}
+
+Actor NecronomiconGhostHatch
+{
+RenderStyle Add
++NOTIMEFREEZE
++NOGRAVITY
++NOCLIP
+States
+	{
+	Spawn:
+	NSP1 JIHGFE 4
+	NSP1 A 4 A_SpawnItem("NecronomiconGhost",1,0,0)
+	Stop
+	}
+}
+
+Actor NecronomiconGhostHatch2 : NecronomiconGhostHatch
+{
+States
+	{
+	Spawn:
+	NSP2 JIHGFE 4
+	NSP2 A 4 A_SpawnItem("NecronomiconGhost2",1,0,0)
+	Stop
+	}
+}
+
+Actor NecronomiconGhost
+{
+Radius 10
+Height 20
+Speed 16
++NOBLOOD
++NOBLOODDECALS
++FRIENDLY
++FLOAT
++LOOKALLAROUND
++NOBLOCKMONST
++NOGRAVITY
++NOTIMEFREEZE
+RenderStyle Add
+DamageType Soul
+States
+	{
+	Spawn:
+	NSP1 AABB 2 A_VileChase
+	Loop
+	Heal:
+	NSP1 EFGHIJ 2
+	Stop
+	}
+}
+
+Actor NecronomiconGhost2
+{
+Health 300
+Radius 16
+Height 56
+Mass 500
+Speed 16
+PainChance 50
++NOBLOOD
++NOBLOODDECALS
++LOOKALLAROUND
++FLOAT
++NORADIUSDMG
++SHOOTABLE
++NOGRAVITY
++NOICEDEATH
++FRIENDLY
++NOBLOCKMONST
++NOTIMEFREEZE
+RenderStyle Add
+DamageType Soul
+States
+	{
+	Spawn:
+	See:
+	NSP2 AABB 2 A_VileChase
+	Loop
+	Melee:
+	NSP2 A 4 A_FaceTarget
+	NSP2 B 2 A_SargAttack
+	NSP2 B 2 A_FaceTarget
+	Goto See
+	Pain:
+	NSP2 AB 2
+	Goto See
+	Heal:
+	NSP2 E 0 A_Die("Reviving")
+	Death.Reviving:
+	NSP2 EFGHIJ 2
+	Stop
+	Death:
+	NSP1 J 0 A_SpawnItem("NecronomiconGhostHatch",1,0,0)
+	NSP1 J 0
+	NSP1 J 0 A_SpawnItem("NecronomiconGhostHatch",1,0,0)
+	Stop
+	}
+}

@@ -1,0 +1,1175 @@
+/////////////////////
+//HERETIC II MODELS//
+/////////////////////
+//carts*****************************************************
+Model WoodenCart
+{
+Path "models\h2"
+Model 0 "cart1.md2"
+Skin 0 "cart1a.png"
+Scale 1.0 1.0 1.0
+INTERPOLATEDOUBLEDFRAMES
+FrameIndex 3DOB A 0 19
+FrameIndex 3DOB B 0 18
+FrameIndex 3DOB C 0 17
+FrameIndex 3DOB D 0 16
+FrameIndex 3DOB E 0 15
+FrameIndex 3DOB F 0 14
+FrameIndex 3DOB G 0 13
+FrameIndex 3DOB H 0 12
+FrameIndex 3DOB I 0 11
+FrameIndex 3DOB J 0 10
+FrameIndex 3DOB K 0 9
+FrameIndex 3DOB L 0 8
+FrameIndex 3DOB M 0 7
+FrameIndex 3DOB N 0 6
+FrameIndex 3DOB O 0 5
+FrameIndex 3DOB P 0 4
+FrameIndex 3DOB Q 0 3
+FrameIndex 3DOB R 0 2
+FrameIndex 3DOB S 0 1
+FrameIndex 3DOB T 0 0
+}
+
+Model MineCartF
+{
+Path "models\h2"
+Model 0 "cart2.md2"
+Skin 0 "cart2a.png"
+Scale 1.0 1.0 1.0
+INTERPOLATEDOUBLEDFRAMES
+FrameIndex 3DOB A 0 19
+FrameIndex 3DOB B 0 18
+FrameIndex 3DOB C 0 17
+FrameIndex 3DOB D 0 16
+FrameIndex 3DOB E 0 15
+FrameIndex 3DOB F 0 14
+FrameIndex 3DOB G 0 13
+FrameIndex 3DOB H 0 12
+FrameIndex 3DOB I 0 11
+FrameIndex 3DOB J 0 10
+FrameIndex 3DOB K 0 9
+FrameIndex 3DOB L 0 8
+FrameIndex 3DOB M 0 7
+FrameIndex 3DOB N 0 6
+FrameIndex 3DOB O 0 5
+FrameIndex 3DOB P 0 4
+FrameIndex 3DOB Q 0 3
+FrameIndex 3DOB R 0 2
+FrameIndex 3DOB S 0 1
+FrameIndex 3DOB T 0 0
+}
+
+Model MineCartE
+{
+Path "models\h2"
+Model 0 "cart2.md2"
+Skin 0 "cart2a.png"
+Scale 1.0 1.0 1.0
+INTERPOLATEDOUBLEDFRAMES
+FrameIndex 3DOB A 0 39
+FrameIndex 3DOB B 0 38
+FrameIndex 3DOB C 0 37
+FrameIndex 3DOB D 0 36
+FrameIndex 3DOB E 0 35
+FrameIndex 3DOB F 0 34
+FrameIndex 3DOB G 0 33
+FrameIndex 3DOB H 0 32
+FrameIndex 3DOB I 0 31
+FrameIndex 3DOB J 0 30
+FrameIndex 3DOB K 0 29
+FrameIndex 3DOB L 0 28
+FrameIndex 3DOB M 0 27
+FrameIndex 3DOB N 0 26
+FrameIndex 3DOB O 0 25
+FrameIndex 3DOB P 0 24
+FrameIndex 3DOB Q 0 23
+FrameIndex 3DOB R 0 22
+FrameIndex 3DOB S 0 21
+FrameIndex 3DOB T 0 20
+}
+
+Model MineCartW
+{
+Path "models\h2"
+Model 0 "cart2.md2"
+Skin 0 "cart2a.png"
+Scale 1.0 1.0 1.0
+INTERPOLATEDOUBLEDFRAMES
+ZOffset -6
+FrameIndex 3DOB A 0 40
+}
+
+Model LightCart
+{
+Path "models\h2"
+Model 0 "cart3.md2"
+Skin 0 "cart3a.png"
+Scale 1.0 1.0 1.0
+INTERPOLATEDOUBLEDFRAMES
+Frame 3DOB A 0 "poly000"
+}
+
+Model SideCart
+{
+Path "models\h2"
+Model 0 "cart3.md2"
+Skin 0 "cart3a.png"
+Scale 1.0 1.0 1.0
+INTERPOLATEDOUBLEDFRAMES
+Frame 3DOB A 0 "poly001"
+}
+
+//crystals**************************************************
+Model CrystalBlue
+{
+Path "models\h2"
+Model 0 "crystal.md2"
+Skin 0 "crystal1a.png"
+Scale 1.0 1.0 1.0
+ZOffset 48
+FrameIndex 3DOB A 0 0
+}
+
+Model CrystalGreen
+{
+Path "models\h2"
+Model 0 "crystal.md2"
+Skin 0 "crystal1b.png"
+Scale 1.0 1.0 1.0
+ZOffset 48
+FrameIndex 3DOB A 0 0
+}
+
+Model CrystalRed
+{
+Path "models\h2"
+Model 0 "crystal.md2"
+Skin 0 "crystal1c.png"
+Scale 1.0 1.0 1.0
+ZOffset 48
+FrameIndex 3DOB A 0 0
+}
+
+//Banners***************************************************
+Model Banner1A
+{
+Path "models\h2"
+Model 0 "banner1.md2"
+Skin 0 "banner1a.png"
+Scale 1.0 1.0 1.0
+INTERPOLATEDOUBLEDFRAMES
+FrameIndex 3DOB A 0 0
+FrameIndex 3DOB B 0 1
+FrameIndex 3DOB C 0 2
+FrameIndex 3DOB D 0 3
+FrameIndex 3DOB E 0 4
+FrameIndex 3DOB F 0 5
+FrameIndex 3DOB G 0 6
+FrameIndex 3DOB H 0 7
+FrameIndex 3DOB I 0 8
+FrameIndex 3DOB J 0 9
+FrameIndex 3DOB K 0 10
+FrameIndex 3DOB L 0 11
+FrameIndex 3DOB M 0 12
+FrameIndex 3DOB N 0 13
+FrameIndex 3DOB O 0 14
+FrameIndex 3DOB P 0 15
+FrameIndex 3DOB Q 0 16
+FrameIndex 3DOB R 0 17
+FrameIndex 3DOB S 0 18
+FrameIndex 3DOB T 0 19
+FrameIndex 3DOB U 0 20
+}
+
+Model Banner2A //modified md2 +quake4 Strogg skin!
+{
+Path "models\h2"
+Model 0 "banner2.md2"
+Skin 0 "banner2a.png"
+Scale 1.0 1.0 1.0
+INTERPOLATEDOUBLEDFRAMES
+FrameIndex 3DOB A 0 0
+FrameIndex 3DOB B 0 1
+FrameIndex 3DOB C 0 2
+FrameIndex 3DOB D 0 3
+FrameIndex 3DOB E 0 4
+FrameIndex 3DOB F 0 5
+FrameIndex 3DOB G 0 6
+FrameIndex 3DOB H 0 7
+FrameIndex 3DOB I 0 8
+FrameIndex 3DOB J 0 9
+FrameIndex 3DOB K 0 10
+FrameIndex 3DOB L 0 11
+FrameIndex 3DOB M 0 12
+FrameIndex 3DOB N 0 13
+FrameIndex 3DOB O 0 14
+}
+
+Model Banner3A //modified md2 +quake4 Strogg skin!
+{
+Path "models\h2"
+Model 0 "banner3.md2"
+Skin 0 "banner3a.png"
+Scale 1.0 1.0 1.0
+INTERPOLATEDOUBLEDFRAMES
+FrameIndex 3DOB A 0 0
+FrameIndex 3DOB B 0 1
+FrameIndex 3DOB C 0 2
+FrameIndex 3DOB D 0 3
+FrameIndex 3DOB E 0 4
+FrameIndex 3DOB F 0 5
+FrameIndex 3DOB G 0 6
+FrameIndex 3DOB H 0 7
+FrameIndex 3DOB I 0 8
+FrameIndex 3DOB J 0 9
+FrameIndex 3DOB K 0 10
+FrameIndex 3DOB L 0 11
+FrameIndex 3DOB M 0 12
+FrameIndex 3DOB N 0 13
+FrameIndex 3DOB O 0 14
+}
+
+Model Banner3B //modified md2 +quake4 Strogg skin!
+{
+Path "models\h2"
+Model 0 "banner3.md2"
+Skin 0 "banner3b.png"
+Scale 1.0 1.0 1.0
+INTERPOLATEDOUBLEDFRAMES
+FrameIndex 3DOB A 0 0
+FrameIndex 3DOB B 0 1
+FrameIndex 3DOB C 0 2
+FrameIndex 3DOB D 0 3
+FrameIndex 3DOB E 0 4
+FrameIndex 3DOB F 0 5
+FrameIndex 3DOB G 0 6
+FrameIndex 3DOB H 0 7
+FrameIndex 3DOB I 0 8
+FrameIndex 3DOB J 0 9
+FrameIndex 3DOB K 0 10
+FrameIndex 3DOB L 0 11
+FrameIndex 3DOB M 0 12
+FrameIndex 3DOB N 0 13
+FrameIndex 3DOB O 0 14
+}
+
+//statues***************************************************
+//pisces
+Model Pisces
+{
+Path "models\h2"
+Model 0 "pisces.md2"
+Skin 0 "pisces1a.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+//boulder fish
+Model BoldFish
+{
+Path "models\h2"
+Model 0 "bfish.md2"
+Skin 0 "bfish1a.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+//duckbill
+Model DuckBillL
+{
+Path "models\h2"
+Model 0 "duckbill.md2"
+Skin 0 "duckbill1a.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model DuckBillR
+{
+Path "models\h2"
+Model 0 "duckbill.md2"
+Skin 0 "duckbill1a.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 1
+}
+
+//dragon
+Model SDragonL
+{
+Path "models\h2"
+Model 0 "sdragon.md2"
+Skin 0 "sdragon1a.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model SDragonR
+{
+Path "models\h2"
+Model 0 "sdragon.md2"
+Skin 0 "sdragon1a.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 1
+}
+
+//vegetation************************************************
+//plants
+Model Plant1
+{
+Path "models\h2"
+Model 0 "plant1.md2"
+Skin 0 "plant1a.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model Plant2
+{
+Path "models\h2"
+Model 0 "plant2.md2"
+Skin 0 "plant2a.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model Plant3a
+{
+Path "models\h2"
+Model 0 "plant3.md2"
+Skin 0 "plant3a.png"
+Scale 7.0 7.0 7.0
+//ZOffset 32
+FrameIndex 3DOB A 0 0
+}
+
+Model Plant3b
+{
+Path "models\h2"
+Model 0 "plant3.md2"
+Skin 0 "plant3b.png"
+Scale 7.0 7.0 7.0
+FrameIndex 3DOB A 0 0
+}
+
+Model Plant3c
+{
+Path "models\h2"
+Model 0 "plant3.md2"
+Skin 0 "plant3c.png"
+Scale 7.0 7.0 7.0
+FrameIndex 3DOB A 0 0
+}
+
+//grass
+Model Grass
+{
+Path "models\h2"
+Model 0 "grass.md2"
+Skin 0 "grass1a.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+//bush
+Model Bush1a
+{
+Path "models\h2"
+Model 0 "bush1.md2"
+Skin 0 "bush1a.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model Bush1b
+{
+Path "models\h2"
+Model 0 "bush1.md2"
+Skin 0 "bush1b.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model Bush2
+{
+Path "models\h2"
+Model 0 "bush2.md2"
+Skin 0 "bush2a.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+//cactus
+Model Cactus1a
+{
+Path "models\h2"
+Model 0 "cactus1.md2"
+Skin 0 "cactus1a.png"
+Scale 1.0 1.0 1.0
+Frame 3DOB A 0 "poly000"
+}
+
+Model Cactus1b
+{
+Path "models\h2"
+Model 0 "cactus1.md2"
+Skin 0 "cactus1a.png"
+Scale 1.0 1.0 1.0
+ZOffSet -8
+Frame 3DOB A 0 "poly001"
+}
+
+Model Cactus2
+{
+Path "models\h2"
+Model 0 "cactus2.md2"
+Skin 0 "cactus2a.png"
+Scale 1.0 1.0 1.0
+ZOffSet -4
+FrameIndex 3DOB A 0 0
+}
+
+Model Cactus3
+{
+Path "models\h2"
+Model 0 "cactus3.md2"
+Skin 0 "cactus3a.png"
+Scale 1.0 1.0 1.0
+INTERPOLATEDOUBLEDFRAMES
+FrameIndex 3DOB A 0 0
+FrameIndex 3DOB B 0 1
+FrameIndex 3DOB C 0 2
+FrameIndex 3DOB D 0 3
+FrameIndex 3DOB E 0 4
+FrameIndex 3DOB F 0 5
+FrameIndex 3DOB G 0 6
+FrameIndex 3DOB H 0 7
+FrameIndex 3DOB I 0 8
+FrameIndex 3DOB J 0 9
+FrameIndex 3DOB K 0 10
+FrameIndex 3DOB L 0 11
+FrameIndex 3DOB M 0 12
+FrameIndex 3DOB N 0 13
+FrameIndex 3DOB O 0 14
+FrameIndex 3DOB P 0 15
+FrameIndex 3DOB Q 0 16
+FrameIndex 3DOB P 0 15
+FrameIndex 3DOB O 0 14
+FrameIndex 3DOB N 0 13
+FrameIndex 3DOB M 0 12
+FrameIndex 3DOB L 0 11
+FrameIndex 3DOB K 0 10
+FrameIndex 3DOB J 0 9
+FrameIndex 3DOB I 0 8
+FrameIndex 3DOB H 0 7
+FrameIndex 3DOB G 0 6
+FrameIndex 3DOB F 0 5
+FrameIndex 3DOB E 0 4
+FrameIndex 3DOB D 0 3
+FrameIndex 3DOB C 0 2
+FrameIndex 3DOB B 0 1
+}
+
+//scenery***************************************************
+Model H2Stal1a
+{
+Path "Models/h2"
+Model 0 "h2stal1.md2"
+Skin 0 "h2stal1a.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model H2Stag1a
+{
+Path "Models/h2"
+Model 0 "h2stag1.md2"
+Skin 0 "h2stal1a.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model H2Stal1b
+{
+Path "Models/h2"
+Model 0 "h2stal1.md2"
+Skin 0 "h2stal1b.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model H2Stag1b
+{
+Path "Models/h2"
+Model 0 "h2stag1.md2"
+Skin 0 "h2stal1b.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model H2Stal2a
+{
+Path "Models/h2"
+Model 0 "h2stal2.md2"
+Skin 0 "h2stal2a.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model H2Stag2a
+{
+Path "Models/h2"
+Model 0 "h2stag2.md2"
+Skin 0 "h2stal2a.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model H2Stal2b
+{
+Path "Models/h2"
+Model 0 "h2stal2.md2"
+Skin 0 "h2stal2b.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model H2Stag2b
+{
+Path "Models/h2"
+Model 0 "h2stag2.md2"
+Skin 0 "h2stal2b.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model H2Stal3a
+{
+Path "Models/h2"
+Model 0 "h2stal3.md2"
+Skin 0 "h2stal3a.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model H2Stag3a
+{
+Path "Models/h2"
+Model 0 "h2stag3.md2"
+Skin 0 "h2stal3a.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model H2Stal3b
+{
+Path "Models/h2"
+Model 0 "h2stal3.md2"
+Skin 0 "h2stal3b.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model H2Stag3b
+{
+Path "Models/h2"
+Model 0 "h2stag3.md2"
+Skin 0 "h2stal3b.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+//misc******************************************************
+//shrine
+Model H2Shrine
+{
+Path "models\h2"
+Model 0 "shrine.md2"
+Skin 0 "shrine1a.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+//**********************************************************
+///////////////////
+//HEXEN II MODELS//
+///////////////////
+//vegetation************************************************
+//trees
+Model X2Tree1
+{
+Path "models\x2"
+Model 0 "tree1.md2"
+Skin 0 "tree1a.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model X2Tree2
+{
+Path "models\x2"
+Model 0 "tree2.md2"
+Skin 0 "tree2a.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+//statues***************************************************
+//caesar
+Model Caesar
+{
+Path "models\x2"
+Model 0 "caesar.md2"
+Skin 0 "caesar1a.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+//lion
+Model Lion
+{
+Path "models\x2"
+Model 0 "lion.md2"
+Skin 0 "lion1a.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+//king
+Model King
+{
+Path "models\x2"
+Model 0 "king.md2"
+Skin 0 "king1a.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+//carts*****************************************************
+Model SimpleCart
+{
+Path "models/x2"
+Model 0 "scart.md2"
+Skin 0 "scart1a.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+//bells*****************************************************
+Model Bell
+{
+Path "models/x2"
+Model 0 "bell.md2"
+Skin 0 "bell1a.png"
+Scale 0.5 0.5 0.5
+ZOffset 80
+FrameIndex 3DOB A 0 0
+FrameIndex 3DOB A 0 1
+FrameIndex 3DOB B 0 2
+FrameIndex 3DOB C 0 3
+FrameIndex 3DOB D 0 4
+FrameIndex 3DOB E 0 5
+FrameIndex 3DOB F 0 6
+FrameIndex 3DOB G 0 7
+FrameIndex 3DOB H 0 8
+FrameIndex 3DOB I 0 9
+FrameIndex 3DOB J 0 10
+FrameIndex 3DOB K 0 11
+FrameIndex 3DOB L 0 12
+FrameIndex 3DOB M 0 13
+FrameIndex 3DOB N 0 14
+FrameIndex 3DOB O 0 15
+FrameIndex 3DOB P 0 16
+FrameIndex 3DOB Q 0 17
+FrameIndex 3DOB R 0 18
+FrameIndex 3DOB S 0 19
+FrameIndex 3DOB T 0 20
+FrameIndex 3DOB U 0 21
+FrameIndex 3DOB V 0 22
+FrameIndex 3DOB W 0 23
+FrameIndex 3DOB X 0 24
+FrameIndex 3DOB Y 0 25
+FrameIndex 3DOB Z 0 26
+FrameIndex 3DOB A 0 27
+FrameIndex 3DOB B 0 28
+FrameIndex 3DOB C 0 29
+FrameIndex 3DOB D 0 30
+FrameIndex 3DOB E 0 31
+}
+
+Model iuBell
+{
+Path "models/x2"
+Model 0 "bell.md2"
+Skin 0 "bell1a.png"
+Scale 0.5 0.5 0.5
+ZOffset 80
+FrameIndex 3DOB A 0 0
+FrameIndex 3DOB A 0 1
+FrameIndex 3DOB B 0 2
+FrameIndex 3DOB C 0 3
+FrameIndex 3DOB D 0 4
+FrameIndex 3DOB E 0 5
+FrameIndex 3DOB F 0 6
+FrameIndex 3DOB G 0 7
+FrameIndex 3DOB H 0 8
+FrameIndex 3DOB I 0 9
+FrameIndex 3DOB J 0 10
+FrameIndex 3DOB K 0 11
+FrameIndex 3DOB L 0 12
+FrameIndex 3DOB M 0 13
+FrameIndex 3DOB N 0 14
+FrameIndex 3DOB O 0 15
+FrameIndex 3DOB P 0 16
+FrameIndex 3DOB Q 0 17
+FrameIndex 3DOB R 0 18
+FrameIndex 3DOB S 0 19
+FrameIndex 3DOB T 0 20
+FrameIndex 3DOB U 0 21
+FrameIndex 3DOB V 0 22
+FrameIndex 3DOB W 0 23
+FrameIndex 3DOB X 0 24
+FrameIndex 3DOB Y 0 25
+FrameIndex 3DOB Z 0 26
+FrameIndex 3DOB A 0 27
+FrameIndex 3DOB B 0 28
+FrameIndex 3DOB C 0 29
+FrameIndex 3DOB D 0 30
+FrameIndex 3DOB E 0 31
+}
+
+Model ibBell
+{
+Path "models/x2"
+Model 0 "bell.md2"
+Skin 0 "bell1a.png"
+Scale 0.5 0.5 0.5
+ZOffset 80
+FrameIndex 3DOB A 0 0
+FrameIndex 3DOB A 0 1
+FrameIndex 3DOB B 0 2
+FrameIndex 3DOB C 0 3
+FrameIndex 3DOB D 0 4
+FrameIndex 3DOB E 0 5
+FrameIndex 3DOB F 0 6
+FrameIndex 3DOB G 0 7
+FrameIndex 3DOB H 0 8
+FrameIndex 3DOB I 0 9
+FrameIndex 3DOB J 0 10
+FrameIndex 3DOB K 0 11
+FrameIndex 3DOB L 0 12
+FrameIndex 3DOB M 0 13
+FrameIndex 3DOB N 0 14
+FrameIndex 3DOB O 0 15
+FrameIndex 3DOB P 0 16
+FrameIndex 3DOB Q 0 17
+FrameIndex 3DOB R 0 18
+FrameIndex 3DOB S 0 19
+FrameIndex 3DOB T 0 20
+FrameIndex 3DOB U 0 21
+FrameIndex 3DOB V 0 22
+FrameIndex 3DOB W 0 23
+FrameIndex 3DOB X 0 24
+FrameIndex 3DOB Y 0 25
+FrameIndex 3DOB Z 0 26
+FrameIndex 3DOB A 0 27
+FrameIndex 3DOB B 0 28
+FrameIndex 3DOB C 0 29
+FrameIndex 3DOB D 0 30
+FrameIndex 3DOB E 0 31
+}
+
+//barrels***************************************************
+Model Barrel1a //normal
+{
+Path "models/x2"
+Model 0 "barrels.md2"
+Skin 0 "barrel1a.png"
+Scale 1.0 1.0 1.0
+Frame 3DOB A 0 "resting000"
+}
+
+Model Barrel1b
+{
+Path "models/x2"
+Model 0 "barrels.md2"
+Skin 0 "barrel1a.png"
+Scale 1.0 1.0 1.0
+ZOffset 12
+Frame 3DOB A 0 "onside000"
+}
+
+Model Barrel2a //poison
+{
+Path "models/x2"
+Model 0 "barrels.md2"
+Skin 0 "barrel1b.png"
+Scale 1.0 1.0 1.0
+Frame 3DOB A 0 "resting000"
+}
+
+Model Barrel2b
+{
+Path "models/x2"
+Model 0 "barrels.md2"
+Skin 0 "barrel1b.png"
+Scale 1.0 1.0 1.0
+ZOffset 12
+Frame 3DOB A 0 "onside000"
+}
+
+Model Barrel3a //pyro
+{
+Path "models/x2"
+Model 0 "barrels.md2"
+Skin 0 "barrel1c.png"
+Scale 1.0 1.0 1.0
+Frame 3DOB A 0 "resting000"
+}
+
+Model Barrel3b
+{
+Path "models/x2"
+Model 0 "barrels.md2"
+Skin 0 "barrel1c.png"
+Scale 1.0 1.0 1.0
+ZOffset 12
+Frame 3DOB A 0 "onside000"
+}
+
+//**********************************************************
+//////////////////////
+//JEDIKNIGHT3 MODELS//
+//////////////////////
+//scenery***************************************************
+//stalags
+Model JK3Stag1a //icy
+{
+Path "Models/jk3"
+Model 0 "jk3stag1.md2"
+Skin 0 "icystals.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model JK3Stag2a
+{
+Path "Models/jk3"
+Model 0 "jk3stag2.md2"
+Skin 0 "icystals.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model JK3Stag3a
+{
+Path "Models/jk3"
+Model 0 "jk3stag3.md2"
+Skin 0 "icystals.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model JK3Stal1a
+{
+Path "Models/jk3"
+Model 0 "jk3stal1.md2"
+Skin 0 "icystals.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model JK3Stal2a
+{
+Path "Models/jk3"
+Model 0 "jk3stal2.md2"
+Skin 0 "icystals.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model JK3Stal3a
+{
+Path "Models/jk3"
+Model 0 "jk3stal3.md2"
+Skin 0 "icystals.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model JK3Stag1b //rocky
+{
+Path "Models/jk3"
+Model 0 "jk3stag1.md2"
+Skin 0 "rokstals.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model JK3Stag2b
+{
+Path "Models/jk3"
+Model 0 "jk3stag2.md2"
+Skin 0 "rokstals.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model JK3Stag3b
+{
+Path "Models/jk3"
+Model 0 "jk3stag3.md2"
+Skin 0 "rokstals.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model JK3Stal1b
+{
+Path "Models/jk3"
+Model 0 "jk3stal1.md2"
+Skin 0 "rokstals.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model JK3Stal2b
+{
+Path "Models/jk3"
+Model 0 "jk3stal2.md2"
+Skin 0 "rokstals.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model JK3Stal3b
+{
+Path "Models/jk3"
+Model 0 "jk3stal3.md2"
+Skin 0 "rokstals.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+//minerals
+Model JK3MineralsG1
+{
+Path "Models/jk3"
+Model 0 "minerals1.md2"
+Skin 0 "minerals1.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model JK3MineralsR1
+{
+Path "Models/jk3"
+Model 0 "minerals1.md2"
+Skin 0 "minerals2.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model JK3MineralsB1
+{
+Path "Models/jk3"
+Model 0 "minerals1.md2"
+Skin 0 "minerals3.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model JK3MineralsG2
+{
+Path "Models/jk3"
+Model 0 "minerals2.md2"
+Skin 0 "minerals1.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model JK3MineralsR2
+{
+Path "Models/jk3"
+Model 0 "minerals2.md2"
+Skin 0 "minerals2.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model JK3MineralsB2
+{
+Path "Models/jk3"
+Model 0 "minerals2.md2"
+Skin 0 "minerals3.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model JK3MineralsG3
+{
+Path "Models/jk3"
+Model 0 "minerals3.md2"
+Skin 0 "minerals1.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model JK3MineralsR3
+{
+Path "Models/jk3"
+Model 0 "minerals3.md2"
+Skin 0 "minerals2.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+Model JK3MineralsB3
+{
+Path "Models/jk3"
+Model 0 "minerals3.md2"
+Skin 0 "minerals3.png"
+Scale 1.0 1.0 1.0
+FrameIndex 3DOB A 0 0
+}
+
+//vegetation************************************************
+Model JK3Tree1
+{
+Path "Models/jk3"
+Model 0 "yav1a.md2"
+Skin 0 "yav1a.png"
+Scale 1.0 1.0 1.0
+Model 1 "yav1b.md2"
+Skin 1 "yav1bc.png"
+Scale 1.0 1.0 1.0
+Model 2 "yav1c.md2"
+Skin 2 "yav1bc.png"
+Scale 1.0 1.0 1.0
+Model 3 "yav1d.md2"
+Skin 3 "yav1d.png"
+Scale 1.0 1.0 1.0
+ZOffSet 212
+FrameIndex 3DOB A 0 0
+}
+
+Model JK3Tree2
+{
+Path "Models/jk3"
+Model 0 "yav2a.md2"
+Skin 0 "yav2abc.png"
+Scale 1.0 1.0 1.0
+Model 1 "yav2b.md2"
+Skin 1 "yav2abc.png"
+Scale 1.0 1.0 1.0
+Model 2 "yav2c.md2"
+Skin 2 "yav2abc.png"
+Scale 1.0 1.0 1.0
+Model 3 "yav2d.md2"
+Skin 3 "yav2d.png"
+Scale 1.0 1.0 1.0
+ZOffSet 220
+FrameIndex 3DOB A 0 0
+}
+
+Model JK3Tree3
+{
+Path "Models/jk3"
+Model 0 "yav3a.md2"
+Skin 0 "yav3a.png"
+Scale 1.0 1.0 1.0
+Model 1 "yav3b.md2"
+Skin 1 "yav3b.png"
+Scale 1.0 1.0 1.0
+ZOffSet 208
+FrameIndex 3DOB A 0 0
+}
+
+Model JK3Tree4
+{
+Path "Models/jk3"
+Model 0 "yav4a.md2"
+Skin 0 "yav4a.png"
+Scale 1.0 1.0 1.0
+Model 1 "yav4b.md2"
+Skin 1 "yav4b.png"
+Scale 1.0 1.0 1.0
+ZOffSet 180
+FrameIndex 3DOB A 0 0
+}
+////////////////
+//QUAKE MODELS//
+////////////////
+//monsters**************************************************
+Model Shubbie
+{
+Path "models\q1"
+Model 0 "oldone.md2"
+Skin 0 "yog.png"
+Scale 1.0 1.0 1.0
+//INTERPOLATEDOUBLEDFRAMES
+FrameIndex 3DOB A 0 0 //standing
+FrameIndex 3DOB B 0 1
+FrameIndex 3DOB C 0 2
+FrameIndex 3DOB D 0 3
+FrameIndex 3DOB E 0 4
+FrameIndex 3DOB F 0 5
+FrameIndex 3DOB G 0 6
+FrameIndex 3DOB H 0 7
+FrameIndex 3DOB I 0 8
+FrameIndex 3DOB J 0 9
+FrameIndex 3DOB K 0 10
+FrameIndex 3DOB L 0 11
+FrameIndex 3DOB M 0 12
+FrameIndex 3DOB N 0 13
+FrameIndex 3DOB O 0 14
+FrameIndex 3DOB P 0 15
+FrameIndex 3DOB Q 0 16
+FrameIndex 3DOB R 0 17
+FrameIndex 3DOB S 0 18
+FrameIndex 3DOB T 0 19
+FrameIndex 3DOB U 0 20
+FrameIndex 3DOB V 0 21
+FrameIndex 3DOB W 0 22
+FrameIndex 3DOB X 0 23
+FrameIndex 3DOB Y 0 24
+FrameIndex 3DOB Z 0 25
+FrameIndex 4DOB A 0 26
+FrameIndex 4DOB B 0 27
+FrameIndex 4DOB C 0 28
+FrameIndex 4DOB D 0 29
+FrameIndex 4DOB E 0 30
+FrameIndex 4DOB F 0 31
+FrameIndex 4DOB G 0 32
+FrameIndex 4DOB H 0 33
+FrameIndex 4DOB I 0 34
+FrameIndex 4DOB J 0 35
+FrameIndex 4DOB K 0 36
+FrameIndex 4DOB L 0 37
+FrameIndex 4DOB M 0 38
+FrameIndex 4DOB N 0 39
+FrameIndex 4DOB O 0 40
+FrameIndex 4DOB P 0 41
+FrameIndex 4DOB Q 0 42
+FrameIndex 4DOB R 0 43
+FrameIndex 4DOB S 0 44
+FrameIndex 4DOB T 0 45
+Frame 5DOB A 0 "shake000" //shaking
+Frame 5DOB B 0 "shake001"
+Frame 5DOB C 0 "shake002"
+Frame 5DOB D 0 "shake003"
+Frame 5DOB E 0 "shake004"
+Frame 5DOB F 0 "shake005"
+Frame 5DOB G 0 "shake006"
+Frame 5DOB H 0 "shake007"
+Frame 5DOB I 0 "shake008"
+Frame 5DOB J 0 "shake009"
+Frame 5DOB K 0 "shake010"
+Frame 5DOB L 0 "shake011"
+Frame 5DOB M 0 "shake012"
+Frame 5DOB N 0 "shake013"
+Frame 5DOB O 0 "shake014"
+Frame 5DOB P 0 "shake015"
+Frame 5DOB Q 0 "shake016"
+Frame 5DOB R 0 "shake017" //dying
+Frame 5DOB S 0 "shake018"
+Frame 5DOB T 0 "shake019"
+}

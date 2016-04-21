@@ -1,0 +1,54 @@
+//health & +shootable for NashGores;
+Actor BurningCorpse1 32116
+{
+//$Category New Obstacles
+//$Sprite BAVEA0
+Tag "Doom Burning Corpse 1"
+Game Doom
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
++SOLID
+Radius 8
+Height 108
+States
+	{
+	Spawn:
+	TNT1 A 0 NoDelay A_JumpIf(CallACS("Cinders")==1,"Advanced")
+	BAVE ABCD 4 Bright
+	Loop
+	Advanced:
+	BAVE ABCD 4 Bright A_SpawnItemEx("FloatingCinder", 0, 0, 16, 1, 0, random (1, 3), random (0, 360), 0, 224)
+	Goto Spawn
+	Inactive:
+	ALVE A 1
+	Loop
+	}
+}
+
+Actor BurningCorpse2 32117
+{
+//$Category New Obstacles
+//$Sprite BAV2A0
+Tag "Doom Burning Corpse 2"
+Game Doom
+Mass 0x7fffffff
+Health -1
++SHOOTABLE
++SOLID
+Radius 8
+Height 108
+States
+	{
+	Spawn:
+	TNT1 A 0 NoDelay A_JumpIf(CallACS("Cinders")==1,"Advanced")
+	BAV2 ABCD 4 Bright
+	Loop
+	Advanced:
+	BAV2 ABCD 4 Bright A_SpawnItemEx("FloatingCinder", 0, 0, 16, 1, 0, random (1, 3), random (0, 360), 0, 224)
+	Goto Spawn
+	Inactive:
+	ALV2 A 1
+	Loop
+	}
+}

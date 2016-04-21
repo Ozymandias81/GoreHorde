@@ -1,0 +1,33 @@
+Actor GuardsphereST : PowerupGiver 32270
+{
+//$Category New Powerups
+tag "Guard Sphere"
+Game Doom
+Inventory.MaxAmount 0
+Powerup.Type QuarterDamageST
+Powerup.Color GreenMap
+Inventory.PickupMessage "Guardsphere"
+Inventory.PickUpSound "powups/guard"
++FLOATBOB
++COUNTITEM
++NOGRAVITY
++INVENTORY.AUTOACTIVATE
++INVENTORY.ALWAYSPICKUP
+ConversationID 337
+States
+	{
+	Spawn:
+	GARD ABCD 6 Bright
+	Loop
+	}
+}
+
+Actor PowerQuarterDamageST : PowerProtection
+{
+Damagefactor Normal, 0.25
+Damagefactor Fire, 0.25
+Damagefactor Ice, 0.25
+Damagefactor Poison, 0.25
+Damagefactor PoisonCloud, 0.25
+Damagefactor Soul, 0.25
+}

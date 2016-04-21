@@ -1,0 +1,24 @@
+ACTOR ShieldSphere : PowerupGiver 12763
+{
+//$Category New Powerups
+Tag "Shield Sphere"
+Game Doom
+Inventory.MaxAmount 0
+Powerup.Type "Invulnerable"
+Powerup.Mode "Reflective"
+Powerup.Color GoldMap
+Inventory.PickupMessage "Shield Sphere!"
+Inventory.PickUpSound "powups/sphere"
++FLOATBOB
++COUNTITEM
++INVENTORY.AUTOACTIVATE
++INVENTORY.ALWAYSPICKUP
++INVENTORY.BIGPOWERUP
+ConversationID 341
+States
+	{
+	Spawn:
+	SPOT ABCDCB 3 Bright
+	Loop
+	}
+}

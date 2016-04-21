@@ -1,0 +1,16 @@
+ACTOR BonePile 32113
+{
+//$Category New Decorations
+Tag "Bone Pile"
+Game Doom
+Radius 24
+Height 24
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	SBON A -1
+	Stop
+	}
+}

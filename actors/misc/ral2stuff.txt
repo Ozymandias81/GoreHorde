@@ -1,0 +1,53 @@
+//some useful ral22 stuff for climb effect - not used for now
+ACTOR Fist2 : Weapon
+{
+Obituary "This is not a real gun."
+Tag "A Rockin' Set of Rain Fists"
+var int user_leap;
+States
+	{
+	Ready:
+	PUNG A 1 A_WeaponReady(14)
+	TNT1 A 0 A_JumpIfInventory("Leap_Item", 1, "ClimbOver")
+	Loop
+	Deselect:
+	PUNG A 1 A_Lower
+	Loop
+	Select:
+	PUNG A 1 A_Raise
+	Loop
+	Fire:
+	PUNG A 1
+	Goto Ready
+	ClimbOver:
+	PUNG A 1 Offset(-4,40)
+	PUNG A 1 Offset(-8,48)
+	PUNG A 1 Offset(-12,56)
+	TNT1 A 0 Offset(0,32)
+	TNT1 A 5
+	KEKE ABCDEFGH 2
+	TNT1 A 0 A_TakeInventory("Leap_Item", 1)
+	TNT1 A 10
+	PUNG A 1 Offset(0,56)
+	PUNG A 1 Offset(0,48)
+	PUNG A 1 Offset(0,40)
+	TNT1 A 0 Offset(0,32)
+	Goto Ready
+	}
+}
+
+Actor GenericItem : PuzzleItem
+{
+-INVBAR
++UNDROPPABLE
+Inventory.MaxAmount 1
+Inventory.Icon TNT1A0
+States
+	{
+	Spawn:
+	TNT1 A 4
+	Loop
+	}
+}
+
+Actor Leap_Item : GenericItem { Inventory.MaxAmount 1 }

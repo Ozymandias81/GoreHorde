@@ -1,0 +1,47 @@
+ACTOR Flashlight : Weapon 14071
+{
+//$Category New Weapons
+Game Doom
+Tag "Flashlight"
+Height 8
+Radius 8
+Weapon.AmmoUse 1
+Weapon.AmmoGive 250
+Weapon.AmmoType "Batteries"
+Inventory.PickUpSound "weapons/flitpk"
+Inventory.PickupMessage "You have find a flashlight"
++WEAPON.NOAUTOFIRE
++BLOODLESSIMPACT
++NOALERT
+ConversationID 301
+States
+	{
+	Spawn:
+	FLIT A -1
+	Stop
+	Ready:
+	FLSH A 1 A_WeaponReady
+	Loop
+	Deselect:
+	FLSH A 0 A_Lower
+	FLSH A 0 A_Lower
+	FLSH A 2 A_Lower
+	Loop
+	Select:
+	FLSH A 0 A_Raise
+	FLSH A 0 A_Raise
+	FLSH A 1 A_Raise
+	Loop
+	Fire:
+	FLSH B 0 BRIGHT A_PlaySound("weapons/fliton")
+	FLSH B 1 BRIGHT
+	goto Hold
+	Hold:
+	FLSH B 1 A_GunFlash
+	FLSH B 0 BRIGHT A_FireCustomMissile("FlashClose",0,0,0,0)
+	FLSH B 0 BRIGHT A_FireCustomMissile("FlashBeam",0,1,0,0)
+	FLSH B 0 BRIGHT A_Refire
+	FLSH B 1 BRIGHT A_PlaySound("weapons/flitoff")
+	Goto Ready
+	}
+}

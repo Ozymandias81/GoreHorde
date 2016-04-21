@@ -1,0 +1,96 @@
+//Some sequenced sound from Quake
+:Floor
+	playuntildone	misc/movers/liftAo
+	playrepeat		misc/movers/liftAo
+	stopsound		misc/movers/liftAc
+end
+
+:CeilingNormal
+	playuntildone	misc/movers/liftAo
+	playrepeat		misc/movers/liftAo
+	stopsound		misc/movers/liftAc
+end
+
+:CeilingSemiSilent
+	playuntildone	misc/movers/liftAo
+	playrepeat		misc/movers/liftAo
+	stopsound		misc/movers/liftAc
+end
+
+:QuakeDoor1
+	door	0
+	platform 0
+	playuntildone	misc/movers/doorAo
+	playrepeat		misc/movers/doorAo
+	stopsound		misc/movers/doorAc
+end
+
+//Some seqs snds from Heretic II
+:HR2WoodenDoorOpen1
+	door	1
+	 play		misc/movers/wood1o
+	 nostopcutoff
+end
+
+:HR2WoodenDoorClose1
+	door	2
+	 play		misc/movers/wood1c
+	 nostopcutoff
+end
+
+:HR2Plat1
+	platform 1
+	playuntildone	misc/movers/liftBo
+	playrepeat		misc/movers/liftBm
+	stopsound		misc/movers/liftBc
+end
+/*
+//Doom Doors - base from zdoom.pk3
+:DoorOpenNormal
+	play		doors/dr1_open
+	nostopcutoff
+end
+
+:DoorCloseNormal
+	play		doors/dr1_clos
+	nostopcutoff
+end
+
+:DoorOpenBlazing
+	play		doors/dr2_open
+	nostopcutoff
+end
+
+:DoorCloseBlazing
+	play		doors/dr2_clos
+	nostopcutoff
+end
+
+[DoorNormal
+	0		DoorOpenNormal
+	1		DoorCloseNormal
+	2		DoorOpenBlazing
+	3		DoorCloseBlazing
+]
+
+//Not Doors - base from zdoom.pk3
+:CeilingNormal
+	playrepeat	plats/pt1_mid
+end
+
+:CeilingSemiSilent
+	stopsound	plats/pt1_stop
+end
+
+:Floor
+	playrepeat	plats/pt1_mid
+	stopsound	plats/pt1_stop
+end
+
+:Platform
+	playuntildone   plats/pt1_strt
+	stopsound	plats/pt1_stop
+end
+
+:Silence
+end*/

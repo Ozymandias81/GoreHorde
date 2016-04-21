@@ -1,0 +1,98 @@
+actor RatSpawner 12343 //Added 10/25/50rats states
+{
+//$Category Special Effects
+//$Sprite RATSA2A8
+Tag "Rat Spawner"
+Game Doom
+Radius 2
+Height 2
++NOINTERACTION
+States
+	{
+	Spawn:
+	TNT1 A 0
+	TNT1 A 0 A_JumpIf(Args[0] == 1, "1Rat")
+	TNT1 A 0 A_JumpIf(Args[0] == 2, "2Rats")
+	TNT1 A 0 A_JumpIf(Args[0] == 3, "3Rats")
+	TNT1 A 0 A_JumpIf(Args[0] == 4, "4Rats")
+	TNT1 A 0 A_JumpIf(Args[0] == 5, "5Rats")
+	TNT1 A 0 A_JumpIf(Args[0] == 6, "10Rats")
+	TNT1 A 0 A_JumpIf(Args[0] == 7, "25Rats")
+	TNT1 A 0 A_JumpIf(Args[0] == 8, "50Rats") //WTF!?
+	1Rat:
+	TNT1 A 1 A_SpawnItemEx ("ScurryRat", random (-Args[1], Args[1]), 0, 0, 0, 0, 0, random(0,360), 0)
+	stop
+	2Rats:
+	TNT1 A 1
+	TNT1 AA 0 A_SpawnItemEx ("ScurryRat", random (-Args[1], Args[1]), 0, 0, 0, 0, 0, random(0, 360), 0)
+	stop
+	3Rats:
+	TNT1 A 1
+	TNT1 AAA 0 A_SpawnItemEx ("ScurryRat", random (-Args[1], Args[1]), 0, 0, 0, 0, 0, random(0, 360), 0)
+	stop
+	4Rats:
+	TNT1 A 1
+	TNT1 AAAA 0 A_SpawnItemEx ("ScurryRat", random (-Args[1], Args[1]), 0, 0, 0, 0, 0, random(0, 360), 0)
+	stop
+	5Rats:
+	TNT1 A 1
+	TNT1 AAAAA 0 A_SpawnItemEx ("ScurryRat", random (-Args[1], Args[1]), 0, 0, 0, 0, 0, random(0, 360), 0)
+	stop
+	10Rats:
+	TNT1 A 1
+	TNT1 AAAAAAAAAA 0 A_SpawnItemEx ("ScurryRat", random (-Args[1], Args[1]), 0, 0, 0, 0, 0, random(0, 360), 0)
+	stop
+	25Rats:
+	TNT1 A 1
+	TNT1 AAAAAAAAAAAAAAAAAAAAAAAAA 0 A_SpawnItemEx ("ScurryRat", random (-Args[1], Args[1]), 0, 0, 0, 0, 0, random(0, 360), 0)
+	stop
+	50Rats:
+	TNT1 A 1
+	TNT1 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 0 A_SpawnItemEx ("ScurryRat", random (-Args[1], Args[1]), 0, 0, 0, 0, 0, random(0, 360), 0)
+	stop
+	}
+}
+
+actor ScurryRat 12342 //Vanish commented out
+{
+//$Category Special Effects
+Tag "Scurry Rat"
+Game Doom
+radius 8
+height 8
+mass 50
+speed 16
+scale 0.5
+health 1
+seesound 	"rat/squeek"
+activesound	"rat/active"
+deathsound	"rat/death"
++AMBUSH
++SHOOTABLE
++FLOORCLIP
++STANDSTILL
++VULNERABLE
++NEVERRESPAWN
+BloodColor "DarkRed"
+states
+	{
+	Spawn:
+	RATS A 10 A_Look
+	loop
+	See:
+	RATS A 2 A_Chase
+	RATS A 2 A_Chase
+	RATS B 2 A_Chase
+	RATS B 2 A_Chase
+	RATS C 2 A_Chase
+	RATS C 2 A_Chase
+	RATS D 2 A_Chase
+	RATS D 2 A_Chase
+	loop
+	Death:
+	RATS I 3 A_ScreamAndUnblock
+	RATS JKL 3
+	RATS L -1
+	stop
+	}
+}

@@ -1,0 +1,37 @@
+Actor Chnesoth 14068
+{
+//$Category Gore NPCs
+Tag "Chnesoth"
+Game Doom
+Speed 0
+Height 52
+Radius 16
+Mass 0x7fffffff
+MONSTER
++NOFEAR
+-PUSHABLE
++FLOATBOB
++FRIENDLY
++NOGRAVITY
++THRUACTORS
++NORADIUSDMG
++INVULNERABLE
++NOINFIGHTING
++NONSHOOTABLE
++NOTIMEFREEZE
++LOOKALLAROUND
++VISIBILITYPULSE
+ConversationID 1
+RenderStyle Add
+Alpha 0.8
+Scale 0.8
+States
+	{
+	Spawn:
+	CHEN CDEFGAB 4 A_Look
+	loop
+	See:
+	CHEN CDEFGAB 4 A_Chase
+	loop
+	}
+}

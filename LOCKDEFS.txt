@@ -1,0 +1,293 @@
+//new locks: 7/14 - 103/104 - 135/140
+ClearLocks
+
+Lock 1 Doom
+{
+	RedCard
+	Message "$PD_REDC"
+	RemoteMessage "$PD_REDCO"
+	Mapcolor 255 0 0
+}
+
+Lock 2 Doom
+{
+	BlueCard
+	Message "$PD_BLUEC"
+	RemoteMessage "$PD_BLUECO"
+	Mapcolor 0 0 255
+}
+
+Lock 3 Doom
+{
+	YellowCard
+	Message "$PD_YELLOWC"
+	RemoteMessage "$PD_YELLOWCO"
+	Mapcolor 255 255 0
+}
+
+Lock 4 Doom
+{
+	RedSkull
+	Message "$PD_REDS"
+	RemoteMessage "$PD_REDSO"
+	Mapcolor 255 0 0
+}
+
+Lock 5 Doom
+{
+	BlueSkull
+	Message "$PD_BLUES"
+	RemoteMessage "$PD_BLUESO"
+	Mapcolor 0 0 255
+}
+
+Lock 6 Doom
+{
+	YellowSkull
+	Message "$PD_YELLOWS"
+	RemoteMessage "$PD_YELLOWSO"
+	Mapcolor 255 255 0
+}
+//START NEW*************************************************
+Lock 7 Doom
+{
+	GreenCard
+	Message "$PD_GREENC"
+	RemoteMessage "$PD_GREENCO"
+	Mapcolor 0 255 0
+}
+
+Lock 8 Doom
+{
+	OrangeCard
+	Message "$PD_ORANGEC"
+	RemoteMessage "$PD_ORANGECO"
+	Mapcolor 255 128 0
+}
+
+Lock 9 Doom
+{
+	SilverCard
+	Message "$PD_SILVERC"
+	RemoteMessage "$PD_SILVERCO"
+	Mapcolor 128 128 128
+}
+
+Lock 10 Doom
+{
+	PurpleCard
+	Message "$PD_PURPLEC"
+	RemoteMessage "$PD_PURPLECO"
+	Mapcolor 255 0 128
+}
+
+Lock 11 Doom
+{
+	GreenSkull
+	Message "$PD_GREENS"
+	RemoteMessage "$PD_GREENSO"
+	Mapcolor 0 255 0
+}
+
+
+Lock 12 Doom
+{
+	OrangeSkull
+	Message "$PD_ORANGES"
+	RemoteMessage "$PD_ORANGESO"
+	Mapcolor 255 128 0
+}
+
+Lock 13 Doom
+{
+	SilverSkull
+	Message "$PD_SILVERS"
+	RemoteMessage "$PD_SILVERSO"
+	Mapcolor 128 128 128
+}
+
+Lock 14 Doom
+{
+	PurpleSkull
+	Message "$PD_PURPLES"
+	RemoteMessage "$PD_PURPLESO"
+	Mapcolor 255 0 128
+}
+//END NEW***************************************************
+Lock 100
+{
+	Message "$PD_ANY"
+	RemoteMessage "$PD_ANYOBJ"
+	Mapcolor 128 128 255
+}
+
+Lock 101 Doom
+{
+	BlueCard
+	BlueSkull
+	YellowCard
+	YellowSkull
+	RedCard
+	RedSkull
+	Message "$PD_ALL6"
+	RemoteMessage "$PD_ALL6O"
+}
+//New x8 ComboLock!
+Lock 103 Doom
+{
+	GreenCard
+	GreenSkull
+	OrangeCard
+	OrangeSkull
+	SilverCard
+	SilverSkull
+	PurpleCard
+	PurpleSkull
+	Message "$PD_ALL8"
+	RemoteMessage "$PD_ALL8O"
+}
+//New x14 ComboLock!
+Lock 104 Doom
+{
+	BlueCard
+	BlueSkull
+	YellowCard
+	YellowSkull
+	RedCard
+	RedSkull
+	GreenCard
+	GreenSkull
+	OrangeCard
+	OrangeSkull
+	SilverCard
+	SilverSkull
+	PurpleCard
+	PurpleSkull
+	Message "$PD_ALL14"
+	RemoteMessage "$PD_ALL14O"
+}
+
+Lock 129 Doom
+{
+	Any { RedCard RedSkull KeyGreen }
+	Message "$PD_REDK"
+	RemoteMessage "$PD_REDO"
+	Mapcolor 255 0 0
+}
+
+
+Lock 130 Doom
+{
+	Any { BlueCard BlueSkull KeyBlue }
+	Message "$PD_BLUEK"
+	RemoteMessage "$PD_BLUEO"
+	Mapcolor 0 0 255
+}
+
+
+Lock 131 Doom
+{
+	Any { YellowCard YellowSkull KeyYellow }
+	Message "$PD_YELLOWK"
+	RemoteMessage "$PD_YELLOWO"
+	Mapcolor 255 255 0
+}
+
+
+Lock 132 Doom
+{
+	Any { RedCard RedSkull }
+	Message "$PD_REDK"
+	RemoteMessage "$PD_REDO"
+	Mapcolor 255 0 0
+}
+
+
+Lock 133 Doom
+{
+	Any { BlueCard BlueSkull }
+	Message "$PD_BLUEK"
+	RemoteMessage "$PD_BLUEO"
+	Mapcolor 0 0 255
+}
+
+
+Lock 134 Doom
+{
+	Any { YellowCard YellowSkull }
+	Message "$PD_YELLOWK"
+	RemoteMessage "$PD_YELLOWO"
+	Mapcolor 255 255 0
+}
+//START NEW*************************************************
+Lock 135 Doom
+{
+	Any { GreenCard GreenSkull }
+	Message "$PD_GREENK"
+	RemoteMessage "$PD_GREENO"
+	Mapcolor 0 255 0
+}
+
+Lock 136 Doom
+{
+	Any { OrangeCard OrangeSkull }
+	Message "$PD_ORANGEK"
+	RemoteMessage "$PD_ORANGEO"
+	Mapcolor 255 128 0
+}
+
+Lock 137 Doom
+{
+	Any { SilverCard SilverSkull }
+	Message "$PD_SILVERK"
+	RemoteMessage "$PD_SILVERO"
+	Mapcolor 128 128 128
+}
+
+Lock 138 Doom
+{
+	Any { PurpleCard PurpleSkull }
+	Message "$PD_PURPLEK"
+	RemoteMessage "$PD_PURPLEO"
+	Mapcolor 255 0 128
+}
+
+Lock 139 Doom
+{
+	Any { GreenCard GreenSkull }
+	Any { OrangeCard OrangeSkull }
+	Any { SilverCard SilverSkull }
+	Any { PurpleCard PurpleSkull }
+	Message "$PD_ALL4"
+	RemoteMessage "$PD_ALL4O"
+}
+
+Lock 140 Doom
+{
+	Any { BlueCard BlueSkull KeyBlue}
+	Any { YellowCard YellowSkull KeyYellow}
+	Any { RedCard RedSkull KeyGreen}
+	Any { GreenCard GreenSkull }
+	Any { OrangeCard OrangeSkull }
+	Any { SilverCard SilverSkull }
+	Any { PurpleCard PurpleSkull }
+	Message "$PD_ALL14"
+	RemoteMessage "$PD_ALL14O"
+}
+//END NEW***************************************************
+
+Lock 228
+{
+	Message "$PD_ANY"
+	RemoteMessage "$PD_ANYOBJ"
+	Mapcolor 128 128 255
+}
+
+Lock 229 Doom
+{
+	Any { BlueCard BlueSkull KeyBlue}
+	Any { YellowCard YellowSkull KeyYellow}
+	Any { RedCard RedSkull KeyGreen}
+	Message "$PD_ALL3"
+	RemoteMessage "$PD_ALL3O"
+}

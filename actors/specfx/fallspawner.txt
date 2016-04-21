@@ -1,0 +1,481 @@
+//BIG
+ACTOR FallSmoke1
+{
+Game Doom
++FORCEXYBILLBOARD
++MOVEWITHSECTOR
++WINDTHRUST
++DONTSPLASH
++NOBLOCKMAP
++NOGRAVITY
++MISSILE
+Radius 2
+Height 2
+RenderStyle Shaded
+StencilColor "A0 A0 A0"
+Gravity 0.5
+Alpha 1.0
+States
+	{
+	Spawn:
+	SMOK A 0
+	SMOK A 8 A_FadeOut (0.05)
+	Wait
+	}
+}
+
+Actor FallSmoke2 : FallSmoke1
+{
+StencilColor "DD DD DD"
+Scale 0.7
+Gravity 0.3
+Alpha 0.5
+VSpeed 2.5
+States
+	{
+	Spawn:
+	TNT1 A 0
+	SMOK A 16 A_FadeOut(0.04)
+	Wait
+	}
+}
+
+Actor FallSmoke3 : FallSmoke1{-NOGRAVITY}
+Actor FallSmoke4 : FallSmoke2{-NOGRAVITY}
+//MEDIUM
+Actor FallSmoke5 : FallSmoke1{Scale 0.7}
+Actor FallSmoke6 : FallSmoke2{Scale 0.5}
+Actor FallSmoke7 : FallSmoke1{-NOGRAVITY Scale 0.7}
+Actor FallSmoke8 : FallSmoke2{-NOGRAVITY Scale 0.5}
+//SMALL
+Actor FallSmoke9 : FallSmoke1{Scale 0.5}
+Actor FallSmoke10 : FallSmoke2{Scale 0.3}
+Actor FallSmoke11 : FallSmoke1{-NOGRAVITY Scale 0.5}
+Actor FallSmoke12 : FallSmoke2{-NOGRAVITY Scale 0.3}
+//HUGE
+Actor FallSmoke13 : FallSmoke1{Scale 2.0}
+Actor FallSmoke14 : FallSmoke2{Scale 1.7}
+Actor FallSmoke15 : FallSmoke1{-NOGRAVITY Scale 2.0}
+Actor FallSmoke16 : FallSmoke2{-NOGRAVITY Scale 1.7}
+//TINY
+Actor FallSmoke17 : FallSmoke1{Scale 0.2}
+Actor FallSmoke18 : FallSmoke2{Scale 0.05}
+Actor FallSmoke19 : FallSmoke1{-NOGRAVITY Scale 0.2}
+Actor FallSmoke20 : FallSmoke2{-NOGRAVITY Scale 0.05}
+
+Actor BigFallSpawner : SwitchableDecoration 11000 //1 to 4
+{
+//$Category Special Effects
+//$Sprite SMOKA0B0
+Tag "Falls Spawner (Big)"
+Game Doom
+Height 32
+Radius 32
++NOBLOCKMAP
++NOGRAVITY
++NOINTERACTION
++CLIENTSIDEONLY
+States
+	{
+	Spawn:
+	Active:
+	TNT1 A 0
+	TNT1 A 0 A_CheckSight("Unsighted")
+	TNT1 A 0 A_JumpIf(Args[0] == 1, "Down")
+	TNT1 A 0 A_JumpIf(Args[0] > 1, "Forward")
+	TNT1 A 0 A_JumpIf(Args[1] > 0, "UpBurst")
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 1, random(190,215))
+	TNT1 A 4 A_SpawnItemEx("FallSmoke2", 0, 0, 1, (0.1)*Random(0, 4), 0, (0.1)*Random(35, 40), Random(0, 360), 128)
+	Loop
+	Down:
+	TNT1 A 0 A_JumpIf(Args[1] > 0, "DownBurst")
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 1, random(190,215))
+	TNT1 A 4 A_SpawnItemEx("FallSmoke3", 0, 0, 0, (0.1)*Random(0, 4), 0, (-0.1)*Random(35, 40), Random(0, 360), 128)
+	Loop
+	Forward:
+	TNT1 A 0 A_JumpIf(Args[1] > 0, "ForwardBurst")
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 1, random(190,215))
+	TNT1 A 4 A_SpawnItemEx("FallSmoke3", 0, 0, 0, (0.1)*Random(35, 40), 0, (0.1)*Random(-5, 5), Random(-8, 8), 128)
+	Loop
+	UpBurst:
+	TNT1 A 1 A_Jump(Args[2]/16, 1)
+	Loop
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 0, random(190,215))
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke1", 0, 0, 1, (0.1)*Random(0, 4), 0, (0.1)*Random(35, 40), Random(0, 360), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke2", 0, 0, 1, (0.1)*Random(0, 4), 0, (0.1)*Random(35, 40), Random(0, 360), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke1", 0, 0, 1, (0.1)*Random(0, 4), 0, (0.1)*Random(35, 40), Random(0, 360), 128)
+	Loop
+	DownBurst:
+	TNT1 A 1 A_Jump(Args[2]/16, 1)
+	Loop
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 0, random(190,215))
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke3", 0, 0, 0, (0.1)*Random(0, 4), 0, (-0.1)*Random(35, 40), Random(0, 360), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke4", 0, 0, 0, (0.1)*Random(0, 4), 0, (-0.1)*Random(35, 40), Random(0, 360), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke3", 0, 0, 0, (0.1)*Random(0, 4), 0, (-0.1)*Random(35, 40), Random(0, 360), 128)
+	Loop
+	ForwardBurst:
+	TNT1 A 1 A_Jump(Args[2]/16, 1)
+	Loop
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 0, random(190,215))
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke3", 0, 0, 0, (0.1)*Random(35, 40), 0, (0.1)*Random(-5, 5), Random(-8, 8), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke4", 0, 0, 0, (0.1)*Random(35, 40), 0, (0.1)*Random(-5, 5), Random(-8, 8), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke3", 0, 0, 0, (0.1)*Random(35, 40), 0, (0.1)*Random(-5, 5), Random(-8, 8), 128)
+	Loop
+	Unsighted:
+	TNT1 A 1
+	Goto Spawn
+	Inactive:
+	TNT1 A 1 A_StopSoundEx("SoundSlot7")
+	TNT1 A 1
+	Goto Inactive+1
+	}
+}
+
+Actor MidFallSpawner : SwitchableDecoration 11001 //5 to 8
+{
+//$Category Special Effects
+//$Sprite SMOKA0B0
+Tag "Falls Spawner (Medium)"
+Game Doom
+Height 16
+Radius 16
++NOBLOCKMAP
++NOGRAVITY
++NOINTERACTION
++CLIENTSIDEONLY
+States
+	{
+	Spawn:
+	Active:
+	TNT1 A 0
+	TNT1 A 0 A_CheckSight("Unsighted")
+	TNT1 A 0 A_JumpIf(Args[0] == 1, "Down")
+	TNT1 A 0 A_JumpIf(Args[0] > 1, "Forward")
+	TNT1 A 0 A_JumpIf(Args[1] > 0, "UpBurst")
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 1, random(127,190))
+	TNT1 A 4 A_SpawnItemEx("FallSmoke6", 0, 0, 1, (0.1)*Random(0, 4), 0, (0.1)*Random(35, 40), Random(0, 360), 128)
+	Loop
+	Down:
+	TNT1 A 0 A_JumpIf(Args[1] > 0, "DownBurst")
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 1, random(127,190))
+	TNT1 A 4 A_SpawnItemEx("FallSmoke7", 0, 0, 0, (0.1)*Random(0, 4), 0, (-0.1)*Random(35, 40), Random(0, 360), 128)
+	Loop
+	Forward:
+	TNT1 A 0 A_JumpIf(Args[1] > 0, "ForwardBurst")
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 1, random(127,190))
+	TNT1 A 4 A_SpawnItemEx("FallSmoke7", 0, 0, 0, (0.1)*Random(35, 40), 0, (0.1)*Random(-5, 5), Random(-8, 8), 128)
+	Loop
+	UpBurst:
+	TNT1 A 1 A_Jump(Args[2]/16, 1)
+	Loop
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 0, random(127,190))
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke5", 0, 0, 1, (0.1)*Random(0, 4), 0, (0.1)*Random(35, 40), Random(0, 360), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke6", 0, 0, 1, (0.1)*Random(0, 4), 0, (0.1)*Random(35, 40), Random(0, 360), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke5", 0, 0, 1, (0.1)*Random(0, 4), 0, (0.1)*Random(35, 40), Random(0, 360), 128)
+	Loop
+	DownBurst:
+	TNT1 A 1 A_Jump(Args[2]/16, 1)
+	Loop
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 0, random(127,190))
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke7", 0, 0, 0, (0.1)*Random(0, 4), 0, (-0.1)*Random(35, 40), Random(0, 360), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke8", 0, 0, 0, (0.1)*Random(0, 4), 0, (-0.1)*Random(35, 40), Random(0, 360), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke7", 0, 0, 0, (0.1)*Random(0, 4), 0, (-0.1)*Random(35, 40), Random(0, 360), 128)
+	Loop
+	ForwardBurst:
+	TNT1 A 1 A_Jump(Args[2]/16, 1)
+	Loop
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 0, random(127,190))
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke7", 0, 0, 0, (0.1)*Random(35, 40), 0, (0.1)*Random(-5, 5), Random(-8, 8), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke8", 0, 0, 0, (0.1)*Random(35, 40), 0, (0.1)*Random(-5, 5), Random(-8, 8), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke7", 0, 0, 0, (0.1)*Random(35, 40), 0, (0.1)*Random(-5, 5), Random(-8, 8), 128)
+	Loop
+	Unsighted:
+	TNT1 A 1
+	Goto Spawn
+	Inactive:
+	TNT1 A 1 A_StopSoundEx("SoundSlot7")
+	TNT1 A 1
+	Goto Inactive+1
+	}
+}
+
+Actor SmallFallSpawner : SwitchableDecoration 11002 //9 to 12
+{
+//$Category Special Effects
+//$Sprite SMOKA0B0
+Tag "Falls Spawner (Small)"
+Game Doom
+Height 8
+Radius 8
++NOBLOCKMAP
++NOGRAVITY
++NOINTERACTION
++CLIENTSIDEONLY
+States
+	{
+	Spawn:
+	Active:
+	TNT1 A 0
+	TNT1 A 0 A_CheckSight("Unsighted")
+	TNT1 A 0 A_JumpIf(Args[0] == 1, "Down")
+	TNT1 A 0 A_JumpIf(Args[0] > 1, "Forward")
+	TNT1 A 0 A_JumpIf(Args[1] > 0, "UpBurst")
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 1, random(90,127))
+	TNT1 A 4 A_SpawnItemEx("FallSmoke10", 0, 0, 1, (0.1)*Random(0, 4), 0, (0.1)*Random(35, 40), Random(0, 360), 128)
+	Loop
+	Down:
+	TNT1 A 0 A_JumpIf(Args[1] > 0, "DownBurst")
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 1, random(90,127))
+	TNT1 A 4 A_SpawnItemEx("FallSmoke11", 0, 0, 0, (0.1)*Random(0, 4), 0, (-0.1)*Random(35, 40), Random(0, 360), 128)
+	Loop
+	Forward:
+	TNT1 A 0 A_JumpIf(Args[1] > 0, "ForwardBurst")
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 1, random(90,127))
+	TNT1 A 4 A_SpawnItemEx("FallSmoke11", 0, 0, 0, (0.1)*Random(35, 40), 0, (0.1)*Random(-5, 5), Random(-8, 8), 128)
+	Loop
+	UpBurst:
+	TNT1 A 1 A_Jump(Args[2]/16, 1)
+	Loop
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 0, random(90,127))
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke9", 0, 0, 1, (0.1)*Random(0, 4), 0, (0.1)*Random(35, 40), Random(0, 360), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke10", 0, 0, 1, (0.1)*Random(0, 4), 0, (0.1)*Random(35, 40), Random(0, 360), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke9", 0, 0, 1, (0.1)*Random(0, 4), 0, (0.1)*Random(35, 40), Random(0, 360), 128)
+	Loop
+	DownBurst:
+	TNT1 A 1 A_Jump(Args[2]/16, 1)
+	Loop
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 0, random(90,127))
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke11", 0, 0, 0, (0.1)*Random(0, 4), 0, (-0.1)*Random(35, 40), Random(0, 360), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke12", 0, 0, 0, (0.1)*Random(0, 4), 0, (-0.1)*Random(35, 40), Random(0, 360), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke11", 0, 0, 0, (0.1)*Random(0, 4), 0, (-0.1)*Random(35, 40), Random(0, 360), 128)
+	Loop
+	ForwardBurst:
+	TNT1 A 1 A_Jump(Args[2]/16, 1)
+	Loop
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 0, random(90,127))
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke11", 0, 0, 0, (0.1)*Random(35, 40), 0, (0.1)*Random(-5, 5), Random(-8, 8), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke12", 0, 0, 0, (0.1)*Random(35, 40), 0, (0.1)*Random(-5, 5), Random(-8, 8), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke11", 0, 0, 0, (0.1)*Random(35, 40), 0, (0.1)*Random(-5, 5), Random(-8, 8), 128)
+	Loop
+	Unsighted:
+	TNT1 A 1
+	Goto Spawn
+	Inactive:
+	TNT1 A 1 A_StopSoundEx("SoundSlot7")
+	TNT1 A 1
+	Goto Inactive+1
+	}
+}
+
+Actor HugeFallSpawner : SwitchableDecoration 11003 //13 to 16
+{
+//$Category Special Effects
+//$Sprite SMOKA0B0
+Tag "Falls Spawner (Huge)"
+Game Doom
+Height 48
+Radius 48
++NOBLOCKMAP
++NOGRAVITY
++NOINTERACTION
++CLIENTSIDEONLY
+States
+	{
+	Spawn:
+	Active:
+	TNT1 A 0
+	TNT1 A 0 A_CheckSight("Unsighted")
+	TNT1 A 0 A_JumpIf(Args[0] == 1, "Down")
+	TNT1 A 0 A_JumpIf(Args[0] > 1, "Forward")
+	TNT1 A 0 A_JumpIf(Args[1] > 0, "UpBurst")
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 1, random(215,250))
+	TNT1 A 4 A_SpawnItemEx("FallSmoke14", 0, 0, 1, (0.1)*Random(0, 4), 0, (0.1)*Random(35, 40), Random(0, 360), 128)
+	Loop
+	Down:
+	TNT1 A 0 A_JumpIf(Args[1] > 0, "DownBurst")
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 1, random(215,250))
+	TNT1 A 4 A_SpawnItemEx("FallSmoke15", 0, 0, 0, (0.1)*Random(0, 4), 0, (-0.1)*Random(35, 40), Random(0, 360), 128)
+	Loop
+	Forward:
+	TNT1 A 0 A_JumpIf(Args[1] > 0, "ForwardBurst")
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 1, random(215,250))
+	TNT1 A 4 A_SpawnItemEx("FallSmoke15", 0, 0, 0, (0.1)*Random(35, 40), 0, (0.1)*Random(-5, 5), Random(-8, 8), 128)
+	Loop
+	UpBurst:
+	TNT1 A 1 A_Jump(Args[2]/16, 1)
+	Loop
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 0, random(90,127))
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke13", 0, 0, 1, (0.1)*Random(0, 4), 0, (0.1)*Random(35, 40), Random(0, 360), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke14", 0, 0, 1, (0.1)*Random(0, 4), 0, (0.1)*Random(35, 40), Random(0, 360), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke13", 0, 0, 1, (0.1)*Random(0, 4), 0, (0.1)*Random(35, 40), Random(0, 360), 128)
+	Loop
+	DownBurst:
+	TNT1 A 1 A_Jump(Args[2]/16, 1)
+	Loop
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 0, random(215,250))
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke15", 0, 0, 0, (0.1)*Random(0, 4), 0, (-0.1)*Random(35, 40), Random(0, 360), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke16", 0, 0, 0, (0.1)*Random(0, 4), 0, (-0.1)*Random(35, 40), Random(0, 360), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke15", 0, 0, 0, (0.1)*Random(0, 4), 0, (-0.1)*Random(35, 40), Random(0, 360), 128)
+	Loop
+	ForwardBurst:
+	TNT1 A 1 A_Jump(Args[2]/16, 1)
+	Loop
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 0, random(215,250))
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke15", 0, 0, 0, (0.1)*Random(35, 40), 0, (0.1)*Random(-5, 5), Random(-8, 8), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke16", 0, 0, 0, (0.1)*Random(35, 40), 0, (0.1)*Random(-5, 5), Random(-8, 8), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke15", 0, 0, 0, (0.1)*Random(35, 40), 0, (0.1)*Random(-5, 5), Random(-8, 8), 128)
+	Loop
+	Unsighted:
+	TNT1 A 1
+	Goto Spawn
+	Inactive:
+	TNT1 A 1 A_StopSoundEx("SoundSlot7")
+	TNT1 A 1
+	Goto Inactive+1
+	}
+}
+
+Actor TinyFallSpawner : SwitchableDecoration 11004 //17 to 20
+{
+//$Category Special Effects
+//$Sprite SMOKA0B0
+Tag "Falls Spawner (Tiny)"
+Game Doom
+Height 4
+Radius 4
++NOGRAVITY
++NOBLOCKMAP
++NOINTERACTION
++CLIENTSIDEONLY
+States
+	{
+	Spawn:
+	Active:
+	TNT1 A 0
+	TNT1 A 0 A_CheckSight("Unsighted")
+	TNT1 A 0 A_JumpIf(Args[0] == 1, "Down")
+	TNT1 A 0 A_JumpIf(Args[0] > 1, "Forward")
+	TNT1 A 0 A_JumpIf(Args[1] > 0, "UpBurst")
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 1, random(45,90))
+	TNT1 A 4 A_SpawnItemEx("FallSmoke18", 0, 0, 1, (0.1)*Random(0, 4), 0, (0.1)*Random(35, 40), Random(0, 360), 128)
+	Loop
+	Down:
+	TNT1 A 0 A_JumpIf(Args[1] > 0, "DownBurst")
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 1, random(45,90))
+	TNT1 A 4 A_SpawnItemEx("FallSmoke19", 0, 0, 0, (0.1)*Random(0, 4), 0, (-0.1)*Random(35, 40), Random(0, 360), 128)
+	Loop
+	Forward:
+	TNT1 A 0 A_JumpIf(Args[1] > 0, "ForwardBurst")
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 1, random(45,90))
+	TNT1 A 4 A_SpawnItemEx("FallSmoke19", 0, 0, 0, (0.1)*Random(35, 40), 0, (0.1)*Random(-5, 5), Random(-8, 8), 128)
+	Loop
+	UpBurst:
+	TNT1 A 1 A_Jump(Args[2]/16, 1)
+	Loop
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 0, random(90,127))
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke17", 0, 0, 1, (0.1)*Random(0, 4), 0, (0.1)*Random(35, 40), Random(0, 360), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke18", 0, 0, 1, (0.1)*Random(0, 4), 0, (0.1)*Random(35, 40), Random(0, 360), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke17", 0, 0, 1, (0.1)*Random(0, 4), 0, (0.1)*Random(35, 40), Random(0, 360), 128)
+	Loop
+	DownBurst:
+	TNT1 A 1 A_Jump(Args[2]/16, 1)
+	Loop
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 0, random(45,90))
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke19", 0, 0, 0, (0.1)*Random(0, 4), 0, (-0.1)*Random(35, 40), Random(0, 360), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke20", 0, 0, 0, (0.1)*Random(0, 4), 0, (-0.1)*Random(35, 40), Random(0, 360), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke19", 0, 0, 0, (0.1)*Random(0, 4), 0, (-0.1)*Random(35, 40), Random(0, 360), 128)
+	Loop
+	ForwardBurst:
+	TNT1 A 1 A_Jump(Args[2]/16, 1)
+	Loop
+	TNT1 A 0 A_JumpIf(Args[3] > 0, 2)
+	TNT1 A 0 A_PlaySoundEx("hwfall", "SoundSlot7", 0, random(45,90))
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke19", 0, 0, 0, (0.1)*Random(35, 40), 0, (0.1)*Random(-5, 5), Random(-8, 8), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke20", 0, 0, 0, (0.1)*Random(35, 40), 0, (0.1)*Random(-5, 5), Random(-8, 8), 128)
+	TNT1 AAAA 1 A_SpawnItemEx("FallSmoke19", 0, 0, 0, (0.1)*Random(35, 40), 0, (0.1)*Random(-5, 5), Random(-8, 8), 128)
+	Loop
+	Unsighted:
+	TNT1 A 1
+	Goto Spawn
+	Inactive:
+	TNT1 A 1 A_StopSoundEx("SoundSlot7")
+	TNT1 A 1
+	Goto Inactive+1
+	}
+}
+
+Actor ACSFallSpawner : SwitchableDecoration 11005
+{
+//$Category Special Effects
+//$Sprite SMOKA0B0
+Tag "Falls Spawner (ACS)"
+Game Doom
+ActiveSound "hwfall"
++NOGRAVITY
++NOBLOCKMAP
++NOINTERACTION
++CLIENTSIDEONLY
+States
+	{
+	Spawn:
+	Active:
+	TNT1 A 0
+	TNT1 A 0 A_CheckSightOrRange(2560,"Unsighted")
+	TNT1 A 1 ACS_ExecuteAlways(998, 0, args[0])
+	loop
+	Inactive:
+	TNT1 A -1
+	stop
+	Unsighted:
+	TNT1 A 10
+	TNT1 A 0 A_CheckSightOrRange(2560,"Unsighted")
+	goto Active
+	}
+}
+
+Actor FallSmoke10G : FallSmoke2
+{
+StencilColor "30 EF 30"
+Scale 0.3
+}
+
+Actor FallSmoke10R : FallSmoke2
+{
+StencilColor "EF 30 30"
+Scale 0.3
+}
+
+Actor FallSmoke10B : FallSmoke2
+{
+StencilColor "30 30 EF"
+Scale 0.3
+}

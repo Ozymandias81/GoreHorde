@@ -1,0 +1,56 @@
+ACTOR TechLanternBig 22500
+{
+//$Category New Lights
+Tag "Big Tech Lantern"
+Game Doom
+Radius 10
+Height 80
++SPAWNCEILING
++NOGRAVITY
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	HLMP ABCD 6 Light("BIGLANTERN")
+	Loop
+	}
+}
+
+ACTOR TechLanternSmall 22501
+{
+//$Category New Lights
+Tag "Small Tech Lantern"
+Game Doom
+Radius 6
+Height 45
++SPAWNCEILING
++NOGRAVITY
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	HLMP EFGH 6 Light("SMALLLANTERN")
+	Loop
+	}
+}
+
+ACTOR BlackCandleChandelier 32194
+{
+//$Category New Lights
+Tag "Black Chandelier"
+Game Doom
+Radius 20
+Height 55
++SPAWNCEILING
++NOGRAVITY
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	HLMP I -1 Light("BLACKCHANDELIER")
+	Stop
+	}
+}

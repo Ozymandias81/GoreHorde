@@ -1,0 +1,22 @@
+actor HasteSphere : PowerupGiver 32271
+{
+//$Category New Powerups
+tag "Haste Sphere"
+Game Doom
+inventory.pickupmessage "Turbocharge!!."
+inventory.maxamount 0
+powerup.duration -30
+powerup.color "FF FF 00", 0.1
+powerup.type Speed
++FLOATBOB
++COUNTITEM
++INVENTORY.AUTOACTIVATE
++INVENTORY.ALWAYSPICKUP
+ConversationID 338
+States
+	{
+	Spawn:
+	HAST ABCB 6 Bright
+	Loop
+	}
+}

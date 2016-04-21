@@ -1,0 +1,117 @@
+ACTOR FreezeRifleGuy 25625
+{
+//$Category Realm667 Monsters
+Tag "Freeze Rifle Guy"
+Game Doom
+SpawnId 121
+gibhealth 35
+Health 60
+Radius 20
+Height 56
+Speed 8
+PainChance 170
+DamageFactor Ice, 0
+MONSTER
++NOTARGET
++FLOORCLIP
++NOICEDEATH
+SeeSound "grunt/sight"
+PainSound "grunt/pain"
+DeathSound "grunt/death"
+ActiveSound "grunt/active"
+Obituary "%o got frozen by a freezer zombie."
+DropItem "IceGlobe", 96
+DropItem "CryoBolts", 16
+MissileType ZombieFreezeBlast
+MaxDropOffHeight 32
+States
+	{
+	Spawn:
+	FRPO AB 10 A_Look
+	Loop
+	See:
+	FRPO AABBCCDD 4 A_Chase
+	Loop
+	Missile:
+	FRPO E 10 A_FaceTarget
+	FRPO F 6 A_MissileAttack
+	FRPO E 1 A_SentinelRefire
+	Goto Missile+1
+	Pain:
+	FRPO G 3
+	FRPO G 3 A_Pain
+	Goto See
+	Death:
+	FRPO H 5
+	FRPO I 5 A_Scream
+	FRPO J 5 A_Fall
+	FRPO K 5
+	FRPO L -1
+	Stop
+	XDeath: //new
+	FRPO O 0 A_SpawnDebris("NashGore_Gib9",0)
+	FRPO O 0 A_SpawnDebris("NashGore_Gib10",0)
+	FRPO O 0 A_SpawnDebris("NashGore_Gib11",0)
+	FRPO O 0 A_SpawnDebris("NashGore_Gib11",0)
+	FRPO O 0 A_SpawnItem("NashGore_GibGenerator",0,0,0,0)
+	FRPO O 5
+	FRPO P 0 A_SpawnItem("NashGore_GibGenerator",0,0,0,2)
+	FRPO P 5 A_XScream
+	FRPO Q 0 A_SpawnItem("NashGore_GibGenerator",0,0,0,4)
+	FRPO Q 5 A_Fall
+	FRPO R 0 A_SpawnItem("NashGore_GibGenerator",0,0,0,6)
+	FRPO RSTU 5
+	FRPO V -1
+	Stop
+	Burn: //new
+	BURN A 3 Bright
+	BURN B 3 Bright A_Scream
+	BURN C 3 Bright A_Wander
+	BURN D 3 Bright A_NoBlocking
+	BURN EFGHIJKLMNOP 5 Bright
+	BURN Q 3 Bright
+	BURN RSTU 7 Bright
+	BURN V 4 A_CustomMissile ("HBeastSmoke",32,0,0)
+	BURN V 4 A_CustomMissile ("HBeastSmoke",36,0,0)
+	BURN V 4 A_CustomMissile ("HBeastSmoke",40,0,0)
+	BURN V 4 A_CustomMissile ("HBeastSmoke",44,0,0)
+	BURN V 4 A_CustomMissile ("HBeastSmoke",48,0,0)
+	BURN V -1
+	Stop
+	Crush: //new
+	TNT1 A 1 A_SpawnItem("NashGore_CrushedSmall",0,0,0,0)
+	stop
+	Raise:
+	FRPO KJIH 5
+	Goto See
+	}
+}
+
+actor ZombieFreezeBlast
+{
+Game Doom
+Radius 13
+Height 8
+Speed 25
+Damage 6
+Projectile
++RANDOMIZE
+RenderStyle Add
+Alpha 0.75
+scale 0.9
+SeeSound "weapons/iceshot"
+DeathSound "weapons/icehit"
+DamageType Ice
+Decal FreezeBlastMelt
+States
+	{
+	Spawn:
+	FBLS A 6 bright A_SpawnItem("FreezeBlastTrail")
+	loop
+	Death:
+	FBLS BCDE 4 bright
+	stop
+	}
+}
+
+//For FreezeBlastTrail actor see FreezeRifle

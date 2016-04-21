@@ -1,0 +1,734 @@
+// Blue torches with gold stand -------------------------
+ACTOR D64ShortBlueTorchGoldStand 32146
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 37
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	BTGS ABCD 4 Bright
+	Loop
+	}
+}
+
+ACTOR D64TallBlueTorchGoldStand 32147
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 68
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	BTGT ABCD 4 Bright
+	Loop
+	}
+}
+
+// Blue torches with silver stand -----------------------
+ACTOR D64ShortBlueTorchSilverStand 32148
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 37
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	BTSS ABCD 4 Bright
+	Loop
+	}
+}
+
+ACTOR D64TallBlueTorchSilverStand 32149
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 68
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	BTST ABCD 4 Bright
+	Loop
+	}
+}
+
+// Blue torches with bronze stand -----------------------
+ACTOR D64ShortBlueTorchBronzeStand 32150
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 37
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	BTBS ABCD 4 Bright
+	Loop
+	}
+}
+
+ACTOR D64TallBlueTorchBronzeStand 32151
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 68
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	BTBT ABCD 4 Bright
+	Loop
+	}
+}
+
+// Cyan torches with gold stand -------------------------
+ACTOR D64ShortCyanTorchGoldStand 32152
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 37
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	CTGS ABCD 4 Bright
+	Loop
+	}
+}
+
+ACTOR D64TallCyanTorchGoldStand 32153
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 68
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	CTGT ABCD 4 Bright
+	Loop
+	}
+}
+
+// Cyan torches with silver stand -----------------------
+ACTOR D64ShortCyanTorchSilverStand 32154
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 37
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	CTSS ABCD 4 Bright
+	Loop
+	}
+}
+
+ACTOR D64TallCyanTorchSilverStand 32155
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 68
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	CTST ABCD 4 Bright
+	Loop
+	}
+}
+
+// Cyan torches with bronze stand -----------------------
+ACTOR D64ShortCyanTorchBronzeStand 32156
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 37
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	CTBS ABCD 4 Bright
+	Loop
+	}
+}
+
+ACTOR D64TallCyanTorchBronzeStand 32157
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 68
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	CTBT ABCD 4 Bright
+	Loop
+	}
+}
+
+// Green torches with gold stand --------------------------
+ACTOR D64ShortGreenTorchGoldStand 32158
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 37
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	GTGS ABCD 4 Bright
+	Loop
+	}
+}
+
+ACTOR D64TallGreenTorchGoldStand 32159
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 68
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	GTGT ABCD 4 Bright
+	Loop
+	}
+}
+
+// Green torches with silver stand ------------------------
+ACTOR D64ShortGreenTorchSilverStand 32160
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 37
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	GTSS ABCD 4 Bright
+	Loop
+	}
+}
+
+ACTOR D64TallGreenTorchSilverStand 32161
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 68
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	GTST ABCD 4 Bright
+	Loop
+	}
+}
+
+// Green torches with bronze stand ------------------------
+ACTOR D64ShortGreenTorchBronzeStand 32162
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 37
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	GTBS ABCD 4 Bright
+	Loop
+	}
+}
+
+ACTOR D64TallGreenTorchBronzeStand 32163
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 68
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	GTBT ABCD 4 Bright
+	Loop
+	}
+}
+
+// Purple torches with gold stand --------------------------
+ACTOR D64ShortPurpleTorchGoldStand 32164
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 37
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	PTGS ABCD 4 Bright
+	Loop
+	}
+}
+
+ACTOR D64TallPurpleTorchGoldStand 32165
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 68
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	PTGT ABCD 4 Bright
+	Loop
+	}
+}
+
+// Purple torches with silver stand ------------------------
+ACTOR D64ShortPurpleTorchSilverStand 32166
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 37
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	PTSS ABCD 4 Bright
+	Loop
+	}
+}
+
+ACTOR D64TallPurpleTorchSilverStand 32167
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 68
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	PTST ABCD 4 Bright
+	Loop
+	}
+}
+
+// Purple torches with bronze stand ------------------------
+ACTOR D64ShortPurpleTorchBronzeStand 32168
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 37
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	PTBS ABCD 4 Bright
+	Loop
+	}
+}
+
+ACTOR D64TallPurpleTorchBronzeStand 32169
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 68
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	PTBT ABCD 4 Bright
+	Loop
+	}
+}
+
+// Red torches with gold stand --------------------------
+ACTOR D64ShortRedTorchGoldStand 32170
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 37
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	RTGS ABCD 4 Bright
+	Loop
+	}
+}
+
+ACTOR D64TallRedTorchGoldStand 32171
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 68
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	RTGT ABCD 4 Bright
+	Loop
+	}
+}
+
+// Red torches with silver stand ------------------------
+ACTOR D64ShortRedTorchSilverStand 32172
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 37
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	RTSS ABCD 4 Bright
+	Loop
+	}
+}
+
+ACTOR D64TallRedTorchSilverStand 32173
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 68
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	RTST ABCD 4 Bright
+	Loop
+	}
+}
+
+// Red torches with bronze stand ------------------------
+ACTOR D64ShortRedTorchBronzeStand 32174
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 37
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	RTBS ABCD 4 Bright
+	Loop
+	}
+}
+
+ACTOR D64TallRedTorchBronzeStand 32175
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 68
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	RTBT ABCD 4 Bright
+	Loop
+	}
+}
+
+// White torches with gold stand --------------------------
+ACTOR D64ShortWhiteTorchGoldStand 32176
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 37
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	WTGS ABCD 4 Bright
+	Loop
+	}
+}
+
+ACTOR D64TallWhiteTorchGoldStand 32177
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 68
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	WTGT ABCD 4 Bright
+	Loop
+	}
+}
+
+// White torches with silver stand ------------------------
+ACTOR D64ShortWhiteTorchSilverStand 32178
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 37
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	WTSS ABCD 4 Bright
+	Loop
+	}
+}
+
+ACTOR D64TallWhiteTorchSilverStand 32179
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 68
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	WTST ABCD 4 Bright
+	Loop
+	}
+}
+
+// White torches with bronze stand ------------------------
+ACTOR D64ShortWhiteTorchBronzeStand 32180
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 37
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	WTBS ABCD 4 Bright
+	Loop
+	}
+}
+
+ACTOR D64TallWhiteTorchBronzeStand 32181
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 68
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	WTBT ABCD 4 Bright
+	Loop
+	}
+}
+
+// Yellow torches with gold stand --------------------------
+ACTOR D64ShortYellowTorchGoldStand 32182
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 37
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	YTGS ABCD 4 Bright
+	Loop
+	}
+}
+
+ACTOR D64TallYellowTorchGoldStand 32183
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 68
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	YTGT ABCD 4 Bright
+	Loop
+	}
+}
+
+// Yellow torches with silver stand ------------------------
+ACTOR D64ShortYellowTorchSilverStand 32184
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 37
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	YTSS ABCD 4 Bright
+	Loop
+	}
+}
+
+ACTOR D64TallYellowTorchSilverStand 32185
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 68
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	YTST ABCD 4 Bright
+	Loop
+	}
+}
+
+// Yellow torches with bronze stand ------------------------
+ACTOR D64ShortYellowTorchBronzeStand 32186
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 37
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	YTBS ABCD 4 Bright
+	Loop
+	}
+}
+
+ACTOR D64TallYellowTorchBronzeStand 32187
+{
+//$Category Doom64 Lights
+Game Doom
+Radius 16
+Height 68
+ProjectilePassHeight -16
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	YTBT ABCD 4 Bright
+	Loop
+	}
+}

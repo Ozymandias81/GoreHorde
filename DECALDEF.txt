@@ -1,0 +1,895 @@
+//MONSTERS//
+//volacubi - flyingfatsos
+decal FFslimeScorch1
+{
+	pic VCSLSCR1
+	shade "bc f8 50"
+	x-scale 0.8
+	y-scale 0.8
+	randomflipx
+	randomflipy
+	fullbright
+}
+
+decal FFslimeScorch2
+{
+	pic VCSLSCR2
+	shade "bc f8 50"
+	x-scale 0.8
+	y-scale 0.8
+	randomflipx
+	randomflipy
+	fullbright
+}
+
+decal FFslimeScorch3
+{
+	pic VCSLSCR3
+	shade "bc f8 50"
+	x-scale 0.8
+	y-scale 0.8
+	randomflipx
+	randomflipy
+	fullbright
+}
+
+decalgroup FFslimeScorch
+{
+	FFslimeScorch1	1
+	FFslimeScorch2	1
+	FFslimeScorch3	1
+}
+//freezerifleguy - see freezerifle weapon
+/*decal FreezeBlastMelt
+{
+	pic BSMEAR1
+	x-scale 1.1
+	y-scale 1.1
+	shade "DD DD FF"
+	randomflipx
+	animator BloodSmearer
+}*/
+//fallen
+Decal FallenBall
+{
+Pic PLASMA1
+Shade "00 00 00"
+X-Scale 0.5
+Y-Scale 0.5
+RandomFlipX
+RandomFlipY
+}
+
+Generator FallenShot FallenBall
+
+//WEAPONS//
+//freezerifle
+decal FreezeBlastMelt
+{
+	pic BSMEAR1
+	x-scale 1.1
+	y-scale 1.1
+	shade "DD DD FF"
+	randomflipx
+	animator BloodSmearer
+}
+
+Generator FreezeBlast			FreezeBlastMelt
+
+//My Decals//
+//***** My New Rocket Scorch ****************************************/
+decal NewScorch
+{
+	pic FMSLSCRH
+	fullbright
+	animator GoAway
+	x-scale 0.2
+	y-scale 0.2
+}
+
+//dukeplusdecals = 24-45
+Decal DukePlusDecal1 24
+{
+Pic DKPDEC01
+}
+
+Decal DukePlusDecal2 25
+{
+Pic DKPDEC02
+}
+
+Decal DukePlusDecal3 26
+{
+Pic DKPDEC03
+}
+
+Decal DukePlusDecal4 27
+{
+Pic DKPDEC04
+}
+
+Decal DukePlusDecal5 28
+{
+Pic DKPDEC05
+}
+
+Decal DukePlusDecal6 29
+{
+Pic DKPDEC06
+}
+
+Decal DukePlusDecal7 30
+{
+Pic DKPDEC07
+}
+
+Decal DukePlusDecal8 31
+{
+Pic DKPDEC08
+}
+
+Decal DukePlusDecal9 32
+{
+Pic DKPDEC09
+}
+
+Decal DukePlusDecal10 33
+{
+Pic DKPDEC10
+}
+
+Decal DukePlusDecal11 34
+{
+Pic DKPDEC11
+}
+
+Decal DukePlusDecal12 35
+{
+Pic DKPDEC12
+}
+
+Decal DukePlusDecal13 36
+{
+Pic DKPDEC13
+}
+
+Decal DukePlusDecal14 37
+{
+Pic DKPDEC14
+}
+
+Decal DukePlusDecal15 38
+{
+Pic DKPDEC15
+}
+
+Decal DukePlusDecal16 39
+{
+Pic DKPDEC16
+}
+
+Decal DukePlusDecal17 40
+{
+Pic DKPDEC17
+}
+
+Decal DukePlusDecal18 41
+{
+Pic DKPDEC18
+}
+
+Decal DukePlusDecal19 42
+{
+Pic DKPDEC19
+}
+
+Decal DukePlusDecal20 43
+{
+Pic DKPDEC20
+}
+
+Decal DukePlusDecal21 44
+{
+Pic DKPDEC21
+}
+
+Decal DukePlusDecal22 45
+{
+Pic DKPDEC22
+}
+
+//doom3blooddecals = 1-23
+Decal D3BloodSplat1 1
+{
+Pic D3SPLT01
+Shade "60 20 10"
+X-Scale 0.25
+Y-Scale 0.25
+}
+
+Decal D3BloodSplat2 2
+{
+Pic D3SPLT02
+Shade "60 20 10"
+X-Scale 0.25
+Y-Scale 0.25
+}
+
+Decal D3BloodSplat3 3
+{
+Pic D3SPLT03
+Shade "60 20 10"
+X-Scale 0.25
+Y-Scale 0.25
+}
+
+Decal D3BloodSplat4 4
+{
+Pic D3SPLT04
+Shade "60 20 10"
+X-Scale 0.25
+Y-Scale 0.25
+}
+
+Decal D3BloodSplat5 5
+{
+Pic D3SPLT05
+Shade "60 20 10"
+X-Scale 0.5
+Y-Scale 0.5
+}
+
+Decal D3BloodSplat6 6
+{
+Pic D3SPLT06
+Shade "60 20 10"
+X-Scale 0.2
+Y-Scale 0.2
+}
+
+Decal D3BloodSplat7 7
+{
+Pic D3SPLT07
+Shade "60 20 10"
+X-Scale 0.25
+Y-Scale 0.25
+}
+
+Decal D3BloodSplat8 8
+{
+Pic D3SPLT08
+Shade "60 20 10"
+X-Scale 0.25
+Y-Scale 0.25
+}
+
+Decal D3BloodSplat9 9
+{
+Pic D3SPLT09
+Shade "60 20 10"
+X-Scale 0.25
+Y-Scale 0.25
+}
+
+Decal D3BloodSplat10 10
+{
+Pic D3SPLT10
+Shade "60 20 10"
+X-Scale 0.25
+Y-Scale 0.25
+}
+
+Decal D3BloodSplat11 11
+{
+Pic D3SPLT11
+Shade "60 20 10"
+X-Scale 0.25
+Y-Scale 0.25
+}
+
+Decal D3BloodSplat12 12
+{
+Pic D3SPLT12
+Shade "60 20 10"
+X-Scale 0.25
+Y-Scale 0.25
+}
+
+Decal D3BloodSplat13 13
+{
+Pic D3SPLT13
+Shade "60 20 10"
+X-Scale 0.25
+Y-Scale 0.25
+}
+
+Decal D3BloodSplat14 14
+{
+Pic D3SPLT14
+Shade "60 20 10"
+X-Scale 0.5
+Y-Scale 0.5
+}
+
+Decal D3BloodSplat15 15
+{
+Pic D3SPLT15
+Shade "60 20 10"
+X-Scale 0.25
+Y-Scale 0.25
+}
+
+Decal D3BloodSplat16 16
+{
+Pic D3SPLT16
+Shade "60 20 10"
+X-Scale 0.25
+Y-Scale 0.25
+}
+
+Decal D3BloodSplat17 17
+{
+Pic D3SPLT17
+Shade "60 20 10"
+X-Scale 0.25
+Y-Scale 0.25
+}
+
+Decal D3BloodSplat18 18
+{
+Pic D3SPLT18
+Shade "60 20 10"
+X-Scale 0.25
+Y-Scale 0.25
+}
+
+Decal D3BloodSplat19 19
+{
+Pic D3SPLT19
+Shade "60 20 10"
+X-Scale 0.25
+Y-Scale 0.25
+}
+
+Decal D3BloodSplat20 20
+{
+Pic D3SPLT20
+Shade "60 20 10"
+X-Scale 0.25
+Y-Scale 0.25
+}
+
+Decal D3BloodSplat21 21
+{
+Pic D3SPLT21
+Shade "60 20 10"
+X-Scale 0.25
+Y-Scale 0.25
+}
+
+Decal D3BloodSplat22 22
+{
+Pic D3SPLT22
+Shade "60 20 10"
+X-Scale 0.25
+Y-Scale 0.25
+}
+
+Decal D3BloodSplat23 23
+{
+Pic D3SPLT23
+Shade "60 20 10"
+X-Scale 0.25
+Y-Scale 0.25
+}
+
+//NASHGORES - from hgarden.wad//
+//***** Animators ***********************************************************/
+
+fader FastGoAway
+{
+	DecayStart	0.2
+	DecayTime	0.5
+}
+
+fader GoAway
+{
+	DecayStart	0.5
+	DecayTime	1.0
+}
+
+fader GoAway2
+{
+	DecayStart	1.0
+	DecayTime	3.0
+}
+
+colorchanger ToBlack
+{
+	FadeStart	0.5
+	FadeTime	1.0
+}
+
+stretcher BloodStretcher
+{
+	StretchTime	10
+	GoalY		2.0
+}
+
+slider BloodSlider
+{
+	SlideTime	10
+	DistY		-132
+}
+
+combiner BloodSmearer
+{
+	BloodStretcher
+	BloodSlider
+}
+
+//***** Blood decals *****//
+decal BloodSplat01
+{
+pic BSPLAT01
+shade "60 00 00"
+x-scale 0.5
+y-scale 0.5
+randomflipx
+randomflipy
+}
+
+decal BloodSplat02
+{
+pic BSPLAT02
+shade "60 00 00"
+x-scale 0.5
+y-scale 0.5
+randomflipx
+randomflipy
+}
+
+decal BloodSplat03
+{
+pic BSPLAT03
+shade "60 00 00"
+x-scale 0.5
+y-scale 0.5
+randomflipx
+randomflipy
+}
+
+decal BloodSplat04
+{
+pic BSPLAT04
+shade "60 00 00"
+x-scale 0.5
+y-scale 0.5
+randomflipx
+randomflipy
+}
+
+decal BloodSplat05
+{
+pic BSPLAT05
+shade "60 00 00"
+x-scale 0.5
+y-scale 0.5
+randomflipx
+randomflipy
+}
+
+decal BloodSplat06
+{
+pic BSPLAT06
+shade "60 00 00"
+x-scale 0.5
+y-scale 0.5
+randomflipx
+randomflipy
+}
+
+decal BloodSplat07
+{
+pic BSPLAT07
+shade "60 00 00"
+x-scale 0.5
+y-scale 0.5
+randomflipx
+randomflipy
+}
+
+decal BloodSplat08
+{
+pic BSPLAT08
+shade "60 00 00"
+x-scale 0.5
+y-scale 0.5
+randomflipx
+randomflipy
+}
+
+decal BloodSplat09
+{
+pic BSPLAT09
+shade "60 00 00"
+x-scale 0.5
+y-scale 0.5
+randomflipx
+randomflipy
+}
+
+decal BloodSplat10
+{
+pic BSPLAT10
+shade "60 00 00"
+x-scale 0.5
+y-scale 0.5
+randomflipx
+randomflipy
+}
+
+decal BloodSplat11
+{
+pic BSPLAT11
+shade "60 00 00"
+x-scale 0.5
+y-scale 0.5
+randomflipx
+randomflipy
+}
+
+decal BloodSplat12
+{
+pic BSPLAT12
+shade "60 00 00"
+x-scale 0.5
+y-scale 0.5
+randomflipx
+randomflipy
+}
+
+decal BloodSplat13
+{
+pic BSPLAT13
+shade "60 00 00"
+x-scale 0.5
+y-scale 0.5
+randomflipx
+randomflipy
+}
+
+decal BloodSplat14
+{
+pic BSPLAT14
+shade "60 00 00"
+x-scale 0.5
+y-scale 0.5
+randomflipx
+randomflipy
+}
+
+decalgroup BloodSplat
+{
+BloodSplat01 6
+BloodSplat02 6
+BloodSplat03 6
+BloodSplat04 6
+BloodSplat05 6
+BloodSplat06 6
+BloodSplat07 6
+BloodSplat08 6
+BloodSplat09 6
+BloodSplat10 6
+BloodSplat11 6
+BloodSplat12 6
+BloodSplat13 6
+BloodSplat14 6
+}
+
+decal BloodSmear1
+{
+pic BSMEAR1
+x-scale 0.625
+y-scale 0.625
+shade "60 00 00"
+randomflipx
+randomflipy
+animator BloodSmearer
+}
+
+decal BloodSmear2
+{
+pic BSMEAR1
+x-scale 0.625
+y-scale 0.625
+shade "60 00 00"
+randomflipx
+randomflipy
+animator BloodSmearer
+}
+
+decalgroup BloodSmear
+{
+BloodSmear1		6
+BloodSmear2		6
+}
+//ENJAY & T667 Enhancements - from hgarden.wad//
+//***** Bullet Chips *****/
+decal BulletChip1
+{
+	pic CHIP1
+	translucent 0.85
+	shade "00 00 00"
+	x-scale 0.8
+	y-scale 0.8
+	randomflipx
+	randomflipy
+}
+
+decal BulletChip2
+{
+	pic CHIP2
+	translucent 0.85
+	shade "00 00 00"
+	x-scale 0.8
+	y-scale 0.8
+	randomflipx
+	randomflipy
+}
+
+decal BulletChip3
+{
+	pic CHIP3
+	translucent 0.85
+	shade "00 00 00"
+	x-scale 0.8
+	y-scale 0.8
+	randomflipx
+	randomflipy
+}
+
+decal BulletChip4
+{
+	pic CHIP4
+	translucent 0.85
+	shade "00 00 00"
+	x-scale 0.8
+	y-scale 0.8
+	randomflipx
+	randomflipy
+}
+
+decal BulletChip5
+{
+	pic CHIP5
+	translucent 0.85
+	shade "00 00 00"
+	x-scale 0.8
+	y-scale 0.8
+	randomflipx
+	randomflipy
+}
+
+decalgroup BulletChip
+{
+	BulletChip1	1
+	BulletChip2	1
+	BulletChip3	1
+	BulletChip4	1
+	BulletChip5	1
+}
+
+decal Bullet1
+{
+pic CHIP1
+shade "FF C8 00"
+fullbright
+x-scale 0.4
+y-scale 0.4
+lowerdecal BulletChip
+animator GoAway
+}
+
+decal Bullet2
+{
+pic CHIP2
+shade "FF C8 00"
+fullbright
+x-scale 0.4
+y-scale 0.4
+lowerdecal BulletChip
+animator GoAway
+}
+
+decal Bullet3
+{
+pic CHIP3
+shade "FF C8 00"
+fullbright
+x-scale 0.4
+y-scale 0.4
+lowerdecal BulletChip
+animator GoAway
+}
+
+decal Bullet4
+{
+pic CHIP4
+shade "FF C8 00"
+fullbright
+x-scale 0.4
+y-scale 0.4
+lowerdecal BulletChip
+animator GoAway
+}
+
+decal Bullet5
+{
+pic CHIP5
+shade "FF C8 00"
+fullbright
+x-scale 0.4
+y-scale 0.4
+lowerdecal BulletChip
+animator GoAway
+}
+
+decalgroup Bullet
+{
+	Bullet1	1
+	Bullet2	1
+	Bullet3	1
+	Bullet4	1
+	Bullet5	1
+}
+
+//**** Chainsaw marks *****/
+decal ChainsawMarkLower
+{
+	pic SAWMARK
+	translucent 0.75
+	shade "00 00 00"
+	x-scale 0.2
+	y-scale 0.5
+	randomflipx
+	randomflipy
+}
+
+decal ChainsawMark
+{
+	pic SAWMARK
+	fullbright
+	shade "FF C8 00"
+	x-scale 0.1
+	y-scale 0.4
+	randomflipx
+	randomflipy
+	lowerdecal ChainsawMarkLower
+	animator FastGoAway
+}
+
+//***** Plasma Rifle Scorches ***********************************************/
+decal PlasmaScorchLower1
+{
+	pic PLASMA1
+	shade "00 00 00"
+	x-scale 0.3
+	y-scale 0.3
+	randomflipx
+	randomflipy
+}
+
+decal PlasmaScorch1
+{
+	pic PLSEB0
+	add 1.0
+	fullbright
+	animator GoAway
+	x-scale 0.5
+	y-scale 0.5
+	lowerdecal PlasmaScorchLower1
+	randomflipx
+	randomflipy
+}
+
+decal PlasmaScorchLower2
+{
+	pic PLASMA2
+	shade "00 00 00"
+	x-scale 0.3
+	y-scale 0.3
+	randomflipx
+	randomflipy
+}
+
+decal PlasmaScorch2
+{
+	pic PLSEC0
+	add 1.0
+	fullbright
+	animator GoAway
+	x-scale 0.5
+	y-scale 0.5
+	lowerdecal PlasmaScorchLower2
+	randomflipx
+	randomflipy
+
+}
+
+decalgroup PlasmaScorchLower
+{
+	PlasmaScorchLower1	1
+	PlasmaScorchLower2	1
+}
+
+decalgroup PlasmaScorch
+{
+	PlasmaScorch1	1
+	PlasmaScorch2	1
+}
+
+//***** Arachnotron Plasma Scorches *****************************************/
+decal ArachScorch1
+{
+	pic APBXB0
+	add 1.0
+	animator GoAway
+	x-scale 0.5
+	y-scale 0.5
+	lowerdecal PlasmaScorchLower1
+	randomflipx
+	randomflipy
+
+}
+
+decal ArachScorch2
+{
+	pic APBXC0
+	add 1.0
+	animator GoAway
+	x-scale 0.5
+	y-scale 0.5
+	lowerdecal PlasmaScorchLower2
+	randomflipx
+	randomflipy
+
+}
+
+decalgroup ArachnotronScorch
+{
+	ArachScorch1	1
+	ArachScorch2	1
+}
+
+//***** Generators **********************************************************//
+generator ArachnotronPlasma				ArachnotronScorch
+generator BFGBall						BFGLightning
+generator BaronBall						BaronScorch
+generator CacodemonBall					CacoScorch
+generator Chaingun						Bullet
+generator Chainsaw						ChainsawMark
+generator DoomImpBall					DoomImpScorch
+generator FatShot						NewScorch //Scorch replaced with new
+generator HorrorBall					BFGLightning
+generator HorrorBall2					BFGLightning
+generator NashGore_ChaingunGuy			Bullet
+generator NashGore_ShotgunGuy			Bullet
+generator NashGore_SpiderMastermind		Bullet
+generator NashGore_StealthChaingunGuy 	Bullet
+generator NashGore_StealthShotgunGuy	Bullet
+generator NashGore_StealthZombieMan		Bullet
+generator NashGore_WolfensteinSS		Bullet
+generator NashGore_ZombieMan			Bullet
+generator NewChaingun					Bullet //Enhanced Weapon by Tormentor667
+generator NewPistol						Bullet //Enhanced Weapon by Tormentor667
+generator NewShotgun					Bullet //Enhanced Weapon by Tormentor667
+generator NewSuperShotgun				Bullet //Enhanced Weapon by Tormentor667
+generator Pistol						Bullet
+generator PlasmaBall					PlasmaScorch
+generator QuadShotgun					Bullet
+generator RevenantTracer				RevenantScorch
+generator Rocket						NewScorch //Scorch replaced with new
+generator STMiniGun						Bullet
+generator Shotgun						Bullet
+generator SuperShotgun					Bullet

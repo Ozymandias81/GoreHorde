@@ -1,0 +1,65 @@
+ACTOR RavenSerpentFire 14180
+{
+//$Category New Lights
+//$Sprite KGFRA0
+Tag "Raven Serpent Fire Pillar"
+Game Doom
+Radius 23
+Height 92
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	TNT1 A 0 NoDelay A_JumpIf(CallACS("Cinders")==1,"Advanced")
+	KGFR ABCDEFGH 3 Bright
+	Loop
+	Advanced:
+	KGFR ABCDEFGH 3 Bright A_SpawnItemEx("FloatingCinder", 0, 0, 88, 1, 0, random (1, 3), random (0, 360), 0, 224)
+	Goto Spawn
+	}
+}
+
+ACTOR RavenRustedFirePillar 14181
+{
+//$Category New Lights
+//$Sprite RSPRA0
+Tag "Raven Rusted Fire Pillar"
+Game Doom
+Radius 23
+Height 92
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	TNT1 A 0 NoDelay A_JumpIf(CallACS("Cinders")==1,"Advanced")
+	RSPR ABCDEFGH 3 Bright
+	Loop
+	Advanced:
+	RSPR ABCDEFGH 3 Bright A_SpawnItemEx("FloatingCinder", 0, 0, 88, 1, 0, random (1, 3), random (0, 360), 0, 224)
+	Goto Spawn
+	}
+}
+
+ACTOR RavenIceFirePillar 14182
+{
+//$Category New Lights
+//$Sprite ICPRA0
+Tag "Raven Ice Fire Pillar"
+Game Doom
+Radius 23
+Height 92
++SOLID
++NOTAUTOAIMED
+States
+	{
+	Spawn:
+	TNT1 A 0 NoDelay A_JumpIf(CallACS("Cinders")==1,"Advanced")
+	ICPR ABCDEFGH 3 Bright
+	Loop
+	Advanced:
+	ICPR ABCDEFGH 3 Bright A_SpawnItemEx("FloatingCinder", 0, 0, 88, 1, 0, random (1, 3), random (0, 360), 0, 224)
+	Goto Spawn
+	}
+}

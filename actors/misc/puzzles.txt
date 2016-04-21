@@ -1,0 +1,505 @@
+ACTOR TetraPuzzle : PuzzleItem 12005 //voxel actor
+{
+//$Category New Puzzle Items
+Tag "Tetragrammaton"
+Game Doom
+Radius 16
+Height 48
+PuzzleItem.Number 1
+PuzzleItem.FailMessage "FIND A STAR-CARVED STRUCTURE TO USE THIS OBJECT"
+Inventory.Amount 1
+Inventory.MaxAmount 5
+Inventory.Icon GOREPZL1
+Inventory.PickupMessage "You have find a Tetragrammaton"
+Inventory.PickupSound "monster/ar2sit"
++NOGRAVITY
++NOTIMEFREEZE
++COUNTITEM
++Inventory.InvBar
++Inventory.PickupFlash
+ConversationID 312
+States
+	{
+	Spawn:
+	TETR A -1
+	Stop
+	}
+}
+
+ACTOR GrudgePuzzle : PuzzleItem 12006
+{
+//$Category New Puzzle Items
+Tag "Grudge Orb"
+Game Doom
+PuzzleItem.Number 2
+PuzzleItem.FailMessage "FIND A PEDESTAL TO USE THIS OBJECT"
+Inventory.Amount 1
+Inventory.MaxAmount 5
+Inventory.Icon GOREPZL2
+Inventory.PickupMessage "The Damned are watching you..."
+Inventory.PickupSound "nightmare/pain"
++FLOATBOB
++NOTIMEFREEZE
++COUNTITEM
++Inventory.InvBar
++Inventory.PickupFlash
+ConversationID 313
+States
+	{
+	Spawn:
+	DAMN ABCDE 6 Bright
+	Loop
+	}
+}
+
+ACTOR PapyrusPuzzle : PuzzleItem 12007
+{
+//$Category New Puzzle Items
+Tag "Papyrus Of Hate"
+Game Doom
+PuzzleItem.Number 3
+Inventory.Amount 1
+Inventory.MaxAmount 5
+Inventory.Icon GOREPZL3
+Inventory.PickupMessage "An insane feeling of Hate flows through your veins"
+Inventory.PickupSound "monster/ar2sit"
++FLOATBOB
++NOTIMEFREEZE
++COUNTITEM
++Inventory.InvBar
++Inventory.PickupFlash
+ConversationID 314
+States
+	{
+	Spawn:
+	PAPY BCDC 6 Bright
+	Loop
+	}
+}
+
+ACTOR ChnesothPuzzle : PuzzleItem 12009
+{
+//$Category New Puzzle Items
+Tag "Eye Of Chnesoth"
+Game Doom
+PuzzleItem.Number 4
+Inventory.Amount 1
+Inventory.MaxAmount 5
+Inventory.Icon GOREPZL4
+Inventory.PickupMessage "You have find an Eye of Chnesoth"
+Inventory.PickupSound "monster/ar2sit"
++FLOATBOB
++NOTIMEFREEZE
++COUNTITEM
++Inventory.InvBar
++Inventory.PickupFlash
+ConversationID 315
+States
+	{
+	Spawn:
+	CHNE ABCD 6 Bright
+	Loop
+	}
+}
+
+ACTOR DraconianPuzzle : PuzzleItem 12010 //voxel actor
+{
+//$Category New Puzzle Items
+Tag "Draconian Shard"
+Game Doom
+Radius 16
+Height 48
+PuzzleItem.Number 5
+Inventory.Amount 1
+Inventory.MaxAmount 5
+Inventory.Icon GOREPZL5
+Inventory.PickupMessage "You have find a Draconian Shard"
+Inventory.PickupSound "monster/ar2sit"
++NOGRAVITY
++NOTIMEFREEZE
++COUNTITEM
++Inventory.InvBar
++Inventory.PickupFlash
+ConversationID 316
+States
+	{
+	Spawn:
+	DRAC A -1
+	Stop
+	}
+}
+
+ACTOR ShieldPuzzle : PuzzleItem 12011 //voxel actor
+{
+//$Category New Puzzle Items
+Tag "Necromancer's Shield"
+Game Doom
+Radius 16
+Height 48
+PuzzleItem.Number 6
+Inventory.Amount 1
+Inventory.MaxAmount 5
+Inventory.Icon GOREPZL6
+Inventory.PickupMessage "You have find the Necromancer's Shield"
+Inventory.PickupSound "monster/ar2sit"
++NOGRAVITY
++NOTIMEFREEZE
++COUNTITEM
++Inventory.InvBar
++Inventory.PickupFlash
+ConversationID 317
+States
+	{
+	Spawn:
+	NESH A -1
+	Stop
+	}
+}
+
+ACTOR EyeGem : PuzzleItem 12012
+{
+//$Category New Puzzle Items
+Tag "Eye Gem"
+Game Doom
+PuzzleItem.Number 6
+PuzzleItem.FailMessage "FIND THE PROPER GIZMO TO USE THIS OBJECT"
+Inventory.Amount 1
+Inventory.MaxAmount 5
+Inventory.Icon GYESA0
+Inventory.PickupMessage "Picked up an Eye Gem"
+Inventory.PickupSound "misc/cloakot"
++FLOATBOB
++COUNTITEM
++Inventory.InvBar
++Inventory.PickupFlash
+ConversationID 318
+States
+	{
+	Spawn:
+	PGEM A -1
+	Stop
+	}
+}
+
+ACTOR KnifeGem : PuzzleItem 12013
+{
+//$Category New Puzzle Items
+Tag "Knife Gem"
+Game Doom
+PuzzleItem.Number 7
+PuzzleItem.FailMessage "FIND THE PROPER GIZMO TO USE THIS OBJECT"
+Inventory.Amount 1
+Inventory.MaxAmount 5
+Inventory.Icon GKNFA0
+Inventory.PickupMessage "Picked up a Knife Gem"
+Inventory.PickupSound "misc/cloakot"
++FLOATBOB
++COUNTITEM
++Inventory.InvBar
++Inventory.PickupFlash
+ConversationID 319
+States
+	{
+	Spawn:
+	PGEM B -1
+	Stop
+	}
+}
+
+ACTOR FireGem : PuzzleItem 12014
+{
+//$Category New Puzzle Items
+Tag "Fire Gem"
+Game Doom
+PuzzleItem.Number 8
+PuzzleItem.FailMessage "FIND THE PROPER GIZMO TO USE THIS OBJECT"
+Inventory.Amount 1
+Inventory.MaxAmount 5
+Inventory.Icon GFLMA0
+Inventory.PickupMessage "Picked up a Fire Gem"
+Inventory.PickupSound "misc/cloakot"
++FLOATBOB
++COUNTITEM
++Inventory.InvBar
++Inventory.PickupFlash
+ConversationID 320
+States
+	{
+	Spawn:
+	PGEM C -1
+	Stop
+	}
+}
+
+ACTOR MoonGem : PuzzleItem 12015
+{
+//$Category New Puzzle Items
+Tag "Moon Gem"
+Game Doom
+PuzzleItem.Number 9
+PuzzleItem.FailMessage "FIND THE PROPER GIZMO TO USE THIS OBJECT"
+Inventory.Amount 1
+Inventory.MaxAmount 5
+Inventory.Icon GMONA0
+Inventory.PickupMessage "Picked up a Moon Gem"
+Inventory.PickupSound "misc/cloakot"
++FLOATBOB
++COUNTITEM
++Inventory.InvBar
++Inventory.PickupFlash
+ConversationID 321
+States
+	{
+	Spawn:
+	PGEM D -1
+	Stop
+	}
+}
+
+ACTOR ArachnoGem : PuzzleItem 12016
+{
+//$Category New Puzzle Items
+Tag "Arachno Gem"
+Game Doom
+PuzzleItem.Number 10
+PuzzleItem.FailMessage "FIND THE PROPER GIZMO TO USE THIS OBJECT"
+Inventory.Amount 1
+Inventory.MaxAmount 5
+Inventory.Icon GSPIA0
+Inventory.PickupMessage "Picked up an Arachno Gem"
+Inventory.PickupSound "misc/cloakot"
++FLOATBOB
++COUNTITEM
++Inventory.InvBar
++Inventory.PickupFlash
+ConversationID 322
+States
+	{
+	Spawn:
+	PGEM E -1
+	Stop
+	}
+}
+
+ACTOR EyeGemGizmo : SwitchableDecoration 12017
+{
+//$Category New Puzzle Items
+Tag "Eye Gem Gizmo"
+Game Doom
+Radius 16
+Height 44
++SOLID
+States
+	{
+	Spawn:
+	HGIZ A -1
+	Stop
+	Active:
+	HGIZ A 1
+	HGIZ A 1 A_SpawnItemEx("NoEyeGem", 0, 0, 40)
+	HGIZ A -1
+	Stop
+	}
+}
+
+ACTOR KnifeGemGizmo : SwitchableDecoration 12018
+{
+//$Category New Puzzle Items
+Tag "Knife Gem Gizmo"
+Game Doom
+Radius 16
+Height 44
++SOLID
+States
+	{
+	Spawn:
+	HGIZ B -1
+	Stop
+	Active:
+	HGIZ B 1
+	HGIZ B 1 A_SpawnItemEx("NoKnifeGem", 0, 0, 40)
+	HGIZ B -1
+	Stop
+	}
+}
+
+ACTOR FireGemGizmo : SwitchableDecoration 12019
+{
+//$Category New Puzzle Items
+Tag "Fire Gem Gizmo"
+Game Doom
+Radius 16
+Height 44
++SOLID
+States
+	{
+	Spawn:
+	HGIZ C -1
+	Stop
+	Active:
+	HGIZ C 1
+	HGIZ C 1 A_SpawnItemEx("NoFireGem", 0, 0, 40)
+	HGIZ C -1
+	Stop
+	}
+}
+
+ACTOR MoonGemGizmo : SwitchableDecoration 12020
+{
+//$Category New Puzzle Items
+Tag "Moon Gem Gizmo"
+Game Doom
+Radius 16
+Height 44
++SOLID
+States
+	{
+	Spawn:
+	HGIZ D -1
+	Stop
+	Active:
+	HGIZ D 1
+	HGIZ D 1 A_SpawnItemEx("NoMoonGem", 0, 0, 40)
+	HGIZ D -1
+	Stop
+	}
+}
+
+ACTOR ArachnoGemGizmo : SwitchableDecoration 12021
+{
+//$Category New Puzzle Items
+Tag "Arachno Gem Gizmo"
+Game Doom
+Radius 16
+Height 44
++SOLID
+States
+	{
+	Spawn:
+	HGIZ E -1
+	Stop
+	Active:
+	HGIZ E 1
+	HGIZ E 1 A_SpawnItemEx("NoArachnoGem", 0, 0, 40)
+	HGIZ E -1
+	Stop
+	}
+}
+
+ACTOR GrudgeStand : SwitchableDecoration 12022
+{
+//$Category New Puzzle Items
+Tag "Grudge Stand"
+Game Doom
+Radius 16
+Height 50
++SOLID
+States
+	{
+	Spawn:
+	PZST A -1
+	Stop
+	Active:
+	PZST A 1
+	PZST A 1 A_SpawnItemEx("NoGrudgePuzzle", 0, 0, 32)
+	PZST A -1
+	Stop
+	}
+}
+
+ACTOR NoEyeGem: EyeGem
+{-COUNTITEM -Inventory.InvBar +NOINTERACTION}
+
+ACTOR NoKnifeGem: KnifeGem
+{-COUNTITEM -Inventory.InvBar +NOINTERACTION}
+
+ACTOR NoFireGem: FireGem
+{-COUNTITEM -Inventory.InvBar +NOINTERACTION}
+
+ACTOR NoMoonGem: MoonGem
+{-COUNTITEM -Inventory.InvBar +NOINTERACTION}
+
+ACTOR NoArachnoGem: ArachnoGem
+{-COUNTITEM -Inventory.InvBar +NOINTERACTION}
+
+ACTOR NoGrudgePuzzle: GrudgePuzzle
+{-COUNTITEM -Inventory.InvBar +NOINTERACTION}
+
+ACTOR ChestKey : PuzzleItem 20081
+{
+//$Category New Puzzle Items
+Tag "Supply Chest Key"
+Game Doom
+PuzzleItem.Number 11
+PuzzleItem.FailMessage "FIND A CHEST OR TRUNK TO USE THIS OBJECT"
+Inventory.Amount 1
+Inventory.MaxAmount 5
+Inventory.Icon "SPBKEY"
+Inventory.PickupMessage "You picked up a Chest Key"
+Inventory.PickupSound "misc/k_pkup"
+Inventory.UseSound "supplychest/open"
++FLOATBOB
++COUNTITEM
++Inventory.InvBar
++Inventory.PickupFlash
+ConversationID 323
+States
+	{
+	Spawn:
+	SBKY A -1
+	Stop
+	}
+}
+
+ACTOR SupplyChest : SwitchableDecoration 20080
+{
+//$Category New Puzzle Items
+Tag "Supply Chest"
+Game Doom
+Height 34
+Radius 21
++SOLID
+States
+	{
+	Spawn:
+	SUBX A -1
+	Stop
+	Active:
+	SUBX B -1
+	Stop
+	}
+}
+
+ACTOR BLArcaneBook : SwitchableDecoration 28317
+{
+//$Category New Puzzle Items
+Tag "Arcane Puzzle Book"
+Game Doom
+radius 8
+height 4
+Mass 0x7fffffff
++SOLID
++SHOOTABLE
++NODAMAGE
++NOBLOOD
++NOGRAVITY
++NOTIMEFREEZE
++NOLIFTDROP
++USESPECIAL
++NOTAUTOAIMED
+scale 0.5
+Activation THINGSPEC_Switch|THINGSPEC_DeActivate
+States
+	{
+	Spawn:
+	Inactive:
+	BOOK B -1
+	Stop
+	Active:
+	BOOK A -1
+	Stop
+	Stuck:
+	BOOK B -1 A_Changeflag("USESPECIAL",0)
+	Stop
+	}
+}

@@ -1,0 +1,80 @@
+ACTOR PoisonSoul 25634
+{//$Category Realm667 Monsters
+Tag "Poison Soul"
+Game Doom
+spawnid 158
+Health 150
+Radius 16
+Height 56
+Mass 50
+Speed 6
+Damage 4
+DamageFactor Poison, 0
+DamageFactor PoisonCloud, 0
+RENDERSTYLE SoulTrans
+PAINCHANCE 255
+MONSTER
++NOGRAVITY
++FLOAT
++DONTFALL
++NOBLOOD
++NOBLOODDECALS
+AttackSound "skull/melee"
+PainSound "skull/pain"
+DeathSound "skull/death"
+ActiveSound "skull/active"
+Missiletype PoisonSoulPoison
+States
+	{
+	Spawn:
+	SKLL A 10 A_Look
+	Loop
+	See:
+	SKLL AAAAA 4 A_Chase
+	Loop
+	Missile:
+	SKLL B 10 A_FaceTarget
+	SKLL B 0 A_PlaySound("torturedsoul/poison")
+	SKLL B 0 A_CustomMissile("PoisonSoulPoison", 0, 0, 180)
+	SKLL B 4 A_SkullAttack
+	SKLL BB 4
+	Goto Missile+1
+	Pain:
+	SKLL C 3
+	SKLL C 3 A_Pain
+	Goto See
+	Death:
+	SKLL D 6
+	SKLL E 6 A_Scream
+	SKLL F 6
+	SKLL F 0 A_PlaySound("torturedsoul/poison")
+	SKLL F 0 A_CustomMissile("PoisonSoulPoison", 0, 0, 0)
+	SKLL G 6 A_Noblocking
+	SKLL H 6
+	Stop
+	}
+}
+
+actor PoisonSoulPoison
+{
+Radius 24
+Height 6
+Speed 0
+Damage 1
+DamageType PoisonCloud
++STRIFEDAMAGE
++RIPPER
++NOGRAVITY
++MISSILE
+RENDERSTYLE Translucent
+ALPHA 0.67
+	States
+	{
+	Spawn:
+	TRPS ABCDEFGDEFGDEFGDEFGDEFGDCBA 4
+	Stop
+	Death:
+	TRPS DCBA 4
+	Stop
+	}
+}

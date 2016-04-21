@@ -1,0 +1,434 @@
+ACTOR SmallHealthPotion : Health 32276
+{
+//$Category New Health And Armor
+Tag "Small Health Potion"
+Game Doom
+Inventory.Amount 10
+Inventory.PickupMessage "Small Health Potion"
++FLOATBOB
+States
+	{
+	Spawn:
+	HPP1 A -1
+	Stop
+	}
+}
+
+ACTOR MediumHealthPotion : Health 32277
+{
+//$Category New Health And Armor
+Tag "Medium Health Potion"
+Game Doom
+Inventory.Amount 15
+Inventory.PickupMessage "Medium Health Potion"
++FLOATBOB
+States
+	{
+	Spawn:
+	HPP2 A -1
+	Stop
+	}
+}
+
+ACTOR LargeHealthPotion : Health 32278
+{
+//$Category New Health And Armor
+Tag "Large Health Potion"
+Game Doom
+Inventory.Amount 25
+Inventory.PickupMessage "Large Health Potion"
++FLOATBOB
+States
+	{
+	Spawn:
+	HPP3 A -1
+	Stop
+	}
+}
+
+ACTOR SuperHealthPotion : Health 32279
+{
+//$Category New Health And Armor
+Tag "Super Health Potion"
+Game Doom
+Inventory.Amount 50
+Inventory.PickupMessage "Super Health Potion"
++FLOATBOB
+States
+	{
+	Spawn:
+	HPP4 A -1
+	Stop
+	}
+}
+
+ACTOR SmallMiraclePotion : Health 32280
+{
+//$Category New Health And Armor
+Tag "Small Miracle Potion"
+Game Doom
+Inventory.Amount 10
+Inventory.MaxAmount 200
+Inventory.PickupMessage "Small Miracle Potion"
++FLOATBOB
+States
+	{
+	Spawn:
+	MRP1 A -1
+	Stop
+	}
+}
+
+ACTOR MediumMiraclePotion : Health 32281
+{
+//$Category New Health And Armor
+Tag "Medium Miracle Potion"
+Game Doom
+Inventory.Amount 15
+Inventory.MaxAmount 200
+Inventory.PickupMessage "Medium Miracle Potion"
++FLOATBOB
+States
+	{
+	Spawn:
+	MRP2 A -1
+	Stop
+	}
+}
+
+ACTOR LargeMiraclePotion : Health 32282
+{
+//$Category New Health And Armor
+Tag "Large Miracle Potion"
+Game Doom
+Inventory.Amount 25
+Inventory.MaxAmount 200
+Inventory.PickupMessage "Large Miracle Potion"
++FLOATBOB
+States
+	{
+	Spawn:
+	MRP3 A -1
+	Stop
+	}
+}
+
+ACTOR SuperMiraclePotion : Health 32283
+{
+//$Category New Health And Armor
+Tag "Super Miracle Potion"
+Game Doom
+Inventory.Amount 50
+Inventory.MaxAmount 200
+Inventory.PickupMessage "Super Miracle Potion"
++FLOATBOB
+States
+	{
+	Spawn:
+	MRP4 A -1
+	Stop
+	}
+}
+
+ACTOR SmallPortablePotion : HealthPickup 32284
+{
+//$Category New Health And Armor
+Tag "Recovers 10 HP"
+Game Doom
+Health 10
+HealthPickup.Autouse 1
+Inventory.Icon "PRP1B0"
+Inventory.PickupMessage "Small Portable Potion"
+Inventory.PickupSound "misc/p_pkup"
++COUNTITEM
++FLOATBOB
++INVENTORY.FANCYPICKUPSOUND
++INVENTORY.PICKUPFLASH
+States
+	{
+	Spawn:
+	PRP1 A -1
+	Stop
+	}
+}
+
+ACTOR MediumPortablePotion : HealthPickup 32285
+{
+//$Category New Health And Armor
+Tag "Recovers 15 HP"
+Game Doom
+Health 15
+HealthPickup.Autouse 1
+Inventory.Icon "PRP2B0"
+Inventory.PickupMessage "Medium Portable Potion"
+Inventory.PickupSound "misc/p_pkup"
++COUNTITEM
++FLOATBOB
++INVENTORY.FANCYPICKUPSOUND
++INVENTORY.PICKUPFLASH
+	States
+	{
+	Spawn:
+	PRP2 A -1
+	Stop
+	}
+}
+
+ACTOR LargePortablePotion : HealthPickup 32286
+{
+//$Category New Health And Armor
+Tag "Recovers 25 HP"
+Game Doom
+Health 25
+HealthPickup.Autouse 1
+Inventory.Icon "PRP3B0"
+Inventory.PickupMessage "Large Portable Potion"
+Inventory.PickupSound "misc/p_pkup"
++COUNTITEM
++FLOATBOB
++INVENTORY.FANCYPICKUPSOUND
++INVENTORY.PICKUPFLASH
+States
+	{
+	Spawn:
+	PRP3 A -1
+	Stop
+	}
+}
+
+ACTOR SuperPortablePotion : HealthPickup 32287
+{
+//$Category New Health And Armor
+Tag "Recovers 50 HP"
+Game Doom
+Health 50
+HealthPickup.Autouse 1
+Inventory.Icon "PRP4B0"
+Inventory.PickupMessage "Super Portable Potion"
+Inventory.PickupSound "misc/p_pkup"
++COUNTITEM
++FLOATBOB
++INVENTORY.FANCYPICKUPSOUND
++INVENTORY.PICKUPFLASH
+States
+	{
+	Spawn:
+	PRP4 A -1
+	Stop
+	}
+}
+
+ACTOR PowerRegenerationSmall : PowerRegeneration
+{
+Powerup.Color 0, 112, 224, 0.125
+Powerup.Duration -10
+}
+
+ACTOR PowerRegenerationMedium : PowerRegeneration
+{
+Powerup.Color 0, 112, 224, 0.125
+Powerup.Duration -15
+}
+
+ACTOR PowerRegenerationLarge : PowerRegeneration
+{
+Powerup.Color 0, 112, 224, 0.125
+Powerup.Duration -25
+}
+
+ACTOR PowerRegenerationSuper : PowerRegeneration
+{
+Powerup.Color 0, 112, 224, 0.125
+Powerup.Duration -50
+}
+
+ACTOR SmallRegenerationPotion : PowerupGiver 32288
+{
+//$Category New Health And Armor
+Tag "Regenerates for 10 seconds"
+Game Doom
+Inventory.Icon "RGP1B0"
+Inventory.PickupMessage "Small Regeneration Potion"
+Powerup.Type "PowerRegenerationSmall"
++COUNTITEM
++FLOATBOB
++INVENTORY.PICKUPFLASH
+States
+	{
+	Spawn:
+	RGP1 A -1
+	Stop
+	}
+}
+
+ACTOR MediumRegenerationPotion : PowerupGiver 32289
+{
+//$Category New Health And Armor
+Tag "Regenerates for 15 seconds"
+Game Doom
+Inventory.Icon "RGP2B0"
+Inventory.PickupMessage "Medium Regeneration Potion"
+Powerup.Type "PowerRegenerationMedium"
++COUNTITEM
++FLOATBOB
++INVENTORY.PICKUPFLASH
+States
+	{
+	Spawn:
+	RGP2 A -1
+	Stop
+	}
+}
+
+ACTOR LargeRegenerationPotion : PowerupGiver 32290
+{
+//$Category New Health And Armor
+Tag "Regenerates for 25 seconds"
+Game Doom
+Inventory.Icon "RGP3B0"
+Inventory.PickupMessage "Large Regeneration Potion"
+Powerup.Type "PowerRegenerationLarge"
++COUNTITEM
++FLOATBOB
++INVENTORY.PICKUPFLASH
+States
+	{
+	Spawn:
+	RGP3 A -1
+	Stop
+	}
+}
+
+ACTOR SuperRegenerationPotion : PowerupGiver 32291
+{
+//$Category New Health And Armor
+Tag "Regenerates for 50 seconds"
+Game Doom
+Inventory.Icon "RGP4B0"
+Inventory.PickupMessage "Super Regeneration Potion"
+Powerup.Type "PowerRegenerationSuper"
++COUNTITEM
++FLOATBOB
++INVENTORY.PICKUPFLASH
+States
+	{
+	Spawn:
+	RGP4 A -1
+	Stop
+	}
+}
+
+ACTOR VasesPotionSpawner 25631 //new
+{
+//$Category New Health And Armor
+Tag "Vases Potion Spawner"
+Game Doom
+MissileType PoisonSoulPoison
+States
+	{
+	Spawn:
+	TNT1 A 0
+	TNT1 A 0 A_Jump (128, "Potion1", "Potion2", "Potion3", "Potion4", "Rats1", "Rats2", "Poison1", "Poison2")
+	Potion1:
+	TNT1 A -1 A_SpawnItem ("SmallHealthPotion")
+	Stop
+	Potion2:
+	TNT1 A -1 A_SpawnItem ("SmallMiraclePotion")
+	Stop
+	Potion3:
+	TNT1 A -1 A_SpawnItem ("SmallPortablePotion")
+	Stop
+	Potion4:
+	TNT1 A -1 A_SpawnItem ("SmallRegenerationPotion")
+	Stop
+	Rats1:
+	TNT1 A -1 A_SpawnItem ("ScurryRat")
+	Stop
+	Rats2:
+	TNT1 A -1 A_SpawnItem ("ScurryRat")
+	Stop
+	Poison1:
+	TNT1 AAAAAA 6 A_CustomMissile(PoisonSoulPoison, 8, 0, 0)
+	TNT1 A -1
+	Stop
+	Poison2:
+	TNT1 AAAAAAAA 6 A_CustomMissile(PoisonSoulPoison, 8, 0, 0)
+	TNT1 A -1
+	Stop
+	}
+}
+
+ACTOR SmallPotionsSpawner 20070 //new
+{
+//$Category New Health And Armor
+Tag "Small Potions Spawner"
+Game Doom
+States
+	{
+	Spawn:
+	TNT1 A 0
+	TNT1 A 0 A_Jump (128, "Potion1", "Potion2", "Potion3", "Potion4")
+	Potion1:
+	TNT1 A -1 A_SpawnItem ("SmallHealthPotion")
+	Stop
+	Potion2:
+	TNT1 A -1 A_SpawnItem ("SmallMiraclePotion")
+	Stop
+	Potion3:
+	TNT1 A -1 A_SpawnItem ("SmallPortablePotion")
+	Stop
+	Potion4:
+	TNT1 A -1 A_SpawnItem ("SmallRegenerationPotion")
+	Stop
+	}
+}
+
+ACTOR MediumPotionsSpawner 20071 //new
+{
+//$Category New Health And Armor
+Tag "Medium Potions Spawner"
+Game Doom
+States
+	{
+	Spawn:
+	TNT1 A 0
+	TNT1 A 0 A_Jump (128, "Potion1", "Potion2", "Potion3", "Potion4")
+	Potion1:
+	TNT1 A -1 A_SpawnItem ("MediumHealthPotion")
+	Stop
+	Potion2:
+	TNT1 A -1 A_SpawnItem ("MediumMiraclePotion")
+	Stop
+	Potion3:
+	TNT1 A -1 A_SpawnItem ("MediumPortablePotion")
+	Stop
+	Potion4:
+	TNT1 A -1 A_SpawnItem ("MediumRegenerationPotion")
+	Stop
+	}
+}
+
+ACTOR LargePotionsSpawner 20072 //new
+{
+//$Category New Health And Armor
+Tag "Large Potions Spawner"
+Game Doom
+States
+	{
+	Spawn:
+	TNT1 A 0
+	TNT1 A 0 A_Jump (128, "Potion1", "Potion2", "Potion3", "Potion4")
+	Potion1:
+	TNT1 A -1 A_SpawnItem ("LargeHealthPotion")
+	Stop
+	Potion2:
+	TNT1 A -1 A_SpawnItem ("LargeMiraclePotion")
+	Stop
+	Potion3:
+	TNT1 A -1 A_SpawnItem ("LargePortablePotion")
+	Stop
+	Potion4:
+	TNT1 A -1 A_SpawnItem ("LargeRegenerationPotion")
+	Stop
+	}
+}

@@ -1,0 +1,12 @@
+//kvx defs
+/*"SLIC" = "SLICER" //see unused folder
+{Spin = 192}*/
+
+"TETR" = "TETRAP"
+{Spin = 128}
+
+"DRAC" = "DRACON"
+{Spin = 128}
+
+"NESH" = "NECROS"
+{Spin = 128}
