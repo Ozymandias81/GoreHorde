@@ -8,3 +8,11 @@
 *.dbs
 *.rar
 *.zip
+
+# Let's exclude these folders / subfolders from commits
+
+models/h2/wip/**/*
+models/jk3/wip/**/*
+models/q1/wip/**/*
+models/q2/wip/**/*
+models/x2/wip/**/*

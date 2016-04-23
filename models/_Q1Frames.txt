@@ -1,0 +1,26 @@
+//3d Bosses names:
+//Cryobranthaar - Ice
+//Waldenhathaar - Swamp
+//Teknokrathon - Tech/Metal
+//Hochnathon - Lava
+//Munkhanahaar - Hades
+//Yog Sothoth - Flesh
+
+//Quake models frame names
+Lavaman.md2 //always buried - Cryobranthaar & Technokrathon
+
+-rise 17 = rise1/rise17
+-walk 31 = walk1/walk31
+-death 9 = death1/death9
+-attack 23 = attack1/attack23
+-pain 10 = shocka1/shocka10
+
+Boss.md2 //best offsets - ideal for every bosses
+
+-rise 17 = rise1/rise17
+-walk 31 = walk1/walk31
+-death 9 = death1/death9
+-attack 23 = attack1/attack23
+-pain1 10 = shocka1/shocka10
+-pain2 10 = shockb1/shockb6
+-pain3 10 = shockc1/shockc10
