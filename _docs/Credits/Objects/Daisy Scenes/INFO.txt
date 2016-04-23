@@ -1,0 +1,8 @@
+Name: Daisy Scenes
+Connection: No
+Palette: Doom
+Summon: daisytree/daisyhead/daisystick
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: No

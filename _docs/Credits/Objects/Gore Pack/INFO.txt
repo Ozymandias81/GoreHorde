@@ -1,0 +1,11 @@
+Information:
+
+Name: Gore Pack
+Connection: None
+Palette: Doom
+Summon: Bone1, Bone2, BrainMush, GoreChunk1, GoreChunk2, GoreChunk3,
+        EyeBall, Organ1, Organ2, RibCage, SpinalCord, Organs, Torso
+Ambient Sound: None
+De-/Activatable: N/A
+Destroyable: No
+Special Effects: None

@@ -1,0 +1,14 @@
+Name: Tetragrammaton
+Connections: Doom 2 Sounds
+Type: Puzzle Item
+Palette: PNG Truecolor
+Summon: TetraPuzzle
+Use type: Inventory
+Special Effects: GLDefs
+Brightmaps: No
+ACS: No
+
+Decorate: Ozymandias81
+GLDefs: Ozymandias81
+Sprites: Monolith Software (Blood)
+Sprite Edit: Ozymandias81

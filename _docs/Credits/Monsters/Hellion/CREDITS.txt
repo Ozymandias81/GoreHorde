@@ -1,0 +1,9 @@
+Credits
+
+Submitted: Eriance
+Decorate: Eriance
+GLDEFs: Keksdose 
+Sounds: Id Software
+Sprites: Id Software
+Sprite Edit: Eriance
+Idea Base: Doom 2 Arch-Vile

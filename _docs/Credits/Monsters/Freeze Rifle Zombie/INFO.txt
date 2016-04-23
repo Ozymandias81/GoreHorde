@@ -1,0 +1,9 @@
+Info
+
+Name: Freezer Zombie
+Difficulty: Easy
+Connection: None
+Summon: FreezeRifleGuy
+Melee: No
+Distance: Projectile
+Type: Human, Undead

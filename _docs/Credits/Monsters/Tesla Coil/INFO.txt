@@ -1,0 +1,18 @@
+Info
+
+Name: Tesla Coil
+Difficulty: Medium
+Connection: None
+Summon: TeslaCoil
+Melee: No
+Distance: Rail
+Type: Mechanic
+
+Credits
+
+Submitted: Captain Toenail
+Decorate: Captain Toenail
+Sounds: FreeRadical Design
+Sprites: Id software, Raven
+Sprite Edit: Captain Toenail
+Idea Base: Command and Conquer series

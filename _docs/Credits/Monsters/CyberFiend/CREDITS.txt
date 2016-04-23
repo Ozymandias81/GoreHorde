@@ -1,0 +1,7 @@
+Submitted: hnsolo77
+Decorate: Carnevil/hnsolo77
+GLDEFs: N/A
+Sounds: CyClones *Raven Software*, Shadow Caster
+Sprites: id Software
+Sprite Edit: Neoworm, Vader, Eriance, hnsolo77
+idea base: Baddies that puke as an attack.

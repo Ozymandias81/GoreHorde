@@ -1,0 +1,14 @@
+Name: (Various Names)
+Connection: None
+Palette: PNG Truecolor
+Summon: BloodTree1-7, BloodGrass1A-B, BloodGrass2A-B, BloodStatue1-2, BloodTotem, BloodSlicer, BLSeaWeed1-2, DukeTorso1-2
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: GLDefs(BloodStatue1-2), AnimDefs(BLSeaWeed1-2)
+Brightmaps: No
+ACS: No
+
+Decorate: Ozymandias81
+Sprites: Monolith Software
+Sprite Edit: Ozymandias81

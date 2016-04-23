@@ -1,0 +1,103 @@
+===========================================================================
+Advanced engine needed  : None
+Primary purpose         : No levels included
+===========================================================================
+Title                   : NMN Corporation Texture Set Part 1
+Filename                : nmncorp1.wad
+Release date            : 12.November.2004
+Author                  : Pawel Zarczynski aka NMN
+Email Address           : Sonybono@interia.pl
+Other Files By Author   :
+-Waste Site (wsite.wad)
+-Option: Denied (odenied.wad)
+-Dreadful change upon us (dreadful.wad)
+-Place of the Tomb (pott.zip)
+
+Misc. Author Info       :
+-18 Year old Doomer from Poland. Just a normal boy who spends a lot of time Dooming and drawing stuff.
+-DRD Team Member
+-R-1 Project Developer
+-Particapated in Knee Deep in Zdoom and Zdoom Community Part 2
+-Particapated in Dittohead's project
+
+Description             : No levels this time. What You have here is a full fledged ready to go texture set made by myself, fully. No fooling around such as combining Doom textures to make something new, nope, what You have here is 100% Brand Fresh from Scratch. The texture set was originally inspired by Quake 2 - a game that I missed while I've lost it. I've downloaded the Quake 2 Texture Wad (Props to Derek Mac Donald aka Afterglow) looked at all the beauty, got some ideas and started creating my own ones from scratch. In the latter time I've got my Quake 2 back on my comp, and after blasting some Stroggos I've decided.. that the set needs more textures :) I've also got some other inspiration and it all formed a very pleasent, dark, futuristic, desolated collection of graphics. I was going to build a level with them, but I've lost interest. Those were made in July when my project was paused, so in freetime I didn't fool around-I practiced :] Enjoy!
+Oh, this collection includes switches and an 8 frame animated water, but I've implemented them in such a way they should work with any source port without trouble. I ofcourse reccomend Zdoom for all Your Dooming needs, but it's My fave source port, You can use whatever You want.
+Now go build some cool levels with these! :D
+
+Additional Credits to   : 
+
+-My Family for tolerating my Dooming habbit
+-R-1 Team: ellmo, Lexus, Grubber and Wildweasel for being cool guys!
+-Authors of the Utilities (see below)
+-ID for both Doom and Quake(s)
+-Derek Mac Donald for the converted to Doom Q2 texture wad (see above)
+-Whoever likes my work and gave me good (or bad) comments!
+
+===========================================================================
+* What is included *
+
+New levels              : None
+Sounds                  : No
+Music                   : No
+Graphics                : Yes
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : DOOM2
+Map #                   : -
+Single Player           : -
+Cooperative 2-4 Player  : -
+Deathmatch 2-4 Player   : -
+Other game styles       : -
+Difficulty Settings     : -
+
+
+* Construction *
+
+Base                    : All from Scratch
+Build Time              :  About a month on and off
+Editor(s) used          : 
+-Paint Shop Pro by Jasc
+-Wally by Ty Mathews and Neal White
+Known Bugs              : Browns fading to Red, bright blues fading to grey.. yeah, but it's a colormap bug by ID, fixing this would, IMO, require a completely new pallette.
+May Not Run With...     : Gorilla-Tiger Mutants and Serv Bots
+
+* Copyright / Permissions *
+
+Authors MAY use the contents of this file as a base for
+modification or reuse. 
+
+You MAY distribute this file, provided you include this text file, with
+no modifications.  You may distribute this file in any electronic
+format (BBS, Diskette, CD, etc) as long as you include this file 
+intact.  I have received permission from the original authors of any
+modified or included content in this file to allow further distribution.
+
+
+=============================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-Enter this room and I will kill You!

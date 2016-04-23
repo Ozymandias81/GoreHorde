@@ -1,0 +1,9 @@
+Credits:
+
+Submitted: Captain Toenail
+Decorate: Captain Toenail
+GLDefs: N/A
+Sounds: N/A
+Sprites: Id Software
+Sprite Edit: Captain Toenail
+Idea Base: Monster infighting

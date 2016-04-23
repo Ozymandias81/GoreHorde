@@ -1,0 +1,32 @@
+Name: (Various Names)
+Connections: None
+Type: Puzzle Item
+Palette: PNG Truecolor
+Summon: EyeGem, KnifeGem, ArachnoGem, FireGem, MoonGem
+Use type: Inventory
+Special Effects: GLDefs
+Brightmaps: No
+ACS: No
+
+Decorate: Ozymandias81
+GLDefs: Ozymandias81
+Sounds: Raven Software
+Sprites: Monolith Software
+Sprite Edit: Ozymandias81
+
+...and the gizmos...
+
+Name: (Various Names)
+Connections: None
+Type: Switchable Decoration
+Palette: PNG Truecolor
+Summon: Eye-Knife-Arachno-Fire-MoonGemGizmo, NoEye-Knife-Arachno-Fire-MoonGem
+Use type: ACS
+Special Effects: GLDefs
+Brightmaps: No
+ACS: No
+
+Decorate: zrrion the insect, Ozymandias81
+GLDefs: zrrion the insect, Ozymandias81
+Sprites: iD Software, SkullTag Team, zrrion the insect, Monolith Software
+Sprite Edit: Ozymandias81

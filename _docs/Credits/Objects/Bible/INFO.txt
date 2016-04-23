@@ -1,0 +1,9 @@
+Name: Bible
+Connection: None
+Type: Other
+Palette: Doom
+Summon: Bible
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: No

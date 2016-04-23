@@ -1,0 +1,5 @@
+Submitted: Ghastly_dragon
+Decorate: Ghastly_dragon
+Sprites: Id Software
+Sprite Edit: Ghastly_dragon
+Idea Base: Quake 1's slime-protection powerup

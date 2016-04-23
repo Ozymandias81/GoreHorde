@@ -1,0 +1,13 @@
+Name: Gloomy Brazier
+Connection: T667 CinderSpawner
+Type: Other
+Palette: PNG Truecolor
+Summon: GloomyBrazier
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: GLDefs
+
+Decorate: Ozymandias81
+Sprites: Stilgar
+Sprite Edit: Ozymandias81

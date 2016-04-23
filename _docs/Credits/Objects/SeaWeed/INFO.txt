@@ -1,0 +1,14 @@
+Name: Seaweed
+Connection: None
+Palette: Custom
+Summon: seaweed, seaweedripple1
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: seaweedripple1 has warping effect. See Decorate lump for info.
+
+Submitted: Captain Toenail
+Decorate: Captain Toenail
+Gldefs: None
+Sprites: Exhumed
+Sprite Edit: Captain Toenail

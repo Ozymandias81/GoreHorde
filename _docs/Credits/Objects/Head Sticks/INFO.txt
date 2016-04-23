@@ -1,0 +1,11 @@
+Information:
+
+Name: Head Sticks
+Connection: N/A
+Type: Gore
+Palette: Doom
+Summon: DoomHeadStick, ImpHeadStick, TrooperHeadStick, CyberHeadStick
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: No

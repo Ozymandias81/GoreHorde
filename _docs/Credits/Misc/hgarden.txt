@@ -1,0 +1,82 @@
+===========================================================================
+Advanced engine needed  : GZDoom ONLY
+Primary purpose         : Single player
+===========================================================================
+
+Title                   : Hanging Gardens
+Filename                : hgarden.zip
+Release date            : August 11, 2011
+Author                  : Paul DeBruyne (skillsaw)
+Email Address           : pgdebruyne@gmail.com
+Other Files By Author   : Sector 666 (666.zip)
+			  Aeternum (Aeternum.zip)
+			  ZPack E3M1 and E3M8 (Zpack.zip)
+			  Stronghold: On the Edge of Chaos (Strhedge.zip)
+				(STR08,STR23,STR24,STR31)
+                          Vanguard (Vanguard.zip)
+                          Lunatic (Lunatic.zip)                  
+Misc. Author Info       : Makes maps for Doom
+Description             : An unreleased GZDoom map I made about a year ago.  It's set in a lush, walled garden
+                          in the middle of a desert.  It was supposed to be part of an episode but I don't plan
+                          to work on it any more.
+
+                          I would describe the gameplay as arena/slaughter.
+
+                          This map is VERY system intensive.  You will need a fairly modern PC to play this level
+                          smoothly.
+
+Additional Credits to   : Graphics:
+				Huy Pham		Tormentor667
+				Eriance	                Nightmare
+				esselfortium		Mighty Pete
+                                Nash
+
+			  Music:
+				Epic Games (Epic Pinball)
+			  		
+===========================================================================
+* What is included *
+
+New levels              : MAP01
+Sounds                  : Yes
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : No
+Demos                   : -
+Other                   : MAPINFO/DECORATE
+Other files required    : -
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : 01
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : No
+Difficulty Settings     : Yes
+
+
+* Construction *
+
+Base                    : Map new from scratch
+Build Time              : A few days
+Editor(s) used          : Doombuilder 2, SlumpEd
+Known Bugs              : None known			  
+
+* Copyright / Permissions *
+
+Authors may use the remaining contents of this file as a base for 
+modification or reuse.  Permissions have been obtained from original authors 
+for any of their resources modified or included in this file.
+
+You MAY distribute this file, provided you include this text file, with no
+modifications.  You may distribute this file in any electronic format (BBS,
+Diskette, CD, etc) as long as you include this file intact.  I have
+received permission from the original authors of any modified or included
+content in this file to allow further distribution.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.3dgamers.com/pub/idgames/ and mirrors

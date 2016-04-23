@@ -1,0 +1,8 @@
+Name: Serpent Braziers
+Connection: None
+Palette: Heretic
+Summon: SerpentBrazier"Bronze/Green/Gold"
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: No

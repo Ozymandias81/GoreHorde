@@ -1,0 +1,16 @@
+Name: Rusted fire pillar,Ice fire Pillar, Serpent Fire-bowl
+Connection: None
+Palette: Heretic
+Summon: RustedFirePillar,IceFirePillar,SerpentFire
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: No
+
+Submitted: zrrion the insect
+Decorate: zrrion the insect
+GLDefs: zrrion the insect
+Sounds: N/A
+Sprites: Heretic, Hexen
+Sprite Edit: zrrion the insect
+Idea Base: N/A

@@ -1,0 +1,7 @@
+Name: Lord of Heresy
+Difficulty: Hard
+Connection: none
+Summon: LordofHeresy 
+Melee: Yes
+Distance: Projectile
+Type: Demon

@@ -1,0 +1,8 @@
+Type: Floating ash
+Connections: None
+Spawn Offsets: Arguments
+Documentation: Yes
+Spawn Ceiling: No
+Variants: None
+Summon: AshSpawner
+ACS: No

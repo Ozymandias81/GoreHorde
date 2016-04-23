@@ -1,0 +1,64 @@
+===========================================================================
+Title                   : Baker's Legacy Texture Pack
+Version			: v1.0
+Filename                : bak_leg.wad
+Date Finished           : September, 1st 2009
+Author                  : BlazingPheonix 
+(in alphabetical order)   Captain Toenail
+			  Enjay
+			  Esselfortium
+			  Evil Space Tomato
+			  Gez
+  			  Neoworm
+  			  Nightmare
+			  Pun1sh3r
+			  Icytux
+			  Rottking
+			  Tormentor667
+			  Vader
+			  Xaser
+
+Web Page                : http://www.realm667.com/
+
+Description             : A huge resource (1700+) of new, recolored or 
+			  redefined textures and flats basically for
+			  Heretic but some might also work in other
+			  games. Definied between TX_ markers and a
+			  ANIMDEFS file included so you can just start
+			  with your custom spiced up Heretic map.
+		
+                          
+===========================================================================
+
+* Play Information *
+
+Maps                    : N/A
+Source Port		: ZDoom / GZDoom / Skulltag 
+			  (but any other port as well, just needs conversion)
+Single Player           : N/A
+Cooperative 2-8 Player  : N/A
+Deathmatch 2-8 Player   : N/A
+Difficulty Settings     : N/A
+New Sounds              : No
+New Music               : No
+New Graphics            : Yes
+
+
+* Construction *
+
+Base                    : From Scratch / Based on Heretic (and some other shooters)
+Build Time              : From March 2009 till August 2009
+Editor(s) used          : Various
+Known Bugs              : NNone	
+
+
+* Other Information *
+
+Where to Get		: http://www.realm667.com/
+			  http://www.doomworld.com/idgames/
+Copy Information	: You may use material from this project for your own
+			  projects as long as you credit the respective creators
+			  You may upload this file somewhere else as long as
+			  this file stays included as it is
+			  You are encouraged to  base projects on this resources 
+			  and setting

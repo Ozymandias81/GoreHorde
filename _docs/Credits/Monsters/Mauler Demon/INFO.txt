@@ -1,0 +1,10 @@
+Info
+
+Name: Mauler Demon
+Difficulty: Easy
+Connection: none
+Info: The original MRW version is different and uses sprites from Strain
+Summon: MaulerDemon 
+Melee: Yes
+Distance: Charge
+Type: Demon

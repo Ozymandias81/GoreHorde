@@ -1,0 +1,4 @@
+Decorate: Solarsnowfall, Tormentor667, Ghastly_dragon
+GLDefs: Ghastly_dragon
+Sounds: Id Software, Looking Glass Studios, Ion Storm Inc.
+Sprites: SolarSnowFall

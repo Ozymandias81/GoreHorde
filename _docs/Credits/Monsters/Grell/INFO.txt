@@ -1,0 +1,9 @@
+Name: Grell
+Difficulty: Easy
+Connections: None
+Summon: Grell
+Melee: No
+Distance: Poison projectile. Slows player for 3 seconds.
+Type: Demon
+Added States: No
+ACS: No

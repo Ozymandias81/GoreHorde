@@ -1,0 +1,19 @@
+25/01/15: Fixed some LANGUAGE messages; slighlty changes on TITLEMAP; changed music theme for TITLEMAP, Eisenfaust song removed (now it's from Ultima 8); some minor repolishments here & there;
+
+21/01/15: Fixed some oddities with Shotgun & SSG recoil animations; leveled some vertex slopes on MAP01 near the blue skullkey + some minor structure changes; you will find a flashlight near the start on MAP01 (all these things thankx to Mav3rick)
+
+20/01/15: Commented out weapons "setslots" from KEYCONF, now weapons are sorted through DECORATE only (thankx to Ed The Bat);
+
+19/01/15: PK3'ed repolishment, some actors redefined, removed "Screenshots" folder for now;
+
+15/01/15: Now when the flashlight is hold, mugshot don't change in a rampage face (thankx to Endless123 & jdredalert a lot!);
+
+11/01/15: IDFA & IDKFA cheat logs fixed (ENG + ITA), removed offensive words (thankx to Chronoteeth);
+
+08/01/15: Added new bindings messages on Map00; Fixed the exit script on Map01 (thankx to Enjay);
+
+03/01/15: Fixed Minigun & Chaingun firing rates, some other fixes to all weapons such as blend and/or recoil effects (thankx to Mav3rick);
+
+29/12/14: The project is submitted inside these forums for its 1st time;
+
+11/11/11: The lost and unreleased project "Horde Of Titans" become "Gore": everything starts from here;

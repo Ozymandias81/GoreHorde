@@ -1,0 +1,9 @@
+Info
+
+Name: Ethereal Soul
+Difficulty: Medium
+Connection: Uses Shadow projectiles, included
+Summon: ESoul 
+Melee: No
+Distance: Projectile, Charge
+Type: Demon, Undead

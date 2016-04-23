@@ -1,0 +1,9 @@
+Info
+
+Name: Soul Harvester
+Difficulty: Easy
+Connection: Uses Skull and Soul from Hell's Fury and vice versa
+Summon: SoulHarvester 
+Melee: Yes
+Distance: Tracer
+Type: Demon, Undead

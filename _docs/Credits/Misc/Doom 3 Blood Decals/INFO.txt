@@ -1,0 +1,11 @@
+Effect: Decals
+Type: Blood
+Count: 23
+
+To use, place a Decal actor (editor number 9200) next to a wall, and put the
+decal's ID (next to the name in the decal's definition) as the first argument.
+If they conflict with other decorative decals in your mod, feel free to
+renumber them.
+
+Note, these do NOT replace ZDoom's existing blood decals. They are purely map
+decoration.

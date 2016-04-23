@@ -1,0 +1,18 @@
+Info
+
+Name: Hell Rose
+Difficulty: Medium
+Connection: None
+Summon: HellRose 
+Melee: No
+Distance: Spawn
+Type: Demon, Plant
+
+Credits
+
+Submitted: Neoworm
+Decorate: Neoworm
+Sounds: Id Software
+Sprites: 3DRealms
+Sprite Edit: Neoworm 
+ 

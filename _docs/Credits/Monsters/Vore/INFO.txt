@@ -1,0 +1,9 @@
+Name: Vore
+Difficulty: Medium
+Connections: None
+Summon: Vore
+Melee: No
+Distance: Projectile
+Type: Demon
+Added States: No
+ACS: No

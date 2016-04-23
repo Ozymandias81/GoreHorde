@@ -1,0 +1,7 @@
+Submitted: Doom64hunter
+Decorate: Doom64hunter
+GLDefs: N/A
+Sounds: N/A
+Sprites: Id Software
+Sprite Edit: Team TNT, Doom64hunter
+Idea Base: The tortured Cyber texture from Eternal doom and the tortured baron prop.

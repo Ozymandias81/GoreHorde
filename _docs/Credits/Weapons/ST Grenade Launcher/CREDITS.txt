@@ -1,0 +1,6 @@
+Submitted: Ghastly_dragon
+Decorate: The Skulltag Team
+GLDefs: The Skulltag Team
+Sprites: The Skulltag Team
+Sounds: The Skulltag Team
+Idea Base: Quake series' Grenade Launcher

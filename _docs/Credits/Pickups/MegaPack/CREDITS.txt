@@ -1,0 +1,5 @@
+Submitted: PillowBlaster
+Decorate: PillowBlaster
+GLDefs: PillowBlaster
+Sounds: IDSoftware
+Sprites: Mor'ladim

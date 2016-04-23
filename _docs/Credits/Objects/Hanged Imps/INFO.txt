@@ -1,0 +1,11 @@
+Information:
+
+Name: Hanged Imps
+Connection: N/A
+Type: Gore
+Palette: Doom
+Summon: HangedImp1-4
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: No

@@ -1,0 +1,8 @@
+Name: Armor Shard
+Type: Armor Bonus
+Palette: Doom
+Summon: ArmorShard
+Use type: Instant
+Duration: Instant
+Added States: No
+ACS: No

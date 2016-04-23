@@ -1,0 +1,7 @@
+Name: Piranha
+Difficulty: Easy
+Connections: None
+Summon: Piranha
+Melee: Yes
+Distance: None
+Type: Animal

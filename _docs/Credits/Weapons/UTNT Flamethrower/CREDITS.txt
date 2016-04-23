@@ -1,0 +1,5 @@
+Submitted: MasterOFMorag
+Decorate: Eriance
+GLDefs: Keksdose
+Sprites: Eriance, 3d Realms
+Sounds: Eriance, Raven Software

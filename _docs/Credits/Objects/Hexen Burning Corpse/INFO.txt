@@ -1,0 +1,8 @@
+Name: Hexen Burning Corpse
+Connection: None
+Palette: Hexen
+Summon: ZCorpseBurning
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: No

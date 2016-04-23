@@ -1,0 +1,9 @@
+Info
+
+Name: Tornado Demon
+Difficulty: Medium
+Connection: None
+Summon: TornadoDemon 
+Melee: Yes
+Distance: Projectile
+Type: Demon, Elemental

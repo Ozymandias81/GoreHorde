@@ -1,0 +1,6 @@
+Submitted: Tormentor667
+Decorate: Cyb
+GLDEFs: Dreadopp
+Sounds: Id Software, Raven Software
+Sprites: Id Software, Raven Software
+Sprite Edit: Cyb, Vader, ItsNatureToDie

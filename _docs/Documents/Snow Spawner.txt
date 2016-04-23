@@ -1,0 +1,10 @@
+Place on map and use the first three arguments to control the intensity and area of the 
+spawner.
+
+First argument controls the size of the area. 128, for example, spawns in a 256x256 square ( 
+or 256 diameter circle. See third argument).
+
+Second argument controls the frequency of which it spawns snow. The lower the number, the more 
+frequent (0 for always).
+
+Third argument controls the type of area it spawns in. 0 is square, 1 is circle.

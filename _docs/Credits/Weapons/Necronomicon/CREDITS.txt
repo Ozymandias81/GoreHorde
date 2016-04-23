@@ -1,0 +1,7 @@
+Submitted: Lucario
+Decorate: Froon, Ghastly_Dragon, Lucario
+Sprites: Raven Software, Lucario
+GLDefs: Ghastly_Dragon
+Sprite Edit: Froon
+Sounds: Raven Software, ID Software
+Base Idea: The books from Hexen II.

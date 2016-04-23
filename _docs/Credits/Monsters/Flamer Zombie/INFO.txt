@@ -1,0 +1,7 @@
+Name: Flamethrower Zombie
+Difficulty: Medium
+Connections: None
+Summon: FlamerZombie
+Melee: None
+Distance: Projectile
+Type: Undead

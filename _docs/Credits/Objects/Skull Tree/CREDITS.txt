@@ -1,0 +1,5 @@
+Submitted: zrrion the insect
+Decorate: zrrion the insect
+Gldefs: N/A
+Sprites: Doom, Heretic
+Idea Base: none

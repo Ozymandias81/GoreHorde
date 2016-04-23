@@ -1,0 +1,7 @@
+Submitted: Z86
+Decorate: Z86
+GLDDEFs: Z86
+Sounds: id Software
+Sprites: id Software
+Sprite Edit: Z86
+Idea Base: Terminator portals, Doom 3 lightning effects

@@ -1,0 +1,8 @@
+Name: Stone Torch
+Connection: "ignite" (Hexen sndinfo)
+Palette: Hexen
+Summon: StoneTorch
+Ambient Sound: No
+De-/Activatable: Yes
+Destroyable: No
+Special Effects: No

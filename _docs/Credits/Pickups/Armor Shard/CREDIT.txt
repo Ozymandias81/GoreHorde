@@ -1,0 +1,7 @@
+Submitted: Infirnex
+Decorate: Infirnex
+GLDefs: Infirnex
+Sounds: id Software
+Sprites: id Software
+Sprite Edit: Infirnex
+Idea Base: Quake 2/3/4 armor Shard

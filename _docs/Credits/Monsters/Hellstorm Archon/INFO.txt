@@ -1,0 +1,9 @@
+Info
+
+Name: Hellstorm Archon
+Difficulty: Hard
+Connection: None
+Summon: HellstormArchon
+Melee: Yes
+Distance: Projectile
+Type: Demon

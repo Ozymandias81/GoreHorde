@@ -11,6 +11,9 @@
 
 # Let's exclude these folders / subfolders from commits
 
+maps/backup/**/*
+maps/pfbs/**/*
+maps/udmf/**/*
 models/h2/wip/**/*
 models/jk3/wip/**/*
 models/q1/wip/**/*

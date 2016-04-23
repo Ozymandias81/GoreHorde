@@ -1,0 +1,32 @@
+Name: Grudge Orb
+Connections: None
+Type: Puzzle Item
+Palette: PNG Truecolor
+Summon: GrudgePuzzle
+Use type: Inventory
+Special Effects: GLDefs
+Brightmaps: No
+ACS: No
+
+Decorate: Ozymandias81
+GLDefs: Ghastly_dragon, Ozymandias81
+Sounds: Raven Software
+Sprites: Vader (TerrorSphere)
+Sprite Edit: Ozymandias81
+
+...and its stand..
+
+Name: Grudge Stand
+Connections: None
+Type: Switchable Decoration
+Palette: PNG Truecolor
+Summon: GrudgeStand
+Use type: ACS
+Special Effects: GLDefs
+Brightmaps: No
+ACS: No
+
+Decorate: Captain Toenail
+Gldefs: Captain Toenail
+Sprites: Hexx
+Sprite Edit: Captain Toenail

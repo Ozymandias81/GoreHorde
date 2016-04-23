@@ -1,0 +1,8 @@
+Name: Necronomicon
+Class: Level 8
+Type: Summon
+Palette: Doom
+Summon: Necronomicon
+Ammotype: DarkMana (Custom)
+AltFire: Yes
+Powered Mode: No

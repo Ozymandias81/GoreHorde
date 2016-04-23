@@ -1,0 +1,6 @@
+Name: Flight Sphere
+Type: Flight
+Palette: Custom
+Summon: Flightsphere
+Use type: Instant
+Duration: 60 seconds

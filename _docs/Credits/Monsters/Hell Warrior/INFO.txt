@@ -1,0 +1,9 @@
+Name: Hell Warrior
+Difficulty: Medium
+Connection: None
+Summon: HellWarrior
+Melee: Yes
+Distance: Projectile
+Type: Demon, Medieval
+
+The original version can be found in TNT3

@@ -1,0 +1,9 @@
+Name: Stone Heads
+Connection: None
+Palette: Doom
+Summon: bighead1-5
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: No
+ACS: No

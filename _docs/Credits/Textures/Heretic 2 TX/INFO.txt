@@ -1,0 +1,6 @@
+Heretic II by Raven Software 2000
+Texture Dumping & Conversion by Ozymandias81
+PNGs TrueColor Format (8bit Format to PNG)
+There are some beautiful skyboxes
+GZDoom Only
+*Some textures may not tile correctly*

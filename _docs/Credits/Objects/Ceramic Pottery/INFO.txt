@@ -1,0 +1,11 @@
+Name: Ceramic Vases
+Connection: None
+Palette: Hexen
+Summon: Breakable Vase 1-4, Vase 1-6
+Ambient Sound: N/A (Break)
+De-/Activatable: N/A
+Destroyable: Yes
+Special Effects: N/A
+ACS: N/A
+
+

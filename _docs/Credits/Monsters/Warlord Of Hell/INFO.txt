@@ -1,0 +1,7 @@
+Name: Warlord of Hell
+Difficulty: Hard
+Connection: none
+Summon: WarlordOfHell
+Melee: Yes
+Distance: Projectile
+Type: Demon

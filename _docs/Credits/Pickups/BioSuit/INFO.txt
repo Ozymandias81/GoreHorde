@@ -1,0 +1,19 @@
+Name: Biosuit
+Type: Poison and radiation protection
+Palette: Doom
+Summon: Biosuit
+Use Type: Instant
+Duration: 120 seconds
+
+
+In the invasion on Earth, the military saw combat in several different toxic waste areas,
+where radiation and toxins were lethal to marines, but didn't seem to even phase the
+demons. Working to combat this advantage, the UAC developed the biosuit. Meant for combat
+in nuclear or biological waste, the biosuit offers much more protection than the standard
+radiation-shielding suits used for routine maitenance.
+
+
+=====Modder notes:
+PLEASE modify the PowerProtection actor to protect against any poison-ish damage in your
+mod. Easily done by adding a DamageType to the projectile or whatever and adding a
+DamageFactor entry to the PowerProtection actor itself.

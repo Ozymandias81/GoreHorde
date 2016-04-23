@@ -1,0 +1,7 @@
+Name: Cybruiser
+Difficulty: Hard
+Connection: none
+Summon: Cybruiser
+Melee: Yes
+Distance: Projectile
+Type: Demon, Cybernetic

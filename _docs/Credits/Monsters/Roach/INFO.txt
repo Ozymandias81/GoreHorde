@@ -1,0 +1,9 @@
+Info
+
+Name: Roach
+Difficulty: Medium
+Connection: None
+Summon: Roach
+Melee: No
+Distance: Projectile
+Type: Demon 

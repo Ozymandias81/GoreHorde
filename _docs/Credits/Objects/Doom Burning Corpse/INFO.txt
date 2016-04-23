@@ -1,0 +1,8 @@
+Name: Doom Burning Corpse
+Connection: None
+Palette: Doom
+Summon: BurningCorpse1, BurningCorpse2
+Ambient Sound: No
+De-/Activatable: Yes
+Destroyable: No
+Special Effects: No

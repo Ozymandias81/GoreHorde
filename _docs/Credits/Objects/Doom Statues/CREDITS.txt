@@ -1,0 +1,7 @@
+Submitted: JMAA
+Decorate: JMAA
+GLDefs: N/A
+Sounds: N/A
+Sprites: Raven Software, Id Software
+Sprite Edit: JMAA
+Idea Base: Statues from Hexen

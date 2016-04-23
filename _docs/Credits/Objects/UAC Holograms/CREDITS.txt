@@ -1,0 +1,5 @@
+Submitted: Gothic
+Decorate: Gothic
+GLDefs: Gothic
+Sprites: Id Software
+Sprite Edit: Gothic, Tormentor667

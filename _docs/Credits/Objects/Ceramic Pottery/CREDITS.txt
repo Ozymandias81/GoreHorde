@@ -1,0 +1,8 @@
+Submitted: Yuyu3
+Decorate: Yuyu3
+Sounds: Hexen
+Sprites: Hexen, Raven Software, Id Software
+Sprite Edit: Yuyu3
+Idea Base: Hexen Sprites are very dark, so i decided to colorize
+
+

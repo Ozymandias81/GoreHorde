@@ -1,0 +1,8 @@
+Name: Glowing Mushrooms
+Connection: None
+Palette: Custom
+Summon: LargeGlowingMsuhroom, SmallGlowingMushroom
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: No

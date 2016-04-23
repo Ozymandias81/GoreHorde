@@ -1,0 +1,14 @@
+Type: Terrain splash effects for Doom flats
+Connections: Raven splash FX (included), zDoom default splash "chunk" actors
+Spawn Offsets: N/A
+Documentation: Yes (in TERRAIN lump)
+Spawn Ceiling: No
+Variants: 7 - Water, Sludge, Lava, Blood, Slime (Nukage), Mud, Sizzle
+Summon: N/A
+Brightmaps: Yes
+ACS: No
+
+
+Provides splash effects for Doom flats. Includes water, sludge, and lava from
+Heretic/Hexen, as well as blood, slime (nukage), and mud, and a "sizzle" effect
+for hot non-liquid floors.

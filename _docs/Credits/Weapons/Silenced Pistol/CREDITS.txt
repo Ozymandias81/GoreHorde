@@ -1,0 +1,6 @@
+Submitted: JoeyTD
+Decorate: JoeyTD
+Sounds: Silenced 9MM handgun
+Sprites: ID Software
+Sprite Edit: JoeyTD
+Idea Base: ID software's pistol but only silent

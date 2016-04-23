@@ -1,0 +1,7 @@
+Name: Cardinal of Darkness
+Difficulty: Hard
+Connection: Arift , Thamuz
+Summon: Cardinal
+Melee: No
+Distance: Projectile, Tracer
+Type: Demon, Cybernetic

@@ -1,0 +1,8 @@
+Name: Hexen Crucified Corpses
+Connection: None
+Palette: Hexen
+Summon: ZCorpseCrucified, ZCorpseCrucifiedBloody, ZCorpseCrucifiedSword
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: None

@@ -1,0 +1,19 @@
+Info
+
+Name: Darkness Rift
+Difficulty: Hard
+Connection: None
+Summon: DarknessRift 
+Melee: No
+Distance: Projectile, Summon
+Type: Demon
+
+Credits
+
+Submitted: Ghastly Dragon
+Decorate: Ghastly Dragon 
+GLDEFs: Ghastly Dragon
+Sounds: Warcraft 3
+Sprites: Raven Software
+Sprite Edit: Ghastly Dragon 
+Idea Base: Doom novels

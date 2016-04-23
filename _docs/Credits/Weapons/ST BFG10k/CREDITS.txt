@@ -1,0 +1,6 @@
+Submitted: Ghastly_dragon
+Decorate: The Skulltag Team
+GLDefs: The Skulltag Team
+Sounds: The Skulltag Team
+Sprites: Eriance
+Idea Base: Quake 3's BFG10k

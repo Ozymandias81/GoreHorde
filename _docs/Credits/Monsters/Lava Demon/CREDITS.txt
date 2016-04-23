@@ -1,0 +1,6 @@
+Submitted: Virtue
+Decorate: Virtue
+Sounds: Raven Software
+Sprites: Raven Software
+Sprite Edit: Virtue, CodenniumRed
+Idea Base: A cool fire based monster

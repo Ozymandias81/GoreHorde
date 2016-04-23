@@ -1,0 +1,7 @@
+Submitted: scalliano
+Decorate: scalliano
+GLDefs: scalliano
+Sounds: None
+Sprites: Id Software, Monolith Productions
+Sprite Edit: scalliano
+Idea Base: Doom-class Regen powerup from Generations Arena mod for Q3

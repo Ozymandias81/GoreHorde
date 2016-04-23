@@ -1,0 +1,7 @@
+Name: Lanterns and Chandelier
+Palette: Doom
+Summon: TechLanternBig, TechLanternSmall, BlackCandleChandelier
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: No

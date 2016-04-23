@@ -1,0 +1,38 @@
+ADVISOR original graphic concept from Hexen by Raven Software
+Editing by Ozymandias81
+
+Acid Rain & Bloody Rain base sprites by Tormentor667 (Rain Spawner)
+Editing & Decorate by Ozymandias81
+
+AIRSIGN, VERTAIRF-E & HORZAIRF-E Sprites from Shadow Warrior by 3d Realms
+Editing & SBARINFO by Ozymandias81
+
+CONBACK original image from Quake III: Team Arena by iD Software
+Editing by Ozymandias81
+
+HELP original image from Magic & Mayhem by Mythos Games
+Editing by Ozymandias81
+
+Ice & Glass Shards Sprites from Hexen by Raven Software
+Editing & Decorate by Ozymandias81
+
+M_DOOM + GORE1A & GORE1B original graphics from Quake IV by iD Software & Raven Software
+Editing by Ozymandias81
+
+M_SKULL1 & M_SKULL2 original sprites from Shadow Warrior by 3d Realms
+Editing by Ozymandias81
+
+STAMA0 Hud Sprite for Fist Redux by Ozymandias81
+
+Tormentor667 for the beautiful palette from The City Of The Damned II
+
+Other Menu Graphics from Heavy Metal FAKK II by Ritual Entertainment
+Editing by Ozymandias81
+
+SMALLFNT.fon2 font by Richard Smith Long
+
+Unholy Sparkle sprites by Vader & Tormentor667 (Spirit Imp)
+Decorate by Ozymandias81
+
+Voxel Models from Blood by Monolith Software & from Shadow Warrior by 3d Realms
+Decorate & Voxeldef by Ozymandias81

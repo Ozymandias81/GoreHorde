@@ -1,0 +1,8 @@
+Name: Lava Cauldron
+Connection: VolcanoTBlast (Heretic)
+Palette: Heretic
+Summon: LavaCauldron, LavaCauldronSpitter
+Ambient Sound: Yes
+De-/Activatable: No
+Destroyable: No
+Special Effects: No

@@ -1,0 +1,8 @@
+Name: Marine Victim
+Connection: None
+Palette: Custom
+Summon: MarineVictim
+Ambient Sound: None
+De-/Activatable: N/A
+Destroyable: No
+Special Effects: None

@@ -1,0 +1,6 @@
+Credits:
+Submitted: Gothic
+Decorate: Gothic
+GLDefs: Gzdoom
+Sprites: Konami, Raven Software
+Sprite Edit: Gothic

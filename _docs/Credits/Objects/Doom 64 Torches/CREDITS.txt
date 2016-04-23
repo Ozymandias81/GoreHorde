@@ -1,0 +1,7 @@
+Submitted: Blue Shadow
+Decorate: Blue Shadow
+GLDefs: Blue Shadow
+Sounds: None
+Sprites: id Software, Midway
+Sprite Edit: CaptainToenail, Blue Shadow (Coloration)
+Idea Base: Doom 64 torches

@@ -1,0 +1,7 @@
+Name: Various Doom Keys
+Connections: None
+Palette: Other (PNG)
+Summon: GreenCard/Skull, OrangeCard/Skull, SilverCard/Skull, PinkCard/Skull
+Type: Access Keys
+Use Type: Instant
+Duration: Infinite (until level end)

@@ -1,0 +1,7 @@
+Submitted: MagicWazard
+Decorate: MagicWazard
+GLDefs: MagicWazard
+Sounds: Raven Software
+Sprites: Raven Software
+Sprite Edit: MagicWazard
+Idea Base: Heretic/Hexen splashes

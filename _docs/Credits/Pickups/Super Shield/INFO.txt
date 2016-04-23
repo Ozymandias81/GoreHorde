@@ -1,0 +1,7 @@
+Name: Super Shield
+Type: Armor
+Palette: Other
+Summon: SuperShield
+Use type: Instant
+Duration: Infinite
+Added States: No

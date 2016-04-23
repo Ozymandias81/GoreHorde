@@ -1,0 +1,9 @@
+Name: Hanging Marines
+Connection: No
+Palette: Doom
+Summon: LiveHangingMarine, DeadHangingMarine, MostlyDeadHangingMarine,
+	LiveHangingMarineBlocking, DeadHangingMarineBlocking, MostlyDeadHangingMarineBlocking
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: No

@@ -1,0 +1,9 @@
+Info
+
+Name: Hellion
+Difficulty: Medium
+Connection: None
+Summon: Hellion 
+Melee: No
+Distance: Projectile
+Type: Demon

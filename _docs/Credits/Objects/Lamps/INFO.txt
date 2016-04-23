@@ -1,0 +1,8 @@
+Name: Lamps
+Connection: none
+Palette: Doom
+Summon: tlamp1, tlamp2, tlamp3
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: No

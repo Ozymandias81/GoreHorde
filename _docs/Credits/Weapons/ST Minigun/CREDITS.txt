@@ -1,0 +1,6 @@
+Submitted: Tormentor667
+Decorate: Skulltag
+Sprites: id Software
+Sprites Edit: Skulltag
+Sounds: Tormentor667
+Idea Base: Chaingun from Doom

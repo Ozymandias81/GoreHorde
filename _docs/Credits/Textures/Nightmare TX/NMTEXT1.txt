@@ -1,0 +1,64 @@
+================================================================
+Title                   : NiGHTMARE texture WAD 1 version 1.01
+
+Filename                : NMTEXT1.WAD
+
+Author                  : Nick Baker  
+		  
+Email Address           : nbaker1@titus.force9.co.uk
+
+Description		: 150+ of my best textures.  All of the ones
+			  contained here are being used in various
+			  projects, though most of them were taken
+			  from Paradox.
+
+			  There's no specific theme; the WAD contains
+			  everything from brick, rock and wood to
+			  metal and techbase.
+
+			  Texture WAD 2 will probably contain only
+			  new animated textures (lava fall, water fall,
+			  etc).
+
+Update			: I forgot to add flat versions of most of the
+			  brick textures.  D'oh! :)
+
+Additional Credits to   : Inspiration came from GothicDM(2), the KZDoom
+		          series, Mordeth E2, Requiem, Twice Risen and
+			  many other places.
+			  
+			  
+================================================================
+
+* Play Information *
+
+Episode and Level #     : N/A
+Single Player           : N/A
+Cooperative 2-4 Player  : N/A
+Deathmatch 2-4 Player   : N/A
+Difficulty Settings     : N/A
+New Sounds              : No
+New Graphics            : Yes
+New Music               : No
+Demos Replaced          : None
+
+* Construction *
+
+Base                    : Most of them are based on existing Doom(2)
+			  textures.  A few from scratch, some based on
+			  Darkening E1 textures by Ola Bjorling.
+                          
+Editor(s) used          : WinTex v4.3
+			  Paint Shop Pro v4.10 - v5.05
+
+Known Bugs              : Might not work properly in DCK (not tested)
+
+* Copyright / Permissions *
+
+Authors MAY use these textures in whatever add-ons they want, but please
+give me (Nick Baker) credit, and if possible notify me when you're level
+is released.
+
+* Where to get this WAD *
+
+http://haunt.8m.com/doom/

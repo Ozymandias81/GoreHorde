@@ -1,0 +1,6 @@
+Submitted: Xaser
+Decorate: Xaser
+GLDefs: Eriance (from Vulgar)
+Sounds: id Software (from Quake II)
+Sprites: NMN (enemy), Eriance (projectile)
+Idea Base: D&D's Grell enemy

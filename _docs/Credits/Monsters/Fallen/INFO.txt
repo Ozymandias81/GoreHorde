@@ -1,0 +1,7 @@
+Name: Fallen
+Difficulty: Medium
+Connection: none
+Summon: Fallen
+Melee: No
+Distance: Projectile
+Type: Demon, Undead

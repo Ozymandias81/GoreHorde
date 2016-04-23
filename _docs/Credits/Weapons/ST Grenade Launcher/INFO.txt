@@ -1,0 +1,8 @@
+Name: Grenade Launcher
+Class: 5
+Type: Projectile
+Palette: Doom
+Summon: STGrenadeLauncher
+Ammo Type: RocketAmmo
+Altfire: No
+Powered Mode: No

@@ -1,0 +1,7 @@
+Name: Pyro Demon
+Difficulty: Very Hard
+Connection: None
+Summon: PyroDemon 
+Melee: Yes
+Distance: Projectile
+Type: Demon, Elemental

@@ -1,0 +1,16 @@
+Name: Skulltag Gore
+Connection: N/A
+Palette: Doom
+Summon: ImpalingSpike, ImpalingSpike2-11,
+		MarineHelmetGibs
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: No
+
+Submitted: Captain Toenail
+Decorate: Captain Toenail
+GLDefs: none
+Sounds: none
+Sprites: Id Software
+Sprite Edit: Skulltag

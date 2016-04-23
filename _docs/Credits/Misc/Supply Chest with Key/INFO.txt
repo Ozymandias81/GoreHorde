@@ -1,0 +1,9 @@
+Name: Supply Chest Key
+Type: Puzzle Item
+Palette: Heretic
+Summon: ChestKey, SupplyChest
+Use type: Inventory
+
+
+The supply chest key is a puzzle item that can be used to open chests containing
+various items for the player.

@@ -1,0 +1,18 @@
+Name: Cloak Of Terror
+Type: Frightener
+Palette: PNG Truecolor
+Summon: CloakOfTerror
+Use type: Item
+Duration: 25 seconds
+Added States: No
+Special Effects: GLDefs
+Brightmaps: No
+ACS: No
+
+Decorate: Ozymandias81
+GLDefs: Ozymandias81
+Sounds: Epic Games (Unreal Tournament)
+Sprites: Stilgar (Blasphemer)
+
+Description:
+A portable variant of the infamous Mask Of Terror.

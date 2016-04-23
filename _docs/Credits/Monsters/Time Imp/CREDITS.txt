@@ -1,0 +1,8 @@
+Credits:
+Submitted: NovaKiller
+Decorate: NovaKiller
+GLDefs: NovaKiller
+Sounds: Doom ( ID Software ), Hexen ( Raven Software )
+Sprites: Doom ( ID Software )
+Sprite Edit: NovaKiller
+Idea Base: Making a monster that had a bit control over time.

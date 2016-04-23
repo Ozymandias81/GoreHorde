@@ -1,0 +1,63 @@
+===============================================
+=Here you are all sounds in need to be credit:=
+===============================================
+
+HERETIC II SOUNDS by Raven Software:
+creak1a.wav	creak2a.wav	lever1.wav lever2.wav lever3.wav train1.wav train2.wav
+cartroll.ogg cavecrk1.ogg cavecrk2.ogg cavecrk3.ogg cricket1.ogg cricket2.ogg cricket3.ogg
+floop.ogg fsmall.ogg gull1.ogg gull2.ogg gull3.ogg hwfall.ogg river.ogg
+
+QUAKE & QUAKE III: ARENA SOUNDS by iD Software:
+q1lifta1.ogg q1lifta2.ogg powon.ogg powoff.ogg
+
+PREY SOUNDS by Human Head Studios:
+flesh01.flac flesh02.flac flesh03.flac flesh04.flac flesh05.flac flesh06.flac hbeat.ogg
+
+HEXEN SOUNDS by Raven Software:
+hxamb1.lump hxamb2.lump hxamb3.lump hxamb4.lump hxamb5.lump hxamb6.lump hxamb7.lump
+hxamb8.lump hxamb9.lump newglass.lump dsicedth.lump
+
+STRONGHOLD SOUNDS (surfaces) by CaptainToenail:
+carpet1.flac carpet2.flac carpet3.flac dirt1.flac dirt2.flac dirt3.flac dirt4.flac dirt5.flac
+dirt6.flac metal1.flac metal2.flac metal3.flac metal4.flac metal5.flac metal6.flac rock1.flac
+rock2.flac rock3.flac rock4.flac rock5.flac rock6.flac rock7.flac rock8.flac snow1.flac
+snow2.flac snow3.flac snow4.flac snow5.flac snow6.flac wood1.flac wood2.flac wood3.flac wood4.flac
+
+ULTIMATE TORMENT & TORTURE SOUNDS (splashes) by Tormentor667:
+dsdrip.wav dslavsm2.wav dslavsml.wav dslvsiz.wav dslvsiz2.wav dslvsiz3.wav dslvsiz4.wav dsnukes1.wav
+dsnukes2.wav dsnukes3.wav dsnukes4.wav dsploo2.wav dsploosh.wav dsplosm2.wav dsplosml.wav dsspla2.wav
+dssplash.wav dssplsm2.wav dssplsml.wav
+
+SHADOW WARRIOR VOICE ACTS & SOUNDS by Monolith Software:
+swhaha01.ogg swhaha02.ogg swhaha03.ogg swpain01.ogg swpain02.ogg swpain03.ogg swpain04.ogg swpunch.ogg
+swyell01.ogg swyell02.ogg swyell03.ogg swyell04.ogg swyell05.ogg swyell06.ogg swyell07.ogg swyell08.ogg
+banzai.ogg cbunga.ogg goodday.ogg killyou.ogg nohonor.ogg
+Ogg conversions by Ozymandias81
+
+DUKE NUKEM VOICE ACTS & SOUNDS by 3d Realms:
+birthcon.ogg bitchin.ogg chewbubl.ogg comeon.ogg luckyson.ogg whatmess.ogg aliens.ogg monolith.ogg
+dkpain01.ogg dkpain02.ogg dkpain03.ogg dkpain04.ogg
+Ogg conversions by Ozymandias81
+
+BLOOD VOICE ACTS by Monolith Software:
+vblood1.ogg vblood2.ogg vblood3.ogg vblood4.ogg vblood5.ogg vblood6.ogg
+blpain01.ogg blpain02.ogg blpain03.ogg blpain04.ogg
+Ogg conversions by Ozymandias81
+
+SPINDWN1.ogg & SPINDWN2.ogg from TUTNT Take II by DBThanatos
+Original sounds by Valve Software (which game???)
+
+UWLAUGH.ogg Voice Act from Ultima Underworld II by Origin Systems
+Ogg conversion by Ozymandias81
+
+UNREAL SOUNDS by Epic Games:
+flitoff.wav fliton.wav flitpk.wav
+
+UNREAL TOURNAMENT SOUNDS by Epic Games:
+freezepk.wav pyropk.wav pyroshot.wav
+
+UNREAL TOURNAMENT 2004 SOUNDS by Epic Games & Legend Entertainment:
+bfg10kpk.wav stgrshot.wav stminipk.wav ut2k4opt.wav
+
+UNREAL 2 SOUNDS by Epic Games:
+flmtpk.wav spistpk.wav

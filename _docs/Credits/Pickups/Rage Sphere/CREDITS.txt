@@ -1,0 +1,6 @@
+Submitted: Captain Toenail
+Decorate: Captain Toenail
+GLDefs: Captain Toenail
+Sprites: Blood, Doom64
+Sprite Edit: Captain Toenail
+Inspiration: Unreal's Berserk powerup

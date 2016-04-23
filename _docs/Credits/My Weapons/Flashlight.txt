@@ -1,0 +1,24 @@
+Name: Flashlight
+Connection: None
+Palette: PNG Truecolor
+Class: 1
+Type: Projectile
+Ammo Type: Batteries
+AltFire: No
+Powered Mode: No
+Summon: Flashlight, Batteries
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: GLDefs, SBARInfo
+Brightmaps: No
+ACS: No
+
+Decorate: Ozymandias81, Endless123, jdredalert
+Sprites: Lobotomy Software(Hand), Deimos Anomaly(Pickup), iD Software(Fingers & Energy HUD), 3d Realms(Horz+VertBar HUD), Ozymandias81(Torch & Lens)
+Sounds: Epic Games (Unreal)
+Sprite Edit: Ozymandias81
+
+Description:
+A flashlight that fires a nice white bright light, which is useful to illuminate your surroundings inside dark places.
+Slightly inspired from the Unreal one, it has separate ammo (batteries) and HUD indicators that uses ACS & SBARInfo.

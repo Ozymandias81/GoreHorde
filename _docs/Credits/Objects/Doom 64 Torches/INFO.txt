@@ -1,0 +1,10 @@
+Name: Doom 64 Torches
+Connection: No
+Palette: Custom (PNG)
+Summon: D64[Short, Tall][Blue, Cyan, Green, Purple, Red, White, Yellow]Torch[Bronze, Gold, Silver]Stand
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: No
+
+7-colored torches with 3-colored stands. Short and Tall, totaling 42 torches.

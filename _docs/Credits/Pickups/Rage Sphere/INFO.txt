@@ -1,0 +1,7 @@
+Name: Rage Sphere
+Type: Double firing speed
+Palette: Doom
+Summon: ragesphere
+Use type: Instant
+Duration: 60 seconds
+Added States: No

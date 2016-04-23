@@ -1,0 +1,8 @@
+Info
+
+Name: Pyro Imp
+Difficulty: Easy
+Summon: PyroImp
+Melee: Yes
+Distance: Projectile
+Type: Demon

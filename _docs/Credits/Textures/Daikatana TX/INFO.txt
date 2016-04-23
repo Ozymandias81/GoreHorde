@@ -1,0 +1,15 @@
+Information:
+Source: Daikatana
+Count: ~4600
+Palette: PNG
+Format: Textures folder
+Anims/Switches: ZDoom Compat
+Description: Daikatana textures
+
+Credits:
+Conversion: Ceeb
+Author: Ion Storm
+Submitted: Ceeb
+
+Description:
+Most of the textures from Daikatana. Some I couldn't extract. I tried to remove all the dupes I could but there's bound to be some, sorry.

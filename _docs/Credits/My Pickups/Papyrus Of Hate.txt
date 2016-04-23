@@ -1,0 +1,14 @@
+Name: Papyrus Of Hate
+Connections: Doom 2 Sounds
+Type: Puzzle Item
+Palette: PNG Truecolor
+Summon: PapyrusPuzzle
+Use type: Inventory
+Special Effects: GLDefs
+Brightmaps: No
+ACS: No
+
+Decorate: Ozymandias81
+GLDefs: Ghastly_dragon, Ozymandias81
+Sprites: Raven Software
+Sprite Edit: Captain Toenail & Xaser (Scroll Of Hellfire)

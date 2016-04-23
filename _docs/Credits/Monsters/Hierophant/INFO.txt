@@ -1,0 +1,12 @@
+Name: Hierophant
+Difficulty: Hard
+Connections: Uses the AcolFX2 (Acolyte) and BloodTrail (Blood Fiend) actors as parents. Both are included.
+Summon: Hierophant
+Melee: Yes
+Distance: Projectile
+Type: Demon
+Added States: Yes
+
+Modder notes:
+This monster makes use of a custom pain state on players (and monsters, in case of infighting) to
+deliver its curse attack.

@@ -1,0 +1,6 @@
+Submitted: Captain Toenail
+Decorate: Captain Toenail
+Sounds: none
+Sprites: iD Software
+Sprite Edit: Captain Toenail
+GLDEFS: none

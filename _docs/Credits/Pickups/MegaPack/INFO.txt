@@ -1,0 +1,7 @@
+Name: Megapack
+Type: Backpack\Infinite Ammo
+Palette: Custom
+Summon: Megapack
+Use type: Instant
+Duration: 60 Seconds
+Added States: No

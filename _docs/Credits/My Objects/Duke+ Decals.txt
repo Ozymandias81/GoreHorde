@@ -1,0 +1,16 @@
+DecalDef: Ozymandias81
+Sprites: Hellbound, 3d Realms
+
+Effect: Decals
+Type: Blood & Stuff
+Count: 22
+
+They are numbered from 24 to 45.
+
+To use, place a Decal actor (editor number 9200) next to a wall, and put the
+decal's ID (next to the name in the decal's definition) as the first argument.
+If they conflict with other decorative decals in your mod, feel free to
+renumber them.
+
+Note, these do NOT replace ZDoom's existing blood decals. They are purely map
+decoration.

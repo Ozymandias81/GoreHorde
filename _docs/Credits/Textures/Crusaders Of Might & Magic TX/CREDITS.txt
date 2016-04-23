@@ -1,0 +1,4 @@
+Crusaders Of Might And Magic by The 3DO Company 1999
+Texture Dumping & Conversion by Ozymandias81
+PNGs TrueColor Format
+GZDoom Only

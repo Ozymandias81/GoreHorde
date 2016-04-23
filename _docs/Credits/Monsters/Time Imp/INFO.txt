@@ -1,0 +1,25 @@
+Information:
+Name: Time Imp
+Difficulty: I would say it is a medium monster
+Connections: None
+Summon: TimeImp, TimeImpFriendly
+Melee: Yes
+Distance: It has projectiles, work like the imps just faster.
+Type: Demon
+
+Credits:
+Submitted: NovaKiller
+Decorate: NovaKiller
+GLDefs: NovaKiller
+Sounds: Doom ( ID Software ), Hexen ( Raven Software )
+Sprites: Doom ( ID Software )
+Sprite Edit: NovaKiller
+Idea Base: Making a monster that had a bit control over time.
+
+Description:
+This Imp, has some control over time.
+It has a change to freeze the time for you, while it still can move around, attack with projectiles that still fly.
+Any form of time freeze has no effect on this monster, neither the "freeze" command in console or a Time Freeze item.
+
+I updated the monster so now it is able to slow time, in a hacky way, good idea lucario.
+I added a friendly version of it, cause if you do summonfriend TimeImp, it will react as a friend first, then when it dies and revives, it will be a enemy.

@@ -1,0 +1,9 @@
+Credits
+
+Submitted: Woolie Wool
+Decorate: Woolie Wool (monster and fireball), Vader (smoke trail)
+GLDEFs: Woolie Wool
+Sounds: Id Software (base), perkristian (death sound resample), Woolie Wool (modifications)
+Sprites: Id Software (base), Raven Software (fireball), Vader (smoke trail)
+Sprite Edit: Vader (base gib frames), Jekyll Grim Payne (gib frame wing removal), Woolie Wool (coloring)
+Idea Base: Nanami's Satyr, Hexen Chaos Serpent

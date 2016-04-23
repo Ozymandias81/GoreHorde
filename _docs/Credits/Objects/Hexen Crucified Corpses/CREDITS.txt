@@ -1,0 +1,6 @@
+Submitted: ETTiNGRiNDER
+Decorate: ETTiNGRiNDER
+Sounds: N/A
+Sprites: Hexen (Raven Software)
+Sprite Edit: ETTiNGRiNDER
+Idea Base: Similar decor in Gothic DM and Wrath of Magic

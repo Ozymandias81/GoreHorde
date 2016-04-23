@@ -1,0 +1,9 @@
+Name: Zapper
+Connection: None
+Type: Technical
+Palette: Doom
+Summon: Zapper
+Ambient Sound: Yes
+De-/Activatable: Yes
+Destroyable: No
+Special Effects: No

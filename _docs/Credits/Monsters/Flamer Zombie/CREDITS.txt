@@ -1,0 +1,7 @@
+Submitted: scalliano
+Decorate: scalliano, GreyGhost
+GLDefs: Tormentor667
+Sounds: Eriance (?)
+Sprites: Id Software, Xim, Eriance
+Sprite Edit: scalliano
+Idea Base: Flamethrower from Demon Eclipse

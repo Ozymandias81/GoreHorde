@@ -1,0 +1,6 @@
+Quake IV by iD Software & Raven Software 2007
+Texture Dumping & Conversion by Ozymandias81
+PNGs TrueColor Format (TGA to PNG)
+There are some beautiful skyboxes
+GZDoom Only
+*Here some textures converted in Doom Format*

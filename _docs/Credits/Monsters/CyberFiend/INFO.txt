@@ -1,0 +1,7 @@
+Name: CyberFiend
+Difficulty: Medium
+Connection: none
+Summon: CyberFiend
+Melee: yes
+Distance: Bouncing Explosive Puke-Gibs
+Type: Demon/Cybernetic

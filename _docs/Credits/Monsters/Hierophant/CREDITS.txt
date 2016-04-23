@@ -1,0 +1,6 @@
+Decorate: Eriance
+GLDefs: Ghastly_dragon
+Sounds: Id Software, Eriance
+Sprites: Eriance
+Sprite Edit: None
+Idea Base: Doom 3 Helltime Hunter

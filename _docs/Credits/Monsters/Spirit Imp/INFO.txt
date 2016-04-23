@@ -1,0 +1,7 @@
+Name: Spirit Imp
+Difficulty: Easy
+Connection: None
+Summon: SpiritImp 
+Melee: Yes
+Distance: Projectile
+Type: Demon, Undead

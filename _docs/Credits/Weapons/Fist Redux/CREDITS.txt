@@ -1,0 +1,6 @@
+Submitted: That_One_Doom_Mod
+Decorate: That_One_Doom_Mod, Wh1teFang
+Sounds: Unknown
+Sprites: ID Software, Banjo Software
+Sprite Edit: That_One_Doom_Mod
+Idea Base: The Horrible Doom Punch, Its Pathetic for a Marine!

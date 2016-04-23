@@ -1,0 +1,41 @@
+==============================================================================
+Title                   : psyren textures
+Filename                : psytex.wad
+Author                  : J.S.Graham (aka psyren)
+Email Address           : psyren@easy.com
+Description             : Textures I have made and/or modified for use in my
+                          own maps.
+
+			  7 skies, several are just mountains that you can
+			  paste over whatever sky color you want.(these will
+			  need to be renamed to RSKY1 etc., to use them.)
+
+			  25 flats.
+
+			  48 wall textures.
+
+			  4 animated wall textures. (these will also need to
+			  be renamed to be used in your wad.)
+
+==============================================================================
+* Play Information *
+
+Episode and Level #     : N/A
+Single Player           : N/A
+Cooperative 2-4 Player  : N/A
+Deathmatch 2-6 Player   : N/A
+Difficulty Settings     : N/A
+New Sounds              : N/A
+New Graphics            : Yes
+New Music               : N/A
+Demos Replaced          : N/A
+
+* Construction *
+
+Base                    : Id games and various web resources
+Editor(s) used          : MSPaint, Image Analyzer, XWE
+
+* Copyright / Permissions *
+
+Authors may use these textures as a base to do anything you wish. Some credit
+would be appreciated, but not required.

@@ -1,0 +1,9 @@
+Info
+
+Name: Plasma Demon
+Difficulty: Medium
+Connection: none
+Summon: PlasmaDemon 
+Melee: No
+Distance: Projectile
+Type: Demon

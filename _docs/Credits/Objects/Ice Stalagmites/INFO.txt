@@ -1,0 +1,8 @@
+Name: Ice Stalagmites
+Connection: None
+Palette: Hexen
+Summon: IceStalagmiteLarge, IceStalagmiteSmall1, IceStalagmiteSmall2
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: No

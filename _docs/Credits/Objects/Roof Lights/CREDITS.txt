@@ -1,0 +1,5 @@
+Submitted: Gez
+Decorate: Gez
+GLDefs: Gez
+Sprites: Id Software, Raven Software
+Sprite Edit: Captain Red

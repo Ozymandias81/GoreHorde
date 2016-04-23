@@ -1,0 +1,7 @@
+Name: Time Freeze Sphere
+Type: Time freezer
+Palette: Other
+Summon: TimeFreezeSphereST
+Use type: Instant
+Duration: 30 seconds
+Added States: No

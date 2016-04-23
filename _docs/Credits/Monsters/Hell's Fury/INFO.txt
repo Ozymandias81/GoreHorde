@@ -1,0 +1,9 @@
+Info
+
+Name: Hell's Fury
+Difficulty: Hard
+Connection: The Skull and the Soul are being used by the Soul Harvester as well
+Summon: HellsFury
+Melee: Yes
+Distance: Projectile
+Type: Demon

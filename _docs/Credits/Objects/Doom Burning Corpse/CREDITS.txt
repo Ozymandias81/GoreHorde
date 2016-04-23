@@ -1,0 +1,7 @@
+Submitted: zrrion the insect
+Decorate: zrrion the insect
+GLDefs: zrrion the insect
+Sounds: N/A
+Sprites: Doom (id Software)
+Sprite Edit: zrrion the insect
+Idea Base: ETTiNGRiNDER's burning corpse

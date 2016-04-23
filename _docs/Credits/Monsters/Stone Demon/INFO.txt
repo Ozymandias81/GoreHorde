@@ -1,0 +1,9 @@
+Info
+
+Name: Stone Demon
+Difficulty: Easy
+Connection: None
+Summon: StoneDemon 
+Melee: Yes
+Distance: Projectile
+Type: Demon, Elemental

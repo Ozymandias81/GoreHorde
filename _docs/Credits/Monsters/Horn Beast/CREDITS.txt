@@ -1,0 +1,6 @@
+Submitted: Mr.Green
+Decorate: Mr.Green
+GLDEFs: Ghastly Dragon
+Sounds: Monolith
+Sprites: Raven Software
+Sprite Edit: Rolls

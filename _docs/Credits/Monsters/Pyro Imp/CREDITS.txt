@@ -1,0 +1,9 @@
+Credits
+
+Submitted: Dreadopp
+Decorate: Dreadopp
+GLDEFs: Dreadopp
+Sounds: Id, Software
+Sprites: Id Software, Raven Software, Eriance
+Sprite Edit: Dreadopp, Eriance (the fire sprites)
+Idea Base: The Pyro Imp found on the Haunt Beastiary and Eriance's Devil.

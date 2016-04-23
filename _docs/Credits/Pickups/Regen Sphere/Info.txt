@@ -1,0 +1,14 @@
+Name: Regeneration Sphere
+Type: Regeneration
+Palette: Custom
+Summon: Regensphere
+Duration: 60 seconds
+Use type: Instant
+
+Submitted: scalliano
+Decorate: scalliano
+GLDefs: scalliano
+Sounds: None
+Sprites: Id Software, Monolith Productions
+Sprite Edit: scalliano
+Idea Base: Doom-class Regen powerup from Generations Arena mod for Q3

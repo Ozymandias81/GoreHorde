@@ -1,0 +1,8 @@
+Name: Switchable Tech Lamps
+Connection: Tech lamps from Doom 2
+Palette: Doom
+Summon: TechLampOn, TechLampOff
+Ambient Sound: No, but it plays sounds when switched
+De-/Activatable: Yes, and that's the point.
+Destroyable: No.
+Special Effects: No.

@@ -1,0 +1,7 @@
+Name: Horn Beast
+Difficulty: Medium
+Connection: None
+Summon: HornBeast
+Melee: No
+Distance: Projectile
+Type: Demon, Fire

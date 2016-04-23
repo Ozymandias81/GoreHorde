@@ -1,0 +1,8 @@
+Name: Tech Barrels
+Connection: none
+Palette: Doom
+Summon: TechBarrelGrey, TechBarrelTan. TechBarrelGreen
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: Yes
+Special Effects: No

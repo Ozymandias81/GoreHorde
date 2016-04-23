@@ -1,0 +1,7 @@
+Submitted: Maelstrom
+Decorate: Maelstrom
+GLDEFs: Dreadopp
+Sounds: Id Software, Monolith Games
+Sprites: Id Software
+Sprite Edit: Maelstrom, Ebola
+

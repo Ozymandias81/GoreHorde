@@ -1,0 +1,11 @@
+Credits: Monolith Productions, 3D Realms, Captain Awesome, Hayabusa, Lucario
+Submitted: Captain Awesome
+Decorate: Lucario, Captain Awesome
+GLDefs: None
+Sounds: None
+Sprites: Blood by Monolith Productions, Duke Nukem 3D: Atomic Edition and Shadow Warrior by 3D Realms
+Sprite Edit: Captain Awesome
+Idea Base: These are a collection gibs being used in the Duke Nukem 3D remake mod "Return of the King".
+
+Description:
+A collection of various gibs and bones for use as ground decorations.

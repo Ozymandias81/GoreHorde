@@ -1,0 +1,4 @@
+Decorate: Solarsnowfall, Tormentor667, Ghastly_dragon, Ozymandias81
+GLDEFs: N/A
+Sounds: Raven Software (hwfall.ogg)
+Sprites: Xaser (Cryobow)

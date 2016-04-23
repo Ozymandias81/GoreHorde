@@ -1,0 +1,7 @@
+Submitted: Damage
+Decorate: KDiZD Team
+GLDefs: N/A
+Sounds: N/A
+Sprites: Id Software
+Sprite Edit: KDiZD Team
+Idea Base: Tortured Baron wall texture

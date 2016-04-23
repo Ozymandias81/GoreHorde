@@ -1,0 +1,11 @@
+ZZrionTheInsect - Base Sprite/Design/Idea, Final Crossbow head Design/Animation, cool "string" frames, being a pretty cool guy.
+		Implementation tweaks that I may not know of, came up with a way to shatter frozen corpses with a freezing weapon.
+
+Bloax - Shading tweaks, firing animation/design (this took some serious thinking), Additional firing animation tweak(, apparently made this thing go out of control)
+		Impact animation, Small implementation modifications. (Why is my list this big?)
+		
+Xaser - Implementation, Palette modifications (see: CryoPal.wad), Smoke (And probably more but Bloax is ignorant yes.)
+		Sound effects.
+		
+Ethril - Coming up with the insane idea that is called a "railgun crossbow", he should be put into a mental institution or somethin-
+		 OH WAIT NO THAT'S COMPLETELY AWESOME YES

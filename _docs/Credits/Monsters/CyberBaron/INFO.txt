@@ -1,0 +1,9 @@
+Info
+
+Name: Cyber Baron
+Difficulty: Hard
+Connection: None
+Summon: CyberBaron
+Melee: Yes
+Distance: Projectile
+Type: Demon, Cybernetic

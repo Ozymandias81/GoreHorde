@@ -1,0 +1,7 @@
+Name: Afrit
+Difficulty: Hard
+Connection: none
+Summon: Afrit
+Melee: No
+Distance: Projectile
+Type: Demon

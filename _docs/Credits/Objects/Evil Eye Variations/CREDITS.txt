@@ -1,0 +1,6 @@
+Submitted: ChronoSeth
+Decorate: ChronoSeth
+Sounds: n/a
+Sprites:  Id Software
+Sprite Edit: ChronoSeth
+Idea Base: Skulltag

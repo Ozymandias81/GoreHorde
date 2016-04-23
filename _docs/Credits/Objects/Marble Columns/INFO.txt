@@ -1,0 +1,10 @@
+Name: Marble Columns
+Connection: No
+Palette: Doom
+Summon: [Type][Color]Column, where [Type] can be Fluted, Smooth, Medium, Small,
+		Skull, Heart, Vine, or Spiral, and [Color] can be Green, Red,
+		Blue, Tan, Grey, Bicolor, Black, DarkRed, Orange, or Mauve.
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: No

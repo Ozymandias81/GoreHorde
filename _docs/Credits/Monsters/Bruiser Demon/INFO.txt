@@ -1,0 +1,9 @@
+Info
+
+Name: Bruiser Demon
+Difficulty: Very Hard
+Connection: none
+Summon: BruiserDemon
+Melee: Yes
+Distance: Projectile
+Type: Demon

@@ -1,0 +1,8 @@
+Name: Volacubus
+Difficulty: Medium
+Connection: Mancubus
+Summon: FlyingFatso, FFPlasma, FFSlime
+Melee: No
+Distance: Projectile
+Type: Demon, Cybernetic
+Brightmaps: Yes

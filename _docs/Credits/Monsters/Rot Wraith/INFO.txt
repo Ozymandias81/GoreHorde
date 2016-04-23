@@ -1,0 +1,7 @@
+Name: RotWraith
+Difficulty: Medium
+Connections: None
+Summon: rotwraith
+Melee: None
+Distance: Projectile
+Type: Magical, Undead

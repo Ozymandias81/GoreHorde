@@ -1,0 +1,10 @@
+Name: Necrodome Tombstones
+Connection: None
+Palette: Custom
+Summon: NTomb1-5
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: No
+Brightmaps: No
+ACS: No

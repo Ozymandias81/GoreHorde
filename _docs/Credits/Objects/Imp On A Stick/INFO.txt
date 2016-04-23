@@ -1,0 +1,9 @@
+Name: Imp on a Stick
+Connection: None
+Type: Gore
+Palette: Other
+Summon: ImpStick
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: No

@@ -1,0 +1,5 @@
+Submitted: Ghastly_dragon
+Decorate: Tormentor667
+GLDefs: Ghastly_dragon
+Sprites: Id Software
+Sprite Edit: Tormentor667

@@ -1,0 +1,13 @@
+Name: Gloomy Cauldron
+Connection: T667 CinderSpawner
+Type: Other
+Palette: PNG Truecolor
+Summon: GloomyCauldron
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: GLDefs
+
+Decorate: Ozymandias81
+GLDefs: Ozymandias81
+Sprites: Stilgar & Warfare

@@ -1,0 +1,65 @@
+===========================================================================
+Advanced engine needed  : Zdoom
+Primary purpose         : No levels included
+===========================================================================
+Title                   : Quad Barreled Shotgun
+Filename                : qshot.zip
+Release date            : June 07, 2011
+Author                  : Brandon Gray (bgraybr)
+Email Address           : bgraybr@gmail.com
+
+Description             : Like the title says, a shotgun with four barrels.
+                          The idle frame is a bit ugly and the other frames
+                          could use some work, but it will hopefully be a
+                          useful resource for someone.
+
+Additional Credits to   : ID Software
+                          Perkristan
+                          Logan MTM
+===========================================================================
+* What is included *
+
+New levels              : None
+Sounds                  : No
+Music                   : No
+Graphics                : Yes
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : Zdoom Decorate
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Single Player           : No
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : Modified
+Build Time              : a day or two
+Editor(s) used          : Slade 3, Paint.net, Photoshop
+Known Bugs              : none
+
+
+* Copyright / Permissions *
+
+Authors MAY use the contents of this file as a base for modification or
+reuse.  Permissions have been obtained from original authors for any of
+their resources modified or included in this file.
+
+You MAY distribute this file, provided you include this text file, with no
+modifications.  You may distribute this file in any electronic format (BBS,
+Diskette, CD, etc) as long as you include this file intact.  I have
+received permission from the original authors of any modified or included
+content in this file to allow further distribution.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.3dgamers.com/pub/idgames/ and mirrors
+Web sites: http://forum.zdoom.org/viewtopic.php?f=37&t=29924

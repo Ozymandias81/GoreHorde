@@ -1,0 +1,8 @@
+Name: Nightmare
+Difficulty: Medium
+Connection: none
+Info: This is the KDiZD variant, for Eriance's original, get Demon Eclipse
+Summon: KDiZDNightmare
+Melee: Yes
+Distance: None
+Type: Demon, Ghost

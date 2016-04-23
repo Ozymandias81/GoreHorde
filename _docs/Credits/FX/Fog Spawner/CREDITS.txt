@@ -1,0 +1,6 @@
+Submitted: zrrion the insect
+Decorate: Tormentor667, zrrion the insect
+GLDefs: None
+Sounds: None
+Sprites: zrrion the insect
+Idea Base: Clouds in TCoTD

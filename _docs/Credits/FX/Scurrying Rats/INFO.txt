@@ -1,0 +1,6 @@
+Type: Scurrying Rat
+Summon: scurryrat
+
+Decorate: Captain Toenail
+Sprites: Operation Bodycount
+Sounds: FindSounds.com

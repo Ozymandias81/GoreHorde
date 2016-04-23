@@ -1,0 +1,5 @@
+Duke Plus by EDuke32 Team
+Duke Nukem 3d by 3dRealms 1996
+Texture Dumping & Conversion by Ozymandias81
+PNGs TrueColor Format
+GZDoom Only

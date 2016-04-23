@@ -1,0 +1,7 @@
+Name: Skewered Corpses
+Connection: None
+Palette: Doom
+Summon: ChestSkewered1-3
+De-/Activatable: No
+Destroyable: No
+Special Effects: No

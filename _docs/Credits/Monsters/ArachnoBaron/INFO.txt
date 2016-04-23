@@ -1,0 +1,7 @@
+Name: Arachnobaron
+Difficulty: Medium
+Connection: None
+Summon: Arachnobaron
+Melee: No
+Distance: Projectile
+Type: Cybernetic, Demon

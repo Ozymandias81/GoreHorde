@@ -1,0 +1,8 @@
+Type: Floating cinders
+Connections: None
+Spawn Offsets: Arguments
+Documentation: Yes
+Spawn Ceiling: No
+Variants: None
+Summon: CinderSpawner
+ACS: No

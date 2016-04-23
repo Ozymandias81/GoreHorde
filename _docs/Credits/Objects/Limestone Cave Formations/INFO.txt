@@ -1,0 +1,14 @@
+Name: Limestone Cave Formations
+Connection: None
+Palette: Heretic
+Summon: LimestoneFloorBig1-3
+	LimestoneFloorSmallLong
+	LimestoneFloorSmall1-3
+	LimestoneKnobblyBig/Medium/Small
+	LimestoneCeilingBig1-2
+	LimestoneCeilingSmallLong
+	LimestoneCeilingSmall1-3
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: No

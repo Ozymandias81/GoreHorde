@@ -1,0 +1,7 @@
+Name: Imp Warlord
+Difficulty: Medium
+Connection: Spawns Bat and Dragon Familiars, also included
+Summon: ImpWarlord
+Melee: Yes
+Distance: Projectile, Spawn
+Type: Demon, Medieval

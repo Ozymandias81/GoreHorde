@@ -1,0 +1,9 @@
+Info
+
+Name: Vulgar
+Difficulty: Easy
+Connection: none
+Summon: Vulgar 
+Melee: No
+Distance: Projectile
+Type: Demon, Undead

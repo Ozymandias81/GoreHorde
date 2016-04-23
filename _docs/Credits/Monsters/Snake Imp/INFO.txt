@@ -1,0 +1,7 @@
+Name: Snake Imp
+Difficulty: Easy
+Connection: None
+Summon: SnakeImp
+Melee: Yes
+Distance: Projectile
+Type: Demon

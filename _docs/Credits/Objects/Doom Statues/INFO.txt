@@ -1,0 +1,8 @@
+Name: Doom Statues
+Connection: N/A
+Palette: Doom
+Summon: DoomStatue1 / DoomStatue2
+Ambient Sound: N/A
+De-/Activatable: N/A
+Destroyable: N/A
+Special Effects: N/A

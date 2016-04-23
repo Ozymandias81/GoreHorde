@@ -1,0 +1,7 @@
+Submitted: Ghastly_dragon
+Decorate: Ghastly_dragon
+GLDefs: Ghastly_dragon
+Sounds: Id Software, Logan MTM
+Sprites: Id Software, Logan MTM
+Sprite Edit: Ghastly_dragon, Xim
+Idea Base: Legacy of Suffering's Quad-Shotgun

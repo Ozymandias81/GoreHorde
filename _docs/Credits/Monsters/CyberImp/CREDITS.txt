@@ -1,0 +1,8 @@
+CyberImp
+Submitted: Virtue
+Decorate: Virtue
+GLDefs: N/A
+Sounds: Doom, Virtue
+Sprites: Doom, Hellspawn by LilWhiteMouse
+Sprite Edit: Virtue
+Idea Base: Keeping with dooms Cyber monsters theme

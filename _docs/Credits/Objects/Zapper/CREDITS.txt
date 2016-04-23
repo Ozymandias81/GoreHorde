@@ -1,0 +1,5 @@
+Submitted: Ghastly_dragon
+Decorate: Ghastly_dragon
+GLDefs: Ghastly_dragon
+Sprites: Id Software
+Sounds: Raven Software

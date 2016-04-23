@@ -1,0 +1,7 @@
+Submitted: ETTiNGRiNDER
+Decorate: ETTiNGRiNDER
+GLDefs: ETTiNGRiNDER
+Sounds: N/A
+Sprites: Heretic & Hexen (Raven Software)
+Sprite Edit: ETTiNGRiNDER
+Idea Base: Burning at stake corpse in Wrath of Magic

@@ -1,0 +1,7 @@
+Submitted: scalliano
+Decorate: scalliano
+GLDefs: Ghastly_dragon
+Sounds: None
+Sprites: Id Software
+Sprite Edit: scalliano
+Idea Base: Doom-class Flight powerup from Generations Arena mod for Q3

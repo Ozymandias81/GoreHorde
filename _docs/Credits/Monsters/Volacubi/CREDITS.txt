@@ -1,0 +1,7 @@
+Submitted: DeVloek
+Decorate: DeVloek
+GLDefs: DeVloek
+Sounds: id Software, d3deville (jet engine), blastwave fx (slime)
+Sprites: id Software
+Sprite Edit: DeVloek
+Idea Base: Arachnophyte

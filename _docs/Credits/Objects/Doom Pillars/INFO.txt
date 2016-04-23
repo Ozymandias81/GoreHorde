@@ -1,0 +1,16 @@
+Name: Red Fire Pillar, Green Fire Pillar
+Connection: None
+Palette: Doom
+Summon: RedFirePillar, GreenFirePillar
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: No
+
+Submitted: zrrion the insect
+Decorate: zrrion the insect
+GLDefs: zrrion the insect
+Sounds: N/A
+Sprites: Id, Raven
+Sprite Edit: zrrion the insect
+Idea Base: Heretic's fire statue

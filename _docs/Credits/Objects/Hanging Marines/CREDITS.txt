@@ -1,0 +1,7 @@
+Submitted: TODM
+Decorate: TODM
+GLDefs: N/A
+Sounds: N/A
+Sprites: Eternal Doom
+Sprite Edit: Doom64hunter,TODM
+Idea Base: Hanging Former Humans

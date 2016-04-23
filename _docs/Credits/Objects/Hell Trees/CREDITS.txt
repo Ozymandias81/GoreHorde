@@ -1,0 +1,5 @@
+HellTrees
+Submitted: Bloax
+Decorate: Bloax 
+Sprites: Bloax
+Idea Base: Randomly drawing an abstract black shape of a tree (also thanks to Minigunner for the idea with the blood/flesh trees)

@@ -1,0 +1,51 @@
+These textures were converted by Derek Mac Donald aka Afterglow.
+I can be contacted at derekmd@frad.org and you can get more
+textures for Doom2 at my site http://www.doomworld.com/afterglow/
+
+===============================================================
+Title                   : Ogro Texture Pack for Doom2
+Filename                : ogrodtex.zip - ogrodtex.wad, ogrodtex.txt
+Date Released           : September 2nd, 1999
+Author                  : François-Xavier Delmotte aka OgrO_FiX
+Email Address           : ogro@planetquake.com
+Web Site                : http://www.planetquake.com/pandemonium
+Description             : 141 textures & 21 flats converted to Doom 2.
+
+================================================================
+
+* Play Information *
+
+Game                    : DOOM II
+Episode and Level #     : N/A
+Single Player           : N/A
+Cooperative 2-4 Player  : N/A
+Deathmatch 2-4 Player   : N/A
+Difficulty Settings     : N/A
+New Sounds              : N/A
+New Graphics            : Yes
+New Music               : N/A
+Demos Replaced          : None
+
+* Construction *
+
+Base                    : Textures all created from scratch
+Editor(s) used          : Paint Shop Pro, Wally 1.37 Beta
+			  Derek: Paint Shop Pro 5.01, Wintex 4.3, Wal2Pcx
+Known Bugs              : None that I'm aware of.
+
+* Copyright / Permissions *
+
+Authors MAY use this texture pack to build additional levels.
+ 
+You MUST NOT distribute this pack UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS! If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM!
+
+This TEXTURE PACK may be distributed ONLY over the Internet and/or BBS
+systems. You are NOT authorized to put this TEXTURE PACK on any CD or
+distribute it in any way without my permission.
+
+* Where to get this WAD *
+
+http://www.doomworld.com/afterglow/
+ftp://ftp.cdrom.com/pub/idgames/graphics/ogrodtex.zip

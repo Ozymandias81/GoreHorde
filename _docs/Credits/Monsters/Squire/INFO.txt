@@ -1,0 +1,9 @@
+Info
+
+Name: Hell Squire
+Difficulty: Easy
+Connection: Uses sounds from Baron of Hell
+Summon: Squire
+Melee: Yes
+Distance: Projectile
+Type: Demon

@@ -1,0 +1,5 @@
+Decorate: Ozymandias81
+GLDEFs: Yes
+Sounds: Lobotomy Software, 3d Realms
+Sprites: Lobotomy Software, 3d Realms
+Sprite Edit: Ozymandias81

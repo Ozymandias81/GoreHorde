@@ -1,0 +1,49 @@
+Title                   : Malice Texture Pack for Doom 2
+
+Filename                : MLCETEX.ZIP (MLCETEX.WAD and MLCETEX.TXT)
+
+Author                  : Nick Baker
+
+Email Address           : nbaker1@net.ntl.com
+
+Web Site                : None currently... It is returning soon!
+
+Misc. Author Info       : Member of many Doom 2 projects, released ones
+			  include the Darkening Episode 1, Gothic DM2 and
+			  the Twice Risen pre-release.
+
+Description             : Most of the textures from the excellent commerical
+			  Quake 1 TC, Malice.
+			
+Additional Credits to   : The Malice team for creating the textures.
+
+================================================================
+
+* Play Information *
+
+Game                    : DOOM II
+Episode and Level #     : N/A
+Single Player           : N/A
+Cooperative 2-4 Player  : N/A
+Deathmatch 2-4 Player   : N/A
+Difficulty Settings     : N/A
+New Sounds              : N/A
+New Graphics            : Yes
+New Music               : N/A
+Demos Replaced          : None
+
+* Construction *
+
+Base                    : Textures all created from scratch by the Malice
+			  crew.
+Editor(s) used          : Paint Shop Pro 5.0, Wintex 4.3, qArt v1.0-lite
+Known Bugs              : With textures? Nope :)
+
+* Copyright / Permissions *
+
+These textures are not to be use for commercial products, but otherwise
+may be used and distributed as and how you wish.
+
+* Where to get this WAD *
+
+ftp://ftp.cdrom.com/pub/doom2/

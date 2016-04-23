@@ -1,0 +1,8 @@
+Name: Phobos Rocks
+Connection: None
+Palette: Doom
+Summon: PhobosRock1, PhobosRock2, PhobosRocksmall
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: No

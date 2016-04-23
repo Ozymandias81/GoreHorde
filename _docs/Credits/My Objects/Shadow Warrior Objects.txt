@@ -1,0 +1,14 @@
+Name: (Various Names)
+Connection: None
+Palette: PNG Truecolor
+Summon: SWSeaWeed1-3
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: AnimDefs
+Brightmaps: No
+ACS: No
+
+Decorate: Ozymandias81
+Sprites: 3d Realms
+Sprite Edit: Ozymandias81

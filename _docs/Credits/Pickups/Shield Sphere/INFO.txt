@@ -1,0 +1,15 @@
+[Info]
+Name: Shield Sphere
+Type: Reflective Invulnerability
+Palette: Custom
+Summon: ShieldSphere
+Duration: 30 seconds
+Use type: Instant
+
+[Credits]
+Submitted: Captain Toenail
+Decorate: Captain Toenail
+GLDefs: Captain Toenail
+Sounds: None
+Sprites: HacX
+Sprite Edit: Captain Toenail

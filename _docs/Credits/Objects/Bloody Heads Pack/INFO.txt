@@ -1,0 +1,9 @@
+Name: Bloody Heads Pack
+Connection: None
+Type: Gore
+Palette: Other
+Summon: Head1,Head2,Head3,Head4
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: No

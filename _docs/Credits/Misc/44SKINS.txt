@@ -1,0 +1,104 @@
+TBF == To Be Finished
+
+ Standard Doom Weapons
+
+    * Fist Marine - Sprite by: Mark Quinn
+    * Chainsaw Marine - Sprite by: Mark Quinn and Xenaero  																				//Skrylax Skin
+    * Pistol Marine - Sprite by: Mark Quinn and Grimm  																						//Visor Skin
+    * Shotgun Marine - Sprite by: Mark Quinn  																										//Kragoth Skin
+    * Super Shotgun Marine - Sprite by: Xim, Xenaero and The Skulltag Team 
+    * Chaingun Marine - Sprite by: Anthony Cole
+    * Rocket Marine - Sprite by: Xim
+    * Plasma Marine - Sprite by: CaptainToenail
+    * BFG9000 Marine - Sprite by: Toke
+
+ Skulltag Weapons
+
+    * Minigun Marine - Sprite by: Xim and The Skulltag Team
+    * Grenade Launcher Marine - Sprite by: Xim and The Skulltag Team
+    * Railgun Marine - Sprite by: Xim, FuzzballFox and The Skulltag Team
+    * BFG10k Marine - Sprite by: Eriance and Xim
+
+ Additional Weapons
+
+    * Knife Marine - Sprite by: Xim
+    * Backpack Marine - Sprite by: Xim, Mark Quinn, and the KDiZD Team
+    * Dual Pistol Marine - Sprite by: Daniel
+    * Demon-Eclipse Pistol Marine - Sprite by: Mark Quinn, Grimm, Eriance and Ghastly_dragon
+    * Sawed-Off Marine - Sprite by: Xim
+    * Auto-Shotgun Marine - Sprite by: Eriance, Ghastly_dragon and Xim
+    * Quad-Shotgun Marine - Sprite by: Logan MTM and Ghastly_dragon
+    * SMG Marine - Sprite by: Xim
+    * Carbine Marine - Sprite by: The_Funktasm and Ghastly_dragon
+    * Machinegun Marine - Sprite by: Xim
+    * Nailgun(MG) Marine - Sprite by: Lazureus and Ghastly_dragon
+    * Super-Chaingun Marine - Sprite by: Xim and Anthony Cole
+    * Land-Mine Marine - Sprite by: Mark Quinn, Lucas Arts and Ghastly_dragon
+    * RevRocket Marine - Sprite by: Xim
+    * Shoulder-Rocket Marine - Sprite by: Xim
+    * Bazooka Marine - Sprite by: Xim and The Innocent Crew
+    * HRL Marine - Sprite by: Eriance, Xim and Ghastly_dragon
+    * Plasma Beam - Sprite by: Captain Toenail and Ghastly_dragon
+    * Stunner Rifle Marine - Sprite by: Eriance and Ghastly_dragon
+    * Freeze Rifle Marine - Sprite by: Xim and Ghastly_dragon
+    * Ionspray Marine - Sprite by: Xaser and Ghastly_dragon
+    * Karasawa Marine - Sprite by: Eriance and Ghastly_dragon
+    * Sonic Railgun Marine - Sprite by: Xim and Eriance
+    * Sniper Rifle Marine - Sprite by: Vaecrius and Xim
+    * Lightning Rifle Marine - Sprite by: Epic Games, CodenniumRed and Ghastly_dragon
+    * Unmaker Marine - Sprite by: Xim
+    * Biocannon Marine - Sprite by: KickassAssassin and Ghastly_dragon
+    * Flamethrower Marine - Sprite by: Xim and Eriance
+    * Repeater Marine - Sprite by: Xim, Ghastly_dragon and Eriance
+    * Devastator Marine - Sprite by: Xim, Eriance and Ghastly_dragon
+    * Redeemer Marine - Sprite by: Jimmy91, Ghastly_dragon and JoeyTD
+
+  Crouching sprites
+
+    * Base Sprites - Sprite by: Unknown. If anyone knows, please say.
+    * Fist Marine - Sprite by: Xim, IcyTux and Ghastly_dragon
+    * Chainsaw Marine - Sprite by: Mark Quinn, Xenaero and Xim  																		//Skrylax Skin
+    * Pistol Marine - Sprite by: Mark Quinn and Xim  																								//Visor Skin
+    * Shotgun Marine - Sprite by: Mark Quinn and Xim  																							//Kragoth Skin
+    * Super Shotgun Marine - Sprite by: Xim, Xenaero, The Skulltag Team and Ghastly_dragon
+    * Chaingun Marine - Sprite by: Anthony Cole and Xim
+    * Rocket Marine - Sprite by: Xim and Ghastly_dragon
+    * Plasma Marine - Sprite by: CaptainToenail and Ghastly_dragon
+    * BFG9000 Marine - Sprite by: Toke and Xim
+
+    * Minigun Marine - Sprite by: Xim and The Skulltag Team
+    * Grenade Launcher Marine - Sprite by: Xim, The Skulltag Team and Ghastly_dragon
+    * Railgun Marine - Sprite by: Xim, FuzzballFox, The Skulltag Team and Ghastly_dragon
+    * BFG10k Marine - Sprite by: Eriance, Xim and Ghastly_dragon
+
+    * Knife Marine - TBF
+    * Backpack Marine - TBF
+    * Dual Pistol Marine - TBF
+    * Demon-Eclipse Pistol Marine - Sprite by: Mark Quinn, Xim, Eriance and Ghastly_dragon
+    * Sawed-Off Marine - Sprite by: Xim and Ghastly_dragon
+    * Auto-Shotgun Marine - Sprite by: Eriance and Ghastly_dragon
+    * Quad-Shotgun Marine - Sprite by: Logan MTM and Ghastly_dragon
+    * SMG Marine - Sprite by: Xim and Ghastly_dragon
+    * Carbine Marine - Sprite by: The_Funktasm and Ghastly_dragon
+    * Machinegun Marine - Sprite by: Xim and Ghastly_dragon
+    * Nailgun(MG) Marine - Sprite by: Lazureus and Ghastly_dragon
+    * Super-Chaingun Marine - Sprite by: Xim, Anthony Cole and Ghastly_dragon
+    * Land-mine Marine - Sprite by: Lucas Arts, Xim and Ghastly_dragon
+    * RevRocket Marine - TBF
+    * Shoulder-Rocket Marine - TBF
+    * Bazooka Marine - TBF
+    * HRL Marine - Sprite by: Eriance and Ghastly_dragon
+    * Plasma Beam - Sprite by: Captain Toenail and Ghastly_dragon
+    * Stunner Rifle Marine - Sprite by: Eriance and Ghastly_dragon
+    * Freeze Rifle Marine - Sprite by: Xim and Ghastly_dragon
+    * Ionspray Marine - Sprite by: Xaser and Ghastly_dragon
+    * Karasawa Marine - Sprite by: Eriance and Ghastly_dragon
+    * Sonic Railgun Marine - Sprite by: Xim, Eriance and Ghastly_dragon
+    * Sniper Rifle Marine - Sprite by: Vaecrius, Xim and Ghastly_dragon
+    * Lightning Rifle Marine - Sprite by: Epic Games, CodenniumRed and Ghastly_dragon
+    * Unmaker Marine - Sprite by: Xim and Ghastly_dragon
+    * Biocannon Marine - Sprite by: KickassAssassin and Ghastly_dragon
+    * Flamethrower marine - Sprite by: Xim, Eriance and Ghastly_dragon
+    * Repeater Marine - Sprite by: Xim, Eriance and Ghastly_dragon
+    * Devastator Marine - Sprite by: Xim, Eriance and Ghastly_dragon
+    * Redeemer Marine - Sprite by: Jimmy91, Ghastly_dragon and JoeyTD

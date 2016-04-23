@@ -1,0 +1,9 @@
+Name: Cybergore
+Connection: N/A
+Type: Hell
+Palette: Doom
+Summon: Torturedcyber, cyberarm, rocketarm, fleshleg, cyberleg
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: No

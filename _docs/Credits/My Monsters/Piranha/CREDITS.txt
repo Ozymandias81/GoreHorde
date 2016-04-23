@@ -1,0 +1,5 @@
+Decorate: Ozymandias81
+Sounds: 3d Realms
+Sprites: Lobotomy Software, 3d Realms
+Sprite Edit: Ozymandias81
+Idea Base: The fast creeping fish from Powerslave (aka Exhumed)

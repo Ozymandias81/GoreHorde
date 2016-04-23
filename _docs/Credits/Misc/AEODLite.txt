@@ -1,0 +1,84 @@
+===========================================================================
+Advanced engine needed  : GZdoom/Zdoom/Zandronum
+Primary purpose         : Single + coop play
+===========================================================================
+Title                   : AEODLite
+Filename                : AEODLite.zip
+Release date            : 2013/8/9
+Author                  : lihanchi
+Email Address           : leehanchi@hotmail.com
+Misc. Author Info       : I'll be releasing a non-custom content version
+                          of my maps soon.
+
+Description             : Yet another AEODish mod, created from scratch,
+                          based on my tartarus 3 replacers, many original
+                          stuff.
+                          Features:
+                          -Over 40 new weapons, 140 new monsters, all well
+                          tested and balanced.
+                          -Monsters are faster and smarter, more
+                          unpredictable, many of them they also move
+                          like players(with acceleration).
+                          -Randomized enemy health.
+                          -Custom gore that based on other's work, very
+                          messy.
+                          -Hires sound fx and brightmaps included.
+                          -Gain gift points and trade them for random
+                          stuff.
+                          -Doom builder ready, all stuff are categorized.
+                          
+                          Please see readme for bestiary and credits.
+                          
+                          
+
+===========================================================================
+* What is included *
+
+New levels              : None
+Sounds                  : Yes
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : None
+Single Player           : Designed for
+Cooperative 2-4 Player  : Designed for
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Yes
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : 1 month
+Editor(s) used          : Slade3 Photoshop 3dsmax(freshly built model for
+                          render the titlepic)
+Known Bugs              : Some time monsters get stucked by running
+                          into a wall.
+                          Saved games may become corrupted.
+                          
+
+
+* Copyright / Permissions *
+
+Authors MAY use the contents of this file as a base for modification or
+reuse.  Permissions have been obtained from original authors for any of
+their resources modified or included in this file.
+
+You MAY distribute this file, provided you include this text file, with no
+modifications.  You may distribute this file in any electronic format (BBS,
+Diskette, CD, etc) as long as you include this file intact.  I have
+received permission from the original authors of any modified or included
+content in this file to allow further distribution.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.3dgamers.com/pub/idgames/ and mirrors

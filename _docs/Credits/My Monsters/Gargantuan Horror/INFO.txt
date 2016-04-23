@@ -1,0 +1,7 @@
+Name: Gargantuan Horror
+Difficulty: Very Hard
+Connection: None
+Summon: GHorror
+Melee: No
+Distance: Projectile, Tracer
+Type: Giant, Demon

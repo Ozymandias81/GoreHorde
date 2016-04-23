@@ -1,0 +1,16 @@
+Name: Pyro-Cannon
+Class: 7
+Type: Projectile
+Palette: Custom
+Summon: UTNTPyroCannon
+Ammo Type: Gas (Custom)
+Altfire: No
+Powered Mode: No
+Added States: No
+
+Modder Notes: Uses the same ammo type and pickups, the DropFire actor, and some sprites
+from the UTNT Flamethrower.
+
+This version differs from the one in UTNT and Stronghold a bit. I evened out the
+amount of damage this does (originally, the projectile itself, without explosion
+damage, did 180-1440 damage).

@@ -1,0 +1,8 @@
+Name: Fist Redux
+Class: 1
+Type: Melee
+Palette:Doom
+Summon: FistRedux
+Ammo Type: Does Not Use Ammo
+Altfire: Yes
+Powered Mode: No

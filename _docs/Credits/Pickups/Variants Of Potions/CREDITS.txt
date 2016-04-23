@@ -1,0 +1,6 @@
+Submitted: BlueShadow
+Decorate: BlueShadow
+GLDefs: None
+Sprites: Raven Software
+Sprite Edit: Tormentor667
+Idea Base: More sizes and types for Heretic's regular potions

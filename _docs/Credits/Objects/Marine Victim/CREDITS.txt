@@ -1,0 +1,11 @@
+Credits: 3D Realms, Captain Awesome, Lucario, Hayabusa
+Submitted: Captain Awesome
+Decorate: Lucario, Captain Awesome
+GLDefs: None
+Sounds: None
+Sprites: Duke Nukem 3D by 3D Realms
+Sprite Edit: Captain Awesome, CaptainToenail
+Idea Base: 
+
+Description:
+Corpse of an unlucky Doom Marine. Seen in a familiar pose, clutching his throat and covered in blood.

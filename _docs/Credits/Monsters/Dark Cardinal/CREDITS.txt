@@ -1,0 +1,6 @@
+Submitted: zrrion the insect
+Decorate: zrrion the insect
+GLDEFs: None
+Sounds: Id software
+Sprites: Id Software
+Sprite Edit: Jimmy, zrrion the insect, Espi, Ebola

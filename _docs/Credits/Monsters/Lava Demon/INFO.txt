@@ -1,0 +1,7 @@
+Name: Lava Demon
+Difficulty: Medium
+Connections: Heretic world sprites, sounds and effects
+Summon: LavaDemon
+Melee: Yes
+Distance: Projectile
+Type: Fire Demon
