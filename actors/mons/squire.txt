@@ -89,6 +89,7 @@ RenderStyle Add
 SeeSound "fireball/fire"
 DeathSound "fireball/hit"
 Alpha 0.85
+Scale 0.7
 States
 	{
 	Spawn:
@@ -107,7 +108,7 @@ PROJECTILE
 RENDERSTYLE TRANSLUCENT
 +NOCLIP
 ALPHA 0.3
-Scale 0.5
+Scale 0.25
 States
 	{
 	Spawn:
