@@ -19,8 +19,8 @@ seesound "squire/sight"
 painsound "knight/pain"
 deathsound "squire/death"
 activesound "knight/active"
-obituary "%o was scorched by a Squire."
-hitobituary "%o was torn up by a Squire."
+obituary "$SQUIREO"
+hitobituary "$SQUIREH"
 DropItem "ArmorShard", 8
 DropItem "Shell", 48
 BloodColor "0 a3 0"

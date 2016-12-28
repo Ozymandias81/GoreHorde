@@ -4,8 +4,8 @@ actor TimeImp 30138
 Tag "Time Imp"
 Game Doom
 spawnid 145
-obituary "%o was forced into death by a time imp"
-hitobituary "%o was slashed by a time imp"
+obituary "$TIMEIMPO"
+hitobituary "$TIMEIMPH"
 health 500
 gibhealth 35
 missiletype SpImpBall
@@ -709,6 +709,7 @@ states
 	Goto See
 	}
 }
+
 ACTOR TimeImpA
 {
 Radius 0
@@ -729,18 +730,9 @@ States
 	goto Spawn+1
 	}
 }
-ACTOR TimeImpB
+
+ACTOR TimeImpB : TimeImpA
 {
-Radius 0
-Height 0
-Speed 0
-PROJECTILE
-+NOCLIP
-+NOBLOCKMAP
-RENDERSTYLE Translucent
-ALPHA 0.60
--CANBLAST
-+NOTIMEFREEZE
 States
 	{
 	Spawn:
@@ -749,18 +741,9 @@ States
 	goto Spawn+1
 	}
 }
-ACTOR TimeImpC
+
+ACTOR TimeImpC : TimeImpA
 {
-Radius 0
-Height 0
-Speed 0
-PROJECTILE
-+NOCLIP
-+NOBLOCKMAP
-RENDERSTYLE Translucent
-ALPHA 0.60
--CANBLAST
-+NOTIMEFREEZE
 States
 	{
 	Spawn:
@@ -769,18 +752,9 @@ States
 	goto Spawn+1
 	}
 }
-ACTOR TimeImpD
+
+ACTOR TimeImpD : TimeImpA
 {
-Radius 0
-Height 0
-Speed 0
-PROJECTILE
-+NOCLIP
-+NOBLOCKMAP
-RENDERSTYLE Translucent
-ALPHA 0.60
--CANBLAST
-+NOTIMEFREEZE
 States
 	{
 	Spawn:
@@ -789,12 +763,17 @@ States
 	goto Spawn+1
 	}
 }
+
 ACTOR HealImp
 {
+Radius 32
+Height 5
+Speed 0
++BLOODLESSIMPACT
++NOCLIP
++RIPPER
 PROJECTILE
-+NOCLIP +RIPPER +BLOODLESSIMPACT
 RENDERSTYLE NONE
-Radius 32 Height 5 Speed 0
 States
 	{
 	Spawn:
@@ -808,26 +787,9 @@ States
 	Stop
 	}
 }
-Actor HealImpFriendly : HealImp
-{
-+FRIENDLY
-PROJECTILE
-+NOCLIP +RIPPER +BLOODLESSIMPACT
-RENDERSTYLE NONE
-Radius 32 Height 5 Speed 0
-States
-	{
-	Spawn:
-	TNT1 AAAAA 6 A_VileChase
-	Stop
-	Death:
-	TNT1 A 1
-	Stop
-	Heal:
-	TNT1 A 1
-	Stop
-	}
-}
+
+Actor HealImpFriendly : HealImp {+FRIENDLY}
+
 actor SpImpBall
 {
 Radius 6
@@ -856,7 +818,6 @@ states
 }
 
 Actor SpImpBallFast : SpImpBall {Speed 35}
-
 Actor SpImpBallFast2 : SpImpBall {Speed 30 Damage 3}
 
 ACTOR SpBallTrailA
@@ -879,18 +840,9 @@ States
 	goto Spawn+1
 	}
 }
-ACTOR SpBallTrailB
+
+ACTOR SpBallTrailB : SpBallTrailA
 {
-Radius 0
-Height 0
-Speed 0
-PROJECTILE
-+NOCLIP
-+NOBLOCKMAP
-RENDERSTYLE Translucent
-ALPHA 0.70
--CANBLAST
-+NOTIMEFREEZE
 States
 	{
 	Spawn:
@@ -899,6 +851,7 @@ States
 	goto Spawn+1
 	}
 }
+
 Actor ImpGhostOutIn
 {
 Radius 0
@@ -925,6 +878,7 @@ States
 	stop
 	}
 }
+
 Actor ImpGhostOut : ImpGhostOutIn
 {
 States
@@ -937,6 +891,7 @@ States
 	stop
 	}
 }
+
 actor TimeFreezeImp : PowerupGiver
 {
 inventory.pickupmessage "Time Freezer!!"
@@ -973,6 +928,7 @@ States
 	stop
 	}
 }
+
 Actor TimeImpFriendly : TimeImp
 {
 +FRIENDLY

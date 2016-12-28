@@ -4,7 +4,7 @@ ACTOR TornadoDemon 32725
 Tag "Tornado Demon"
 Game Doom
 spawnid 146
-OBITUARY "%o was blown away by a tornado demon"
+OBITUARY "$TORNADO"
 Health 1500
 gibhealth 35
 Radius 20

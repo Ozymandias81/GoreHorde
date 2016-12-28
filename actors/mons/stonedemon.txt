@@ -10,7 +10,7 @@ MONSTER
 +DROPOFF
 +NORADIUSDMG
 Scale 1.1
-HitObituary "%o was smashed by a stone demon."
+HitObituary "$STONEDH"
 Health 400
 PainChance 100
 Speed 8

@@ -21,8 +21,8 @@ Alpha 0.7
 SEESOUND "SpiritImp/Sight"
 DEATHSOUND "SpiritImp/Death"
 ACTIVESOUND "SpiritImp/Active"
-HITOBITUARY "%o was chilled by the touch of a spirit imp"
-OBITUARY "%o was chilled by a spirit imp"
+HITOBITUARY "$SPIRITH"
+OBITUARY "$SPIRITO"
 MaxDropOffHeight 32
 states
 	{

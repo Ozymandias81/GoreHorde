@@ -4,8 +4,8 @@ actor Vulgar : DoomImp 25630 //trail sprites connections with Grell & ProfaneOne
 Tag "Vulgar"
 Translation "16:47=112:127","168:191=114:128"
 spawnid 160
-obituary "%o was poisoned by a vulgar."
-hitobituary "A Vulgar had %o for lunch."
+obituary "$VULGARO"
+hitobituary "$VULGARH"
 health 70
 gibhealth 35
 radius 20

@@ -4,7 +4,7 @@ actor SuicideBomber 30136 //connections with Bloodpuke actor :-)
 Tag "Suicide Bomber"
 Game Doom
 spawnid 143
-obituary "%o was killed by a crazy suicide bomber."
+obituary "$SUICIDEO"
 health 80
 gibhealth 35
 radius 20

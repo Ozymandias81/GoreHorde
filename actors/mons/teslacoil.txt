@@ -3,7 +3,7 @@ actor TeslaCoil 12040
 //$Category Realm667 Monsters
 Tag "Tesla Coil"
 Game Doom
-obituary "%o was zapped by a tesla coil."
+obituary "$TESLAO"
 health 250
 radius 16
 height 56
@@ -71,7 +71,7 @@ states
 
 actor TeslaZapper
 {
-obituary "%o was zapped by a tesla coil."
+obituary "$TESLAO" //uhm probably not really needed
 radius 2
 height 2
 Decal "ArachnotronScorch"

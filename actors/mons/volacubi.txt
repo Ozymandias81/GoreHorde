@@ -14,7 +14,7 @@ Speed 16
 -FLOORCLIP
 +NOGRAVITY
 +MISSILEMORE
-Obituary "%o was roasted by a Volacubus."
+Obituary "$VOLACUBO"
 States
 	{
 	Spawn:
@@ -90,7 +90,7 @@ ACTOR FFPlasma : FlyingFatso 3398
 //$Title "Volacubus (Plasma)"
 SpawnId 165
 Species "FFblue"
-Obituary "%o was electro-welded by a Plasma Volacubus."
+Obituary "$VOLACUPO"
 DropItem "Cell", 128
 DropItem "Cell", 32
 States
@@ -184,7 +184,7 @@ Species "FFgreen"
 MaxTargetRange 1000
 DamageFactor Poison, 0
 DamageFactor PoisonCloud, 0
-Obituary "%o was irradiated by a Slime Volacubus."
+Obituary "$VOLACUSO"
 DropItem "MediumRegenerationPotion", 32
 BloodColor "0 a3 0"
 States

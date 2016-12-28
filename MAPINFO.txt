@@ -429,7 +429,7 @@ DoomEdNums //aaaargh, so many! XD
 10004 = Paingasm
 12040 = TeslaCoil
 12512 = Piranha
-13463 = UnMancubus
+13463 = Haedexebus
 15001 = DarknessRift
 15002 = Hellrose
 20002 = CyberImp

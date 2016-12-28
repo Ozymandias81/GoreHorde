@@ -15,7 +15,7 @@ RadiusDamageFactor 0.5
 Monster
 +FLOORCLIP
 +NOTARGET
-Obituary "%o couldn't escape a Vore"
+Obituary "$VOREO"
 SeeSound "Vore/Sight"
 ActiveSound "Vore/Active"
 PainSound "Vore/Pain"

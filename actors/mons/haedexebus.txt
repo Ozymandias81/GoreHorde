@@ -1,9 +1,9 @@
 //Mostly inspired to DeVloek Volacubi one - Thankx to MagicWazard for suggestions!
-ACTOR UnMancubus : Fatso 13463
+ACTOR Haedexebus : Fatso 13463
 {
 //$Category My Monsters
 //$Sprite UNMBA1
-//$Title "UnMancubus"
+//$Title "Haedexebus"
 Game Doom
 spawnid 249
 Radius 80
@@ -22,7 +22,7 @@ SEESOUND "UNMNROAM"
 PAINSOUND "UNMNPAIN"
 DEATHSOUND "UNMNDYIN"
 Decal "RedPlasmaScorch"
-Obituary "%o was unmaked by an UnMancubus."
+Obituary "%o was unmaked by an Haedexebus."
 DropItem "ArmorShard", 64
 DropItem "RocketBox", 8
 DropItem "RocketAmmo", 16, 2

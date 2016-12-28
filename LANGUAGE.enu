@@ -15,6 +15,7 @@ QUITMSG11   = "If you leave now thousands Poison Souls will go inside your ass."
 QUITMSG12   = "Something is Roach-ing you, isn't it?";
 QUITMSG13   = "Eh eh eh, are you afraid of the Dark-Cardinal?";
 QUITMSG14   = "Is a Tornado Demon approaching next to your house or something else?";
+
 //cheats
 STSTR_DQDON 	= "Looooser Mode ON";
 STSTR_DQDOFF 	= "Looooser Mode OFF";
@@ -23,6 +24,25 @@ STSTR_FAADDED 	= "Phalse Looooser Arsenal Added";
 STSTR_NCON 		= "Ethereal Looooser Mode ON";
 STSTR_NCOFF		= "Ethereal Looooser Mode OFF";
 STSTR_NC2ON 	= "Ethereal Looooser Mode 2 ON";
+
+//miscellanea
+ENDGAME		= "Do you want humankind doomed?\nPress Y or N.";
+
+MNU_CHOOSECLASS = "YOUR HERO";
+
+STARTUP1 =
+	"\n"
+	"*=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=*\n"
+	"|          GORE for GZDoom          |\n"
+	"|      An Ozymandias81 Project      |\n"
+	"|Many Thankx to Realm667 Repository!|\n"
+	"*=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=*\n"
+	"\n";
+
+ENDACT1		= "Very well, Act I Complete";
+ENDACT2		= "Very well, Act II Complete";
+ENDACT3		= "Congratulations, Last Act Complete";
+
 //keys
 GOTGRENCARD	= "Picked up a green keycard.";
 GOTORNGCARD	= "Picked up an orange keycard.";
@@ -75,19 +95,22 @@ PD_ALL8O 	= "You need all eight newly keys to activate this object";
 PD_ALL14 	= "You need all fourteen keys to open this door";
 PD_ALL14O 	= "You need all fourteen keys to activate this object";
 
-ENDGAME		= "Do you want humankind doomed?\nPress Y or N.";
-
-MNU_CHOOSECLASS = "YOUR HERO";
-
-STARTUP1 =
-	"\n"
-	"*=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=*\n"
-	"|    GORE for GZDoom v01 r260115    |\n"
-	"|      An Ozymandias81 Project      |\n"
-	"|Many Thankx to Realm667 repository!|\n"
-	"*=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=*\n"
-	"\n";
-
-ENDACT1		= "Very well, Act I Complete";
-ENDACT2		= "Very well, Act II Complete";
-ENDACT3		= "Congratulations, Last Act Complete";
+//obituaries
+HAEDEXO	= "%o was unmaked by an Haedexebus."
+SPIRITH	= "%o was chilled by the touch of a Spirit Imp."
+SPIRITO	= "%o was chilled by a Spirit Imp."
+SQUIREH	= "%o was torn up by a Squire."
+SQUIREO	= "%o was scorched by a Squire."
+SSGZOMBO	= "%o was blown open by a Zombie Super Shotgunner."
+STONEDH	= "%o was smashed by a Stone Demon."
+SUICIDEO	= "%o was killed by a crazy Suicide Bomber."
+TESLAO	= "%o was zapped by a Tesla Coil."
+TIMEIMPH	= "%o was slashed by a Time Imp."
+TIMEIMPO	= "%o was forced into death by a Time Imp"
+TORNADO	= "%o was blown away by a Tornado Demon."
+VOLACUBO	= "%o was roasted by a Volacubus."
+VOLACUPO	= "%o was electro-welded by a Plasma Volacubus."
+VOLCAUSO	= "%o was irradiated by a Slime Volacubus."
+VOREO	= "%o couldn't escape a Vore."
+VULGARH	= "A Vulgar had %o for lunch."
+VULGARO	= "%o was poisoned by a Vulgar."

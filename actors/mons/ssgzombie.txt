@@ -20,7 +20,7 @@ ATTACKSOUND "SSGUNER/SSG"
 PAINSOUND "grunt/pain"
 DEATHSOUND "SSGUNER/death"
 ACTIVESOUND "SSGUNER/idle"
-OBITUARY "%o was blown open by a Super Shotgunner!"
+OBITUARY "$SSGZOMBO"
 DropItem "SuperShotgun", 96
 DropItem "ShellBox", 64
 MaxStepHeight 32
