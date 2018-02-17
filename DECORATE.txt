@@ -37,6 +37,7 @@
 #include "actors/mons/freezerifleguy.txt"
 #include "actors/mons/ghorror.txt" 					//new boss
 #include "actors/mons/grell.txt"
+#include "actors/mons/haedexebus.txt"
 #include "actors/mons/hellion.txt"
 #include "actors/mons/hellrose.txt"
 #include "actors/mons/hellsfury.txt"
@@ -71,7 +72,6 @@
 #include "actors/mons/teslacoil.txt"
 #include "actors/mons/timeimp.txt"
 #include "actors/mons/tornadodemon.txt"		 //+ new goreleaf spawner - hexen like
-#include "actors/mons/unmancubus.txt"
 #include "actors/mons/volacubi.txt"
 #include "actors/mons/vore.txt"
 #include "actors/mons/vulgar.txt"

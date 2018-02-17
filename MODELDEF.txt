@@ -452,21 +452,6 @@ FrameIndex 3DOB N 0 13
 FrameIndex 3DOB O 0 14
 FrameIndex 3DOB P 0 15
 FrameIndex 3DOB Q 0 16
-FrameIndex 3DOB P 0 15
-FrameIndex 3DOB O 0 14
-FrameIndex 3DOB N 0 13
-FrameIndex 3DOB M 0 12
-FrameIndex 3DOB L 0 11
-FrameIndex 3DOB K 0 10
-FrameIndex 3DOB J 0 9
-FrameIndex 3DOB I 0 8
-FrameIndex 3DOB H 0 7
-FrameIndex 3DOB G 0 6
-FrameIndex 3DOB F 0 5
-FrameIndex 3DOB E 0 4
-FrameIndex 3DOB D 0 3
-FrameIndex 3DOB C 0 2
-FrameIndex 3DOB B 0 1
 }
 
 //scenery***************************************************

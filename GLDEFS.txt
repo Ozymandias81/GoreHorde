@@ -2958,7 +2958,7 @@ Size 46
 
 Pulselight LBlazeBall1
 {
-Color 1.2 1.2 0.0
+Color 1.0 1.0 0.0
 Size 24
 SecondarySize 32
 Interval 0.3
@@ -2967,7 +2967,7 @@ Offset 0 8 0
 
 Pulselight LBlazeBall2
 {
-Color 1.1 1.1 0.0
+Color 1.0 1.0 0.0
 Size 28
 SecondarySize 32
 Interval 0.3
@@ -3072,7 +3072,7 @@ Size 48
 
 Pointlight LBlazeB1
 {
-Color 1.1 1.1 0.0
+Color 1.0 1.0 0.0
 Size 32
 }
 
@@ -4080,7 +4080,7 @@ Size 86
 PointLight BruiserFire_18
 {
 Offset 0 0 0
-Color 1.38 0.13 0.0
+Color 1.0 0.13 0.0
 Size 87
 }
 
@@ -4995,8 +4995,8 @@ Frame NSP2J { Light RedNecroGhost5 }
 //freezerifle
 pointlight ICEGLOWER
 {
-		color 0.7 0.7 1.2
-		size 40
+color 0.6 0.6 1.0
+size 40
 }
 
 object FreezeBlast
@@ -5470,10 +5470,10 @@ Frame ARMX { Light SUPERSHIELD }
 //puzzle gizmos
 flickerlight GEMISON
 {
-		color 1.2 0.0 0.0
-		size 64
-		secondarySize 72
-		chance 0.25
+	color 1.0 0.0 0.0
+	size 64
+	secondarySize 72
+	chance 0.25
 }
 
 object NoEyeGem

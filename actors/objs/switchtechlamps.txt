@@ -32,6 +32,7 @@ Activation THINGSPEC_Switch|THINGSPEC_Deactivate
 States
 	{
 	Spawn:
+	TLMP A 0 NODELAY
 	Goto Super::Lit
 	}
 }
