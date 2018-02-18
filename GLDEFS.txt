@@ -5272,6 +5272,46 @@ Object BobMegaSphere
 Frame MEGA { Light MEGASPHERE }
 }
 
+pointlight BLURSPHERE1
+{
+    color 1.0 0.0 0.0
+    size 60
+    offset 0 16 0
+	attenuate 1
+}
+
+pointlight BLURSPHERE2
+{
+    color 0.0 0.0 1.0
+    size 48
+    offset 0 16 0
+	attenuate 1
+}
+
+pointlight BLURSPHERE3
+{
+    color 0.0 0.0 1.0
+    size 36
+    offset 0 16 0
+	attenuate 1
+}
+
+pointlight BLURSPHERE4
+{
+    color 0.0 0.0 1.0
+    size 24
+    offset 0 16 0
+	attenuate 1
+}
+
+pointlight BLURSPHERE5
+{
+    color 0.0 0.0 1.0
+    size 12
+    offset 0 16 0
+	attenuate 1
+}
+
 object BobBlurSphere
 {
 frame PINS { light BLURSPHERE1 }
@@ -5281,9 +5321,29 @@ frame PINSC { light BLURSPHERE4 }
 frame PINSD { light BLURSPHERE5 }
 }
 
+pulselight SOULSPHERE
+{
+    color 0.3 0.3 1.0
+    size 60
+    secondarySize 63
+    interval 2.0
+    offset 0 16 0
+	attenuate 1
+}
+
 object BobSoulSphere
 {
 frame SOUL { light SOULSPHERE }
+}
+
+pulselight INVULN
+{
+    color 0.3 1.0 0.3
+    size 60
+    secondarySize 63
+    interval 2.0
+    offset 0 16 0
+	attenuate 1
 }
 
 object BobInvulnerabilitySphere

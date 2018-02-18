@@ -224,11 +224,11 @@ Decal "BFGScorch"
 States
 	{
 	Spawn:
-	HORB ABCD 4 Bright A_Weave(5.5,5.5,1.5,1.5)
+	HORB ABCD 4 Bright A_Weave(5,5,1.5,1.5)
 	HORB A 0 Bright A_SeekerMissile(5,6)
 	goto Spawn2
 	Spawn2:
-	HORB EF 4 Bright A_Weave(5.5,5.5,1.5,1.5)
+	HORB EF 4 Bright A_Weave(5,5,1.5,1.5)
 	HORB E 0 Bright A_SeekerMissile(5,6)
 	loop
 	Death:

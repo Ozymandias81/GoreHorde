@@ -63,7 +63,7 @@ states
 	TESL A 0 Bright A_CustomMissile("Boom",60,0,340,2,0)
 	TESL A 0 Bright A_StopSoundEx ("SoundSlot5")
 	TESL A 0 Bright A_PlaySound ("weapons/rocklx")
-	TESL AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 0 Bright A_SpawnItemEx ("FallSmoke17",random(-64,64),random(-64,64),48,momx,0,random(0.5,1),0,128)
+	TESL AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 0 Bright A_SpawnItemEx ("FallSmoke17",random(-64,64),random(-64,64),48,momx,0,frandom(0.5,1),0,128)
 	TESL B -1
 	stop
 	}

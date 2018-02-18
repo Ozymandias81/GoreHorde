@@ -4,23 +4,46 @@
 global int 1: TAUNT;
 global int 2: CANSPEAK;
 
-//death script
+//death script - from BoA
 script "Fucked" DEATH
 {
-TakeInventory("HudToken",1);
-TakeInventory("SpeakToken",1);
-sethudsize (1600,1200,1);
-setfont ("MOVIEHUD");
-hudmessagebold(s:"A";HUDMSG_FADEINOUT,5,CR_UNTRANSLATED,800.4,600.0,1.0*32767); //it lasts practically forever...
-delay (35*2);
-ambientsound ("uwlaugh",215);
-sethudsize (320,200,0);
-setfont ("DBIGFONT");
-hudmessagebold (s:"HUMANKIND IS DOOMED";HUDMSG_FADEINOUT,0,CR_RED,160.4,100.0,6.0);
-faderange (0,0,0,0.0,0,0,0,1.0,3.0);
-delay (35*8);
-setfont ("SMALLFNT");
-hudmessage (s:"PRESS ANY KEY TO RESTART YOUR JOURNEY";HUDMSG_FADEINOUT,0,CR_GREEN,160.0,100.0,1.0*32767);
+	TakeInventory("HudToken",1);
+	TakeInventory("SpeakToken",1);
+	SetHudSize(1600, 1200, true);
+
+	SetFont("MOVIEHUD");
+	HudMessageBold(s:"A";HUDMSG_FADEINOUT | HUDMSG_NOWRAP | HUDMSG_LAYER_OVERHUD, -1000, CR_UNTRANSLATED, 800.4, 600.0, 999999.0, 6.0, 1.0);
+
+	// [ZK] If you resurrect, the death screen should disappear immediately
+	for (int i = 0; i < 35*6; i++)
+	{
+		Delay(1);
+
+		if (GetActorProperty(0, APROP_HEALTH) > 0)
+		{
+			SetFont("MOVIEHUD");
+			HudMessage(s:""; HUDMSG_PLAIN, -1000, CR_UNTRANSLATED, 0.0, 0.0, 0.0, 0.0);
+			terminate;
+		}
+	}
+	ambientsound ("uwlaugh",215);
+	sethudsize (320,200,0);
+	SetFont("DBIGFONT");
+	HudMessageBold(s:"HUMANKIND IS DOOMED"; HUDMSG_FADEINOUT | HUDMSG_NOWRAP | HUDMSG_LAYER_OVERHUD, -1001, CR_RED, 160.0, 100.0, 6.0);
+	faderange(0,0,0,0.0,0,0,0,1.0,3.0);
+	delay (35*2);
+	setfont ("SMALLFNT");
+	hudmessage (s:"PRESS ANY KEY TO RESTART YOUR JOURNEY"; HUDMSG_FADEINOUT | HUDMSG_NOWRAP | HUDMSG_LAYER_OVERHUD, -1002, CR_GREEN,160.0, 120.0, 999999.0);
+	
+	// [ZK] Delay 1 tic instead of 35
+	while(GetActorProperty(0,APROP_HEALTH) <= 0) Delay(1);
+
+	//fadeback if resurrected
+	faderange(0,0,0,1.0,0,0,0,0.0,3.0);
+	HudMessage(s:""; HUDMSG_FADEINOUT | HUDMSG_NOWRAP | HUDMSG_LAYER_OVERHUD, -1002, CR_GREEN, 160.0, 100.0, 0.0, 0.0, 0.25);
+	HudMessage(s:""; HUDMSG_FADEINOUT | HUDMSG_NOWRAP | HUDMSG_LAYER_OVERHUD, -1001, CR_RED, 160.0, 100.0, 0.0, 0.0, 0.25);
+	SetFont("MOVIEHUD");
+	HudMessage(s:""; HUDMSG_FADEINOUT | HUDMSG_NOWRAP | HUDMSG_LAYER_OVERHUD, -1000, CR_UNTRANSLATED, 160.0, 100.0, 0.0, 0.0, 1.0);
 }
 
 //heartbeat scripts

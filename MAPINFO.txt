@@ -29,7 +29,7 @@ teamplayoff
 useplayerstartz
 horizwallshade = 8
 vertwallshade = 1
-//pixelratio = 1.0
+pixelratio = 1.2
 }
 
 map TITLEMAP "Intro"
