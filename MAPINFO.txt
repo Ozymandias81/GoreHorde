@@ -565,3 +565,24 @@ DoomEdNums //aaaargh, so many! XD
 20073 = FogCloud_Generator
 
 }*/
+
+SpawnNums
+{
+	54=GoreShard1
+	55=GoreShard2
+	56=GoreShard3
+	57=GoreShard4
+	58=GoreShard5
+	59=GoreShard6
+	60=GoreShard7
+	61=GoreShard8
+	62=GoreShard9
+	63=GoreShard10
+	152=NashGore_GibGenerator
+	153=BobFloatingSkull
+	154=TPortalPermanent
+	162=TPortalTemporary
+	163=TPortal
+	217=CryoSmoke
+	218=CryoSmoke2
+}

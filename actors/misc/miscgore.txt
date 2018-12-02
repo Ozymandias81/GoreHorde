@@ -158,7 +158,7 @@ States
 
 //Doom Floating Objects
 ACTOR BobFloatingSkull: FloatingSkull replaces FloatingSkull
-{SpawnId 153 +FLOATBOB +NOGRAVITY +NOTAUTOAIMED +ACTLIKEBRIDGE}
+{+FLOATBOB +NOGRAVITY +NOTAUTOAIMED +ACTLIKEBRIDGE}
 
 ACTOR BobSoulSphere: SoulSphere replaces SoulSphere {+FLOATBOB}
 ACTOR BobMegaSphere: MegaSphere replaces MegaSphere {+FLOATBOB}

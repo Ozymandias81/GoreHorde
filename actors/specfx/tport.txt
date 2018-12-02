@@ -14,7 +14,6 @@ Actor TPortal : SwitchableDecoration 10011
 //$Category Special Effects
 Tag "Tele-Portal Switchable"
 Game Doom
-SpawnID 163
 +CLIENTSIDEONLY
 +NOINTERACTION
 +NOBLOCKMAP
@@ -102,7 +101,6 @@ Actor TPortalPermanent : TPortal 10012
 {
 //$Category Special Effects
 Tag "Tele-Portal Permanent"
-SpawnId 154
 States
 	{
 	Spawn:
@@ -116,7 +114,6 @@ Actor TPortalTemporary : TPortal 10013
 {
 //$Category Special Effects
 Tag "Tele-Portal Temporary"
-SpawnID 162
 States
 	{
 	Spawn:

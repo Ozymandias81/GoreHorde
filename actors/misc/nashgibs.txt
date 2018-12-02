@@ -1,7 +1,6 @@
 actor NashGore_GibGenerator
 {
 Game Doom
-spawnid 152 //happy spawnings on maps!
 states
 	{
 	Spawn:

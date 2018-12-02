@@ -106,7 +106,6 @@ ACTOR CryoSmoke
 {
 Radius 2
 Height 2
-SpawnId 217
 +NOINTERACTION
 +FORCEXYBILLBOARD
 RenderStyle Shaded
@@ -124,7 +123,6 @@ States
 
 Actor CryoSmoke2 : CryoSmoke
 {
-SpawnId 218
 StencilColor "DD DD DD"
 Scale 0.7
 Alpha 0.5
