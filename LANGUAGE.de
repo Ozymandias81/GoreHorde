@@ -40,10 +40,10 @@ PD_REDK 	= "Rote Schluesselkarte fuer diese Tuer benoetigt.";
 PD_YELLOWK 	= "Gelbe Schluesselkarte fuer diese Tuer benoetigt.";
 PD_BLUECO 	= "Blaue Schluesselkarte fuer dieses Objekt benoetigt.";
 PD_REDCO 	= "Rote Schlueselkarte fuer dieses Objekt benoetigt.";
-PD_YELLOWCO 	= "Gelbe Schluesselkarte fuer dieses Objekt benoetigt.";
+PD_YELLOWCO = "Gelbe Schluesselkarte fuer dieses Objekt benoetigt.";
 PD_BLUESO 	= "Blaue Schluesselkarte fuer dieses Objekt benoetigt.";
 PD_REDSO 	= "Rote Schluesselkarte skullkey fuer dieses Objekt benoetigt.";
-PD_YELLOWSO 	= "Gelbe Schluesselkarte fuer dieses Objekt benoetigt.";
+PD_YELLOWSO = "Gelbe Schluesselkarte fuer dieses Objekt benoetigt.";
 PD_GREENO 	= "Gruener Schluessel fuer dieses Objekt benoetigt.";
 PD_ORANGEO 	= "Oranger Schluessel fuer dieses Objekt benoetigt.";
 PD_SILVERO 	= "Silberner Schluessel fuer dieses Objekt benoetigt.";
@@ -82,9 +82,9 @@ MNU_CHOOSECLAss = "DEIN HELD";
 STARTUP1 =
 	"\n"
 	"*=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=*\n"
-	"|    GORE fuer GZDoom v01 r260115          |\n"
-	"|      Ein Ozymandias81-Projekt            |\n"
-	"|  Vielen Dank an das Realm667-Repository! |\n"
+	"|        GORE fuer GZDoom v01 r260115       |\n"
+	"|          Ein Ozymandias81-Projekt         |\n"
+	"|  Vielen Dank an das Realm667-Repository!  |\n"
 	"*=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=*\n"
 	"\n";
 
